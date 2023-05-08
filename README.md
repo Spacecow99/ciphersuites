@@ -1,2 +1,3 @@
 # ciphersuites
-Repository of YAML ciphersuite fixtures vaguely in the form ciphersuite.info
+
+Repository of YAML ciphersuite fixtures vaguely in the format of those in `ciphersuite.info`.

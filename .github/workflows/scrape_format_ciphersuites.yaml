@@ -1,0 +1,183 @@
+
+name: Scrape & Format Ciphersuites
+
+on: 
+  schedule:
+    - cron: "0 0 * * 0"
+
+jobs:
+  scrape-datasources:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      #- uses: actions/checkout@v2
+
+      - name: Setup Python 3.x environment
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      
+      - name: Clone cipherscrape github repo
+        uses: GuillaumeFalourd/clone-github-repo-action@v2
+        with:
+          owner: Spacecow99
+          repository: cipherscrape
+
+      - name: Install cipherscrape and dependencies
+        shell: bash
+        run: |
+          python -m pip install cipherscrape/
+          python -m cipherscrape --version
+      
+      - name: Scrape IANA reserved ciphersuite list
+        shell: bash
+        run: |
+          python -m cipherscrape.iana > iana_ciphers.yaml
+
+      - name: Scrape scanigma knowledge base
+        shell: bash
+        run: |
+          python -m cipherscrape.scanigma > scanigma_ciphers.yaml
+
+      - name: Scrape TestSSL.sh cipher-mapping.txt
+        shell: bash
+        run: |
+          python -m cipherscrape.testssl > testssl_ciphers.yaml
+
+      - name: Scrape openssl documentation and testssl cipher-mapping.txt
+        shell: bash
+        run: |
+          python -m cipherscrape.openssl > openssl_ciphers.yaml
+
+      - name: Scrape gnutls manual
+        shell: bash
+        run: |
+          python -m cipherscrape.gnutls "manual" > gnutls_manual.yaml
+
+      - name: Scrape gnutls ciphersuites.c source code
+        shell: bash
+        run: |
+          python -m cipherscrape.gnutls "ciphersuites.c" > gnutls_source.yaml
+
+      - name: Archive raw files as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: raw-datasets
+          path: "*.yaml"
+
+  process-datasets:
+    needs: scrape-datasources
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Python 3.x environment
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      
+      - name: Clone complete_cs_instance github repo
+        uses: GuillaumeFalourd/clone-github-repo-action@v2
+        with:
+          owner: Spacecow99
+          repository: complete_cs_instance
+
+      - name: Install complete_cs_instance and dependencies
+        shell: bash
+        run: |
+          python -m pip install complete_cs_instance/
+
+      - name: Create directory structure
+        shell: bash
+        run: |
+          mkdir -p ~/raw/ ~/processed/ 
+
+      - name: Download raw artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: raw-datasets
+          path: ~/raw/
+
+      - name: Copy openssl_ciphers.yaml from ~/raw/ to ~/processed/
+        shell: bash
+        run: |
+          cp ~/raw/openssl_ciphers.yaml ~/processed/openssl_ciphers.yaml
+
+      - name: Combine and deduplicate GNUTLS lists
+        shell: bash
+        run: |
+          python deduplicate_lists.py ~/raw/gnutls_source.yaml ~/raw/gnutls_manual.yaml > ~/processed/gnutls_ciphers.yaml
+
+      - name: Combine and deduplicate TestSSL & Scanigma lists
+        shell: bash
+        run: |
+          python deduplicate_lists.py ~/raw/testssl_ciphers.yaml ~/raw/scanigma_ciphers.yaml > ~/processed/combined_3rd_party_ciphers.yaml
+
+      - name: Combine and deduplicate IANA & combined 3rd party lists
+        shell: bash
+        run: |
+          python deduplicate_lists.py ~/raw/iana_ciphers.yaml ~/processed/combined_3rd_party_ciphers.yaml > ~/processed/combined_iana_3rd_party_ciphers.yaml
+
+      - name: Run combined_cs_instance on combined IANA & 3rd party list
+        shell: bash
+        run: |
+          python -m complete_cs_instance ~/processed/combined_iana_3rd_party_ciphers.yaml > ~/processed/ciphersuites.yaml
+
+      - name: Archive processed files as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: processed-datasets
+          path: "~/processed/*.yaml"
+
+  upload-datasets:
+    needs: process-datasets
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Download processed artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: processed-datasets
+          path: ~/processed/
+
+      - name: Ensure openssl and gnutls folders exist
+        shell: bash
+        run: |
+          mkdir -p fixtures/openssl fixtures/gnutls
+
+      - name: Update repo's openssl_ciphers.yaml with artifact version
+        shell: bash
+        run: |
+          cp -f ~/processed/openssl_ciphers.yaml fixtures/openssl/openssl_ciphers.yaml
+
+      - name: Update repo's gnutls_ciphers.yaml with artifact version
+        shell: bash
+        run: |
+          cp -f ~/processed/gnutls_ciphers.yaml fixtures/gnutls/gnutls_ciphers.yaml
+
+      - name: Update repo's ciphersuites.yaml with artifact version
+        shell: bash
+        run: |
+          cp -f ~/processed/ciphersuites.yaml fixtures/ciphersuites.yaml
+ 
+      - name: Push changes to repo
+        shell: bash
+        run: |
+          git config user.name Spacecow99
+          git config user.email space.cowz@ship.eu
+          git add .
+          if [[ -n "$(git status | grep modified)" ]]; then
+            git commit -m "Updated fixtures from job @ $(date)"
+            git push
+          fi
