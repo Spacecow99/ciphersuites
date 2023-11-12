@@ -549,7 +549,7 @@
     long_name: 'Kuznyechik Block Cipher in MGM'
     vulnerabilities: ['GOST']
 - model: directory.EncAlgorithm
-  pk: 'MAGMA MGM S'
+  pk: 'MAGMA MGM L'
   fields:
     long_name: 'Magma Block Cipher in MGM'
     vulnerabilities: ['GOST']
@@ -559,7 +559,7 @@
     long_name: 'GOST 28147-89 with IMIT28147'
     vulnerabilities: ['GOST']
 - model: directory.EncAlgorithm
-  pk: 'SALSA20'
+  pk: 'ESTREAM SALSA20'
   fields:
     long_name: 'eSTREAM Salsa20'
     vulnerabilities: []
