@@ -2099,7 +2099,7 @@
     aead_algorithm: true
     hash_algorithm: SHA256
 - model: directory.Ciphersuite
-  pk: TLS_AEGIS_256_SHA384
+  pk: TLS_AEGIS_256_SHA512
   fields:
     hex_byte_1: '0x13'
     hex_byte_2: '0x06'
@@ -2111,7 +2111,7 @@
     auth_algorithm: '-'
     enc_algorithm: AEGIS 256
     aead_algorithm: false
-    hash_algorithm: SHA384
+    hash_algorithm: SHA512
 - model: directory.Ciphersuite
   pk: TLS_AEGIS_128L_SHA256
   fields:
