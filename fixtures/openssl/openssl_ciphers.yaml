@@ -1605,6 +1605,16 @@
     hex_byte_1: '0x00'
     hex_byte_2: '0x2B'
 - model: directory.OpensslCipher
+  pk: TLS_SHA256_SHA256
+  fields:
+    hex_byte_1: '0xC0'
+    hex_byte_2: '0xB4'
+- model: directory.OpensslCipher
+  pk: TLS_SHA384_SHA384
+  fields:
+    hex_byte_1: '0xC0'
+    hex_byte_2: '0xB5'
+- model: directory.OpensslCipher
   pk: 'NULL'
   fields:
     hex_byte_1: '0x00'
