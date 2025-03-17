@@ -21,7 +21,7 @@ jobs:
           python-version: 3.9
       
       - name: Clone cipherscrape github repo
-        uses: GuillaumeFalourd/clone-github-repo-action@v2
+        uses: GuillaumeFalourd/clone-github-repo-action@v2.3
         with:
           owner: Spacecow99
           repository: python-ciphersuites
