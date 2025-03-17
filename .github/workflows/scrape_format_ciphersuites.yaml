@@ -24,44 +24,79 @@ jobs:
         uses: GuillaumeFalourd/clone-github-repo-action@v2
         with:
           owner: Spacecow99
-          repository: cipherscrape
+          repository: python-ciphersuites
 
       - name: Install cipherscrape and dependencies
         shell: bash
         run: |
-          python -m pip install cipherscrape/
-          python -m cipherscrape --version
+          python -m pip install python-ciphersuites/
+          python -m ciphersuites --version
       
       - name: Scrape IANA reserved ciphersuite list
         shell: bash
         run: |
-          python -m cipherscrape.iana > iana_ciphers.yaml
+          scrape-iana > iana_ciphers.yaml
 
       - name: Scrape scanigma knowledge base
         shell: bash
         run: |
-          python -m cipherscrape.scanigma > scanigma_ciphers.yaml
+          scrape-scanigma > scanigma_ciphers.yaml
 
       - name: Scrape TestSSL.sh cipher-mapping.txt
         shell: bash
         run: |
-          python -m cipherscrape.testssl > testssl_ciphers.yaml
+          scrape-testssl > testssl_ciphers.yaml
 
       - name: Scrape openssl documentation and testssl cipher-mapping.txt
         shell: bash
         run: |
-          python -m cipherscrape.openssl > openssl_ciphers.yaml
+          scrape-openssl > openssl_ciphers.yaml
 
       - name: Scrape gnutls manual
         shell: bash
         run: |
-          python -m cipherscrape.gnutls "manual" > gnutls_manual.yaml
+          scrape-gnutls "manual" > gnutls_manual.yaml
 
       - name: Scrape gnutls ciphersuites.c source code
         shell: bash
         run: |
-          python -m cipherscrape.gnutls "ciphersuites.c" > gnutls_source.yaml
+          scrape-gnutls "ciphersuites.c" > gnutls_source.yaml
 
+      - name: Scrape openssl documentation and testssl cipher-mapping.txt
+        shell: bash
+        run: |
+          scrape-nss > nss_ciphers.yaml
+
+      - name: Scrape go documentation and testssl cipher-mapping.txt
+        shell: bash
+        run: |
+          scrape-go > go_ciphers.yaml
+
+      - name: Scrape openssl documentation and testssl cipher-mapping.txt
+        shell: bash
+        run: |
+          scrape-jsse > jsse_ciphers.yaml      
+
+      - name: Scrape openssl documentation and testssl cipher-mapping.txt
+        shell: bash
+        run: |
+          scrape-libressl > libressl_ciphers.yaml
+
+      - name: Scrape openssl documentation and testssl cipher-mapping.txt
+        shell: bash
+        run: |
+          scrape-boringssl > boringssl_ciphers.yaml
+
+      - name: Scrape openssl documentation and testssl cipher-mapping.txt
+        shell: bash
+        run: |
+          scrape-s2n > s2n_ciphers.yaml
+
+      - name: Scrape openssl documentation and testssl cipher-mapping.txt
+        shell: bash
+        run: |
+          scrape-mbedtls > mbedtls_ciphers.yaml
+          
       - name: Archive raw files as artifact
         uses: actions/upload-artifact@v4
         with:
@@ -86,12 +121,12 @@ jobs:
         uses: GuillaumeFalourd/clone-github-repo-action@v2
         with:
           owner: Spacecow99
-          repository: complete_cs_instance
+          repository: python-ciphersuites
 
       - name: Install complete_cs_instance and dependencies
         shell: bash
         run: |
-          python -m pip install complete_cs_instance/
+          python -m pip install python-ciphersuites/
 
       - name: Create directory structure
         shell: bash
@@ -112,22 +147,22 @@ jobs:
       - name: Combine and deduplicate GNUTLS lists
         shell: bash
         run: |
-          python deduplicate_lists.py ~/raw/gnutls_source.yaml ~/raw/gnutls_manual.yaml > ~/processed/gnutls_ciphers.yaml
+          deduplicate-ciphers ~/raw/gnutls_source.yaml ~/raw/gnutls_manual.yaml > ~/processed/gnutls_ciphers.yaml
 
       - name: Combine and deduplicate TestSSL & Scanigma lists
         shell: bash
         run: |
-          python deduplicate_lists.py ~/raw/testssl_ciphers.yaml ~/raw/scanigma_ciphers.yaml > ~/processed/combined_3rd_party_ciphers.yaml
+          deduplicate-ciphers ~/raw/testssl_ciphers.yaml ~/raw/scanigma_ciphers.yaml > ~/processed/combined_3rd_party_ciphers.yaml
 
       - name: Combine and deduplicate IANA & combined 3rd party lists
         shell: bash
         run: |
-          python deduplicate_lists.py ~/raw/iana_ciphers.yaml ~/processed/combined_3rd_party_ciphers.yaml > ~/processed/combined_iana_3rd_party_ciphers.yaml
+          deduplicate-ciphers ~/raw/iana_ciphers.yaml ~/processed/combined_3rd_party_ciphers.yaml > ~/processed/combined_iana_3rd_party_ciphers.yaml
 
       - name: Run combined_cs_instance on combined IANA & 3rd party list
         shell: bash
         run: |
-          python -m complete_cs_instance ~/processed/combined_iana_3rd_party_ciphers.yaml > ~/processed/ciphersuites.yaml
+          complete-ciphersuites ~/processed/combined_iana_3rd_party_ciphers.yaml > ~/processed/ciphersuites.yaml
 
       - name: Archive processed files as artifact
         uses: actions/upload-artifact@v4
