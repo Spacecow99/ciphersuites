@@ -230,7 +230,7 @@ jobs:
       - name: Update repo's openssl_ciphers.yaml with artifact version
         shell: bash
         run: |
-          cp -f ~/processed/openssl_ciphers.yaml fixtures/openssl/openssl_ciphers.yaml
+          cp -f ~/processed/openssl.yaml fixtures/openssl/openssl_ciphers.yaml
 
       - name: Update repo's gnutls_ciphers.yaml with artifact version
         shell: bash
