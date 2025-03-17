@@ -25,6 +25,8 @@ jobs:
         with:
           owner: Spacecow99
           repository: python-ciphersuites
+          depth: 2
+          submodule: true
 
       - name: Install cipherscrape and dependencies
         shell: bash
