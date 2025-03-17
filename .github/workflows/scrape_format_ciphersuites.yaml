@@ -62,7 +62,7 @@ jobs:
           python -m cipherscrape.gnutls "ciphersuites.c" > gnutls_source.yaml
 
       - name: Archive raw files as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: raw-datasets
           path: "*.yaml"
@@ -98,7 +98,7 @@ jobs:
           mkdir -p ~/raw/ ~/processed/ 
 
       - name: Download raw artifacts
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: raw-datasets
           path: ~/raw/
@@ -129,7 +129,7 @@ jobs:
           python -m complete_cs_instance ~/processed/combined_iana_3rd_party_ciphers.yaml > ~/processed/ciphersuites.yaml
 
       - name: Archive processed files as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: processed-datasets
           path: "~/processed/*.yaml"
@@ -146,7 +146,7 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Download processed artifacts
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: processed-datasets
           path: ~/processed/
