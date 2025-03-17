@@ -142,12 +142,47 @@ jobs:
       - name: Copy openssl_ciphers.yaml from ~/raw/ to ~/processed/
         shell: bash
         run: |
-          cp ~/raw/openssl_ciphers.yaml ~/processed/openssl_ciphers.yaml
+          cp ~/raw/openssl_ciphers.yaml ~/processed/openssl.yaml
 
+      - name: Copy nss_ciphers.yaml from ~/raw/ to ~/processed/
+        shell: bash
+        run: |
+          cp ~/raw/nss_ciphers.yaml ~/processed/nss.yaml
+
+      - name: Copy go_ciphers.yaml from ~/raw/ to ~/processed/
+        shell: bash
+        run: |
+          cp ~/raw/go_ciphers.yaml ~/processed/go.yaml
+          
+      - name: Copy jsse_ciphers.yaml from ~/raw/ to ~/processed/
+        shell: bash
+        run: |
+          cp ~/raw/jsse_ciphers.yaml ~/processed/jsse.yaml
+          
+      - name: Copy libressl_ciphers.yaml from ~/raw/ to ~/processed/
+        shell: bash
+        run: |
+          cp ~/raw/libressl_ciphers.yaml ~/processed/libressl.yaml
+          
+      - name: Copy boringssl_ciphers.yaml from ~/raw/ to ~/processed/
+        shell: bash
+        run: |
+          cp ~/raw/boringssl_ciphers.yaml ~/processed/boringssl.yaml
+
+      - name: Copy s2n_ciphers.yaml from ~/raw/ to ~/processed/
+        shell: bash
+        run: |
+          cp ~/raw/s2n_ciphers.yaml ~/processed/s2n.yaml
+
+      - name: Copy mbedtls_ciphers.yaml from ~/raw/ to ~/processed/
+        shell: bash
+        run: |
+          cp ~/raw/mbedtls_ciphers.yaml ~/processed/mbedtls.yaml
+          
       - name: Combine and deduplicate GNUTLS lists
         shell: bash
         run: |
-          deduplicate-ciphers ~/raw/gnutls_source.yaml ~/raw/gnutls_manual.yaml > ~/processed/gnutls_ciphers.yaml
+          deduplicate-ciphers ~/raw/gnutls_source.yaml ~/raw/gnutls_manual.yaml > ~/processed/gnutls.yaml
 
       - name: Combine and deduplicate TestSSL & Scanigma lists
         shell: bash
@@ -206,6 +241,41 @@ jobs:
         shell: bash
         run: |
           cp -f ~/processed/ciphersuites.yaml fixtures/ciphersuites.yaml
+
+      - name: Copy nss_ciphers.yaml from ~/raw/ to ~/processed/
+        shell: bash
+        run: |
+          cp -f ~/processed/nss.yaml fixtures/nss.yaml 
+
+      - name: Copy go_ciphers.yaml from ~/raw/ to ~/processed/
+        shell: bash
+        run: |
+          cp ~/processed/go.yaml fixtures/go.yaml 
+          
+      - name: Copy jsse_ciphers.yaml from ~/raw/ to ~/processed/
+        shell: bash
+        run: |
+          cp ~/processed/jsse.yaml fixtures/jsse.yaml 
+          
+      - name: Copy libressl_ciphers.yaml from ~/raw/ to ~/processed/
+        shell: bash
+        run: |
+          cp ~/processed/libressl.yaml fixtures/libressl.yaml
+          
+      - name: Copy boringssl_ciphers.yaml from ~/raw/ to ~/processed/
+        shell: bash
+        run: |
+          cp ~/processed/boringssl.yaml fixtures/boringssl.yaml
+
+      - name: Copy s2n_ciphers.yaml from ~/raw/ to ~/processed/
+        shell: bash
+        run: |
+          cp ~/processed/s2n.yaml fixtures/s2n.yaml
+
+      - name: Copy mbedtls_ciphers.yaml from ~/raw/ to ~/processed/
+        shell: bash
+        run: |
+          cp ~/processed/mbedtls.yaml fixtures/mbedtls.yaml
  
       - name: Push changes to repo
         shell: bash
