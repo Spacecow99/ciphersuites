@@ -49,7 +49,7 @@ jobs:
         run: |
           scrape-testssl > testssl_ciphers.yaml
 
-      - name: Scrape openssl documentation and testssl cipher-mapping.txt
+      - name: Scrape openssl source code
         shell: bash
         run: |
           scrape-openssl > openssl_ciphers.yaml
@@ -64,37 +64,37 @@ jobs:
         run: |
           scrape-gnutls "ciphersuites.c" > gnutls_source.yaml
 
-      - name: Scrape openssl documentation and testssl cipher-mapping.txt
+      - name: Scrape nss source code
         shell: bash
         run: |
           scrape-nss > nss_ciphers.yaml
 
-      - name: Scrape go documentation and testssl cipher-mapping.txt
+      - name: Scrape go source code
         shell: bash
         run: |
           scrape-go > go_ciphers.yaml
 
-      - name: Scrape openssl documentation and testssl cipher-mapping.txt
+      - name: Scrape OpenJDK JSSE source code
         shell: bash
         run: |
           scrape-jsse > jsse_ciphers.yaml      
 
-      - name: Scrape openssl documentation and testssl cipher-mapping.txt
+      - name: Scrape libressl source code
         shell: bash
         run: |
           scrape-libressl > libressl_ciphers.yaml
 
-      - name: Scrape openssl documentation and testssl cipher-mapping.txt
+      - name: Scrape boringssl source code
         shell: bash
         run: |
           scrape-boringssl > boringssl_ciphers.yaml
 
-      - name: Scrape openssl documentation and testssl cipher-mapping.txt
+      - name: Scrape S2N source code
         shell: bash
         run: |
           scrape-s2n > s2n_ciphers.yaml
 
-      - name: Scrape openssl documentation and testssl cipher-mapping.txt
+      - name: Scrape MBEDTLS source code
         shell: bash
         run: |
           scrape-mbedtls > mbedtls_ciphers.yaml
