@@ -169,11 +169,6 @@
     hex_byte_1: '0xCC'
     hex_byte_2: '0xAA'
 - model: s2n
-  pk: ECDHE-KYBER-RSA-AES256-GCM-SHA384
-  fields:
-    hex_byte_1: '0xFF'
-    hex_byte_2: '0x0C'
-- model: s2n
   pk: TLS_AES_128_GCM_SHA256
   fields:
     hex_byte_1: '0x13'
