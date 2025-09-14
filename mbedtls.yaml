@@ -44,21 +44,6 @@
     hex_byte_1: '0x00'
     hex_byte_2: '0xB1'
 - model: mbedtls
-  pk: TLS-ECDH-ECDSA-WITH-NULL-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x01'
-- model: mbedtls
-  pk: TLS-ECDH-ECDSA-WITH-AES-128-CBC-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x04'
-- model: mbedtls
-  pk: TLS-ECDH-ECDSA-WITH-AES-256-CBC-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x05'
-- model: mbedtls
   pk: TLS-ECDHE-ECDSA-WITH-NULL-SHA
   fields:
     hex_byte_1: '0xC0'
@@ -73,21 +58,6 @@
   fields:
     hex_byte_1: '0xC0'
     hex_byte_2: '0x0A'
-- model: mbedtls
-  pk: TLS-ECDH-RSA-WITH-NULL-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0B'
-- model: mbedtls
-  pk: TLS-ECDH-RSA-WITH-AES-128-CBC-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0E'
-- model: mbedtls
-  pk: TLS-ECDH-RSA-WITH-AES-256-CBC-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0F'
 - model: mbedtls
   pk: TLS-ECDHE-RSA-WITH-NULL-SHA
   fields:
@@ -114,16 +84,6 @@
     hex_byte_1: '0xC0'
     hex_byte_2: '0x24'
 - model: mbedtls
-  pk: TLS-ECDH-ECDSA-WITH-AES-128-CBC-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x25'
-- model: mbedtls
-  pk: TLS-ECDH-ECDSA-WITH-AES-256-CBC-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x26'
-- model: mbedtls
   pk: TLS-ECDHE-RSA-WITH-AES-128-CBC-SHA256
   fields:
     hex_byte_1: '0xC0'
@@ -133,16 +93,6 @@
   fields:
     hex_byte_1: '0xC0'
     hex_byte_2: '0x28'
-- model: mbedtls
-  pk: TLS-ECDH-RSA-WITH-AES-128-CBC-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x29'
-- model: mbedtls
-  pk: TLS-ECDH-RSA-WITH-AES-256-CBC-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2A'
 - model: mbedtls
   pk: TLS-ECDHE-ECDSA-WITH-AES-128-GCM-SHA256
   fields:
@@ -154,16 +104,6 @@
     hex_byte_1: '0xC0'
     hex_byte_2: '0x2C'
 - model: mbedtls
-  pk: TLS-ECDH-ECDSA-WITH-AES-128-GCM-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2D'
-- model: mbedtls
-  pk: TLS-ECDH-ECDSA-WITH-AES-256-GCM-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2E'
-- model: mbedtls
   pk: TLS-ECDHE-RSA-WITH-AES-128-GCM-SHA256
   fields:
     hex_byte_1: '0xC0'
@@ -173,16 +113,6 @@
   fields:
     hex_byte_1: '0xC0'
     hex_byte_2: '0x30'
-- model: mbedtls
-  pk: TLS-ECDH-RSA-WITH-AES-128-GCM-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x31'
-- model: mbedtls
-  pk: TLS-ECDH-RSA-WITH-AES-256-GCM-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x32'
 - model: mbedtls
   pk: TLS-ECDHE-PSK-WITH-AES-128-CBC-SHA
   fields:
@@ -229,16 +159,6 @@
     hex_byte_1: '0xC0'
     hex_byte_2: '0x49'
 - model: mbedtls
-  pk: TLS-ECDH-ECDSA-WITH-ARIA-128-CBC-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x4A'
-- model: mbedtls
-  pk: TLS-ECDH-ECDSA-WITH-ARIA-256-CBC-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x4B'
-- model: mbedtls
   pk: TLS-ECDHE-RSA-WITH-ARIA-128-CBC-SHA256
   fields:
     hex_byte_1: '0xC0'
@@ -248,16 +168,6 @@
   fields:
     hex_byte_1: '0xC0'
     hex_byte_2: '0x4D'
-- model: mbedtls
-  pk: TLS-ECDH-RSA-WITH-ARIA-128-CBC-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x4E'
-- model: mbedtls
-  pk: TLS-ECDH-RSA-WITH-ARIA-256-CBC-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x4F'
 - model: mbedtls
   pk: TLS-ECDHE-ECDSA-WITH-ARIA-128-GCM-SHA256
   fields:
@@ -269,16 +179,6 @@
     hex_byte_1: '0xC0'
     hex_byte_2: '0x5D'
 - model: mbedtls
-  pk: TLS-ECDH-ECDSA-WITH-ARIA-128-GCM-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x5E'
-- model: mbedtls
-  pk: TLS-ECDH-ECDSA-WITH-ARIA-256-GCM-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x5F'
-- model: mbedtls
   pk: TLS-ECDHE-RSA-WITH-ARIA-128-GCM-SHA256
   fields:
     hex_byte_1: '0xC0'
@@ -288,16 +188,6 @@
   fields:
     hex_byte_1: '0xC0'
     hex_byte_2: '0x61'
-- model: mbedtls
-  pk: TLS-ECDH-RSA-WITH-ARIA-128-GCM-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x62'
-- model: mbedtls
-  pk: TLS-ECDH-RSA-WITH-ARIA-256-GCM-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x63'
 - model: mbedtls
   pk: TLS-PSK-WITH-ARIA-128-CBC-SHA256
   fields:
@@ -339,16 +229,6 @@
     hex_byte_1: '0xC0'
     hex_byte_2: '0x73'
 - model: mbedtls
-  pk: TLS-ECDH-ECDSA-WITH-CAMELLIA-128-CBC-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x74'
-- model: mbedtls
-  pk: TLS-ECDH-ECDSA-WITH-CAMELLIA-256-CBC-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x75'
-- model: mbedtls
   pk: TLS-ECDHE-RSA-WITH-CAMELLIA-128-CBC-SHA256
   fields:
     hex_byte_1: '0xC0'
@@ -358,16 +238,6 @@
   fields:
     hex_byte_1: '0xC0'
     hex_byte_2: '0x77'
-- model: mbedtls
-  pk: TLS-ECDH-RSA-WITH-CAMELLIA-128-CBC-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x78'
-- model: mbedtls
-  pk: TLS-ECDH-RSA-WITH-CAMELLIA-256-CBC-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x79'
 - model: mbedtls
   pk: TLS-ECDHE-ECDSA-WITH-CAMELLIA-128-GCM-SHA256
   fields:
@@ -379,16 +249,6 @@
     hex_byte_1: '0xC0'
     hex_byte_2: '0x87'
 - model: mbedtls
-  pk: TLS-ECDH-ECDSA-WITH-CAMELLIA-128-GCM-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x88'
-- model: mbedtls
-  pk: TLS-ECDH-ECDSA-WITH-CAMELLIA-256-GCM-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x89'
-- model: mbedtls
   pk: TLS-ECDHE-RSA-WITH-CAMELLIA-128-GCM-SHA256
   fields:
     hex_byte_1: '0xC0'
@@ -398,16 +258,6 @@
   fields:
     hex_byte_1: '0xC0'
     hex_byte_2: '0x8B'
-- model: mbedtls
-  pk: TLS-ECDH-RSA-WITH-CAMELLIA-128-GCM-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x8C'
-- model: mbedtls
-  pk: TLS-ECDH-RSA-WITH-CAMELLIA-256-GCM-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x8D'
 - model: mbedtls
   pk: TLS-PSK-WITH-CAMELLIA-128-GCM-SHA256
   fields:
