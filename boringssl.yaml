@@ -1,4 +1,9 @@
 - model: boringssl
+  pk: DES-CBC3-SHA
+  fields:
+    hex_byte_1: '0x00'
+    hex_byte_2: '0x0A'
+- model: boringssl
   pk: NULL-MD5
   fields:
     hex_byte_1: '0x00'
@@ -43,11 +48,6 @@
   fields:
     hex_byte_1: '0x00'
     hex_byte_2: '0x09'
-- model: boringssl
-  pk: DES-CBC3-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x0A'
 - model: boringssl
   pk: EXP-DH-DSS-DES-CBC-SHA
   fields:
@@ -134,16 +134,6 @@
     hex_byte_1: '0x00'
     hex_byte_2: '0x1B'
 - model: boringssl
-  pk: PSK-RC4-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x8A'
-- model: boringssl
-  pk: PSK-3DES-EDE-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x8B'
-- model: boringssl
   pk: PSK-AES128-CBC-SHA
   fields:
     hex_byte_1: '0x00'
@@ -164,45 +154,110 @@
     hex_byte_1: '0xC0'
     hex_byte_2: '0x36'
 - model: boringssl
-  pk: EXP1024-RC4-MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x60'
-- model: boringssl
-  pk: EXP1024-RC2-CBC-MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x61'
-- model: boringssl
-  pk: EXP1024-DES-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x62'
-- model: boringssl
-  pk: EXP1024-DHE-DSS-DES-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x63'
-- model: boringssl
-  pk: EXP1024-RC4-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x64'
-- model: boringssl
-  pk: EXP1024-DHE-DSS-RC4-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x65'
-- model: boringssl
-  pk: DHE-DSS-RC4-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x66'
-- model: boringssl
   pk: AES128-SHA
   fields:
     hex_byte_1: '0x00'
     hex_byte_2: '0x2F'
+- model: boringssl
+  pk: AES256-SHA
+  fields:
+    hex_byte_1: '0x00'
+    hex_byte_2: '0x35'
+- model: boringssl
+  pk: AES128-GCM-SHA256
+  fields:
+    hex_byte_1: '0x00'
+    hex_byte_2: '0x9C'
+- model: boringssl
+  pk: AES256-GCM-SHA384
+  fields:
+    hex_byte_1: '0x00'
+    hex_byte_2: '0x9D'
+- model: boringssl
+  pk: ECDHE-ECDSA-AES128-SHA
+  fields:
+    hex_byte_1: '0xC0'
+    hex_byte_2: '0x09'
+- model: boringssl
+  pk: ECDHE-ECDSA-AES256-SHA
+  fields:
+    hex_byte_1: '0xC0'
+    hex_byte_2: '0x0A'
+- model: boringssl
+  pk: ECDHE-RSA-AES128-SHA
+  fields:
+    hex_byte_1: '0xC0'
+    hex_byte_2: '0x13'
+- model: boringssl
+  pk: ECDHE-RSA-AES256-SHA
+  fields:
+    hex_byte_1: '0xC0'
+    hex_byte_2: '0x14'
+- model: boringssl
+  pk: ECDHE-RSA-AES128-SHA256
+  fields:
+    hex_byte_1: '0xC0'
+    hex_byte_2: '0x27'
+- model: boringssl
+  pk: ECDHE-ECDSA-AES128-GCM-SHA256
+  fields:
+    hex_byte_1: '0xC0'
+    hex_byte_2: '0x2B'
+- model: boringssl
+  pk: ECDHE-ECDSA-AES256-GCM-SHA384
+  fields:
+    hex_byte_1: '0xC0'
+    hex_byte_2: '0x2C'
+- model: boringssl
+  pk: ECDHE-RSA-AES128-GCM-SHA256
+  fields:
+    hex_byte_1: '0xC0'
+    hex_byte_2: '0x2F'
+- model: boringssl
+  pk: ECDHE-RSA-AES256-GCM-SHA384
+  fields:
+    hex_byte_1: '0xC0'
+    hex_byte_2: '0x30'
+- model: boringssl
+  pk: ECDHE-RSA-CHACHA20-POLY1305
+  fields:
+    hex_byte_1: '0xCC'
+    hex_byte_2: '0xA8'
+- model: boringssl
+  pk: ECDHE-ECDSA-CHACHA20-POLY1305
+  fields:
+    hex_byte_1: '0xCC'
+    hex_byte_2: '0xA9'
+- model: boringssl
+  pk: ECDHE-PSK-CHACHA20-POLY1305
+  fields:
+    hex_byte_1: '0xCC'
+    hex_byte_2: '0xAC'
+- model: boringssl
+  pk: TLS_AES_128_GCM_SHA256
+  fields:
+    hex_byte_1: '0x13'
+    hex_byte_2: '0x01'
+- model: boringssl
+  pk: TLS_AES_256_GCM_SHA384
+  fields:
+    hex_byte_1: '0x13'
+    hex_byte_2: '0x02'
+- model: boringssl
+  pk: TLS_CHACHA20_POLY1305_SHA256
+  fields:
+    hex_byte_1: '0x13'
+    hex_byte_2: '0x03'
+- model: boringssl
+  pk: PSK-RC4-SHA
+  fields:
+    hex_byte_1: '0x00'
+    hex_byte_2: '0x8A'
+- model: boringssl
+  pk: PSK-3DES-EDE-CBC-SHA
+  fields:
+    hex_byte_1: '0x00'
+    hex_byte_2: '0x8B'
 - model: boringssl
   pk: DH-DSS-AES128-SHA
   fields:
@@ -228,11 +283,6 @@
   fields:
     hex_byte_1: '0x00'
     hex_byte_2: '0x34'
-- model: boringssl
-  pk: AES256-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x35'
 - model: boringssl
   pk: DH-DSS-AES256-SHA
   fields:
@@ -414,16 +464,6 @@
     hex_byte_1: '0x00'
     hex_byte_2: '0x9B'
 - model: boringssl
-  pk: AES128-GCM-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9C'
-- model: boringssl
-  pk: AES256-GCM-SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9D'
-- model: boringssl
   pk: DHE-RSA-AES128-GCM-SHA256
   fields:
     hex_byte_1: '0x00'
@@ -514,16 +554,6 @@
     hex_byte_1: '0xC0'
     hex_byte_2: '0x08'
 - model: boringssl
-  pk: ECDHE-ECDSA-AES128-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x09'
-- model: boringssl
-  pk: ECDHE-ECDSA-AES256-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0A'
-- model: boringssl
   pk: ECDH-RSA-NULL-SHA
   fields:
     hex_byte_1: '0xC0'
@@ -563,21 +593,6 @@
   fields:
     hex_byte_1: '0xC0'
     hex_byte_2: '0x12'
-- model: boringssl
-  pk: ECDHE-RSA-AES128-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x13'
-- model: boringssl
-  pk: ECDHE-RSA-AES256-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x14'
-- model: boringssl
-  pk: ECDHE-RSA-AES128-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x27'
 - model: boringssl
   pk: AECDH-NULL-SHA
   fields:
@@ -684,16 +699,6 @@
     hex_byte_1: '0xC0'
     hex_byte_2: '0x2A'
 - model: boringssl
-  pk: ECDHE-ECDSA-AES128-GCM-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2B'
-- model: boringssl
-  pk: ECDHE-ECDSA-AES256-GCM-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2C'
-- model: boringssl
   pk: ECDH-ECDSA-AES128-GCM-SHA256
   fields:
     hex_byte_1: '0xC0'
@@ -703,16 +708,6 @@
   fields:
     hex_byte_1: '0xC0'
     hex_byte_2: '0x2E'
-- model: boringssl
-  pk: ECDHE-RSA-AES128-GCM-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2F'
-- model: boringssl
-  pk: ECDHE-RSA-AES256-GCM-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x30'
 - model: boringssl
   pk: ECDH-RSA-AES128-GCM-SHA256
   fields:
@@ -724,33 +719,38 @@
     hex_byte_1: '0xC0'
     hex_byte_2: '0x32'
 - model: boringssl
-  pk: ECDHE-RSA-CHACHA20-POLY1305
+  pk: EXP1024-RC4-MD5
   fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xA8'
+    hex_byte_1: '0x00'
+    hex_byte_2: '0x60'
 - model: boringssl
-  pk: ECDHE-ECDSA-CHACHA20-POLY1305
+  pk: EXP1024-RC2-CBC-MD5
   fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xA9'
+    hex_byte_1: '0x00'
+    hex_byte_2: '0x61'
 - model: boringssl
-  pk: ECDHE-PSK-CHACHA20-POLY1305
+  pk: EXP1024-DES-CBC-SHA
   fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xAC'
+    hex_byte_1: '0x00'
+    hex_byte_2: '0x62'
 - model: boringssl
-  pk: TLS_AES_128_GCM_SHA256
+  pk: EXP1024-DHE-DSS-DES-CBC-SHA
   fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x01'
+    hex_byte_1: '0x00'
+    hex_byte_2: '0x63'
 - model: boringssl
-  pk: TLS_AES_256_GCM_SHA384
+  pk: EXP1024-RC4-SHA
   fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x02'
+    hex_byte_1: '0x00'
+    hex_byte_2: '0x64'
 - model: boringssl
-  pk: TLS_CHACHA20_POLY1305_SHA256
+  pk: EXP1024-DHE-DSS-RC4-SHA
   fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x03'
+    hex_byte_1: '0x00'
+    hex_byte_2: '0x65'
+- model: boringssl
+  pk: DHE-DSS-RC4-SHA
+  fields:
+    hex_byte_1: '0x00'
+    hex_byte_2: '0x66'
 
