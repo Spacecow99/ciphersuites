@@ -379,6 +379,26 @@
     hex_byte_1: '0x00'
     hex_byte_2: '0x6D'
 - model: iana
+  pk: TLS_ASCONAEAD128_ASCONHASH256
+  fields:
+    hex_byte_1: '0x00'
+    hex_byte_2: '0x6E'
+- model: iana
+  pk: TLS_ASCONAEAD128_SHA256
+  fields:
+    hex_byte_1: '0x00'
+    hex_byte_2: '0x6F'
+- model: iana
+  pk: TLS_AES_128_GCM_ASCONHASH256
+  fields:
+    hex_byte_1: '0x00'
+    hex_byte_2: '0x70'
+- model: iana
+  pk: TLS_AES_128_CCM_ASCONHASH256
+  fields:
+    hex_byte_1: '0x00'
+    hex_byte_2: '0x71'
+- model: iana
   pk: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA
   fields:
     hex_byte_1: '0x00'

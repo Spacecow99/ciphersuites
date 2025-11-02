@@ -1063,6 +1063,62 @@
     aead: false
     hashing: SHA256
 - model: ciphersuite
+  pk: TLS_ASCONAEAD128_ASCONHASH256
+  fields:
+    hex_byte_1: '0x00'
+    hex_byte_2: '0x6E'
+    protocol: TLS
+    old: false
+    export: false
+    fips: false
+    key_exchange: ASCONAEAD128
+    authentication: ASCONHASH256
+    encryption: ''
+    aead: false
+    hashing: ''
+- model: ciphersuite
+  pk: TLS_ASCONAEAD128_SHA256
+  fields:
+    hex_byte_1: '0x00'
+    hex_byte_2: '0x6F'
+    protocol: TLS
+    old: false
+    export: false
+    fips: false
+    key_exchange: ASCONAEAD128
+    authentication: SHA256
+    encryption: ''
+    aead: false
+    hashing: ''
+- model: ciphersuite
+  pk: TLS_AES_128_GCM_ASCONHASH256
+  fields:
+    hex_byte_1: '0x00'
+    hex_byte_2: '0x70'
+    protocol: TLS
+    old: false
+    export: false
+    fips: false
+    key_exchange: AES
+    authentication: 128 GCM ASCONHASH256
+    encryption: ''
+    aead: false
+    hashing: ''
+- model: ciphersuite
+  pk: TLS_AES_128_CCM_ASCONHASH256
+  fields:
+    hex_byte_1: '0x00'
+    hex_byte_2: '0x71'
+    protocol: TLS
+    old: false
+    export: false
+    fips: false
+    key_exchange: AES
+    authentication: 128 CCM ASCONHASH256
+    encryption: ''
+    aead: false
+    hashing: ''
+- model: ciphersuite
   pk: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA
   fields:
     hex_byte_1: '0x00'
