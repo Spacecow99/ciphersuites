@@ -64,6 +64,11 @@
     hex_byte_1: '0xC0'
     hex_byte_2: '0x14'
 - model: boringssl
+  pk: ECDHE-ECDSA-AES128-SHA256
+  fields:
+    hex_byte_1: '0xC0'
+    hex_byte_2: '0x23'
+- model: boringssl
   pk: ECDHE-RSA-AES128-SHA256
   fields:
     hex_byte_1: '0xC0'
