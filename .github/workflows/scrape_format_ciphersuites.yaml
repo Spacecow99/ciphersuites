@@ -1,296 +1,119 @@
-
 name: Scrape & Format Ciphersuites
 
-on: 
+on:
   workflow_dispatch:
+    inputs:
+      accept:
+        # Comma-separated LIB:VER pairs whose baseline gates are bypassed for
+        # this run only (e.g. "mbedtls:4.2,schannel:Windows Server 2025").
+        description: "Accept gate failures for LIB:VER pairs (comma-separated)"
+        required: false
+        default: ""
+      reason:
+        # Required by ciphersuites-scrape whenever accept is set; recorded in
+        # each accepted version's `accepted.reason` field in the data.
+        description: "Evidence for the acceptance (required with accept)"
+        required: false
+        default: ""
+      baseline_ref:
+        # Git ref of THIS repo used as the validation baseline. Empty means
+        # the checked-out HEAD (the normal case).
+        description: "Baseline git ref (default: HEAD)"
+        required: false
+        default: ""
   schedule:
     - cron: "0 0 * * 0"
 
+# Least privilege by default: no token scopes unless a job opts in.
+permissions: {}
+
+# Never let two scrapes race on the same branch.
+concurrency:
+  group: scrape-ciphersuites
+  cancel-in-progress: false
+
 jobs:
-  scrape-datasources:
+  scrape:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-
-    steps:
-      #- uses: actions/checkout@v2
-
-      - name: Setup Python 3.x environment
-        uses: actions/setup-python@v5
-        with:
-          python-version: 3.12
-      
-      - name: Clone cipherscrape github repo
-        uses: GuillaumeFalourd/clone-github-repo-action@v2.3
-        with:
-          owner: Spacecow99
-          repository: python-ciphersuites
-          depth: 2
-          submodule: true
-
-      - name: Install cipherscrape and dependencies
-        shell: bash
-        run: |
-          python -m pip install python-ciphersuites/
-          python -m ciphersuites --version
-      
-      - name: Scrape IANA reserved ciphersuite list
-        shell: bash
-        run: |
-          scrape-iana > iana_ciphers.yaml
-
-      - name: Scrape scanigma knowledge base
-        shell: bash
-        run: |
-          scrape-scanigma > scanigma_ciphers.yaml
-
-      - name: Scrape TestSSL.sh cipher-mapping.txt
-        shell: bash
-        run: |
-          scrape-testssl > testssl_ciphers.yaml
-
-      - name: Scrape openssl source code
-        shell: bash
-        run: |
-          scrape-openssl > openssl_ciphers.yaml
-
-      - name: Scrape gnutls manual
-        shell: bash
-        run: |
-          scrape-gnutls "manual" > gnutls_manual.yaml
-
-      - name: Scrape gnutls ciphersuites.c source code
-        shell: bash
-        run: |
-          scrape-gnutls "ciphersuites.c" > gnutls_source.yaml
-
-      - name: Scrape nss source code
-        shell: bash
-        run: |
-          scrape-nss > nss_ciphers.yaml
-
-      - name: Scrape go source code
-        shell: bash
-        run: |
-          scrape-go > go_ciphers.yaml
-
-      - name: Scrape OpenJDK JSSE source code
-        shell: bash
-        run: |
-          scrape-jsse > jsse_ciphers.yaml      
-
-      - name: Scrape libressl source code
-        shell: bash
-        run: |
-          scrape-libressl > libressl_ciphers.yaml
-
-      - name: Scrape boringssl source code
-        shell: bash
-        run: |
-          scrape-boringssl > boringssl_ciphers.yaml
-
-      - name: Scrape S2N source code
-        shell: bash
-        run: |
-          scrape-s2n > s2n_ciphers.yaml
-
-      - name: Scrape MBEDTLS source code
-        shell: bash
-        run: |
-          scrape-mbedtls > mbedtls_ciphers.yaml
-          
-      - name: Archive raw files as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: raw-datasets
-          path: "*.yaml"
-
-  process-datasets:
-    needs: scrape-datasources
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: Setup Python 3.x environment
-        uses: actions/setup-python@v5
-        with:
-          python-version: 3.12
-      
-      - name: Clone complete_cs_instance github repo
-        uses: GuillaumeFalourd/clone-github-repo-action@v2
-        with:
-          owner: Spacecow99
-          repository: python-ciphersuites
-
-      - name: Install complete_cs_instance and dependencies
-        shell: bash
-        run: |
-          python -m pip install python-ciphersuites/
-
-      - name: Create directory structure
-        shell: bash
-        run: |
-          mkdir -p ~/raw/ ~/processed/ 
-
-      - name: Download raw artifacts
-        uses: actions/download-artifact@v4
-        with:
-          name: raw-datasets
-          path: ~/raw/
-
-      - name: Copy iana_ciphers.yaml from ~/raw/ to ~/processed/
-        shell: bash
-        run: |
-          cp ~/raw/iana_ciphers.yaml ~/processed/iana.yaml
-
-      - name: Copy openssl_ciphers.yaml from ~/raw/ to ~/processed/
-        shell: bash
-        run: |
-          cp ~/raw/openssl_ciphers.yaml ~/processed/openssl.yaml
-
-      - name: Copy nss_ciphers.yaml from ~/raw/ to ~/processed/
-        shell: bash
-        run: |
-          cp ~/raw/nss_ciphers.yaml ~/processed/nss.yaml
-
-      - name: Copy go_ciphers.yaml from ~/raw/ to ~/processed/
-        shell: bash
-        run: |
-          cp ~/raw/go_ciphers.yaml ~/processed/go.yaml
-          
-      - name: Copy jsse_ciphers.yaml from ~/raw/ to ~/processed/
-        shell: bash
-        run: |
-          cp ~/raw/jsse_ciphers.yaml ~/processed/jsse.yaml
-          
-      - name: Copy libressl_ciphers.yaml from ~/raw/ to ~/processed/
-        shell: bash
-        run: |
-          cp ~/raw/libressl_ciphers.yaml ~/processed/libressl.yaml
-          
-      - name: Copy boringssl_ciphers.yaml from ~/raw/ to ~/processed/
-        shell: bash
-        run: |
-          cp ~/raw/boringssl_ciphers.yaml ~/processed/boringssl.yaml
-
-      - name: Copy s2n_ciphers.yaml from ~/raw/ to ~/processed/
-        shell: bash
-        run: |
-          cp ~/raw/s2n_ciphers.yaml ~/processed/s2n.yaml
-
-      - name: Copy mbedtls_ciphers.yaml from ~/raw/ to ~/processed/
-        shell: bash
-        run: |
-          cp ~/raw/mbedtls_ciphers.yaml ~/processed/mbedtls.yaml
-          
-      - name: Combine and deduplicate GNUTLS lists
-        shell: bash
-        run: |
-          deduplicate-ciphers ~/raw/gnutls_source.yaml ~/raw/gnutls_manual.yaml > ~/processed/gnutls.yaml
-
-      - name: Combine and deduplicate TestSSL & Scanigma lists
-        shell: bash
-        run: |
-          deduplicate-ciphers ~/raw/testssl_ciphers.yaml ~/raw/scanigma_ciphers.yaml > ~/processed/combined_3rd_party_ciphers.yaml
-
-      - name: Combine and deduplicate IANA & combined 3rd party lists
-        shell: bash
-        run: |
-          deduplicate-ciphers ~/raw/iana_ciphers.yaml ~/processed/combined_3rd_party_ciphers.yaml > ~/processed/combined_iana_3rd_party_ciphers.yaml
-
-      - name: Run combined_cs_instance on combined IANA & 3rd party list
-        shell: bash
-        run: |
-          complete-ciphersuites ~/processed/combined_iana_3rd_party_ciphers.yaml > ~/processed/ciphersuites.yaml
-
-      - name: Archive processed files as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: processed-datasets
-          path: "~/processed/*.yaml"
-
-  upload-datasets:
-    needs: process-datasets
-    runs-on: ubuntu-latest
+    # The only job; it needs write access solely to commit regenerated data.
     permissions:
       contents: write
-
     steps:
-      - uses: actions/checkout@v2
+      # All actions pinned by commit SHA (supply-chain hardening).
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          # Full history so --baseline-ref can resolve any earlier commit.
+          fetch-depth: 0
 
-      - name: Download processed artifacts
-        uses: actions/download-artifact@v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
         with:
-          name: processed-datasets
-          path: ~/processed/
+          python-version: "3.12"
 
-      - name: Update repo's iana.yaml with artifact version
-        shell: bash
-        run: |
-          cp -f ~/processed/iana.yaml iana.yaml
+      # Fetch cache: raw files are keyed by commit SHA, so reuse is safe and
+      # cuts upstream load. Reference sources (IANA, Scanigma) are never cached.
+      - uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4.3.0
+        with:
+          path: ~/.cache/python-ciphersuites
+          key: scrape-cache-${{ runner.os }}
 
-      - name: Update repo's openssl.yaml with artifact version
-        shell: bash
-        run: |
-          cp -f ~/processed/openssl.yaml openssl.yaml
+      # Install the scraper from an immutable release tag, never a branch.
+      - name: Install python-ciphersuites
+        run: python -m pip install "python-ciphersuites @ git+https://github.com/Spacecow99/python-ciphersuites@v0.1.0"
 
-      - name: Update repo's gnutls.yaml with artifact version
-        shell: bash
+      - name: Scrape and validate
+        id: scrape
+        # Untrusted dispatch inputs reach the script ONLY via env vars and are
+        # always quoted; never interpolate ${{ inputs.* }} into `run:`
+        # (prevents script injection).
+        env:
+          ACCEPT: ${{ inputs.accept }}
+          REASON: ${{ inputs.reason }}
+          BASELINE_REF: ${{ inputs.baseline_ref }}
         run: |
-          cp -f ~/processed/gnutls.yaml gnutls.yaml
+          set +e
+          args=(--out . --report validation-report.json)
+          if [ -n "$ACCEPT" ]; then
+            # Split on commas only, so labels containing spaces survive.
+            IFS=',' read -ra pairs <<< "$ACCEPT"
+            for pair in "${pairs[@]}"; do
+              args+=(--accept "$pair")
+            done
+            args+=(--reason "$REASON")
+          fi
+          if [ -n "$BASELINE_REF" ]; then
+            # The scraper rejects refs starting with '-' or containing ':' or
+            # whitespace, so this cannot be read as a git option.
+            args+=(--baseline-ref "$BASELINE_REF")
+          fi
+          ciphersuites-scrape "${args[@]}"
+          echo "rc=$?" >> "$GITHUB_OUTPUT"
 
-      - name: Update repo's ciphersuites.yaml with artifact version
-        shell: bash
+      # The scraper keeps failed versions as `stale` and always writes complete
+      # files, so data is committed even when the run reports failures.
+      - name: Commit regenerated data
         run: |
-          cp -f ~/processed/ciphersuites.yaml ciphersuites.yaml
-
-      - name: Copy nss.yaml from ~/raw/ to ~/processed/
-        shell: bash
-        run: |
-          cp -f ~/processed/nss.yaml nss.yaml 
-
-      - name: Copy go.yaml from ~/raw/ to ~/processed/
-        shell: bash
-        run: |
-          cp ~/processed/go.yaml go.yaml 
-          
-      - name: Copy jsse.yaml from ~/raw/ to ~/processed/
-        shell: bash
-        run: |
-          cp ~/processed/jsse.yaml jsse.yaml 
-          
-      - name: Copy libressl.yaml from ~/raw/ to ~/processed/
-        shell: bash
-        run: |
-          cp ~/processed/libressl.yaml libressl.yaml
-          
-      - name: Copy boringssl.yaml from ~/raw/ to ~/processed/
-        shell: bash
-        run: |
-          cp ~/processed/boringssl.yaml boringssl.yaml
-
-      - name: Copy s2n.yaml from ~/raw/ to ~/processed/
-        shell: bash
-        run: |
-          cp ~/processed/s2n.yaml s2n.yaml
-
-      - name: Copy mbedtls.yaml from ~/raw/ to ~/processed/
-        shell: bash
-        run: |
-          cp ~/processed/mbedtls.yaml mbedtls.yaml
- 
-      - name: Push changes to repo
-        shell: bash
-        run: |
-          git config user.name Spacecow99
-          git config user.email space.cowz@ship.eu
-          git add .
-          if [[ -n "$(git status | grep modified)" ]]; then
-            git commit -m "Updated fixtures from job @ $(date)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Only the data files; the report stays an artifact, not a commit.
+          git add -- '*.yaml'
+          if [ -n "$(git status --porcelain -- '*.yaml')" ]; then
+            git commit -m "Updated data from job @ $(date -u)"
             git push
           fi
+
+      - name: Upload validation report
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: validation-report
+          path: validation-report.json
+          if-no-files-found: warn
+
+      # Surface gate failures as a red run after data and report are saved.
+      - name: Fail on validation failures
+        if: steps.scrape.outputs.rc != '0'
+        env:
+          RC: ${{ steps.scrape.outputs.rc }}
+        run: |
+          echo "ciphersuites-scrape exited with $RC; see the job summary and validation-report artifact."
+          exit 1
