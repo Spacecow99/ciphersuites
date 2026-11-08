@@ -9,7 +9,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:7b05415e913dda6de714ef6626404837b93b13f33f0bdad2d5b1121b0066dbfd
     library/ssl_ciphersuites.c: sha256:dbee5c800ee34542ce77291d6eb653c9b1077940e3750eaf81a604e4ef5b1cd9
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -19,7 +19,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:70a21ed0f89ae8b0a0be01af2b591eb9309bc0902e5f460aa4cb1ee1bcc6efde
     library/ssl_ciphersuites.c: sha256:dc240aa65c8aeaf31255fbbc80e1c2dff4beac65d1b1cbadbb1896b4facece3d
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -29,7 +29,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:70a21ed0f89ae8b0a0be01af2b591eb9309bc0902e5f460aa4cb1ee1bcc6efde
     library/ssl_ciphersuites.c: sha256:dc240aa65c8aeaf31255fbbc80e1c2dff4beac65d1b1cbadbb1896b4facece3d
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -39,7 +39,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:e0e23c85b33cb2a623fe40d9e89c47e63ae9b469bee387a4549df3f91180ad94
     library/ssl_ciphersuites.c: sha256:dc240aa65c8aeaf31255fbbc80e1c2dff4beac65d1b1cbadbb1896b4facece3d
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -49,7 +49,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:e0e23c85b33cb2a623fe40d9e89c47e63ae9b469bee387a4549df3f91180ad94
     library/ssl_ciphersuites.c: sha256:dc240aa65c8aeaf31255fbbc80e1c2dff4beac65d1b1cbadbb1896b4facece3d
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -59,7 +59,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:e0e23c85b33cb2a623fe40d9e89c47e63ae9b469bee387a4549df3f91180ad94
     library/ssl_ciphersuites.c: sha256:dc240aa65c8aeaf31255fbbc80e1c2dff4beac65d1b1cbadbb1896b4facece3d
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -69,7 +69,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:147ff9bfe6ce6bde0426d1a05acad8a77de50af37c93bf4e49123151ae593261
     library/ssl_ciphersuites.c: sha256:03d7443de6b530d94eafecae08f57c57a82e70ed539a851085781372b9fc0d2e
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -79,7 +79,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:147ff9bfe6ce6bde0426d1a05acad8a77de50af37c93bf4e49123151ae593261
     library/ssl_ciphersuites.c: sha256:03d7443de6b530d94eafecae08f57c57a82e70ed539a851085781372b9fc0d2e
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -89,7 +89,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:4dc1cbfbb744acd1166a11964f1544cae1470d8983f6504422d98ade974afd0d
     library/ssl_ciphersuites.c: sha256:b837c1267a6c5c8fbe5c57b789836e782d80cf576f57c880934fb83b0201fe64
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -99,7 +99,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:4dc1cbfbb744acd1166a11964f1544cae1470d8983f6504422d98ade974afd0d
     library/ssl_ciphersuites.c: sha256:b837c1267a6c5c8fbe5c57b789836e782d80cf576f57c880934fb83b0201fe64
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -109,7 +109,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:4dc1cbfbb744acd1166a11964f1544cae1470d8983f6504422d98ade974afd0d
     library/ssl_ciphersuites.c: sha256:b837c1267a6c5c8fbe5c57b789836e782d80cf576f57c880934fb83b0201fe64
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -119,7 +119,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:4dc1cbfbb744acd1166a11964f1544cae1470d8983f6504422d98ade974afd0d
     library/ssl_ciphersuites.c: sha256:7bea044401a45d2b5681de536e0d0b335ee45c442ebdf393d826146aa74b7f0c
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -129,7 +129,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:3dc73651ad65d07500a7689479ab9a0337600f905b31c4ab54a1a2f2a84908a9
     library/ssl_ciphersuites.c: sha256:89b7cd5658da58afc4df5efd04647c81f3869e5574c35c5e5b32e64b332e9cd6
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -139,7 +139,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:8423ed3a1ee75bc7e3367928cf065b95c4fbfff39be442bb12af6458fb6ef00a
     library/ssl_ciphersuites.c: sha256:b7c5df4fc9d1dade4b2af719436aba3e76dc369f705e4cf3ca26efafbf4d4e69
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -149,7 +149,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:c50838b117c25ef1c28ceb82fe7abaca7e710c3fbfa850d934a53db601b82c49
     library/ssl_ciphersuites.c: sha256:6d9a97b7285815a884976ae5b1c905ea1ab5287bafe7c5c3d703738a42bb354c
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -159,7 +159,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:f58dc35ed250df8068bf8cf5a61505725c586d5eaa165dc1089ca8e15e4921bb
     library/ssl_ciphersuites.c: sha256:a427ebfe3f16fdbbd9f22eacce470f4ac687bce66c676bb5fe38e0224d21c5ed
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -169,7 +169,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:b37d5f43a041457bfb738d418d961477fcf5505725ca845b13540a7b16f234cd
     library/ssl_ciphersuites.c: sha256:fc89d475f4bc0d2beb3414d579288ea0c42e8b4dd8d25956da1b846aa8285e8b
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -179,7 +179,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:f1f4877a57a3c3b479d60db61b328feee33d30379d331d1e51fe02bb667c2912
     library/ssl_ciphersuites.c: sha256:85a3615c60acfcb5fac4787c66d70758058e9d82a051ee9db427e1b9ab800c73
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -189,7 +189,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:19ac0e3c8bfd1a2971a0ca16345331014b1905905859171340071dc5fe8cf0a5
     library/ssl_ciphersuites.c: sha256:d0a55e6a10eb6322131f5adbbe7aeb0052ecabd1b11f6528dc34c5b040d00fd0
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -199,7 +199,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:f7c3136ebd9ab933aa94544880a20c1fb97ff71d320dc47f97ae70023df8270c
     library/ssl_ciphersuites.c: sha256:c1ea9c74805e037bc1f67eca7aecfcc4e9151bd5dfc944ecbc688c2b0c624ca7
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -209,7 +209,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:e0f348da7588e10cc4043f418fa8e383deb7dd2a39df9883ae1ea392206c1763
     library/ssl_ciphersuites.c: sha256:e3880bb9c9818164a22bea625e8560b5709f3ef66afb4c82dae8267d95bb75fe
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -219,7 +219,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:693a6310f14df0393cf7dd44c46bc15a5b8010f387d02debec2e84c28b0290bb
     library/ssl_ciphersuites.c: sha256:b013b5f67cc4f3d1cbc1b937200243dc7de5590ebf3a0cfe353b0349e91a5f0d
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -229,12 +229,12 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:693a6310f14df0393cf7dd44c46bc15a5b8010f387d02debec2e84c28b0290bb
     library/ssl_ciphersuites.c: sha256:b013b5f67cc4f3d1cbc1b937200243dc7de5590ebf3a0cfe353b0349e91a5f0d
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted:
     reason: 'First v2 scrape; newest-line removals are upstream, verified 2026-11-08: boringssl HEAD pruned legacy suites from ssl3.h/tls1.h (151 at 5584ad8c -> 25 at 0131ae9d); mbedtls 4.2 removed RSA key-exchange suites (all 53 present in <=4.1); openssl 4.x dropped SSLv2/export/Kerberos/FORTEZZA defines (all 34 present in older lines); s2n removed Kyber 0xFF0C between v1.5.14 and v1.5.20 (present <=1.6); Windows Server 2025 lists no SSLv2 codes (present in older Windows entries).'
-    at: '2026-11-08T13:38:55.446080+00:00'
+    at: '2026-11-08T14:37:00.907523+00:00'
 suites:
 - code_point:
   - '0x00'

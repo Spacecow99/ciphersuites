@@ -10,7 +10,7 @@ versions:
     src/lib/libssl/src/ssl/ssl2.h: sha256:23b9a3bc66fef84401727cf0cfa1c2a5940547121c03f903ed4950d0f7a0bbc8
     src/lib/libssl/src/ssl/ssl3.h: sha256:0e12ba0b3898c1462603fedd3ec4025ed337c64ce005d6a5081cb9e28cfd1bc5
     src/lib/libssl/src/ssl/tls1.h: sha256:af649231ffab187a37ce7071854d44ae3c18c5e52afe4f1605ee044db9004f4f
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -21,7 +21,7 @@ versions:
     src/lib/libssl/src/ssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
     src/lib/libssl/src/ssl/ssl3.h: sha256:3b295c26e612cfbe7f3fb54019271745c86f8da632c1b5eb862e3282ccd90803
     src/lib/libssl/src/ssl/tls1.h: sha256:ff2988564efbcc9e63f79b7ccabf1b08075d9a58527a914af4f84f5af2aa9776
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -32,7 +32,7 @@ versions:
     src/lib/libssl/src/ssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
     src/lib/libssl/src/ssl/ssl3.h: sha256:d2a30dfdd32d767d5432ac15499f597c900cb272d1301dd783c5afe683dea5d0
     src/lib/libssl/src/ssl/tls1.h: sha256:2eddf14d697b688e50c67b41c3b0584bc48bc027fec26489ef5570316e37424c
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -43,7 +43,7 @@ versions:
     src/lib/libssl/src/ssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
     src/lib/libssl/src/ssl/ssl3.h: sha256:d2a30dfdd32d767d5432ac15499f597c900cb272d1301dd783c5afe683dea5d0
     src/lib/libssl/src/ssl/tls1.h: sha256:2eddf14d697b688e50c67b41c3b0584bc48bc027fec26489ef5570316e37424c
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -54,7 +54,7 @@ versions:
     src/lib/libssl/src/ssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
     src/lib/libssl/src/ssl/ssl3.h: sha256:d2a30dfdd32d767d5432ac15499f597c900cb272d1301dd783c5afe683dea5d0
     src/lib/libssl/src/ssl/tls1.h: sha256:891f0c744d128f241c729665337098217bc613b1e1031ddd7fb0793f218949af
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -65,7 +65,7 @@ versions:
     src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
     src/lib/libssl/ssl3.h: sha256:fb954ff91dc9183969c666d23330ed898bb9cb74444022586ce29245ccc3e718
     src/lib/libssl/tls1.h: sha256:1f85c36471cf4f6d9dfb3c44b0bb4c7febd598dd60b58e7ec7fa2e54d84c8973
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -76,7 +76,7 @@ versions:
     src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
     src/lib/libssl/ssl3.h: sha256:d4e6c432d2921a824839eb1d238f4e20192340095c57fd1170bd0af2b52a7c99
     src/lib/libssl/tls1.h: sha256:8d031871bb209d76b692a497715c631c00fe5aebecc1fe54406bd6e9d871f13f
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -87,7 +87,7 @@ versions:
     src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
     src/lib/libssl/ssl3.h: sha256:d4e6c432d2921a824839eb1d238f4e20192340095c57fd1170bd0af2b52a7c99
     src/lib/libssl/tls1.h: sha256:1893677b74c2d1ddf2462363e945cab47b750271484bba6b707d02c6dd75e194
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -98,7 +98,7 @@ versions:
     src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
     src/lib/libssl/ssl3.h: sha256:41fbefce861258a6c95ed0ecfe7b37872b510706a546bed6468544b056dd8ccf
     src/lib/libssl/tls1.h: sha256:1893677b74c2d1ddf2462363e945cab47b750271484bba6b707d02c6dd75e194
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -109,7 +109,7 @@ versions:
     src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
     src/lib/libssl/ssl3.h: sha256:8c4b8b290654430ada846c59e37a33218a129a0bebbb564db8315f59f066938e
     src/lib/libssl/tls1.h: sha256:a8518da122e2f70f3785d6dcd9ebfddd5e2ffd6a7c3acac59e62b7cabe74b1fd
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -120,7 +120,7 @@ versions:
     src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
     src/lib/libssl/ssl3.h: sha256:8c4b8b290654430ada846c59e37a33218a129a0bebbb564db8315f59f066938e
     src/lib/libssl/tls1.h: sha256:a8518da122e2f70f3785d6dcd9ebfddd5e2ffd6a7c3acac59e62b7cabe74b1fd
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -131,7 +131,7 @@ versions:
     src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
     src/lib/libssl/ssl3.h: sha256:389ccb5404761b480e92ec124c0b5ac4e1cc420cef9d47311eec46c770f64934
     src/lib/libssl/tls1.h: sha256:0aee9a67e506605ff84abd44fabffe9a731b0091ca70cea11014f92dc2350aad
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -142,7 +142,7 @@ versions:
     src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
     src/lib/libssl/ssl3.h: sha256:dffde52dfb112e908629535f19c64325f04a13bb903e1888cfd7d7f1de65db6d
     src/lib/libssl/tls1.h: sha256:156ee8db96ef2801f7d10dc927d9361ffebfac6d84d58a0865094dbec58a69ef
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -153,7 +153,7 @@ versions:
     src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
     src/lib/libssl/ssl3.h: sha256:dffde52dfb112e908629535f19c64325f04a13bb903e1888cfd7d7f1de65db6d
     src/lib/libssl/tls1.h: sha256:59453f9e112d4e9959d97d76646984060dd93e1310a84d96fcf8d6e3acf7bfe5
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -164,7 +164,7 @@ versions:
     src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
     src/lib/libssl/ssl3.h: sha256:373d9db0d19b45cadc49876f081916bfb2f0ccd9dce4beaeee77fee219c3b4f7
     src/lib/libssl/tls1.h: sha256:91d634f70048b25116fd6d46054c351c6ab46e57035c4faea67fa29451bc1566
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -175,7 +175,7 @@ versions:
     src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
     src/lib/libssl/ssl3.h: sha256:373d9db0d19b45cadc49876f081916bfb2f0ccd9dce4beaeee77fee219c3b4f7
     src/lib/libssl/tls1.h: sha256:083e56df06ba9c469492a632312d0942a9649bc83dd22055abe41df58bd1c02a
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -186,7 +186,7 @@ versions:
     src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
     src/lib/libssl/ssl3.h: sha256:373d9db0d19b45cadc49876f081916bfb2f0ccd9dce4beaeee77fee219c3b4f7
     src/lib/libssl/tls1.h: sha256:764995040873305b3ca4b11492b163b9c04daaafc0fed1d45afa42acc7a8d810
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -197,7 +197,7 @@ versions:
     src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
     src/lib/libssl/ssl3.h: sha256:373d9db0d19b45cadc49876f081916bfb2f0ccd9dce4beaeee77fee219c3b4f7
     src/lib/libssl/tls1.h: sha256:764995040873305b3ca4b11492b163b9c04daaafc0fed1d45afa42acc7a8d810
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -208,7 +208,7 @@ versions:
     src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
     src/lib/libssl/ssl3.h: sha256:373d9db0d19b45cadc49876f081916bfb2f0ccd9dce4beaeee77fee219c3b4f7
     src/lib/libssl/tls1.h: sha256:764995040873305b3ca4b11492b163b9c04daaafc0fed1d45afa42acc7a8d810
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -219,7 +219,7 @@ versions:
     src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
     src/lib/libssl/ssl3.h: sha256:1b874f840ab4a34ff78de5009bf432e42d088716c17c43b6e45bbfde58d6c30a
     src/lib/libssl/tls1.h: sha256:901f42b3ac662aa00253e879723d7ffd24c207e35fcb700bdedab0ba1171f7fa
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -229,7 +229,7 @@ versions:
   files:
     src/lib/libssl/ssl3.h: sha256:1b874f840ab4a34ff78de5009bf432e42d088716c17c43b6e45bbfde58d6c30a
     src/lib/libssl/tls1.h: sha256:901f42b3ac662aa00253e879723d7ffd24c207e35fcb700bdedab0ba1171f7fa
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -239,7 +239,7 @@ versions:
   files:
     src/lib/libssl/ssl3.h: sha256:1b874f840ab4a34ff78de5009bf432e42d088716c17c43b6e45bbfde58d6c30a
     src/lib/libssl/tls1.h: sha256:70a7c812a910dbe74a36a2725596413ed9da2a22e805de65b714d5346f2689bf
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -249,7 +249,7 @@ versions:
   files:
     src/lib/libssl/ssl3.h: sha256:50b366d8ddcec6f99ed09adc6823617c39415398932a16c85976f6fe88c00941
     src/lib/libssl/tls1.h: sha256:a86e43acc07795320fcdbac63cfd0f5a01f264598c682e3210235ee5ffe2e0fd
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -259,7 +259,7 @@ versions:
   files:
     src/lib/libssl/ssl3.h: sha256:50b366d8ddcec6f99ed09adc6823617c39415398932a16c85976f6fe88c00941
     src/lib/libssl/tls1.h: sha256:a86e43acc07795320fcdbac63cfd0f5a01f264598c682e3210235ee5ffe2e0fd
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -269,7 +269,7 @@ versions:
   files:
     src/lib/libssl/ssl3.h: sha256:7a85ff95a87b6436f57dfd49486795f7625804608be38803877096b2f89c0f4c
     src/lib/libssl/tls1.h: sha256:b82a368c61bfee53c6bceff8878fd79c61567fda010e0bcaf0fee95c9c518af9
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -3979,6 +3979,37 @@ suites:
     - '4.3'
     - '4.4'
 - code_point:
+  - '0x00'
+  - '0xFF'
+  names:
+  - name: TLS_EMPTY_RENEGOTIATION_INFO_SCSV
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
   - '0x01'
   - '0x00'
   - '0x80'
@@ -4342,6 +4373,36 @@ suites:
   names:
   - name: AEAD-AES128-CCM-8-SHA256
     versions:
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x56'
+  - '0x00'
+  names:
+  - name: TLS_FALLBACK_SCSV
+    versions:
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
     - '2.9'
     - '3.0'
     - '3.1'
@@ -5918,6 +5979,10 @@ suites:
     - '2.1'
     - '2.2'
     - '2.3'
+  - name: ECDHE-RSA-CHACHA20-POLY1305-OLD
+    versions:
+    - '2.4'
+    - '2.5'
 - code_point:
   - '0xCC'
   - '0x14'
@@ -5928,6 +5993,10 @@ suites:
     - '2.1'
     - '2.2'
     - '2.3'
+  - name: ECDHE-ECDSA-CHACHA20-POLY1305-OLD
+    versions:
+    - '2.4'
+    - '2.5'
 - code_point:
   - '0xCC'
   - '0x15'
@@ -5938,6 +6007,10 @@ suites:
     - '2.1'
     - '2.2'
     - '2.3'
+  - name: DHE-RSA-CHACHA20-POLY1305-OLD
+    versions:
+    - '2.4'
+    - '2.5'
 - code_point:
   - '0xCC'
   - '0xA8'

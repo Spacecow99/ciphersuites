@@ -8,7 +8,7 @@ versions:
   commit: b661ee6ff840d6922aa7424a4d8f24760b21cf26
   files:
     jdk/src/share/classes/sun/security/ssl/CipherSuite.java: sha256:84813f43407304f303bec9dec13ec1022c1f1d262aa60770cd61053a35785cc2
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -17,7 +17,7 @@ versions:
   commit: da75f3c4ad5bdf25167a3ed80e51f567ab3dbd01
   files:
     src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:5eab759d21da69b2396791d554c63a4f6c033ed9dc4a7841b827293a497f9bde
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -26,7 +26,7 @@ versions:
   commit: 9dae227e4f0e44bd75a30e55bc54ea68f6cbc841
   files:
     src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:300f86068e4b1dbab29dada8387593e031d87d55f462e985879337d9f27854dd
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -35,7 +35,7 @@ versions:
   commit: d5914f18390f71c9bdc333f66cbee6164eb7f857
   files:
     src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:6a9c294564020baf25bbc7365bd87457e3302fb2df3357dd79199881c4fb2241
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -44,7 +44,7 @@ versions:
   commit: ae39310243b0486f5a6f1049c6ec5f29db31170c
   files:
     src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:af71da4097b05e64d0f834fa6c3195b6bcca03a7d1292c9792d39a5dc337a0be
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -53,7 +53,7 @@ versions:
   commit: 4a588d89f01a650d90432cc14697a5a2ae2c97d3
   files:
     src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:af71da4097b05e64d0f834fa6c3195b6bcca03a7d1292c9792d39a5dc337a0be
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -62,7 +62,7 @@ versions:
   commit: 4de3a6be9e60b9676f2199cd18eadb54a9d6e3fe
   files:
     src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:af71da4097b05e64d0f834fa6c3195b6bcca03a7d1292c9792d39a5dc337a0be
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -71,7 +71,7 @@ versions:
   commit: dfacda488bfbe2e11e8d607a6d08527710286982
   files:
     src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:9841bcb74d71fe5e91f76c2a9757697eae8296f2cdfdf1a1648ee474cb947642
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -80,7 +80,7 @@ versions:
   commit: 0f2113cee79b9645105b4753c7d7eacb83b872c2
   files:
     src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:66b010e69edd932e48034e1beb3b88cb0061fc415abdc098acb04c5cf31c4680
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -89,7 +89,7 @@ versions:
   commit: 967a28c3d85fdde6d5eb48aa0edd8f7597772469
   files:
     src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:bd589d301989dbd3d54b8c0dbbd8d4ebe6e0ca818b299a22669a457a147f6291
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -98,7 +98,7 @@ versions:
   commit: 82749901b1497f524e53e47c45708c8e4a63c8b9
   files:
     src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:573749f34fae682174008c2f54f19e3020808b08c9dc939649fee117ede1a91d
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -107,7 +107,7 @@ versions:
   commit: 890adb6410dab4606a4f26a942aed02fb2f55387
   files:
     src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:573749f34fae682174008c2f54f19e3020808b08c9dc939649fee117ede1a91d
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -116,7 +116,7 @@ versions:
   commit: fe9f05023e5a916b21e2db72fa5b1e8368a2c07d
   files:
     src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:573749f34fae682174008c2f54f19e3020808b08c9dc939649fee117ede1a91d
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -125,7 +125,7 @@ versions:
   commit: 9ad2e63f176364b96a827af80055e7db4b61fc9a
   files:
     src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:573749f34fae682174008c2f54f19e3020808b08c9dc939649fee117ede1a91d
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -134,7 +134,7 @@ versions:
   commit: 6705a9255d28f351950e7fbca9d05e73942a4e27
   files:
     src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:573749f34fae682174008c2f54f19e3020808b08c9dc939649fee117ede1a91d
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -143,7 +143,7 @@ versions:
   commit: 6c48f4ed707bf0b15f9b6098de30db8aae6fa40f
   files:
     src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:a2e8d33d7a303ca09cec3f38f5b9a3bcd2a61e7d17fbdff087ec838d2022cc9c
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -152,7 +152,7 @@ versions:
   commit: 4408cd2a07a14243a58cd9d30813302bfbe81133
   files:
     src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:a2e8d33d7a303ca09cec3f38f5b9a3bcd2a61e7d17fbdff087ec838d2022cc9c
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -161,7 +161,7 @@ versions:
   commit: 815ff4dc327fe17f2433c7d115a5a503af10f3c4
   files:
     src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:a2e8d33d7a303ca09cec3f38f5b9a3bcd2a61e7d17fbdff087ec838d2022cc9c
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null

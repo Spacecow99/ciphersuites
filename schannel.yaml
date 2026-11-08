@@ -8,7 +8,7 @@ versions:
   commit: null
   files:
     schannel_curated.yaml: sha256:79290065744c2451b5e983391a5745bd0dd5569b46b37cd88446dcf5c426c009
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -17,7 +17,7 @@ versions:
   commit: null
   files:
     schannel_curated.yaml: sha256:32b322bdc3ff2e31aa820edbdbaac7fc7b123865cd44d8fe455aca8971a1da97
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -26,7 +26,7 @@ versions:
   commit: null
   files:
     schannel_curated.yaml: sha256:682438bfc220f1ea96afc2ec816dcfccfc34f8b82090e4d3e21320967df1189d
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -35,7 +35,7 @@ versions:
   commit: null
   files:
     schannel_curated.yaml: sha256:267108e2cf56be41512358d78966a10ca91f0f4cbcb62b977f1c65521ecfd250
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -44,7 +44,7 @@ versions:
   commit: null
   files:
     schannel_curated.yaml: sha256:0e62ec4bdd51752310dcd3221ac0d3e148225644ceebfc61b17b77eaa06af97f
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -53,7 +53,7 @@ versions:
   commit: null
   files:
     schannel_curated.yaml: sha256:2d52f29abc0f8385b08ddca1ad7706ea214340046f34b710444dd9261ae6afe5
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -62,7 +62,7 @@ versions:
   commit: null
   files:
     schannel_curated.yaml: sha256:6c489028dc1aefd3670a8c577c5598dc2842fae84c353a5903f2f65ba0f3b9a7
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -71,7 +71,7 @@ versions:
   commit: null
   files:
     schannel_curated.yaml: sha256:082dd37a6af819386038c32365a6ea220a590d67231fc1a50418be33863ea874
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -80,7 +80,7 @@ versions:
   commit: null
   files:
     schannel_curated.yaml: sha256:08d7aa24c3b90f51112023eb7d804a3b72ab5236d24ab7c25fe1023f3687c4ec
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -89,7 +89,7 @@ versions:
   commit: null
   files:
     schannel_curated.yaml: sha256:385fe815ebabfd82e0a1a11aaf132442177a6f17ec63b057df1ec622fe8dcda1
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -98,7 +98,7 @@ versions:
   commit: null
   files:
     schannel_curated.yaml: sha256:481ffb476442418aec3d6a8dbe80b947897bf903f86a4650984bd515ae3c2f28
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -107,7 +107,7 @@ versions:
   commit: null
   files:
     schannel_curated.yaml: sha256:a94d17e438304dc91cbc582a144d4a57a03fd70a2318e0813d70d5205f1f27c0
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -116,7 +116,7 @@ versions:
   commit: null
   files:
     schannel_curated.yaml: sha256:be93782ef4d70002fe86cee982ad16d4928d0edb6de74d8a8a27f313435bf516
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -125,7 +125,7 @@ versions:
   commit: null
   files:
     schannel_curated.yaml: sha256:8b9e8d63bdd438740ab1df2e6060accf5aa4a456bd5d6da2d38a07e54538739e
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -134,7 +134,7 @@ versions:
   commit: null
   files:
     schannel_curated.yaml: sha256:58d5ab525d43742e18cc1414df01a92ea9cdafa6f98e29c7f629b742ba786a09
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -143,7 +143,7 @@ versions:
   commit: null
   files:
     schannel_curated.yaml: sha256:bcd62ec3724b42d547eacba9804ed40d3da808d11c7000a187d324f56ea462d1
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -152,7 +152,7 @@ versions:
   commit: null
   files:
     schannel_curated.yaml: sha256:486691436408a23d279f516ccdd4c64db76d301d3a035731384037311c95ddbf
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -161,12 +161,12 @@ versions:
   commit: null
   files:
     schannel_curated.yaml: sha256:4075abfaa640e77ac0e6b619b04265daa6139831946e62c12a860e921f65e702
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted:
     reason: 'First v2 scrape; newest-line removals are upstream, verified 2026-11-08: boringssl HEAD pruned legacy suites from ssl3.h/tls1.h (151 at 5584ad8c -> 25 at 0131ae9d); mbedtls 4.2 removed RSA key-exchange suites (all 53 present in <=4.1); openssl 4.x dropped SSLv2/export/Kerberos/FORTEZZA defines (all 34 present in older lines); s2n removed Kyber 0xFF0C between v1.5.14 and v1.5.20 (present <=1.6); Windows Server 2025 lists no SSLv2 codes (present in older Windows entries).'
-    at: '2026-11-08T13:38:55.446080+00:00'
+    at: '2026-11-08T14:37:00.907523+00:00'
 suites:
 - code_point:
   - '0x00'

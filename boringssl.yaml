@@ -9,12 +9,12 @@ versions:
   files:
     include/openssl/ssl3.h: sha256:3b369538ee125b3a26d8a3ca984f9fcecd027fa845335a30a21262376996724f
     include/openssl/tls1.h: sha256:56615a8877a7af97a6411a55555664c9589baf907747bedaf03a1d49b8b90cc1
-  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  scraped_at: '2026-11-08T14:37:00.907523+00:00'
   status: ok
   last_error: null
   accepted:
     reason: 'First v2 scrape; newest-line removals are upstream, verified 2026-11-08: boringssl HEAD pruned legacy suites from ssl3.h/tls1.h (151 at 5584ad8c -> 25 at 0131ae9d); mbedtls 4.2 removed RSA key-exchange suites (all 53 present in <=4.1); openssl 4.x dropped SSLv2/export/Kerberos/FORTEZZA defines (all 34 present in older lines); s2n removed Kyber 0xFF0C between v1.5.14 and v1.5.20 (present <=1.6); Windows Server 2025 lists no SSLv2 codes (present in older Windows entries).'
-    at: '2026-11-08T13:38:55.446080+00:00'
+    at: '2026-11-08T14:37:00.907523+00:00'
 suites:
 - code_point:
   - '0x00'
@@ -66,6 +66,13 @@ suites:
     versions:
     - '2026-11-08'
 - code_point:
+  - '0x00'
+  - '0xFF'
+  names:
+  - name: TLS_EMPTY_RENEGOTIATION_INFO_SCSV
+    versions:
+    - '2026-11-08'
+- code_point:
   - '0x13'
   - '0x01'
   names:
@@ -84,6 +91,13 @@ suites:
   - '0x03'
   names:
   - name: TLS_CHACHA20_POLY1305_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x56'
+  - '0x00'
+  names:
+  - name: TLS_FALLBACK_SCSV
     versions:
     - '2026-11-08'
 - code_point:
