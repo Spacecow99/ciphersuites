@@ -137,8 +137,15 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # Accept only plain top-level *.yaml files from the artifact.
-          find "$DATA_DIR" -maxdepth 1 -type f -name '*.yaml' -exec cp -f -- {} . \;
+          # Accept ONLY the scraper's known outputs, as regular files (no
+          # symlinks); anything else in the artifact is ignored.
+          for f in ciphersuites iana testssl scanigma boringssl gnutls go \
+                   jsse libressl mbedtls nss openssl s2n schannel; do
+            src="$DATA_DIR/$f.yaml"
+            if [ -f "$src" ] && [ ! -L "$src" ]; then
+              cp -f -- "$src" "./$f.yaml"
+            fi
+          done
           # Top-level YAML only: the glob pathspec does not descend into .github/.
           git add -- ':(glob)*.yaml'
           if ! git diff --cached --quiet; then
