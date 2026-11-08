@@ -3,46 +3,1033 @@ kind: library
 library: boringssl
 source: https://github.com/google/boringssl
 versions:
-- label: '2026-11-08'
-  ref: HEAD
-  commit: 0131ae9d78e42fcc2c1811315e62410ad96d8230
+- label: '2014-09-15'
+  ref: 594a58e0781e06597eafc7599e9f88d5ceaeb566
+  commit: 594a58e0781e06597eafc7599e9f88d5ceaeb566
   files:
-    include/openssl/ssl3.h: sha256:3b369538ee125b3a26d8a3ca984f9fcecd027fa845335a30a21262376996724f
-    include/openssl/tls1.h: sha256:56615a8877a7af97a6411a55555664c9589baf907747bedaf03a1d49b8b90cc1
-  scraped_at: '2026-11-08T14:37:00.907523+00:00'
+    include/openssl/ssl.h: sha256:7271f3958e9d08668d68ac48ac54dad51b85566ada24bad2d95e298e7ac68dba
+    include/openssl/ssl3.h: sha256:acf844fb3ce3fd7edf381ee4fd7c2b388c308de7422907f77e48fecba5893cfb
+    include/openssl/tls1.h: sha256:20844c28b9842cdb2dfdbee72301fb1e2b334504636f777c111a0de3d8ee36ed
+    ssl/s3_lib.c: sha256:1b304cba4b18b42eae38589b4c71c799fc9a7bcf53498c7a04add068866ff608
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
   status: ok
   last_error: null
-  accepted:
-    reason: 'First v2 scrape; newest-line removals are upstream, verified 2026-11-08: boringssl HEAD pruned legacy suites from ssl3.h/tls1.h (151 at 5584ad8c -> 25 at 0131ae9d); mbedtls 4.2 removed RSA key-exchange suites (all 53 present in <=4.1); openssl 4.x dropped SSLv2/export/Kerberos/FORTEZZA defines (all 34 present in older lines); s2n removed Kyber 0xFF0C between v1.5.14 and v1.5.20 (present <=1.6); Windows Server 2025 lists no SSLv2 codes (present in older Windows entries).'
-    at: '2026-11-08T14:37:00.907523+00:00'
+  accepted: null
+- label: '2015-04-08'
+  ref: 32fbdf2025330664bd2a977d3ef62802e0cf817d
+  commit: 32fbdf2025330664bd2a977d3ef62802e0cf817d
+  files:
+    include/openssl/ssl.h: sha256:fcd705ba61a34d383a82d358bde6285de860ef4a31fc5a369e606a01c29c67ae
+    include/openssl/ssl3.h: sha256:9fcdcf01147bb57637a1684c091989321cdd15175e28c50ad1e62d67745026cb
+    include/openssl/tls1.h: sha256:7ec6f75bbbd5eb896696f515be6d6ca27ecc335e686dc6cb84318cf34120e9cb
+    ssl/s3_lib.c: sha256:74a6b9c227e42c3b57ef0ca164d64a2ee30353b14d0139ce46b0f09d20dc24d5
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2015-06-09'
+  ref: 85bc5601ee17a323b50ba41af5528ff9195c1430
+  commit: 85bc5601ee17a323b50ba41af5528ff9195c1430
+  files:
+    include/openssl/ssl.h: sha256:ec9ab9eaa4b43aee722002b669def263e3b4abd115c76df7e3986fcf5bfdbb4d
+    include/openssl/ssl3.h: sha256:ec32fe1d8137be5c7c71bddff8c7eec8a1a647cfcd8abb7b651d34be40ad281b
+    include/openssl/tls1.h: sha256:ab9c6c6f2634fe94860f6887a68bb8ca8a2d159222ad4fa099ddece7405aac96
+    ssl/ssl_cipher.c: sha256:97a1d185da53f4442f21252eeb335d56fcd6baf2e1186d8e068a7f8aabcdb340
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2015-08-24'
+  ref: be8a869d9642fdec979f8c4006174968bb42462e
+  commit: be8a869d9642fdec979f8c4006174968bb42462e
+  files:
+    include/openssl/ssl.h: sha256:6b655a8277bd0b63b59001d757be94746a06aadb6168f54c8c762a819828283c
+    include/openssl/ssl3.h: sha256:78d5cfb7c73d5f9b3da39aeb781d01d9c39342097d1b4d3054ffb100fb1327cb
+    include/openssl/tls1.h: sha256:476e09fd6681c4789f3ee28aeb9f2fe503a4e0aa99751977488c8f5625210756
+    ssl/ssl_cipher.c: sha256:1c60d05b538266c86cc2812e6599f3eadd50737c5530666c6c88d9ba99a03ee3
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2015-09-11'
+  ref: af096751e8d1cae9a570990b49b12527317c0003
+  commit: af096751e8d1cae9a570990b49b12527317c0003
+  files:
+    include/openssl/ssl.h: sha256:9c04b2d77b886738c1ed90b6affe748462e567656bac0895aead165919e64eb1
+    include/openssl/ssl3.h: sha256:a61ad4c66e4069f8ce28988351da42a008ca1449083d4970e7bc8abd21834498
+    include/openssl/tls1.h: sha256:476e09fd6681c4789f3ee28aeb9f2fe503a4e0aa99751977488c8f5625210756
+    ssl/ssl_cipher.c: sha256:411f74b9ddeea12324e8a951c554b6c72bdb2a182d17ccd2515f00306a1ba117
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2015-12-16'
+  ref: 13414b3a048f17074253d23d03c0ab97c49b54e2
+  commit: 13414b3a048f17074253d23d03c0ab97c49b54e2
+  files:
+    include/openssl/ssl.h: sha256:6298d7a89f4ede27354cc3a9bfd98a6f28aa4f3f5c9c446227226bfb68e28925
+    include/openssl/ssl3.h: sha256:ef8a586260ded95441e793945cc695ac9bb3fdfad102229339ea7aea94ea34ed
+    include/openssl/tls1.h: sha256:7bd56a26d586c2abf20620acfb779b98bd5082c8840076b4fd61da4d7047132b
+    ssl/ssl_cipher.c: sha256:e076c6f099b0eaaf267facb22bac7a1489b299264ca116a0e82006a1c5dda7a3
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2016-05-26'
+  ref: 053931e74e42bebd129d9b35d9aceb986e873a8f
+  commit: 053931e74e42bebd129d9b35d9aceb986e873a8f
+  files:
+    include/openssl/ssl.h: sha256:2d9673e8da9839df4b986a6423ed77bcf3e5abc35a33604e5ba70d91f8d4d25d
+    include/openssl/ssl3.h: sha256:4dfe6ccabe09438feeefb253be465562ec28c3202749c81eefbe14d2fe9a6344
+    include/openssl/tls1.h: sha256:23d844f27af912202885d5411db3d68a3e6d42979a13def025d1ddaaee131f39
+    ssl/ssl_cipher.c: sha256:c86ebc03d5981f8d13965a4b91db485db50cd13f478fdfdc37e544e93ba18d95
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2016-06-02'
+  ref: 3084e7b87ded165d3dab194f9b4666d02437cbb7
+  commit: 3084e7b87ded165d3dab194f9b4666d02437cbb7
+  files:
+    include/openssl/ssl.h: sha256:2d9673e8da9839df4b986a6423ed77bcf3e5abc35a33604e5ba70d91f8d4d25d
+    include/openssl/ssl3.h: sha256:1d594dc17a9c9d9af08051c29f421ebeb1089f11ac349a1b6ac72399425e2550
+    include/openssl/tls1.h: sha256:eaa5665faa39e19f5f24b9858f8f813e7623c257b8f88f1d4dcd255c42ff16cb
+    ssl/ssl_cipher.c: sha256:6d614c5214864b28db92d0b35db052db4d3ca23f5a2f7db2d426de8330da758e
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2016-08-26'
+  ref: 9c8c418853236bee9d582e27896942c3979078a4
+  commit: 9c8c418853236bee9d582e27896942c3979078a4
+  files:
+    include/openssl/ssl.h: sha256:132f34c7ae15e042cf537385146e5a6f601c0d87feb02c32d6b88b83e0d2627f
+    include/openssl/ssl3.h: sha256:311156fb2759793a52ed1be3ac0a192952040867efe7816268f3496415f7ec3c
+    include/openssl/tls1.h: sha256:b24066a41f7ad926b1bc86377f70ea01362cf2d381de9965e9d54b9c143cfc39
+    ssl/ssl_cipher.c: sha256:25b088c43f4059d73cea406a8e3e36ef440095eb5f017dab10065abc488e2cef
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2016-10-06'
+  ref: 3cbdc34619daafb9f8527fb9dd27afc8ee7dcf19
+  commit: 3cbdc34619daafb9f8527fb9dd27afc8ee7dcf19
+  files:
+    include/openssl/ssl.h: sha256:7bd76dd530e7828cd20b6ba071eed40da04ad76d0bb28db8b3d183edb4f5447c
+    include/openssl/ssl3.h: sha256:311156fb2759793a52ed1be3ac0a192952040867efe7816268f3496415f7ec3c
+    include/openssl/tls1.h: sha256:04c40ffe3f0e8f48ff077e6af5ad0ee14f63cbcb5cf0a3ee3d0ea9dca22c36c7
+    ssl/ssl_cipher.c: sha256:e9e914335d11b8d395e4af8e55c4a94a434a177e0426c6e2ebaed5e1065d95a1
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2016-12-09'
+  ref: 651aaefb4457945a858fdea085bdbefc1b180b76
+  commit: 651aaefb4457945a858fdea085bdbefc1b180b76
+  files:
+    include/openssl/ssl.h: sha256:8db4f678408692d155ca6f1dd397f2bf897acd41f5170f79fa6695e334eee828
+    include/openssl/ssl3.h: sha256:e0996d45d040e2672d066c4ec20f48ac70e750fe7392cea99da30b4b77d21ef1
+    include/openssl/tls1.h: sha256:5137916fc8dc067b186c9d395d061ef0e91d6ad2296398b8e8ee9c0a8daa8d6e
+    ssl/ssl_cipher.c: sha256:a6cce8ad2598770b186c04091f944fb979042b6bb5a272070cb8dd5ffb1750ba
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2017-01-19'
+  ref: 2e839244b078205ff677ada3fb83cf9d60ef055b
+  commit: 2e839244b078205ff677ada3fb83cf9d60ef055b
+  files:
+    include/openssl/ssl.h: sha256:b6e4e856af7d4bf2cb2dab21549f8e6431fc9b0c1139e4af789cbfbfe668aee0
+    include/openssl/ssl3.h: sha256:fafbb54cd98d9fe733a2b51e4515c1ba0e3843cb7090532cc9aae328d911a4fa
+    include/openssl/tls1.h: sha256:2ccb5d596ef7fee55cd640aec70323054c735ebeb7ec572740864ccd6b27eb50
+    ssl/ssl_cipher.c: sha256:1d87cd957f8c185691fea69eb6efc81b90c4cc17e0dea055d5ceda2aec4098fd
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2017-03-21'
+  ref: cedc6f1824ddc116872f762f28df3146889209be
+  commit: cedc6f1824ddc116872f762f28df3146889209be
+  files:
+    include/openssl/ssl.h: sha256:f85de00aa5629b9d21240b0d23061dd67e6e8af59935ca9555c048314a1f476f
+    include/openssl/ssl3.h: sha256:788b2a6433bd9770932e999e1d790bfd434377ab68bf4d6a0440ef063b446082
+    include/openssl/tls1.h: sha256:3efafaf6aec263cf16bb01c0274e9acede06423333422b6a27cce67ebbb3cee8
+    ssl/ssl_cipher.c: sha256:45d9df856c22da72e74531f237afba58cafa032a7ad19215e40dffdd6b6ae7e6
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2018-05-02'
+  ref: 6e678eeb6e76171712ae00d467321b6fe196152d
+  commit: 6e678eeb6e76171712ae00d467321b6fe196152d
+  files:
+    include/openssl/ssl.h: sha256:26121c0c9799dfc4b6391f073c976a6441a45a7d4175d885779a90e2cf0e85b8
+    include/openssl/ssl3.h: sha256:f6ab81cda915cb6be5c6fd1c62f1259079245884fc16f17856c9ffa6843556f7
+    include/openssl/tls1.h: sha256:9055c66cff5038e5ae47e0b4d3fa7812da59e231fe3ab8a47e19569c5d4f3027
+    ssl/ssl_cipher.cc: sha256:4e93e15e8c46f53d6435c43d335b643a47556a39df31f865522c5402b182bb00
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2023-04-24'
+  ref: de2d610a341f5a4b8c222425890537cb84c91400
+  commit: de2d610a341f5a4b8c222425890537cb84c91400
+  files:
+    include/openssl/ssl.h: sha256:a4dbb3c6aa55d5b3f10a18c702c38988bda501e5050b8af770117cc48103e903
+    include/openssl/ssl3.h: sha256:f5cfb1917dc5e2d46624d4f99c78e0b346e9df3870b7793a429b7e4ed58d19f4
+    include/openssl/tls1.h: sha256:cbae3d9d0827d6dddfc07b2ca127ccfcc2ce43bc6bb2b0226bc6661eb5edc5c3
+    ssl/ssl_cipher.cc: sha256:310a29849c4df7548c0f04b3c0e7307d59fa618f4631ea776bd3ade1ffaf06f4
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2023-05-05'
+  ref: b1c6f45f1fe6d808555d04a41bb44b322e4f4c1d
+  commit: b1c6f45f1fe6d808555d04a41bb44b322e4f4c1d
+  files:
+    include/openssl/ssl.h: sha256:91873af776340321e129e6a081c4f7e88ea8bc38687d8f76b434ab7d9408b0c1
+    include/openssl/ssl3.h: sha256:f5cfb1917dc5e2d46624d4f99c78e0b346e9df3870b7793a429b7e4ed58d19f4
+    include/openssl/tls1.h: sha256:6519cfed27fcaf9d45efa0bfa5930260572274d1a81b2fc3d3be72e79089ac27
+    ssl/ssl_cipher.cc: sha256:952ba3de09f373b9c288a7b8a4e9efc3609d4bd38e34d8a57887984493a9c8c4
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20240913.0
+  ref: 0.20240913.0
+  commit: 58f3bc83230d2958bb9710bc910972c4f5d382dc
+  files:
+    include/openssl/ssl.h: sha256:a599da6448fd1597ddb1816051b9dba94f182d7ad21dd7719dd5b91bb72251f9
+    include/openssl/ssl3.h: sha256:f5cfb1917dc5e2d46624d4f99c78e0b346e9df3870b7793a429b7e4ed58d19f4
+    include/openssl/tls1.h: sha256:c4b74f9e70e6b8dfa0d71286db4561e0dea37e36cad6452150f40e5bf8849741
+    ssl/ssl_cipher.cc: sha256:af57e5ce5e5a9b9c6222025da0d13e4bf3e47e50429d36d1357a5a8e8cd978ab
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20240930.0
+  ref: 0.20240930.0
+  commit: 81345b84505e9c23c156b2c7a1e655a204bd3e9a
+  files:
+    include/openssl/ssl.h: sha256:13b3afc9a3e0a65b2aa9ccf9b536ab6f6f9d15334ca0dc87c4014b560aded5bd
+    include/openssl/ssl3.h: sha256:f5cfb1917dc5e2d46624d4f99c78e0b346e9df3870b7793a429b7e4ed58d19f4
+    include/openssl/tls1.h: sha256:c4b74f9e70e6b8dfa0d71286db4561e0dea37e36cad6452150f40e5bf8849741
+    ssl/ssl_cipher.cc: sha256:af57e5ce5e5a9b9c6222025da0d13e4bf3e47e50429d36d1357a5a8e8cd978ab
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20241024.0
+  ref: 0.20241024.0
+  commit: 781a72b2aa513bbbf01b9bc670b0495a6b115968
+  files:
+    include/openssl/ssl.h: sha256:9a15c00fdaef34084222fea2ac30c6165ab2f06d93528b84bb8f4072cc980b09
+    include/openssl/ssl3.h: sha256:619248bbe3947c62566e6a8157000695b16db6a2bc1b22668ea621243070c870
+    include/openssl/tls1.h: sha256:c4b74f9e70e6b8dfa0d71286db4561e0dea37e36cad6452150f40e5bf8849741
+    ssl/ssl_cipher.cc: sha256:7a868d53f391377dc8db85b5b740b05f3185edcfba1aedef3eb1880ddadefe97
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20241203.0
+  ref: 0.20241203.0
+  commit: 2635bedc5d12407e4e78f2250d9c8c534954e045
+  files:
+    include/openssl/ssl.h: sha256:c1eb2c3d719bbbb5bacbdc11b97915d62557b1debd832446ef2111a9b65ef967
+    include/openssl/ssl3.h: sha256:619248bbe3947c62566e6a8157000695b16db6a2bc1b22668ea621243070c870
+    include/openssl/tls1.h: sha256:c4b74f9e70e6b8dfa0d71286db4561e0dea37e36cad6452150f40e5bf8849741
+    ssl/ssl_cipher.cc: sha256:f35857d5911ce76aad49c27b890d95c6486f0ffdb38fefdfb1fb47425d5c173f
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20241209.0
+  ref: 0.20241209.0
+  commit: b6eec48a579eff1abe70ce6d480a017d6ca3a32c
+  files:
+    include/openssl/ssl.h: sha256:9bcbf725cb92cb32486823f7d9b9034190de4f5c306818fed9be7d310455c232
+    include/openssl/ssl3.h: sha256:619248bbe3947c62566e6a8157000695b16db6a2bc1b22668ea621243070c870
+    include/openssl/tls1.h: sha256:c4b74f9e70e6b8dfa0d71286db4561e0dea37e36cad6452150f40e5bf8849741
+    ssl/ssl_cipher.cc: sha256:f35857d5911ce76aad49c27b890d95c6486f0ffdb38fefdfb1fb47425d5c173f
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20250114.0
+  ref: 0.20250114.0
+  commit: 571a7432a19592c620fa316abde47770dad4f82b
+  files:
+    include/openssl/ssl.h: sha256:092667ad3c92bf8d7a65623955bb2d026ab9e1965995a4291002a0c27aba05c7
+    include/openssl/ssl3.h: sha256:358047877fdfaf63545d47b4cf1456c93abdcba6dec148f640ec36164fd8bf40
+    include/openssl/tls1.h: sha256:719ec642962bed38a7ef6e829006ce18f1558688a38e2449a6ea4af8248f49e7
+    ssl/ssl_cipher.cc: sha256:fd10a78fab8e51ec472f84cd5f6009bb6bd2a165aade22fe47e73dae1b6d5d79
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20250212.0
+  ref: 0.20250212.0
+  commit: 51ae1b26478c5fda3006f2ec5fad5467c872ec17
+  files:
+    include/openssl/ssl.h: sha256:67eb9499f84458f1d0d941286b4138ac4236575612ca783cf47b77d5158c72e6
+    include/openssl/ssl3.h: sha256:9abcadd32696711b2fb99c760de933b8f49cd98d7f3a1634d277d970bfdc8410
+    include/openssl/tls1.h: sha256:3e97ba605e0c9dd56064e130604742f4dd40a2e0cf6b81259b1d98c8d612211b
+    ssl/ssl_cipher.cc: sha256:c9a81a71f63ffb91037397218a07d3134935834e24e9080c8cc3ff75688da6f8
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20250311.0
+  ref: 0.20250311.0
+  commit: e1d6cd95a545569339a13d71b9ce5b92859214d9
+  files:
+    include/openssl/ssl.h: sha256:8b0b029b241d7938e80758c98c6f5ab193cde41e84f8ff450fd14a2b72afd95e
+    include/openssl/ssl3.h: sha256:9abcadd32696711b2fb99c760de933b8f49cd98d7f3a1634d277d970bfdc8410
+    include/openssl/tls1.h: sha256:16db013c194d23cb1eb8ae17a6f36e9945bbfe7d841f7a4a9b61eb4644a1d828
+    ssl/ssl_cipher.cc: sha256:c9a81a71f63ffb91037397218a07d3134935834e24e9080c8cc3ff75688da6f8
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20250415.0
+  ref: 0.20250415.0
+  commit: 2b44a3701a4788e1ef866ddc7f143060a3d196c9
+  files:
+    include/openssl/ssl.h: sha256:6a617d96863d269bc9c65aa200765ec61f27251f3116384e43b8007e510f14ed
+    include/openssl/ssl3.h: sha256:9abcadd32696711b2fb99c760de933b8f49cd98d7f3a1634d277d970bfdc8410
+    include/openssl/tls1.h: sha256:56eb251873f160b040b4e9888f576d9c72404af11df46d62609d070d6d30c01f
+    ssl/ssl_cipher.cc: sha256:c9a81a71f63ffb91037397218a07d3134935834e24e9080c8cc3ff75688da6f8
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20250514.0
+  ref: 0.20250514.0
+  commit: 02bc0949e5cac0e1ee82c6f365f5a6c3cfd0cfa9
+  files:
+    include/openssl/ssl.h: sha256:6a617d96863d269bc9c65aa200765ec61f27251f3116384e43b8007e510f14ed
+    include/openssl/ssl3.h: sha256:9abcadd32696711b2fb99c760de933b8f49cd98d7f3a1634d277d970bfdc8410
+    include/openssl/tls1.h: sha256:56eb251873f160b040b4e9888f576d9c72404af11df46d62609d070d6d30c01f
+    ssl/ssl_cipher.cc: sha256:c9a81a71f63ffb91037397218a07d3134935834e24e9080c8cc3ff75688da6f8
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20250701.0
+  ref: 0.20250701.0
+  commit: f3dcc4660d30c35b1ccc40149a8cc170dc539132
+  files:
+    include/openssl/ssl.h: sha256:f3716e5b62c71d0e5418dc26cf1ebb41c61f9c8a7b2fe642c2574c58fa2d4cfb
+    include/openssl/ssl3.h: sha256:9abcadd32696711b2fb99c760de933b8f49cd98d7f3a1634d277d970bfdc8410
+    include/openssl/tls1.h: sha256:56eb251873f160b040b4e9888f576d9c72404af11df46d62609d070d6d30c01f
+    ssl/ssl_cipher.cc: sha256:c9a81a71f63ffb91037397218a07d3134935834e24e9080c8cc3ff75688da6f8
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20250807.0
+  ref: 0.20250807.0
+  commit: e20e8486554098772673b55ea76bb003d0b330e5
+  files:
+    include/openssl/ssl.h: sha256:95e2f99ad96e0ffbc6b0860139851a54cb2b407d35a14296d6d24f3b251fedf6
+    include/openssl/ssl3.h: sha256:9abcadd32696711b2fb99c760de933b8f49cd98d7f3a1634d277d970bfdc8410
+    include/openssl/tls1.h: sha256:56eb251873f160b040b4e9888f576d9c72404af11df46d62609d070d6d30c01f
+    ssl/ssl_cipher.cc: sha256:c9a81a71f63ffb91037397218a07d3134935834e24e9080c8cc3ff75688da6f8
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20250818.0
+  ref: 0.20250818.0
+  commit: eb895133fba7bb3c5eb962d0f1eab54c49979efe
+  files:
+    include/openssl/ssl.h: sha256:9344c3313a43badfe8b0a457d2bb5d8dced7511f050d81311c5f983545252bcc
+    include/openssl/ssl3.h: sha256:9abcadd32696711b2fb99c760de933b8f49cd98d7f3a1634d277d970bfdc8410
+    include/openssl/tls1.h: sha256:56eb251873f160b040b4e9888f576d9c72404af11df46d62609d070d6d30c01f
+    ssl/ssl_cipher.cc: sha256:c9a81a71f63ffb91037397218a07d3134935834e24e9080c8cc3ff75688da6f8
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20251002.0
+  ref: 0.20251002.0
+  commit: 52bb3988e3475e37664b0dd5395af49a55d343a2
+  files:
+    include/openssl/ssl.h: sha256:26e69f8c90f7aaf4f0d74c3b36f6c412402d8765268a8f17c4ac06917597dc63
+    include/openssl/ssl3.h: sha256:f68fb3b3b73f6e062eb812a64ff8ebea572206ae759f5515fc19b08020cede78
+    include/openssl/tls1.h: sha256:9031328d882aefbb77e2a0550e983ec8ea243927aba28ed4f3e1011764b94782
+    ssl/ssl_cipher.cc: sha256:f71acaee170a80a4133d321f9744b8bce323d7a4ac14f5cc3af3ef0f926dab35
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20251110.0
+  ref: 0.20251110.0
+  commit: ec4fb365a92dc0dff7370aae5d68642338b48ff5
+  files:
+    include/openssl/ssl.h: sha256:eab51cc30cecbbc891701e196f257a0874e9d208a20307dd384eafdd8d60703d
+    include/openssl/ssl3.h: sha256:ae5943ed92349248b2f1b0bd2fe9e109cfb696d52b333b8914194c3065c0fac9
+    include/openssl/tls1.h: sha256:7126eae453a65b6e271ca8b29fbf34ac7b8b5d7196fca4987b5909c74458ebc1
+    ssl/ssl_cipher.cc: sha256:b1043fe27854d001c382e2879fb3c76e22208ac5300902e549e893e204f027a2
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20251124.0
+  ref: 0.20251124.0
+  commit: 79048f1f1d8e6b7f9ca59b95c24486c8149122a4
+  files:
+    include/openssl/ssl.h: sha256:eab51cc30cecbbc891701e196f257a0874e9d208a20307dd384eafdd8d60703d
+    include/openssl/ssl3.h: sha256:ae5943ed92349248b2f1b0bd2fe9e109cfb696d52b333b8914194c3065c0fac9
+    include/openssl/tls1.h: sha256:7126eae453a65b6e271ca8b29fbf34ac7b8b5d7196fca4987b5909c74458ebc1
+    ssl/ssl_cipher.cc: sha256:b1043fe27854d001c382e2879fb3c76e22208ac5300902e549e893e204f027a2
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2026-01-07'
+  ref: 86bd3337f730173a005eeaf5c849e18ebb955003
+  commit: 86bd3337f730173a005eeaf5c849e18ebb955003
+  files:
+    include/openssl/ssl.h: sha256:a2370cec6b8f0bc043f02b339ec30eee732e49888da7056f5974f23608fb355c
+    include/openssl/ssl3.h: sha256:ae5943ed92349248b2f1b0bd2fe9e109cfb696d52b333b8914194c3065c0fac9
+    include/openssl/tls1.h: sha256:a71460407a6ec6bc77526b1fcbc5166b67c60e1368151772d89ed0860cdfe61d
+    ssl/ssl_cipher.cc: sha256:d189bcdd87c6ba969c2a82e2e7c97a40ac5ce33f9cba50e8d1cc868b3405e036
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20260204.0
+  ref: 0.20260204.0
+  commit: a35389e3da95f3824883400ea71f354834b38b59
+  files:
+    include/openssl/ssl.h: sha256:2c73b8194efd9432dcf8ce21345490f7e0024e737b2d4ae3ecdf392e6b537b0b
+    include/openssl/ssl3.h: sha256:ae5943ed92349248b2f1b0bd2fe9e109cfb696d52b333b8914194c3065c0fac9
+    include/openssl/tls1.h: sha256:a71460407a6ec6bc77526b1fcbc5166b67c60e1368151772d89ed0860cdfe61d
+    ssl/ssl_cipher.cc: sha256:d189bcdd87c6ba969c2a82e2e7c97a40ac5ce33f9cba50e8d1cc868b3405e036
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20260211.0
+  ref: 0.20260211.0
+  commit: 617634bc015344093f5ea0b0a5b653c924cfa20d
+  files:
+    include/openssl/ssl.h: sha256:2c73b8194efd9432dcf8ce21345490f7e0024e737b2d4ae3ecdf392e6b537b0b
+    include/openssl/ssl3.h: sha256:ae5943ed92349248b2f1b0bd2fe9e109cfb696d52b333b8914194c3065c0fac9
+    include/openssl/tls1.h: sha256:a71460407a6ec6bc77526b1fcbc5166b67c60e1368151772d89ed0860cdfe61d
+    ssl/ssl_cipher.cc: sha256:d189bcdd87c6ba969c2a82e2e7c97a40ac5ce33f9cba50e8d1cc868b3405e036
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20260327.0
+  ref: 0.20260327.0
+  commit: 4c91be649fec6c35fb1a3ae0539eaf85e9443ace
+  files:
+    include/openssl/ssl.h: sha256:315ef757d49fab9bf5c9822515befa51ba058ae00d7783386abc973654369a03
+    include/openssl/ssl3.h: sha256:ae5943ed92349248b2f1b0bd2fe9e109cfb696d52b333b8914194c3065c0fac9
+    include/openssl/tls1.h: sha256:a71460407a6ec6bc77526b1fcbc5166b67c60e1368151772d89ed0860cdfe61d
+    ssl/ssl_cipher.cc: sha256:d189bcdd87c6ba969c2a82e2e7c97a40ac5ce33f9cba50e8d1cc868b3405e036
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20260413.0
+  ref: 0.20260413.0
+  commit: 78f7fbeec98a2fb15acea6f7a9f1def7f2e6d9a0
+  files:
+    include/openssl/ssl.h: sha256:55f749b97aed56d8e73bfdace8d7a4d0c13d3cfe505b429b53e59d653167967c
+    include/openssl/ssl3.h: sha256:ae5943ed92349248b2f1b0bd2fe9e109cfb696d52b333b8914194c3065c0fac9
+    include/openssl/tls1.h: sha256:d953c94e9d742e950d3b790598a422de2739fcd05ffb71509ed3c028639d2021
+    ssl/ssl_cipher.cc: sha256:d189bcdd87c6ba969c2a82e2e7c97a40ac5ce33f9cba50e8d1cc868b3405e036
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20260508.0
+  ref: 0.20260508.0
+  commit: d589045a772678d5ca131f4c8087d001b9258380
+  files:
+    include/openssl/ssl.h: sha256:ccc79b76e78f8e98f97e5131fe44d8879baa5a1d9da8a57f7e74022b06c25891
+    include/openssl/ssl3.h: sha256:ae5943ed92349248b2f1b0bd2fe9e109cfb696d52b333b8914194c3065c0fac9
+    include/openssl/tls1.h: sha256:d953c94e9d742e950d3b790598a422de2739fcd05ffb71509ed3c028639d2021
+    ssl/ssl_cipher.cc: sha256:d189bcdd87c6ba969c2a82e2e7c97a40ac5ce33f9cba50e8d1cc868b3405e036
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20260526.0
+  ref: 0.20260526.0
+  commit: 190fa71435c8675b80d7883e5d01858db4c91180
+  files:
+    include/openssl/ssl.h: sha256:83d6c8b9fd45e0a5e2e29c387cae03c2e29231f5b49b81b8f5a95802072d16c6
+    include/openssl/ssl3.h: sha256:ae5943ed92349248b2f1b0bd2fe9e109cfb696d52b333b8914194c3065c0fac9
+    include/openssl/tls1.h: sha256:d5aa34e6df86bb55235c80c2bafb79e9b42e29f67761ff2b3df8ca3817e799e0
+    ssl/ssl_cipher.cc: sha256:d189bcdd87c6ba969c2a82e2e7c97a40ac5ce33f9cba50e8d1cc868b3405e036
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20260616.0
+  ref: 0.20260616.0
+  commit: 3adc3d1aba162a578e2547f329fcce8659b8e89c
+  files:
+    include/openssl/ssl.h: sha256:5c231d6f5b12595ebd75fbbeb26ee8b94805e3ed174f9ecf7970ecdf64bf6def
+    include/openssl/ssl3.h: sha256:3b369538ee125b3a26d8a3ca984f9fcecd027fa845335a30a21262376996724f
+    include/openssl/tls1.h: sha256:56615a8877a7af97a6411a55555664c9589baf907747bedaf03a1d49b8b90cc1
+    ssl/ssl_cipher.cc: sha256:51ab2fb7dbf094233a715bb6ad81e02a69157bd430c8ba04ea0a35fc0d10b271
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20260713.0
+  ref: 0.20260713.0
+  commit: 8b43ff0f72137b31b23d482f0b2344186d797b03
+  files:
+    include/openssl/ssl.h: sha256:5431a6e9b3bc6e69d11d5373dfe03b817f4590633d2de47b1ba166ffb7535cfc
+    include/openssl/ssl3.h: sha256:3b369538ee125b3a26d8a3ca984f9fcecd027fa845335a30a21262376996724f
+    include/openssl/tls1.h: sha256:56615a8877a7af97a6411a55555664c9589baf907747bedaf03a1d49b8b90cc1
+    ssl/ssl_cipher.cc: sha256:51ab2fb7dbf094233a715bb6ad81e02a69157bd430c8ba04ea0a35fc0d10b271
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20260728.0
+  ref: 0.20260728.0
+  commit: f1f2556a5dfa59e147d9d47279cc3f7f8a18b433
+  files:
+    include/openssl/ssl.h: sha256:50cbc897a6ab5ef7fedc07b4dc1ad62af3fa5e878bdbfdd210235a66d9370983
+    include/openssl/ssl3.h: sha256:3b369538ee125b3a26d8a3ca984f9fcecd027fa845335a30a21262376996724f
+    include/openssl/tls1.h: sha256:56615a8877a7af97a6411a55555664c9589baf907747bedaf03a1d49b8b90cc1
+    ssl/ssl_cipher.cc: sha256:51ab2fb7dbf094233a715bb6ad81e02a69157bd430c8ba04ea0a35fc0d10b271
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20260730.0
+  ref: 0.20260730.0
+  commit: fd490c05de684d4cf135388023acf9aabb4e54f1
+  files:
+    include/openssl/ssl.h: sha256:50cbc897a6ab5ef7fedc07b4dc1ad62af3fa5e878bdbfdd210235a66d9370983
+    include/openssl/ssl3.h: sha256:3b369538ee125b3a26d8a3ca984f9fcecd027fa845335a30a21262376996724f
+    include/openssl/tls1.h: sha256:56615a8877a7af97a6411a55555664c9589baf907747bedaf03a1d49b8b90cc1
+    ssl/ssl_cipher.cc: sha256:51ab2fb7dbf094233a715bb6ad81e02a69157bd430c8ba04ea0a35fc0d10b271
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20260803.0
+  ref: 0.20260803.0
+  commit: 30a26e970e14f9d943e3961de49bee5cc7e032d3
+  files:
+    include/openssl/ssl.h: sha256:30aa3bdd14d4773f0c3042948f7126949c8903baba9f2c0310f82e2501ab03e4
+    include/openssl/ssl3.h: sha256:3b369538ee125b3a26d8a3ca984f9fcecd027fa845335a30a21262376996724f
+    include/openssl/tls1.h: sha256:56615a8877a7af97a6411a55555664c9589baf907747bedaf03a1d49b8b90cc1
+    ssl/ssl_cipher.cc: sha256:51ab2fb7dbf094233a715bb6ad81e02a69157bd430c8ba04ea0a35fc0d10b271
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20260813.0
+  ref: 0.20260813.0
+  commit: 7c1efd8d6ffb36a57feba44e8c73cf674801f3cb
+  files:
+    include/openssl/ssl.h: sha256:b324c4df1709f220794f60f6f32cbf9203f6c12245403ddf51beb13ea18ee715
+    include/openssl/ssl3.h: sha256:3b369538ee125b3a26d8a3ca984f9fcecd027fa845335a30a21262376996724f
+    include/openssl/tls1.h: sha256:56615a8877a7af97a6411a55555664c9589baf907747bedaf03a1d49b8b90cc1
+    ssl/ssl_cipher.cc: sha256:51ab2fb7dbf094233a715bb6ad81e02a69157bd430c8ba04ea0a35fc0d10b271
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20260903.0
+  ref: 0.20260903.0
+  commit: 0ce57bbf06a35864fa39e3b9346d41e833683383
+  files:
+    include/openssl/ssl.h: sha256:be93a9bacb130b9583ca4f3e7d7cf0c2fc21a210c8bb1853f644111801f4d87a
+    include/openssl/ssl3.h: sha256:3b369538ee125b3a26d8a3ca984f9fcecd027fa845335a30a21262376996724f
+    include/openssl/tls1.h: sha256:56615a8877a7af97a6411a55555664c9589baf907747bedaf03a1d49b8b90cc1
+    ssl/ssl_cipher.cc: sha256:0210ddcaadd37a700148a05499e7397073bd1bf88e8a2ec1bca581b71695d39b
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20260929.0
+  ref: 0.20260929.0
+  commit: 427ec40cc8edc545253289232e885708c409e5ea
+  files:
+    include/openssl/ssl.h: sha256:098348d721326d2895494579407346f3dc6ad298475e0099e6ef24d8e9d1b723
+    include/openssl/ssl3.h: sha256:3b369538ee125b3a26d8a3ca984f9fcecd027fa845335a30a21262376996724f
+    include/openssl/tls1.h: sha256:56615a8877a7af97a6411a55555664c9589baf907747bedaf03a1d49b8b90cc1
+    ssl/ssl_cipher.cc: sha256:767ceee38bb7781c26996afeaf7c363ac0509b49c75108cb6b5d6a96d4f70e18
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20261020.0
+  ref: 0.20261020.0
+  commit: d3bf4795ad5b79d646cddf2fec687da5b9b502db
+  files:
+    include/openssl/ssl.h: sha256:15a59d092b55c7b6e7a85ca209dd4dd5ff5d651efef1af421fecdfdc7f204d5c
+    include/openssl/ssl3.h: sha256:3b369538ee125b3a26d8a3ca984f9fcecd027fa845335a30a21262376996724f
+    include/openssl/tls1.h: sha256:56615a8877a7af97a6411a55555664c9589baf907747bedaf03a1d49b8b90cc1
+    ssl/ssl_cipher.cc: sha256:255d900365fcf672e25c21403ee351737de020a5a8bb612030e31649fc0e7e73
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: 0.20261105.0
+  ref: 0.20261105.0
+  commit: 3dc4b63808921e914a3fb1fa61869abc3938781b
+  files:
+    include/openssl/ssl.h: sha256:00a4b1a695f0d16801739f14168f4b847885eb20cee75559b762b2d029d88ae8
+    include/openssl/ssl3.h: sha256:3b369538ee125b3a26d8a3ca984f9fcecd027fa845335a30a21262376996724f
+    include/openssl/tls1.h: sha256:56615a8877a7af97a6411a55555664c9589baf907747bedaf03a1d49b8b90cc1
+    ssl/ssl_cipher.cc: sha256:255d900365fcf672e25c21403ee351737de020a5a8bb612030e31649fc0e7e73
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2026-11-08'
+  ref: 0131ae9d78e42fcc2c1811315e62410ad96d8230
+  commit: 0131ae9d78e42fcc2c1811315e62410ad96d8230
+  files:
+    include/openssl/ssl.h: sha256:00a4b1a695f0d16801739f14168f4b847885eb20cee75559b762b2d029d88ae8
+    include/openssl/ssl3.h: sha256:3b369538ee125b3a26d8a3ca984f9fcecd027fa845335a30a21262376996724f
+    include/openssl/tls1.h: sha256:56615a8877a7af97a6411a55555664c9589baf907747bedaf03a1d49b8b90cc1
+    ssl/ssl_cipher.cc: sha256:255d900365fcf672e25c21403ee351737de020a5a8bb612030e31649fc0e7e73
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
+  status: ok
+  last_error: null
+  accepted: null
 suites:
+- code_point:
+  - '0x00'
+  - '0x02'
+  names:
+  - name: NULL-SHA
+    versions:
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
+- code_point:
+  - '0x00'
+  - '0x04'
+  names:
+  - name: RC4-MD5
+    versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+- code_point:
+  - '0x00'
+  - '0x05'
+  names:
+  - name: RC4-SHA
+    versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
 - code_point:
   - '0x00'
   - '0x0A'
   names:
   - name: DES-CBC3-SHA
     versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
+    - '2023-04-24'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x18'
+  names:
+  - name: ADH-RC4-MD5
+    versions:
+    - '2014-09-15'
 - code_point:
   - '0x00'
   - '0x2F'
   names:
   - name: AES128-SHA
     versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
+    - '2023-04-24'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x33'
+  names:
+  - name: DHE-RSA-AES128-SHA
+    versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+- code_point:
+  - '0x00'
+  - '0x34'
+  names:
+  - name: ADH-AES128-SHA
+    versions:
+    - '2014-09-15'
 - code_point:
   - '0x00'
   - '0x35'
   names:
   - name: AES256-SHA
     versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
+    - '2023-04-24'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x39'
+  names:
+  - name: DHE-RSA-AES256-SHA
+    versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+- code_point:
+  - '0x00'
+  - '0x3A'
+  names:
+  - name: ADH-AES256-SHA
+    versions:
+    - '2014-09-15'
+- code_point:
+  - '0x00'
+  - '0x3C'
+  names:
+  - name: AES128-SHA256
+    versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+- code_point:
+  - '0x00'
+  - '0x3D'
+  names:
+  - name: AES256-SHA256
+    versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+- code_point:
+  - '0x00'
+  - '0x67'
+  names:
+  - name: DHE-RSA-AES128-SHA256
+    versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+- code_point:
+  - '0x00'
+  - '0x6B'
+  names:
+  - name: DHE-RSA-AES256-SHA256
+    versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+- code_point:
+  - '0x00'
+  - '0x6C'
+  names:
+  - name: ADH-AES128-SHA256
+    versions:
+    - '2014-09-15'
+- code_point:
+  - '0x00'
+  - '0x6D'
+  names:
+  - name: ADH-AES256-SHA256
+    versions:
+    - '2014-09-15'
+- code_point:
+  - '0x00'
+  - '0x8A'
+  names:
+  - name: PSK-RC4-SHA
+    versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
 - code_point:
   - '0x00'
   - '0x8C'
   names:
   - name: PSK-AES128-CBC-SHA
     versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
+    - '2023-04-24'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
 - code_point:
   - '0x00'
@@ -50,6 +1037,55 @@ suites:
   names:
   - name: PSK-AES256-CBC-SHA
     versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
+    - '2023-04-24'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
 - code_point:
   - '0x00'
@@ -57,6 +1093,55 @@ suites:
   names:
   - name: AES128-GCM-SHA256
     versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
+    - '2023-04-24'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
 - code_point:
   - '0x00'
@@ -64,48 +1149,474 @@ suites:
   names:
   - name: AES256-GCM-SHA384
     versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
+    - '2023-04-24'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x9E'
+  names:
+  - name: DHE-RSA-AES128-GCM-SHA256
+    versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+- code_point:
+  - '0x00'
+  - '0x9F'
+  names:
+  - name: DHE-RSA-AES256-GCM-SHA384
+    versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+- code_point:
+  - '0x00'
+  - '0xA6'
+  names:
+  - name: ADH-AES128-GCM-SHA256
+    versions:
+    - '2014-09-15'
+- code_point:
+  - '0x00'
+  - '0xA7'
+  names:
+  - name: ADH-AES256-GCM-SHA384
+    versions:
+    - '2014-09-15'
 - code_point:
   - '0x00'
   - '0xFF'
   names:
   - name: TLS_EMPTY_RENEGOTIATION_INFO_SCSV
     versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
+    - '2023-04-24'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
 - code_point:
   - '0x13'
   - '0x01'
   names:
+  - name: AEAD-AES128-GCM-SHA256
+    versions:
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
   - name: TLS_AES_128_GCM_SHA256
     versions:
+    - '2023-04-24'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
 - code_point:
   - '0x13'
   - '0x02'
   names:
+  - name: AEAD-AES256-GCM-SHA384
+    versions:
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
   - name: TLS_AES_256_GCM_SHA384
     versions:
+    - '2023-04-24'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
 - code_point:
   - '0x13'
   - '0x03'
   names:
+  - name: AEAD-CHACHA20-POLY1305-SHA256
+    versions:
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
   - name: TLS_CHACHA20_POLY1305_SHA256
     versions:
+    - '2023-04-24'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
+- code_point:
+  - '0x16'
+  - '0xB7'
+  names:
+  - name: CECPQ1-RSA-CHACHA20-POLY1305-SHA256
+    versions:
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+- code_point:
+  - '0x16'
+  - '0xB8'
+  names:
+  - name: CECPQ1-ECDSA-CHACHA20-POLY1305-SHA256
+    versions:
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+- code_point:
+  - '0x16'
+  - '0xB9'
+  names:
+  - name: CECPQ1-RSA-AES256-GCM-SHA384
+    versions:
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+- code_point:
+  - '0x16'
+  - '0xBA'
+  names:
+  - name: CECPQ1-ECDSA-AES256-GCM-SHA384
+    versions:
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
 - code_point:
   - '0x56'
   - '0x00'
   names:
   - name: TLS_FALLBACK_SCSV
     versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
+    - '2023-04-24'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x07'
+  names:
+  - name: ECDHE-ECDSA-RC4-SHA
+    versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
 - code_point:
   - '0xC0'
   - '0x09'
   names:
   - name: ECDHE-ECDSA-AES128-SHA
     versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
+    - '2023-04-24'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
 - code_point:
   - '0xC0'
@@ -113,13 +1624,125 @@ suites:
   names:
   - name: ECDHE-ECDSA-AES256-SHA
     versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
+    - '2023-04-24'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x11'
+  names:
+  - name: ECDHE-RSA-RC4-SHA
+    versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
 - code_point:
   - '0xC0'
   - '0x13'
   names:
   - name: ECDHE-RSA-AES128-SHA
     versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
+    - '2023-04-24'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
 - code_point:
   - '0xC0'
@@ -127,27 +1750,261 @@ suites:
   names:
   - name: ECDHE-RSA-AES256-SHA
     versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
+    - '2023-04-24'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x16'
+  names:
+  - name: AECDH-RC4-SHA
+    versions:
+    - '2014-09-15'
+- code_point:
+  - '0xC0'
+  - '0x18'
+  names:
+  - name: AECDH-AES128-SHA
+    versions:
+    - '2014-09-15'
+- code_point:
+  - '0xC0'
+  - '0x19'
+  names:
+  - name: AECDH-AES256-SHA
+    versions:
+    - '2014-09-15'
 - code_point:
   - '0xC0'
   - '0x23'
   names:
   - name: ECDHE-ECDSA-AES128-SHA256
     versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x24'
+  names:
+  - name: ECDHE-ECDSA-AES256-SHA384
+    versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
 - code_point:
   - '0xC0'
   - '0x27'
   names:
   - name: ECDHE-RSA-AES128-SHA256
     versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x28'
+  names:
+  - name: ECDHE-RSA-AES256-SHA384
+    versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
 - code_point:
   - '0xC0'
   - '0x2B'
   names:
   - name: ECDHE-ECDSA-AES128-GCM-SHA256
     versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
+    - '2023-04-24'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
 - code_point:
   - '0xC0'
@@ -155,6 +2012,55 @@ suites:
   names:
   - name: ECDHE-ECDSA-AES256-GCM-SHA384
     versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
+    - '2023-04-24'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
 - code_point:
   - '0xC0'
@@ -162,6 +2068,55 @@ suites:
   names:
   - name: ECDHE-RSA-AES128-GCM-SHA256
     versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
+    - '2023-04-24'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
 - code_point:
   - '0xC0'
@@ -169,6 +2124,55 @@ suites:
   names:
   - name: ECDHE-RSA-AES256-GCM-SHA384
     versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
+    - '2023-04-24'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
 - code_point:
   - '0xC0'
@@ -176,6 +2180,53 @@ suites:
   names:
   - name: ECDHE-PSK-AES128-CBC-SHA
     versions:
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
+    - '2023-04-24'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
 - code_point:
   - '0xC0'
@@ -183,13 +2234,155 @@ suites:
   names:
   - name: ECDHE-PSK-AES256-CBC-SHA
     versions:
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
+    - '2023-04-24'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
+- code_point:
+  - '0xCA'
+  - '0xFE'
+  names:
+  - name: ECDHE-PSK-WITH-AES-128-GCM-SHA256
+    versions:
+    - '2014-09-15'
+    - '2015-04-08'
+- code_point:
+  - '0xCC'
+  - '0x13'
+  names:
+  - name: ECDHE-RSA-CHACHA20-POLY1305
+    versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+- code_point:
+  - '0xCC'
+  - '0x14'
+  names:
+  - name: ECDHE-ECDSA-CHACHA20-POLY1305
+    versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
+    - '2015-08-24'
+    - '2015-09-11'
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+- code_point:
+  - '0xCC'
+  - '0x15'
+  names:
+  - name: DHE-RSA-CHACHA20-POLY1305
+    versions:
+    - '2014-09-15'
+    - '2015-04-08'
+    - '2015-06-09'
 - code_point:
   - '0xCC'
   - '0xA8'
   names:
   - name: ECDHE-RSA-CHACHA20-POLY1305
     versions:
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
+    - '2023-04-24'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
 - code_point:
   - '0xCC'
@@ -197,6 +2390,50 @@ suites:
   names:
   - name: ECDHE-ECDSA-CHACHA20-POLY1305
     versions:
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
+    - '2023-04-24'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
 - code_point:
   - '0xCC'
@@ -204,4 +2441,64 @@ suites:
   names:
   - name: ECDHE-PSK-CHACHA20-POLY1305
     versions:
+    - '2015-12-16'
+    - '2016-05-26'
+    - '2016-06-02'
+    - '2016-08-26'
+    - '2016-10-06'
+    - '2016-12-09'
+    - '2017-01-19'
+    - '2017-03-21'
+    - '2018-05-02'
+    - '2023-04-24'
+    - '2023-05-05'
+    - 0.20240913.0
+    - 0.20240930.0
+    - 0.20241024.0
+    - 0.20241203.0
+    - 0.20241209.0
+    - 0.20250114.0
+    - 0.20250212.0
+    - 0.20250311.0
+    - 0.20250415.0
+    - 0.20250514.0
+    - 0.20250701.0
+    - 0.20250807.0
+    - 0.20250818.0
+    - 0.20251002.0
+    - 0.20251110.0
+    - 0.20251124.0
+    - '2026-01-07'
+    - 0.20260204.0
+    - 0.20260211.0
+    - 0.20260327.0
+    - 0.20260413.0
+    - 0.20260508.0
+    - 0.20260526.0
+    - 0.20260616.0
+    - 0.20260713.0
+    - 0.20260728.0
+    - 0.20260730.0
+    - 0.20260803.0
+    - 0.20260813.0
+    - 0.20260903.0
+    - 0.20260929.0
+    - 0.20261020.0
+    - 0.20261105.0
     - '2026-11-08'
+- code_point:
+  - '0xD0'
+  - '0x01'
+  names:
+  - name: ECDHE-PSK-AES128-GCM-SHA256
+    versions:
+    - '2016-06-02'
+    - '2016-08-26'
+- code_point:
+  - '0xD0'
+  - '0x02'
+  names:
+  - name: ECDHE-PSK-AES256-GCM-SHA384
+    versions:
+    - '2016-06-02'
+    - '2016-08-26'

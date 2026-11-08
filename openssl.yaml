@@ -10,7 +10,7 @@ versions:
     ssl/ssl2.h: sha256:24545defcf34747785260dbd8c4e60ee411a74b56239c7c4fe6924bba7c2aa05
     ssl/ssl3.h: sha256:c308262241dedee802511b35abb3aa1085952f5323c54d1988b5914a43092e39
     ssl/tls1.h: sha256:0f950bcbde92dcde6eddefe9d31b3f338e8c5e4991c6eacf0aa9b56361fc928c
-  scraped_at: '2026-11-08T14:37:00.907523+00:00'
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -20,7 +20,7 @@ versions:
   files:
     include/openssl/ssl3.h: sha256:6212338892a0a604b70c3dd5e72b7526de9f9822e918f1ad3a13af228fd0f8f1
     include/openssl/tls1.h: sha256:85d5e104c7a5894e8ac9ed9575a62903f5c8aae6f57ace5473542145a3adb2f8
-  scraped_at: '2026-11-08T14:37:00.907523+00:00'
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -30,7 +30,7 @@ versions:
   files:
     include/openssl/ssl3.h: sha256:d04cfec2a9f9da2aa299f55884215e200b490a6e0a9423255262648bd8a6d1c0
     include/openssl/tls1.h: sha256:d4104ca8720332b9852f4725d4660a6cf77a52b587e7d96ec263e996c1d0ae2f
-  scraped_at: '2026-11-08T14:37:00.907523+00:00'
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -40,7 +40,7 @@ versions:
   files:
     include/openssl/ssl3.h: sha256:c7410471dbadcf7c8e44964c611b57a19c1ea05d101d2048a8f58a9ba8c9f7dd
     include/openssl/tls1.h: sha256:7300f466d4100933b3a78115a7aa3957e4c66f8f68f5d5111381b8c7b1202831
-  scraped_at: '2026-11-08T14:37:00.907523+00:00'
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -50,7 +50,7 @@ versions:
   files:
     include/openssl/ssl3.h: sha256:5ce26c99d8a0fffe062a4293f01f6d55619b4e1b8f75bf0065fb3faa2ac512e9
     include/openssl/tls1.h: sha256:1e8dc0a669d9dc28a7f390e1020dfd9484be15e5c069de9379fea02834c73e7d
-  scraped_at: '2026-11-08T14:37:00.907523+00:00'
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -60,7 +60,7 @@ versions:
   files:
     include/openssl/ssl3.h: sha256:f901dfcb95371c404b9e8b67d36ef2413a915447bd306e0f96237c97867a6146
     include/openssl/tls1.h: sha256:1c04c472806bb5ab06392b47c9b84f96f0510f4380479a5ec5133aa473abd43d
-  scraped_at: '2026-11-08T14:37:00.907523+00:00'
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -70,7 +70,7 @@ versions:
   files:
     include/openssl/ssl3.h: sha256:90f8d89b6ee24147b3584c3ba3832afa8968f73818300b2a47e1f6d9fb63ace6
     include/openssl/tls1.h: sha256:2bb8473cf999e308e1d356a91136f12ade2eee29307f7731ab4536261c708c59
-  scraped_at: '2026-11-08T14:37:00.907523+00:00'
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -80,7 +80,7 @@ versions:
   files:
     include/openssl/ssl3.h: sha256:90f8d89b6ee24147b3584c3ba3832afa8968f73818300b2a47e1f6d9fb63ace6
     include/openssl/tls1.h: sha256:f075f51b48cdc3503e40b8f81fb2b760ba2d4f315d2844759d9089ffb10613dc
-  scraped_at: '2026-11-08T14:37:00.907523+00:00'
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -90,7 +90,7 @@ versions:
   files:
     include/openssl/ssl3.h: sha256:f98e0eb1702bf99614e92e2d09f1af5b59309e156441e40ab711df7d661536aa
     include/openssl/tls1.h: sha256:f075f51b48cdc3503e40b8f81fb2b760ba2d4f315d2844759d9089ffb10613dc
-  scraped_at: '2026-11-08T14:37:00.907523+00:00'
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -100,7 +100,7 @@ versions:
   files:
     include/openssl/ssl3.h: sha256:f98e0eb1702bf99614e92e2d09f1af5b59309e156441e40ab711df7d661536aa
     include/openssl/tls1.h: sha256:d34b3d17f1aedf83a072240cb81c6ae0927826f0200bc9e56926897e9b943d48
-  scraped_at: '2026-11-08T14:37:00.907523+00:00'
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -110,7 +110,7 @@ versions:
   files:
     include/openssl/ssl3.h: sha256:f98e0eb1702bf99614e92e2d09f1af5b59309e156441e40ab711df7d661536aa
     include/openssl/tls1.h: sha256:1e507f22a8a4f6a5357008b54e1fabac1b04b810cc151648f7918d5e23e72df1
-  scraped_at: '2026-11-08T14:37:00.907523+00:00'
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -120,12 +120,10 @@ versions:
   files:
     include/openssl/ssl3.h: sha256:402b8a9a1407ee1f452267067200cef146eb3f7bebeb60a727e4d49023359256
     include/openssl/tls1.h: sha256:150270a2aa639f3a334f437b69405ca0a6ce9f0d484d711015b37f1b7994112a
-  scraped_at: '2026-11-08T14:37:00.907523+00:00'
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
   status: ok
   last_error: null
-  accepted:
-    reason: 'First v2 scrape; newest-line removals are upstream, verified 2026-11-08: boringssl HEAD pruned legacy suites from ssl3.h/tls1.h (151 at 5584ad8c -> 25 at 0131ae9d); mbedtls 4.2 removed RSA key-exchange suites (all 53 present in <=4.1); openssl 4.x dropped SSLv2/export/Kerberos/FORTEZZA defines (all 34 present in older lines); s2n removed Kyber 0xFF0C between v1.5.14 and v1.5.20 (present <=1.6); Windows Server 2025 lists no SSLv2 codes (present in older Windows entries).'
-    at: '2026-11-08T14:37:00.907523+00:00'
+  accepted: null
 suites:
 - code_point:
   - '0x00'

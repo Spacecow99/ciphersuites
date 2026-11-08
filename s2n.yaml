@@ -9,7 +9,7 @@ versions:
   files:
     tls/s2n_cipher_suites.c: sha256:e717856ac526660aa42d6a0d9e828ad33be2ca505b45aad8b8a5beb5a71deefd
     tls/s2n_tls_parameters.h: sha256:016392579781514e7ebe8b9d1ed6bd90f9f7917dcda62d74286712c7fc74c845
-  scraped_at: '2026-11-08T14:37:00.907523+00:00'
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -19,7 +19,7 @@ versions:
   files:
     tls/s2n_cipher_suites.c: sha256:e717856ac526660aa42d6a0d9e828ad33be2ca505b45aad8b8a5beb5a71deefd
     tls/s2n_tls_parameters.h: sha256:d2e90e78bf6690150de80141c259b1317bf41f7ae290eea134e9a0a12e39284d
-  scraped_at: '2026-11-08T14:37:00.907523+00:00'
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -29,7 +29,7 @@ versions:
   files:
     tls/s2n_cipher_suites.c: sha256:e717856ac526660aa42d6a0d9e828ad33be2ca505b45aad8b8a5beb5a71deefd
     tls/s2n_tls_parameters.h: sha256:016392579781514e7ebe8b9d1ed6bd90f9f7917dcda62d74286712c7fc74c845
-  scraped_at: '2026-11-08T14:37:00.907523+00:00'
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -39,7 +39,7 @@ versions:
   files:
     tls/s2n_cipher_suites.c: sha256:d187d68ada338a23ebf53804fd398204cac9c05c2425d65ec4077600ba1f55ca
     tls/s2n_tls_parameters.h: sha256:fa977ba27e78bdcfacb47c5ad8d931eee05cca73085712810f2e10a18f3c9227
-  scraped_at: '2026-11-08T14:37:00.907523+00:00'
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -49,7 +49,7 @@ versions:
   files:
     tls/s2n_cipher_suites.c: sha256:dcdda2cb54a211b866e9c7d9f28a58f7ce5bc8f9fdf063bfdf13593ce8816f49
     tls/s2n_tls_parameters.h: sha256:bc99d948b6951ef52bb2bbf9e1a30c78faeffab1ffa99e64370477211a8522e7
-  scraped_at: '2026-11-08T14:37:00.907523+00:00'
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -59,7 +59,7 @@ versions:
   files:
     tls/s2n_cipher_suites.c: sha256:91aa92527eee34d81175ada6e4b6237ae654787950c36af23e4bd51e45cec4ea
     tls/s2n_tls_parameters.h: sha256:bd75a347e46aa1984d730aaed5338ace2f109e610c3516f92be2504d9838a74c
-  scraped_at: '2026-11-08T14:37:00.907523+00:00'
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -69,7 +69,7 @@ versions:
   files:
     tls/s2n_cipher_suites.c: sha256:91aa92527eee34d81175ada6e4b6237ae654787950c36af23e4bd51e45cec4ea
     tls/s2n_tls_parameters.h: sha256:bd75a347e46aa1984d730aaed5338ace2f109e610c3516f92be2504d9838a74c
-  scraped_at: '2026-11-08T14:37:00.907523+00:00'
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -79,12 +79,10 @@ versions:
   files:
     tls/s2n_cipher_suites.c: sha256:b6f7f1d86f395bbe2074d4891ce4d56a904801bf480f73ba50b4293d62f87ce3
     tls/s2n_tls_parameters.h: sha256:9741a3069ac4661c0f4b6e21264ac9c8a862bcae81160d739f55b08ac0283acd
-  scraped_at: '2026-11-08T14:37:00.907523+00:00'
+  scraped_at: '2026-11-08T20:13:39.994434+00:00'
   status: ok
   last_error: null
-  accepted:
-    reason: 'First v2 scrape; newest-line removals are upstream, verified 2026-11-08: boringssl HEAD pruned legacy suites from ssl3.h/tls1.h (151 at 5584ad8c -> 25 at 0131ae9d); mbedtls 4.2 removed RSA key-exchange suites (all 53 present in <=4.1); openssl 4.x dropped SSLv2/export/Kerberos/FORTEZZA defines (all 34 present in older lines); s2n removed Kyber 0xFF0C between v1.5.14 and v1.5.20 (present <=1.6); Windows Server 2025 lists no SSLv2 codes (present in older Windows entries).'
-    at: '2026-11-08T14:37:00.907523+00:00'
+  accepted: null
 suites:
 - code_point:
   - '0x00'
