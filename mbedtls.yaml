@@ -1,381 +1,5754 @@
-- model: mbedtls
-  pk: TLS-PSK-WITH-NULL-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x2C'
-- model: mbedtls
-  pk: TLS-PSK-WITH-AES-128-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x8C'
-- model: mbedtls
-  pk: TLS-PSK-WITH-AES-256-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x8D'
-- model: mbedtls
-  pk: TLS-PSK-WITH-AES-128-GCM-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA8'
-- model: mbedtls
-  pk: TLS-PSK-WITH-AES-256-GCM-SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA9'
-- model: mbedtls
-  pk: TLS-PSK-WITH-AES-128-CBC-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xAE'
-- model: mbedtls
-  pk: TLS-PSK-WITH-AES-256-CBC-SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xAF'
-- model: mbedtls
-  pk: TLS-PSK-WITH-NULL-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xB0'
-- model: mbedtls
-  pk: TLS-PSK-WITH-NULL-SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xB1'
-- model: mbedtls
-  pk: TLS-ECDHE-ECDSA-WITH-NULL-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x06'
-- model: mbedtls
-  pk: TLS-ECDHE-ECDSA-WITH-AES-128-CBC-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x09'
-- model: mbedtls
-  pk: TLS-ECDHE-ECDSA-WITH-AES-256-CBC-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0A'
-- model: mbedtls
-  pk: TLS-ECDHE-RSA-WITH-NULL-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x10'
-- model: mbedtls
-  pk: TLS-ECDHE-RSA-WITH-AES-128-CBC-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x13'
-- model: mbedtls
-  pk: TLS-ECDHE-RSA-WITH-AES-256-CBC-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x14'
-- model: mbedtls
-  pk: TLS-ECDHE-ECDSA-WITH-AES-128-CBC-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x23'
-- model: mbedtls
-  pk: TLS-ECDHE-ECDSA-WITH-AES-256-CBC-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x24'
-- model: mbedtls
-  pk: TLS-ECDHE-RSA-WITH-AES-128-CBC-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x27'
-- model: mbedtls
-  pk: TLS-ECDHE-RSA-WITH-AES-256-CBC-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x28'
-- model: mbedtls
-  pk: TLS-ECDHE-ECDSA-WITH-AES-128-GCM-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2B'
-- model: mbedtls
-  pk: TLS-ECDHE-ECDSA-WITH-AES-256-GCM-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2C'
-- model: mbedtls
-  pk: TLS-ECDHE-RSA-WITH-AES-128-GCM-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2F'
-- model: mbedtls
-  pk: TLS-ECDHE-RSA-WITH-AES-256-GCM-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x30'
-- model: mbedtls
-  pk: TLS-ECDHE-PSK-WITH-AES-128-CBC-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x35'
-- model: mbedtls
-  pk: TLS-ECDHE-PSK-WITH-AES-256-CBC-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x36'
-- model: mbedtls
-  pk: TLS-ECDHE-PSK-WITH-AES-128-CBC-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x37'
-- model: mbedtls
-  pk: TLS-ECDHE-PSK-WITH-AES-256-CBC-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x38'
-- model: mbedtls
-  pk: TLS-ECDHE-PSK-WITH-NULL-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x39'
-- model: mbedtls
-  pk: TLS-ECDHE-PSK-WITH-NULL-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x3A'
-- model: mbedtls
-  pk: TLS-ECDHE-PSK-WITH-NULL-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x3B'
-- model: mbedtls
-  pk: TLS-ECDHE-ECDSA-WITH-ARIA-128-CBC-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x48'
-- model: mbedtls
-  pk: TLS-ECDHE-ECDSA-WITH-ARIA-256-CBC-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x49'
-- model: mbedtls
-  pk: TLS-ECDHE-RSA-WITH-ARIA-128-CBC-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x4C'
-- model: mbedtls
-  pk: TLS-ECDHE-RSA-WITH-ARIA-256-CBC-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x4D'
-- model: mbedtls
-  pk: TLS-ECDHE-ECDSA-WITH-ARIA-128-GCM-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x5C'
-- model: mbedtls
-  pk: TLS-ECDHE-ECDSA-WITH-ARIA-256-GCM-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x5D'
-- model: mbedtls
-  pk: TLS-ECDHE-RSA-WITH-ARIA-128-GCM-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x60'
-- model: mbedtls
-  pk: TLS-ECDHE-RSA-WITH-ARIA-256-GCM-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x61'
-- model: mbedtls
-  pk: TLS-PSK-WITH-ARIA-128-CBC-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x64'
-- model: mbedtls
-  pk: TLS-PSK-WITH-ARIA-256-CBC-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x65'
-- model: mbedtls
-  pk: TLS-PSK-WITH-ARIA-128-GCM-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x6A'
-- model: mbedtls
-  pk: TLS-PSK-WITH-ARIA-256-GCM-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x6B'
-- model: mbedtls
-  pk: TLS-ECDHE-PSK-WITH-ARIA-128-CBC-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x70'
-- model: mbedtls
-  pk: TLS-ECDHE-PSK-WITH-ARIA-256-CBC-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x71'
-- model: mbedtls
-  pk: TLS-ECDHE-ECDSA-WITH-CAMELLIA-128-CBC-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x72'
-- model: mbedtls
-  pk: TLS-ECDHE-ECDSA-WITH-CAMELLIA-256-CBC-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x73'
-- model: mbedtls
-  pk: TLS-ECDHE-RSA-WITH-CAMELLIA-128-CBC-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x76'
-- model: mbedtls
-  pk: TLS-ECDHE-RSA-WITH-CAMELLIA-256-CBC-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x77'
-- model: mbedtls
-  pk: TLS-ECDHE-ECDSA-WITH-CAMELLIA-128-GCM-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x86'
-- model: mbedtls
-  pk: TLS-ECDHE-ECDSA-WITH-CAMELLIA-256-GCM-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x87'
-- model: mbedtls
-  pk: TLS-ECDHE-RSA-WITH-CAMELLIA-128-GCM-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x8A'
-- model: mbedtls
-  pk: TLS-ECDHE-RSA-WITH-CAMELLIA-256-GCM-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x8B'
-- model: mbedtls
-  pk: TLS-PSK-WITH-CAMELLIA-128-GCM-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x8E'
-- model: mbedtls
-  pk: TLS-PSK-WITH-CAMELLIA-256-GCM-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x8F'
-- model: mbedtls
-  pk: TLS-PSK-WITH-CAMELLIA-128-CBC-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x94'
-- model: mbedtls
-  pk: TLS-PSK-WITH-CAMELLIA-256-CBC-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x95'
-- model: mbedtls
-  pk: TLS-ECDHE-PSK-WITH-CAMELLIA-128-CBC-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x9A'
-- model: mbedtls
-  pk: TLS-ECDHE-PSK-WITH-CAMELLIA-256-CBC-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x9B'
-- model: mbedtls
-  pk: TLS-PSK-WITH-AES-128-CCM
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xA4'
-- model: mbedtls
-  pk: TLS-PSK-WITH-AES-256-CCM
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xA5'
-- model: mbedtls
-  pk: TLS-PSK-WITH-AES-128-CCM-8
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xA8'
-- model: mbedtls
-  pk: TLS-PSK-WITH-AES-256-CCM-8
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xA9'
-- model: mbedtls
-  pk: TLS-ECDHE-ECDSA-WITH-AES-128-CCM
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xAC'
-- model: mbedtls
-  pk: TLS-ECDHE-ECDSA-WITH-AES-256-CCM
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xAD'
-- model: mbedtls
-  pk: TLS-ECDHE-ECDSA-WITH-AES-128-CCM-8
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xAE'
-- model: mbedtls
-  pk: TLS-ECDHE-ECDSA-WITH-AES-256-CCM-8
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xAF'
-- model: mbedtls
-  pk: TLS-ECJPAKE-WITH-AES-128-CCM-8
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xFF'
-- model: mbedtls
-  pk: TLS-ECDHE-RSA-WITH-CHACHA20-POLY1305-SHA256
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xA8'
-- model: mbedtls
-  pk: TLS-ECDHE-ECDSA-WITH-CHACHA20-POLY1305-SHA256
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xA9'
-- model: mbedtls
-  pk: TLS-PSK-WITH-CHACHA20-POLY1305-SHA256
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xAB'
-- model: mbedtls
-  pk: TLS-ECDHE-PSK-WITH-CHACHA20-POLY1305-SHA256
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xAC'
-- model: mbedtls
-  pk: TLS1-3-AES-128-GCM-SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x01'
-- model: mbedtls
-  pk: TLS1-3-AES-256-GCM-SHA384
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x02'
-- model: mbedtls
-  pk: TLS1-3-CHACHA20-POLY1305-SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x03'
-- model: mbedtls
-  pk: TLS1-3-AES-128-CCM-SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x04'
-- model: mbedtls
-  pk: TLS1-3-AES-128-CCM-8-SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x05'
-
+schema_version: 2
+kind: library
+library: mbedtls
+source: https://github.com/Mbed-TLS/mbedtls
+versions:
+- label: '2.16'
+  ref: v2.16.12
+  commit: cf4667126010c665341f9e50ef691b7ef8294188
+  files:
+    include/mbedtls/ssl_ciphersuites.h: sha256:7b05415e913dda6de714ef6626404837b93b13f33f0bdad2d5b1121b0066dbfd
+    library/ssl_ciphersuites.c: sha256:dbee5c800ee34542ce77291d6eb653c9b1077940e3750eaf81a604e4ef5b1cd9
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2.17'
+  ref: mbedtls-2.17.0
+  commit: 3f8d78411a26e833db18d9fbde0e2f0baeda87f0
+  files:
+    include/mbedtls/ssl_ciphersuites.h: sha256:70a21ed0f89ae8b0a0be01af2b591eb9309bc0902e5f460aa4cb1ee1bcc6efde
+    library/ssl_ciphersuites.c: sha256:dc240aa65c8aeaf31255fbbc80e1c2dff4beac65d1b1cbadbb1896b4facece3d
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2.18'
+  ref: mbedtls-2.18.1
+  commit: ca933c7e0c9e84738b168b6b0feb89af4183a60a
+  files:
+    include/mbedtls/ssl_ciphersuites.h: sha256:70a21ed0f89ae8b0a0be01af2b591eb9309bc0902e5f460aa4cb1ee1bcc6efde
+    library/ssl_ciphersuites.c: sha256:dc240aa65c8aeaf31255fbbc80e1c2dff4beac65d1b1cbadbb1896b4facece3d
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2.19'
+  ref: mbedtls-2.19.1
+  commit: c835672c51652586e815c8723335f17a2641eb9e
+  files:
+    include/mbedtls/ssl_ciphersuites.h: sha256:e0e23c85b33cb2a623fe40d9e89c47e63ae9b469bee387a4549df3f91180ad94
+    library/ssl_ciphersuites.c: sha256:dc240aa65c8aeaf31255fbbc80e1c2dff4beac65d1b1cbadbb1896b4facece3d
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2.20'
+  ref: mbedtls-2.20.0
+  commit: dbcb44202c9b67184a72afd21c7191c17eee352e
+  files:
+    include/mbedtls/ssl_ciphersuites.h: sha256:e0e23c85b33cb2a623fe40d9e89c47e63ae9b469bee387a4549df3f91180ad94
+    library/ssl_ciphersuites.c: sha256:dc240aa65c8aeaf31255fbbc80e1c2dff4beac65d1b1cbadbb1896b4facece3d
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2.21'
+  ref: mbedtls-2.21.0
+  commit: aaabe86ac1f47193f4fc499846a0b3abeae9207b
+  files:
+    include/mbedtls/ssl_ciphersuites.h: sha256:e0e23c85b33cb2a623fe40d9e89c47e63ae9b469bee387a4549df3f91180ad94
+    library/ssl_ciphersuites.c: sha256:dc240aa65c8aeaf31255fbbc80e1c2dff4beac65d1b1cbadbb1896b4facece3d
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2.22'
+  ref: mbedtls-2.22.0
+  commit: ac15f842a5bb8d4cbceb7175c5d7ab50d96173c0
+  files:
+    include/mbedtls/ssl_ciphersuites.h: sha256:147ff9bfe6ce6bde0426d1a05acad8a77de50af37c93bf4e49123151ae593261
+    library/ssl_ciphersuites.c: sha256:03d7443de6b530d94eafecae08f57c57a82e70ed539a851085781372b9fc0d2e
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2.23'
+  ref: v2.23.0
+  commit: 3ede1737dc471199bf8d5d3824ee2545c11a497e
+  files:
+    include/mbedtls/ssl_ciphersuites.h: sha256:147ff9bfe6ce6bde0426d1a05acad8a77de50af37c93bf4e49123151ae593261
+    library/ssl_ciphersuites.c: sha256:03d7443de6b530d94eafecae08f57c57a82e70ed539a851085781372b9fc0d2e
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2.24'
+  ref: v2.24.0
+  commit: 523f0554b6cdc7ace5d360885c3f5bbcc73ec0e8
+  files:
+    include/mbedtls/ssl_ciphersuites.h: sha256:4dc1cbfbb744acd1166a11964f1544cae1470d8983f6504422d98ade974afd0d
+    library/ssl_ciphersuites.c: sha256:b837c1267a6c5c8fbe5c57b789836e782d80cf576f57c880934fb83b0201fe64
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2.25'
+  ref: v2.25.0
+  commit: 1c54b5410fd48d6bcada97e30cac417c5c7eea67
+  files:
+    include/mbedtls/ssl_ciphersuites.h: sha256:4dc1cbfbb744acd1166a11964f1544cae1470d8983f6504422d98ade974afd0d
+    library/ssl_ciphersuites.c: sha256:b837c1267a6c5c8fbe5c57b789836e782d80cf576f57c880934fb83b0201fe64
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2.26'
+  ref: v2.26.0
+  commit: e483a77c85e1f9c1dd2eb1c5a8f552d2617fe400
+  files:
+    include/mbedtls/ssl_ciphersuites.h: sha256:4dc1cbfbb744acd1166a11964f1544cae1470d8983f6504422d98ade974afd0d
+    library/ssl_ciphersuites.c: sha256:b837c1267a6c5c8fbe5c57b789836e782d80cf576f57c880934fb83b0201fe64
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2.27'
+  ref: v2.27.0
+  commit: f71e2878084126737cc39083e1e15afc459bd93d
+  files:
+    include/mbedtls/ssl_ciphersuites.h: sha256:4dc1cbfbb744acd1166a11964f1544cae1470d8983f6504422d98ade974afd0d
+    library/ssl_ciphersuites.c: sha256:7bea044401a45d2b5681de536e0d0b335ee45c442ebdf393d826146aa74b7f0c
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2.28'
+  ref: v2.28.10
+  commit: 2fc8413bfcb51354c8e679141b17b3f1a5942561
+  files:
+    include/mbedtls/ssl_ciphersuites.h: sha256:3dc73651ad65d07500a7689479ab9a0337600f905b31c4ab54a1a2f2a84908a9
+    library/ssl_ciphersuites.c: sha256:89b7cd5658da58afc4df5efd04647c81f3869e5574c35c5e5b32e64b332e9cd6
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '3.0'
+  ref: v3.0.0
+  commit: 8df2f8e7b9c7bb9390ac74bb7bace27edca81a2b
+  files:
+    include/mbedtls/ssl_ciphersuites.h: sha256:8423ed3a1ee75bc7e3367928cf065b95c4fbfff39be442bb12af6458fb6ef00a
+    library/ssl_ciphersuites.c: sha256:b7c5df4fc9d1dade4b2af719436aba3e76dc369f705e4cf3ca26efafbf4d4e69
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '3.1'
+  ref: v3.1.0
+  commit: d65aeb37349ad1a50e0f6c9b694d4b5290d60e49
+  files:
+    include/mbedtls/ssl_ciphersuites.h: sha256:c50838b117c25ef1c28ceb82fe7abaca7e710c3fbfa850d934a53db601b82c49
+    library/ssl_ciphersuites.c: sha256:6d9a97b7285815a884976ae5b1c905ea1ab5287bafe7c5c3d703738a42bb354c
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '3.2'
+  ref: v3.2.1
+  commit: 869298bffeea13b205343361b7a7daf2b210e33d
+  files:
+    include/mbedtls/ssl_ciphersuites.h: sha256:f58dc35ed250df8068bf8cf5a61505725c586d5eaa165dc1089ca8e15e4921bb
+    library/ssl_ciphersuites.c: sha256:a427ebfe3f16fdbbd9f22eacce470f4ac687bce66c676bb5fe38e0224d21c5ed
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '3.3'
+  ref: v3.3.0
+  commit: 8c89224991adff88d53cd380f42a2baa36f91454
+  files:
+    include/mbedtls/ssl_ciphersuites.h: sha256:b37d5f43a041457bfb738d418d961477fcf5505725ca845b13540a7b16f234cd
+    library/ssl_ciphersuites.c: sha256:fc89d475f4bc0d2beb3414d579288ea0c42e8b4dd8d25956da1b846aa8285e8b
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '3.4'
+  ref: v3.4.1
+  commit: 72718dd87e087215ce9155a826ee5a66cfbe9631
+  files:
+    include/mbedtls/ssl_ciphersuites.h: sha256:f1f4877a57a3c3b479d60db61b328feee33d30379d331d1e51fe02bb667c2912
+    library/ssl_ciphersuites.c: sha256:85a3615c60acfcb5fac4787c66d70758058e9d82a051ee9db427e1b9ab800c73
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '3.5'
+  ref: v3.5.2
+  commit: daca7a3979c22da155ec9dce49ab1abf3b65d3a9
+  files:
+    include/mbedtls/ssl_ciphersuites.h: sha256:19ac0e3c8bfd1a2971a0ca16345331014b1905905859171340071dc5fe8cf0a5
+    library/ssl_ciphersuites.c: sha256:d0a55e6a10eb6322131f5adbbe7aeb0052ecabd1b11f6528dc34c5b040d00fd0
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '3.6'
+  ref: v3.6.7
+  commit: 068ff080b369adfac81509f9b57b2afabaf82dc5
+  files:
+    include/mbedtls/ssl_ciphersuites.h: sha256:f7c3136ebd9ab933aa94544880a20c1fb97ff71d320dc47f97ae70023df8270c
+    library/ssl_ciphersuites.c: sha256:c1ea9c74805e037bc1f67eca7aecfcc4e9151bd5dfc944ecbc688c2b0c624ca7
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '4.0'
+  ref: v4.0.0
+  commit: ec4044008d2d069da38288bc76b0fee34ec78646
+  files:
+    include/mbedtls/ssl_ciphersuites.h: sha256:e0f348da7588e10cc4043f418fa8e383deb7dd2a39df9883ae1ea392206c1763
+    library/ssl_ciphersuites.c: sha256:e3880bb9c9818164a22bea625e8560b5709f3ef66afb4c82dae8267d95bb75fe
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '4.1'
+  ref: v4.1.1
+  commit: 0a8fda272a5a0abef3b47c91bed37185d5a726b1
+  files:
+    include/mbedtls/ssl_ciphersuites.h: sha256:693a6310f14df0393cf7dd44c46bc15a5b8010f387d02debec2e84c28b0290bb
+    library/ssl_ciphersuites.c: sha256:b013b5f67cc4f3d1cbc1b937200243dc7de5590ebf3a0cfe353b0349e91a5f0d
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '4.2'
+  ref: v4.2.0
+  commit: ece41aa84d7879d7e55c59e955a5884b541f7f3b
+  files:
+    include/mbedtls/ssl_ciphersuites.h: sha256:693a6310f14df0393cf7dd44c46bc15a5b8010f387d02debec2e84c28b0290bb
+    library/ssl_ciphersuites.c: sha256:b013b5f67cc4f3d1cbc1b937200243dc7de5590ebf3a0cfe353b0349e91a5f0d
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted:
+    reason: 'First v2 scrape; newest-line removals are upstream, verified 2026-11-08: boringssl HEAD pruned legacy suites from ssl3.h/tls1.h (151 at 5584ad8c -> 25 at 0131ae9d); mbedtls 4.2 removed RSA key-exchange suites (all 53 present in <=4.1); openssl 4.x dropped SSLv2/export/Kerberos/FORTEZZA defines (all 34 present in older lines); s2n removed Kyber 0xFF0C between v1.5.14 and v1.5.20 (present <=1.6); Windows Server 2025 lists no SSLv2 codes (present in older Windows entries).'
+    at: '2026-11-08T13:38:55.446080+00:00'
+suites:
+- code_point:
+  - '0x00'
+  - '0x01'
+  names:
+  - name: TLS-RSA-WITH-NULL-MD5
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0x02'
+  names:
+  - name: TLS-RSA-WITH-NULL-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0x04'
+  names:
+  - name: TLS-RSA-WITH-RC4-128-MD5
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+- code_point:
+  - '0x00'
+  - '0x05'
+  names:
+  - name: TLS-RSA-WITH-RC4-128-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+- code_point:
+  - '0x00'
+  - '0x09'
+  names:
+  - name: TLS-RSA-WITH-DES-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+- code_point:
+  - '0x00'
+  - '0x0A'
+  names:
+  - name: TLS-RSA-WITH-3DES-EDE-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+- code_point:
+  - '0x00'
+  - '0x15'
+  names:
+  - name: TLS-DHE-RSA-WITH-DES-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+- code_point:
+  - '0x00'
+  - '0x16'
+  names:
+  - name: TLS-DHE-RSA-WITH-3DES-EDE-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+- code_point:
+  - '0x00'
+  - '0x2C'
+  names:
+  - name: TLS-PSK-WITH-NULL-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0x00'
+  - '0x2D'
+  names:
+  - name: TLS-DHE-PSK-WITH-NULL-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0x2E'
+  names:
+  - name: TLS-RSA-PSK-WITH-NULL-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0x2F'
+  names:
+  - name: TLS-RSA-WITH-AES-128-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0x33'
+  names:
+  - name: TLS-DHE-RSA-WITH-AES-128-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0x35'
+  names:
+  - name: TLS-RSA-WITH-AES-256-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0x39'
+  names:
+  - name: TLS-DHE-RSA-WITH-AES-256-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0x3B'
+  names:
+  - name: TLS-RSA-WITH-NULL-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0x3C'
+  names:
+  - name: TLS-RSA-WITH-AES-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0x3D'
+  names:
+  - name: TLS-RSA-WITH-AES-256-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0x41'
+  names:
+  - name: TLS-RSA-WITH-CAMELLIA-128-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0x45'
+  names:
+  - name: TLS-DHE-RSA-WITH-CAMELLIA-128-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0x67'
+  names:
+  - name: TLS-DHE-RSA-WITH-AES-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0x6B'
+  names:
+  - name: TLS-DHE-RSA-WITH-AES-256-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0x84'
+  names:
+  - name: TLS-RSA-WITH-CAMELLIA-256-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0x88'
+  names:
+  - name: TLS-DHE-RSA-WITH-CAMELLIA-256-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0x8A'
+  names:
+  - name: TLS-PSK-WITH-RC4-128-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+- code_point:
+  - '0x00'
+  - '0x8B'
+  names:
+  - name: TLS-PSK-WITH-3DES-EDE-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+- code_point:
+  - '0x00'
+  - '0x8C'
+  names:
+  - name: TLS-PSK-WITH-AES-128-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0x00'
+  - '0x8D'
+  names:
+  - name: TLS-PSK-WITH-AES-256-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0x00'
+  - '0x8E'
+  names:
+  - name: TLS-DHE-PSK-WITH-RC4-128-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+- code_point:
+  - '0x00'
+  - '0x8F'
+  names:
+  - name: TLS-DHE-PSK-WITH-3DES-EDE-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+- code_point:
+  - '0x00'
+  - '0x90'
+  names:
+  - name: TLS-DHE-PSK-WITH-AES-128-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0x91'
+  names:
+  - name: TLS-DHE-PSK-WITH-AES-256-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0x92'
+  names:
+  - name: TLS-RSA-PSK-WITH-RC4-128-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+- code_point:
+  - '0x00'
+  - '0x93'
+  names:
+  - name: TLS-RSA-PSK-WITH-3DES-EDE-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+- code_point:
+  - '0x00'
+  - '0x94'
+  names:
+  - name: TLS-RSA-PSK-WITH-AES-128-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0x95'
+  names:
+  - name: TLS-RSA-PSK-WITH-AES-256-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0x9C'
+  names:
+  - name: TLS-RSA-WITH-AES-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0x9D'
+  names:
+  - name: TLS-RSA-WITH-AES-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0x9E'
+  names:
+  - name: TLS-DHE-RSA-WITH-AES-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0x9F'
+  names:
+  - name: TLS-DHE-RSA-WITH-AES-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0xA8'
+  names:
+  - name: TLS-PSK-WITH-AES-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0x00'
+  - '0xA9'
+  names:
+  - name: TLS-PSK-WITH-AES-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0x00'
+  - '0xAA'
+  names:
+  - name: TLS-DHE-PSK-WITH-AES-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0xAB'
+  names:
+  - name: TLS-DHE-PSK-WITH-AES-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0xAC'
+  names:
+  - name: TLS-RSA-PSK-WITH-AES-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0xAD'
+  names:
+  - name: TLS-RSA-PSK-WITH-AES-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0xAE'
+  names:
+  - name: TLS-PSK-WITH-AES-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0x00'
+  - '0xAF'
+  names:
+  - name: TLS-PSK-WITH-AES-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0x00'
+  - '0xB0'
+  names:
+  - name: TLS-PSK-WITH-NULL-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0x00'
+  - '0xB1'
+  names:
+  - name: TLS-PSK-WITH-NULL-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0x00'
+  - '0xB2'
+  names:
+  - name: TLS-DHE-PSK-WITH-AES-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0xB3'
+  names:
+  - name: TLS-DHE-PSK-WITH-AES-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0xB4'
+  names:
+  - name: TLS-DHE-PSK-WITH-NULL-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0xB5'
+  names:
+  - name: TLS-DHE-PSK-WITH-NULL-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0xB6'
+  names:
+  - name: TLS-RSA-PSK-WITH-AES-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0xB7'
+  names:
+  - name: TLS-RSA-PSK-WITH-AES-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0xB8'
+  names:
+  - name: TLS-RSA-PSK-WITH-NULL-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0xB9'
+  names:
+  - name: TLS-RSA-PSK-WITH-NULL-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0xBA'
+  names:
+  - name: TLS-RSA-WITH-CAMELLIA-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0xBE'
+  names:
+  - name: TLS-DHE-RSA-WITH-CAMELLIA-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0xC0'
+  names:
+  - name: TLS-RSA-WITH-CAMELLIA-256-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x00'
+  - '0xC4'
+  names:
+  - name: TLS-DHE-RSA-WITH-CAMELLIA-256-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0x13'
+  - '0x01'
+  names:
+  - name: TLS1-3-AES-128-GCM-SHA256
+    versions:
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0x13'
+  - '0x02'
+  names:
+  - name: TLS1-3-AES-256-GCM-SHA384
+    versions:
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0x13'
+  - '0x03'
+  names:
+  - name: TLS1-3-CHACHA20-POLY1305-SHA256
+    versions:
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0x13'
+  - '0x04'
+  names:
+  - name: TLS1-3-AES-128-CCM-SHA256
+    versions:
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0x13'
+  - '0x05'
+  names:
+  - name: TLS1-3-AES-128-CCM-8-SHA256
+    versions:
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x01'
+  names:
+  - name: TLS-ECDH-ECDSA-WITH-NULL-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x02'
+  names:
+  - name: TLS-ECDH-ECDSA-WITH-RC4-128-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+- code_point:
+  - '0xC0'
+  - '0x03'
+  names:
+  - name: TLS-ECDH-ECDSA-WITH-3DES-EDE-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+- code_point:
+  - '0xC0'
+  - '0x04'
+  names:
+  - name: TLS-ECDH-ECDSA-WITH-AES-128-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x05'
+  names:
+  - name: TLS-ECDH-ECDSA-WITH-AES-256-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x06'
+  names:
+  - name: TLS-ECDHE-ECDSA-WITH-NULL-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x07'
+  names:
+  - name: TLS-ECDHE-ECDSA-WITH-RC4-128-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+- code_point:
+  - '0xC0'
+  - '0x08'
+  names:
+  - name: TLS-ECDHE-ECDSA-WITH-3DES-EDE-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+- code_point:
+  - '0xC0'
+  - '0x09'
+  names:
+  - name: TLS-ECDHE-ECDSA-WITH-AES-128-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x0A'
+  names:
+  - name: TLS-ECDHE-ECDSA-WITH-AES-256-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x0B'
+  names:
+  - name: TLS-ECDH-RSA-WITH-NULL-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x0C'
+  names:
+  - name: TLS-ECDH-RSA-WITH-RC4-128-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+- code_point:
+  - '0xC0'
+  - '0x0D'
+  names:
+  - name: TLS-ECDH-RSA-WITH-3DES-EDE-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+- code_point:
+  - '0xC0'
+  - '0x0E'
+  names:
+  - name: TLS-ECDH-RSA-WITH-AES-128-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x0F'
+  names:
+  - name: TLS-ECDH-RSA-WITH-AES-256-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x10'
+  names:
+  - name: TLS-ECDHE-RSA-WITH-NULL-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x11'
+  names:
+  - name: TLS-ECDHE-RSA-WITH-RC4-128-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+- code_point:
+  - '0xC0'
+  - '0x12'
+  names:
+  - name: TLS-ECDHE-RSA-WITH-3DES-EDE-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+- code_point:
+  - '0xC0'
+  - '0x13'
+  names:
+  - name: TLS-ECDHE-RSA-WITH-AES-128-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x14'
+  names:
+  - name: TLS-ECDHE-RSA-WITH-AES-256-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x23'
+  names:
+  - name: TLS-ECDHE-ECDSA-WITH-AES-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x24'
+  names:
+  - name: TLS-ECDHE-ECDSA-WITH-AES-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x25'
+  names:
+  - name: TLS-ECDH-ECDSA-WITH-AES-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x26'
+  names:
+  - name: TLS-ECDH-ECDSA-WITH-AES-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x27'
+  names:
+  - name: TLS-ECDHE-RSA-WITH-AES-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x28'
+  names:
+  - name: TLS-ECDHE-RSA-WITH-AES-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x29'
+  names:
+  - name: TLS-ECDH-RSA-WITH-AES-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x2A'
+  names:
+  - name: TLS-ECDH-RSA-WITH-AES-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x2B'
+  names:
+  - name: TLS-ECDHE-ECDSA-WITH-AES-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x2C'
+  names:
+  - name: TLS-ECDHE-ECDSA-WITH-AES-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x2D'
+  names:
+  - name: TLS-ECDH-ECDSA-WITH-AES-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x2E'
+  names:
+  - name: TLS-ECDH-ECDSA-WITH-AES-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x2F'
+  names:
+  - name: TLS-ECDHE-RSA-WITH-AES-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x30'
+  names:
+  - name: TLS-ECDHE-RSA-WITH-AES-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x31'
+  names:
+  - name: TLS-ECDH-RSA-WITH-AES-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x32'
+  names:
+  - name: TLS-ECDH-RSA-WITH-AES-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x33'
+  names:
+  - name: TLS-ECDHE-PSK-WITH-RC4-128-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+- code_point:
+  - '0xC0'
+  - '0x34'
+  names:
+  - name: TLS-ECDHE-PSK-WITH-3DES-EDE-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+- code_point:
+  - '0xC0'
+  - '0x35'
+  names:
+  - name: TLS-ECDHE-PSK-WITH-AES-128-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x36'
+  names:
+  - name: TLS-ECDHE-PSK-WITH-AES-256-CBC-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x37'
+  names:
+  - name: TLS-ECDHE-PSK-WITH-AES-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x38'
+  names:
+  - name: TLS-ECDHE-PSK-WITH-AES-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x39'
+  names:
+  - name: TLS-ECDHE-PSK-WITH-NULL-SHA
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x3A'
+  names:
+  - name: TLS-ECDHE-PSK-WITH-NULL-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x3B'
+  names:
+  - name: TLS-ECDHE-PSK-WITH-NULL-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x3C'
+  names:
+  - name: TLS-RSA-WITH-ARIA-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x3D'
+  names:
+  - name: TLS-RSA-WITH-ARIA-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x44'
+  names:
+  - name: TLS-DHE-RSA-WITH-ARIA-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x45'
+  names:
+  - name: TLS-DHE-RSA-WITH-ARIA-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x48'
+  names:
+  - name: TLS-ECDHE-ECDSA-WITH-ARIA-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x49'
+  names:
+  - name: TLS-ECDHE-ECDSA-WITH-ARIA-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x4A'
+  names:
+  - name: TLS-ECDH-ECDSA-WITH-ARIA-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x4B'
+  names:
+  - name: TLS-ECDH-ECDSA-WITH-ARIA-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x4C'
+  names:
+  - name: TLS-ECDHE-RSA-WITH-ARIA-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x4D'
+  names:
+  - name: TLS-ECDHE-RSA-WITH-ARIA-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x4E'
+  names:
+  - name: TLS-ECDH-RSA-WITH-ARIA-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x4F'
+  names:
+  - name: TLS-ECDH-RSA-WITH-ARIA-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x50'
+  names:
+  - name: TLS-RSA-WITH-ARIA-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x51'
+  names:
+  - name: TLS-RSA-WITH-ARIA-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x52'
+  names:
+  - name: TLS-DHE-RSA-WITH-ARIA-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x53'
+  names:
+  - name: TLS-DHE-RSA-WITH-ARIA-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x5C'
+  names:
+  - name: TLS-ECDHE-ECDSA-WITH-ARIA-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x5D'
+  names:
+  - name: TLS-ECDHE-ECDSA-WITH-ARIA-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x5E'
+  names:
+  - name: TLS-ECDH-ECDSA-WITH-ARIA-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x5F'
+  names:
+  - name: TLS-ECDH-ECDSA-WITH-ARIA-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x60'
+  names:
+  - name: TLS-ECDHE-RSA-WITH-ARIA-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x61'
+  names:
+  - name: TLS-ECDHE-RSA-WITH-ARIA-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x62'
+  names:
+  - name: TLS-ECDH-RSA-WITH-ARIA-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x63'
+  names:
+  - name: TLS-ECDH-RSA-WITH-ARIA-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x64'
+  names:
+  - name: TLS-PSK-WITH-ARIA-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x65'
+  names:
+  - name: TLS-PSK-WITH-ARIA-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x66'
+  names:
+  - name: TLS-DHE-PSK-WITH-ARIA-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x67'
+  names:
+  - name: TLS-DHE-PSK-WITH-ARIA-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x68'
+  names:
+  - name: TLS-RSA-PSK-WITH-ARIA-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x69'
+  names:
+  - name: TLS-RSA-PSK-WITH-ARIA-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x6A'
+  names:
+  - name: TLS-PSK-WITH-ARIA-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x6B'
+  names:
+  - name: TLS-PSK-WITH-ARIA-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x6C'
+  names:
+  - name: TLS-DHE-PSK-WITH-ARIA-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x6D'
+  names:
+  - name: TLS-DHE-PSK-WITH-ARIA-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x6E'
+  names:
+  - name: TLS-RSA-PSK-WITH-ARIA-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x6F'
+  names:
+  - name: TLS-RSA-PSK-WITH-ARIA-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x70'
+  names:
+  - name: TLS-ECDHE-PSK-WITH-ARIA-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x71'
+  names:
+  - name: TLS-ECDHE-PSK-WITH-ARIA-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x72'
+  names:
+  - name: TLS-ECDHE-ECDSA-WITH-CAMELLIA-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x73'
+  names:
+  - name: TLS-ECDHE-ECDSA-WITH-CAMELLIA-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x74'
+  names:
+  - name: TLS-ECDH-ECDSA-WITH-CAMELLIA-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x75'
+  names:
+  - name: TLS-ECDH-ECDSA-WITH-CAMELLIA-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x76'
+  names:
+  - name: TLS-ECDHE-RSA-WITH-CAMELLIA-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x77'
+  names:
+  - name: TLS-ECDHE-RSA-WITH-CAMELLIA-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x78'
+  names:
+  - name: TLS-ECDH-RSA-WITH-CAMELLIA-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x79'
+  names:
+  - name: TLS-ECDH-RSA-WITH-CAMELLIA-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x7A'
+  names:
+  - name: TLS-RSA-WITH-CAMELLIA-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x7B'
+  names:
+  - name: TLS-RSA-WITH-CAMELLIA-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x7C'
+  names:
+  - name: TLS-DHE-RSA-WITH-CAMELLIA-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x7D'
+  names:
+  - name: TLS-DHE-RSA-WITH-CAMELLIA-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x86'
+  names:
+  - name: TLS-ECDHE-ECDSA-WITH-CAMELLIA-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x87'
+  names:
+  - name: TLS-ECDHE-ECDSA-WITH-CAMELLIA-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x88'
+  names:
+  - name: TLS-ECDH-ECDSA-WITH-CAMELLIA-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x89'
+  names:
+  - name: TLS-ECDH-ECDSA-WITH-CAMELLIA-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x8A'
+  names:
+  - name: TLS-ECDHE-RSA-WITH-CAMELLIA-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x8B'
+  names:
+  - name: TLS-ECDHE-RSA-WITH-CAMELLIA-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x8C'
+  names:
+  - name: TLS-ECDH-RSA-WITH-CAMELLIA-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x8D'
+  names:
+  - name: TLS-ECDH-RSA-WITH-CAMELLIA-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x8E'
+  names:
+  - name: TLS-PSK-WITH-CAMELLIA-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x8F'
+  names:
+  - name: TLS-PSK-WITH-CAMELLIA-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x90'
+  names:
+  - name: TLS-DHE-PSK-WITH-CAMELLIA-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x91'
+  names:
+  - name: TLS-DHE-PSK-WITH-CAMELLIA-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x92'
+  names:
+  - name: TLS-RSA-PSK-WITH-CAMELLIA-128-GCM-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x93'
+  names:
+  - name: TLS-RSA-PSK-WITH-CAMELLIA-256-GCM-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x94'
+  names:
+  - name: TLS-PSK-WITH-CAMELLIA-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x95'
+  names:
+  - name: TLS-PSK-WITH-CAMELLIA-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x96'
+  names:
+  - name: TLS-DHE-PSK-WITH-CAMELLIA-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x97'
+  names:
+  - name: TLS-DHE-PSK-WITH-CAMELLIA-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x98'
+  names:
+  - name: TLS-RSA-PSK-WITH-CAMELLIA-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x99'
+  names:
+  - name: TLS-RSA-PSK-WITH-CAMELLIA-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x9A'
+  names:
+  - name: TLS-ECDHE-PSK-WITH-CAMELLIA-128-CBC-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x9B'
+  names:
+  - name: TLS-ECDHE-PSK-WITH-CAMELLIA-256-CBC-SHA384
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0x9C'
+  names:
+  - name: TLS-RSA-WITH-AES-128-CCM
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x9D'
+  names:
+  - name: TLS-RSA-WITH-AES-256-CCM
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x9E'
+  names:
+  - name: TLS-DHE-RSA-WITH-AES-128-CCM
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0x9F'
+  names:
+  - name: TLS-DHE-RSA-WITH-AES-256-CCM
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0xA0'
+  names:
+  - name: TLS-RSA-WITH-AES-128-CCM-8
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0xA1'
+  names:
+  - name: TLS-RSA-WITH-AES-256-CCM-8
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0xA2'
+  names:
+  - name: TLS-DHE-RSA-WITH-AES-128-CCM-8
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0xA3'
+  names:
+  - name: TLS-DHE-RSA-WITH-AES-256-CCM-8
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0xA4'
+  names:
+  - name: TLS-PSK-WITH-AES-128-CCM
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0xA5'
+  names:
+  - name: TLS-PSK-WITH-AES-256-CCM
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0xA6'
+  names:
+  - name: TLS-DHE-PSK-WITH-AES-128-CCM
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0xA7'
+  names:
+  - name: TLS-DHE-PSK-WITH-AES-256-CCM
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0xA8'
+  names:
+  - name: TLS-PSK-WITH-AES-128-CCM-8
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0xA9'
+  names:
+  - name: TLS-PSK-WITH-AES-256-CCM-8
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0xAA'
+  names:
+  - name: TLS-DHE-PSK-WITH-AES-128-CCM-8
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0xAB'
+  names:
+  - name: TLS-DHE-PSK-WITH-AES-256-CCM-8
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xC0'
+  - '0xAC'
+  names:
+  - name: TLS-ECDHE-ECDSA-WITH-AES-128-CCM
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0xAD'
+  names:
+  - name: TLS-ECDHE-ECDSA-WITH-AES-256-CCM
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0xAE'
+  names:
+  - name: TLS-ECDHE-ECDSA-WITH-AES-128-CCM-8
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0xAF'
+  names:
+  - name: TLS-ECDHE-ECDSA-WITH-AES-256-CCM-8
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xC0'
+  - '0xFF'
+  names:
+  - name: TLS-ECJPAKE-WITH-AES-128-CCM-8
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xCC'
+  - '0xA8'
+  names:
+  - name: TLS-ECDHE-RSA-WITH-CHACHA20-POLY1305-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xCC'
+  - '0xA9'
+  names:
+  - name: TLS-ECDHE-ECDSA-WITH-CHACHA20-POLY1305-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xCC'
+  - '0xAA'
+  names:
+  - name: TLS-DHE-RSA-WITH-CHACHA20-POLY1305-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xCC'
+  - '0xAB'
+  names:
+  - name: TLS-PSK-WITH-CHACHA20-POLY1305-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xCC'
+  - '0xAC'
+  names:
+  - name: TLS-ECDHE-PSK-WITH-CHACHA20-POLY1305-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+- code_point:
+  - '0xCC'
+  - '0xAD'
+  names:
+  - name: TLS-DHE-PSK-WITH-CHACHA20-POLY1305-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+- code_point:
+  - '0xCC'
+  - '0xAE'
+  names:
+  - name: TLS-RSA-PSK-WITH-CHACHA20-POLY1305-SHA256
+    versions:
+    - '2.16'
+    - '2.17'
+    - '2.18'
+    - '2.19'
+    - '2.20'
+    - '2.21'
+    - '2.22'
+    - '2.23'
+    - '2.24'
+    - '2.25'
+    - '2.26'
+    - '2.27'
+    - '2.28'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'

@@ -1,886 +1,6075 @@
-- model: libressl
-  pk: NULL-MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x01'
-- model: libressl
-  pk: NULL-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x02'
-- model: libressl
-  pk: EXP-RC4-MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x03'
-- model: libressl
-  pk: RC4-MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x04'
-- model: libressl
-  pk: RC4-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x05'
-- model: libressl
-  pk: EXP-RC2-CBC-MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x06'
-- model: libressl
-  pk: IDEA-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x07'
-- model: libressl
-  pk: EXP-DES-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x08'
-- model: libressl
-  pk: DES-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x09'
-- model: libressl
-  pk: DES-CBC3-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x0A'
-- model: libressl
-  pk: EXP-DH-DSS-DES-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x0B'
-- model: libressl
-  pk: DH-DSS-DES-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x0C'
-- model: libressl
-  pk: DH-DSS-DES-CBC3-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x0D'
-- model: libressl
-  pk: EXP-DH-RSA-DES-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x0E'
-- model: libressl
-  pk: DH-RSA-DES-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x0F'
-- model: libressl
-  pk: DH-RSA-DES-CBC3-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x10'
-- model: libressl
-  pk: EXP-EDH-DSS-DES-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x11'
-- model: libressl
-  pk: EDH-DSS-DES-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x12'
-- model: libressl
-  pk: EDH-DSS-DES-CBC3-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x13'
-- model: libressl
-  pk: EXP-EDH-RSA-DES-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x14'
-- model: libressl
-  pk: EDH-RSA-DES-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x15'
-- model: libressl
-  pk: EDH-RSA-DES-CBC3-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x16'
-- model: libressl
-  pk: EXP-ADH-RC4-MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x17'
-- model: libressl
-  pk: ADH-RC4-MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x18'
-- model: libressl
-  pk: EXP-ADH-DES-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x19'
-- model: libressl
-  pk: ADH-DES-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x1A'
-- model: libressl
-  pk: ADH-DES-CBC3-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x1B'
-- model: libressl
-  pk: KRB5-DES-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x1E'
-- model: libressl
-  pk: KRB5-DES-CBC3-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x1F'
-- model: libressl
-  pk: KRB5-RC4-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x20'
-- model: libressl
-  pk: KRB5-IDEA-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x21'
-- model: libressl
-  pk: KRB5-DES-CBC-MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x22'
-- model: libressl
-  pk: KRB5-DES-CBC3-MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x23'
-- model: libressl
-  pk: KRB5-RC4-MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x24'
-- model: libressl
-  pk: KRB5-IDEA-CBC-MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x25'
-- model: libressl
-  pk: EXP-KRB5-DES-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x26'
-- model: libressl
-  pk: EXP-KRB5-RC2-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x27'
-- model: libressl
-  pk: EXP-KRB5-RC4-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x28'
-- model: libressl
-  pk: EXP-KRB5-DES-CBC-MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x29'
-- model: libressl
-  pk: EXP-KRB5-RC2-CBC-MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x2A'
-- model: libressl
-  pk: EXP-KRB5-RC4-MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x2B'
-- model: libressl
-  pk: PSK-RC4-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x8A'
-- model: libressl
-  pk: PSK-3DES-EDE-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x8B'
-- model: libressl
-  pk: PSK-AES128-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x8C'
-- model: libressl
-  pk: PSK-AES256-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x8D'
-- model: libressl
-  pk: EXP1024-RC4-MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x60'
-- model: libressl
-  pk: EXP1024-RC2-CBC-MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x61'
-- model: libressl
-  pk: EXP1024-DES-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x62'
-- model: libressl
-  pk: EXP1024-DHE-DSS-DES-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x63'
-- model: libressl
-  pk: EXP1024-RC4-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x64'
-- model: libressl
-  pk: EXP1024-DHE-DSS-RC4-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x65'
-- model: libressl
-  pk: DHE-DSS-RC4-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x66'
-- model: libressl
-  pk: AES128-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x2F'
-- model: libressl
-  pk: DH-DSS-AES128-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x30'
-- model: libressl
-  pk: DH-RSA-AES128-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x31'
-- model: libressl
-  pk: DHE-DSS-AES128-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x32'
-- model: libressl
-  pk: DHE-RSA-AES128-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x33'
-- model: libressl
-  pk: ADH-AES128-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x34'
-- model: libressl
-  pk: AES256-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x35'
-- model: libressl
-  pk: DH-DSS-AES256-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x36'
-- model: libressl
-  pk: DH-RSA-AES256-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x37'
-- model: libressl
-  pk: DHE-DSS-AES256-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x38'
-- model: libressl
-  pk: DHE-RSA-AES256-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x39'
-- model: libressl
-  pk: ADH-AES256-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3A'
-- model: libressl
-  pk: NULL-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3B'
-- model: libressl
-  pk: AES128-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3C'
-- model: libressl
-  pk: AES256-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3D'
-- model: libressl
-  pk: DH-DSS-AES128-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3E'
-- model: libressl
-  pk: DH-RSA-AES128-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3F'
-- model: libressl
-  pk: DHE-DSS-AES128-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x40'
-- model: libressl
-  pk: CAMELLIA128-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x41'
-- model: libressl
-  pk: DH-DSS-CAMELLIA128-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x42'
-- model: libressl
-  pk: DH-RSA-CAMELLIA128-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x43'
-- model: libressl
-  pk: DHE-DSS-CAMELLIA128-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x44'
-- model: libressl
-  pk: DHE-RSA-CAMELLIA128-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x45'
-- model: libressl
-  pk: ADH-CAMELLIA128-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x46'
-- model: libressl
-  pk: DHE-RSA-AES128-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x67'
-- model: libressl
-  pk: DH-DSS-AES256-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x68'
-- model: libressl
-  pk: DH-RSA-AES256-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x69'
-- model: libressl
-  pk: DHE-DSS-AES256-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x6A'
-- model: libressl
-  pk: DHE-RSA-AES256-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x6B'
-- model: libressl
-  pk: ADH-AES128-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x6C'
-- model: libressl
-  pk: ADH-AES256-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x6D'
-- model: libressl
-  pk: CAMELLIA256-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x84'
-- model: libressl
-  pk: DH-DSS-CAMELLIA256-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x85'
-- model: libressl
-  pk: DH-RSA-CAMELLIA256-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x86'
-- model: libressl
-  pk: DHE-DSS-CAMELLIA256-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x87'
-- model: libressl
-  pk: DHE-RSA-CAMELLIA256-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x88'
-- model: libressl
-  pk: ADH-CAMELLIA256-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x89'
-- model: libressl
-  pk: SEED-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x96'
-- model: libressl
-  pk: DH-DSS-SEED-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x97'
-- model: libressl
-  pk: DH-RSA-SEED-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x98'
-- model: libressl
-  pk: DHE-DSS-SEED-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x99'
-- model: libressl
-  pk: DHE-RSA-SEED-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9A'
-- model: libressl
-  pk: ADH-SEED-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9B'
-- model: libressl
-  pk: AES128-GCM-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9C'
-- model: libressl
-  pk: AES256-GCM-SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9D'
-- model: libressl
-  pk: DHE-RSA-AES128-GCM-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9E'
-- model: libressl
-  pk: DHE-RSA-AES256-GCM-SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9F'
-- model: libressl
-  pk: DH-RSA-AES128-GCM-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA0'
-- model: libressl
-  pk: DH-RSA-AES256-GCM-SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA1'
-- model: libressl
-  pk: DHE-DSS-AES128-GCM-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA2'
-- model: libressl
-  pk: DHE-DSS-AES256-GCM-SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA3'
-- model: libressl
-  pk: DH-DSS-AES128-GCM-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA4'
-- model: libressl
-  pk: DH-DSS-AES256-GCM-SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA5'
-- model: libressl
-  pk: ADH-AES128-GCM-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA6'
-- model: libressl
-  pk: ADH-AES256-GCM-SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA7'
-- model: libressl
-  pk: CAMELLIA128-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xBA'
-- model: libressl
-  pk: DH-DSS-CAMELLIA128-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xBB'
-- model: libressl
-  pk: DH-RSA-CAMELLIA128-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xBC'
-- model: libressl
-  pk: DHE-DSS-CAMELLIA128-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xBD'
-- model: libressl
-  pk: DHE-RSA-CAMELLIA128-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xBE'
-- model: libressl
-  pk: ADH-CAMELLIA128-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xBF'
-- model: libressl
-  pk: CAMELLIA256-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xC0'
-- model: libressl
-  pk: DH-DSS-CAMELLIA256-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xC1'
-- model: libressl
-  pk: DH-RSA-CAMELLIA256-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xC2'
-- model: libressl
-  pk: DHE-DSS-CAMELLIA256-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xC3'
-- model: libressl
-  pk: DHE-RSA-CAMELLIA256-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xC4'
-- model: libressl
-  pk: ADH-CAMELLIA256-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xC5'
-- model: libressl
-  pk: AEAD-AES128-GCM-SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x01'
-- model: libressl
-  pk: AEAD-AES256-GCM-SHA384
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x02'
-- model: libressl
-  pk: AEAD-CHACHA20-POLY1305-SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x03'
-- model: libressl
-  pk: AEAD-AES128-CCM-SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x04'
-- model: libressl
-  pk: AEAD-AES128-CCM-8-SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x05'
-- model: libressl
-  pk: ECDH-ECDSA-NULL-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x01'
-- model: libressl
-  pk: ECDH-ECDSA-RC4-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x02'
-- model: libressl
-  pk: ECDH-ECDSA-DES-CBC3-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x03'
-- model: libressl
-  pk: ECDH-ECDSA-AES128-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x04'
-- model: libressl
-  pk: ECDH-ECDSA-AES256-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x05'
-- model: libressl
-  pk: ECDHE-ECDSA-NULL-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x06'
-- model: libressl
-  pk: ECDHE-ECDSA-RC4-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x07'
-- model: libressl
-  pk: ECDHE-ECDSA-DES-CBC3-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x08'
-- model: libressl
-  pk: ECDHE-ECDSA-AES128-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x09'
-- model: libressl
-  pk: ECDHE-ECDSA-AES256-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0A'
-- model: libressl
-  pk: ECDH-RSA-NULL-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0B'
-- model: libressl
-  pk: ECDH-RSA-RC4-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0C'
-- model: libressl
-  pk: ECDH-RSA-DES-CBC3-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0D'
-- model: libressl
-  pk: ECDH-RSA-AES128-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0E'
-- model: libressl
-  pk: ECDH-RSA-AES256-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0F'
-- model: libressl
-  pk: ECDHE-RSA-NULL-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x10'
-- model: libressl
-  pk: ECDHE-RSA-RC4-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x11'
-- model: libressl
-  pk: ECDHE-RSA-DES-CBC3-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x12'
-- model: libressl
-  pk: ECDHE-RSA-AES128-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x13'
-- model: libressl
-  pk: ECDHE-RSA-AES256-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x14'
-- model: libressl
-  pk: AECDH-NULL-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x15'
-- model: libressl
-  pk: AECDH-RC4-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x16'
-- model: libressl
-  pk: AECDH-DES-CBC3-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x17'
-- model: libressl
-  pk: AECDH-AES128-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x18'
-- model: libressl
-  pk: AECDH-AES256-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x19'
-- model: libressl
-  pk: SRP-3DES-EDE-CBC-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x1A'
-- model: libressl
-  pk: SRP-RSA-3DES-EDE-CBC-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x1B'
-- model: libressl
-  pk: SRP-DSS-3DES-EDE-CBC-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x1C'
-- model: libressl
-  pk: SRP-AES-128-CBC-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x1D'
-- model: libressl
-  pk: SRP-RSA-AES-128-CBC-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x1E'
-- model: libressl
-  pk: SRP-DSS-AES-128-CBC-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x1F'
-- model: libressl
-  pk: SRP-AES-256-CBC-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x20'
-- model: libressl
-  pk: SRP-RSA-AES-256-CBC-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x21'
-- model: libressl
-  pk: SRP-DSS-AES-256-CBC-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x22'
-- model: libressl
-  pk: ECDHE-ECDSA-AES128-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x23'
-- model: libressl
-  pk: ECDHE-ECDSA-AES256-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x24'
-- model: libressl
-  pk: ECDH-ECDSA-AES128-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x25'
-- model: libressl
-  pk: ECDH-ECDSA-AES256-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x26'
-- model: libressl
-  pk: ECDHE-RSA-AES128-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x27'
-- model: libressl
-  pk: ECDHE-RSA-AES256-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x28'
-- model: libressl
-  pk: ECDH-RSA-AES128-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x29'
-- model: libressl
-  pk: ECDH-RSA-AES256-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2A'
-- model: libressl
-  pk: ECDHE-ECDSA-AES128-GCM-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2B'
-- model: libressl
-  pk: ECDHE-ECDSA-AES256-GCM-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2C'
-- model: libressl
-  pk: ECDH-ECDSA-AES128-GCM-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2D'
-- model: libressl
-  pk: ECDH-ECDSA-AES256-GCM-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2E'
-- model: libressl
-  pk: ECDHE-RSA-AES128-GCM-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2F'
-- model: libressl
-  pk: ECDHE-RSA-AES256-GCM-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x30'
-- model: libressl
-  pk: ECDH-RSA-AES128-GCM-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x31'
-- model: libressl
-  pk: ECDH-RSA-AES256-GCM-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x32'
-- model: libressl
-  pk: ECDHE-RSA-CHACHA20-POLY1305
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xA8'
-- model: libressl
-  pk: ECDHE-ECDSA-CHACHA20-POLY1305
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xA9'
-- model: libressl
-  pk: DHE-RSA-CHACHA20-POLY1305
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xAA'
-
+schema_version: 2
+kind: library
+library: libressl
+source: https://github.com/libressl/openbsd
+versions:
+- label: '2.0'
+  ref: libressl-v2.0.6
+  commit: 61fc5ede295ff4dded0a54dfe30d3a7a0dff1150
+  files:
+    src/lib/libssl/src/ssl/ssl2.h: sha256:23b9a3bc66fef84401727cf0cfa1c2a5940547121c03f903ed4950d0f7a0bbc8
+    src/lib/libssl/src/ssl/ssl3.h: sha256:0e12ba0b3898c1462603fedd3ec4025ed337c64ce005d6a5081cb9e28cfd1bc5
+    src/lib/libssl/src/ssl/tls1.h: sha256:af649231ffab187a37ce7071854d44ae3c18c5e52afe4f1605ee044db9004f4f
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2.1'
+  ref: libressl-v2.1.10
+  commit: bc1a32b382ba2358d6f7b09fd14fd8923a14b7d6
+  files:
+    src/lib/libssl/src/ssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
+    src/lib/libssl/src/ssl/ssl3.h: sha256:3b295c26e612cfbe7f3fb54019271745c86f8da632c1b5eb862e3282ccd90803
+    src/lib/libssl/src/ssl/tls1.h: sha256:ff2988564efbcc9e63f79b7ccabf1b08075d9a58527a914af4f84f5af2aa9776
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2.2'
+  ref: libressl-v2.2.9
+  commit: 809294d5e45b821403c487bd614cabe8f89fb8af
+  files:
+    src/lib/libssl/src/ssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
+    src/lib/libssl/src/ssl/ssl3.h: sha256:d2a30dfdd32d767d5432ac15499f597c900cb272d1301dd783c5afe683dea5d0
+    src/lib/libssl/src/ssl/tls1.h: sha256:2eddf14d697b688e50c67b41c3b0584bc48bc027fec26489ef5570316e37424c
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2.3'
+  ref: libressl-v2.3.10
+  commit: 0350b4845f185ed74dc66e4225a672f9e1a9114a
+  files:
+    src/lib/libssl/src/ssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
+    src/lib/libssl/src/ssl/ssl3.h: sha256:d2a30dfdd32d767d5432ac15499f597c900cb272d1301dd783c5afe683dea5d0
+    src/lib/libssl/src/ssl/tls1.h: sha256:2eddf14d697b688e50c67b41c3b0584bc48bc027fec26489ef5570316e37424c
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2.4'
+  ref: libressl-v2.4.5
+  commit: f319f250a309eb73664f1042f428e97d05d6c19e
+  files:
+    src/lib/libssl/src/ssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
+    src/lib/libssl/src/ssl/ssl3.h: sha256:d2a30dfdd32d767d5432ac15499f597c900cb272d1301dd783c5afe683dea5d0
+    src/lib/libssl/src/ssl/tls1.h: sha256:891f0c744d128f241c729665337098217bc613b1e1031ddd7fb0793f218949af
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2.5'
+  ref: libressl-v2.5.5
+  commit: 7c1ae0c2db0b39e5d90006f24fa25f4604e66ceb
+  files:
+    src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
+    src/lib/libssl/ssl3.h: sha256:fb954ff91dc9183969c666d23330ed898bb9cb74444022586ce29245ccc3e718
+    src/lib/libssl/tls1.h: sha256:1f85c36471cf4f6d9dfb3c44b0bb4c7febd598dd60b58e7ec7fa2e54d84c8973
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2.6'
+  ref: libressl-v2.6.5
+  commit: cde85534cd4cb4877990e54db3067beb84ee7681
+  files:
+    src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
+    src/lib/libssl/ssl3.h: sha256:d4e6c432d2921a824839eb1d238f4e20192340095c57fd1170bd0af2b52a7c99
+    src/lib/libssl/tls1.h: sha256:8d031871bb209d76b692a497715c631c00fe5aebecc1fe54406bd6e9d871f13f
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2.7'
+  ref: libressl-v2.7.5
+  commit: 5044e73fda29e14aa487421b75abb668af034376
+  files:
+    src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
+    src/lib/libssl/ssl3.h: sha256:d4e6c432d2921a824839eb1d238f4e20192340095c57fd1170bd0af2b52a7c99
+    src/lib/libssl/tls1.h: sha256:1893677b74c2d1ddf2462363e945cab47b750271484bba6b707d02c6dd75e194
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2.8'
+  ref: libressl-v2.8.3
+  commit: 0fc41ea005912a273e7de8a691f9d0ec475fcc31
+  files:
+    src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
+    src/lib/libssl/ssl3.h: sha256:41fbefce861258a6c95ed0ecfe7b37872b510706a546bed6468544b056dd8ccf
+    src/lib/libssl/tls1.h: sha256:1893677b74c2d1ddf2462363e945cab47b750271484bba6b707d02c6dd75e194
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '2.9'
+  ref: libressl-v2.9.2
+  commit: f0d432029321083529b36d45280f5308ff8bf24f
+  files:
+    src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
+    src/lib/libssl/ssl3.h: sha256:8c4b8b290654430ada846c59e37a33218a129a0bebbb564db8315f59f066938e
+    src/lib/libssl/tls1.h: sha256:a8518da122e2f70f3785d6dcd9ebfddd5e2ffd6a7c3acac59e62b7cabe74b1fd
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '3.0'
+  ref: libressl-v3.0.2
+  commit: 49a68803553e7feabe91ba07c6c45683be07e010
+  files:
+    src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
+    src/lib/libssl/ssl3.h: sha256:8c4b8b290654430ada846c59e37a33218a129a0bebbb564db8315f59f066938e
+    src/lib/libssl/tls1.h: sha256:a8518da122e2f70f3785d6dcd9ebfddd5e2ffd6a7c3acac59e62b7cabe74b1fd
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '3.1'
+  ref: libressl-v3.1.5
+  commit: 374b8d6eac4ffe208e18d32cd2e1cccc7da35e13
+  files:
+    src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
+    src/lib/libssl/ssl3.h: sha256:389ccb5404761b480e92ec124c0b5ac4e1cc420cef9d47311eec46c770f64934
+    src/lib/libssl/tls1.h: sha256:0aee9a67e506605ff84abd44fabffe9a731b0091ca70cea11014f92dc2350aad
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '3.2'
+  ref: libressl-v3.2.7
+  commit: 517a5e9757e78e04e459753bde999cf67de1aaf8
+  files:
+    src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
+    src/lib/libssl/ssl3.h: sha256:dffde52dfb112e908629535f19c64325f04a13bb903e1888cfd7d7f1de65db6d
+    src/lib/libssl/tls1.h: sha256:156ee8db96ef2801f7d10dc927d9361ffebfac6d84d58a0865094dbec58a69ef
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '3.3'
+  ref: libressl-v3.3.6
+  commit: 83bc5cc5ee52fc0847ad86d9499c1ac8b9de9fe0
+  files:
+    src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
+    src/lib/libssl/ssl3.h: sha256:dffde52dfb112e908629535f19c64325f04a13bb903e1888cfd7d7f1de65db6d
+    src/lib/libssl/tls1.h: sha256:59453f9e112d4e9959d97d76646984060dd93e1310a84d96fcf8d6e3acf7bfe5
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '3.4'
+  ref: libressl-v3.4.3
+  commit: 0f0b16dc977f6ca499f0f4540078d992c96da597
+  files:
+    src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
+    src/lib/libssl/ssl3.h: sha256:373d9db0d19b45cadc49876f081916bfb2f0ccd9dce4beaeee77fee219c3b4f7
+    src/lib/libssl/tls1.h: sha256:91d634f70048b25116fd6d46054c351c6ab46e57035c4faea67fa29451bc1566
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '3.5'
+  ref: libressl-v3.5.4
+  commit: ad1c8162ed483dc5234494f59b209481e4a44243
+  files:
+    src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
+    src/lib/libssl/ssl3.h: sha256:373d9db0d19b45cadc49876f081916bfb2f0ccd9dce4beaeee77fee219c3b4f7
+    src/lib/libssl/tls1.h: sha256:083e56df06ba9c469492a632312d0942a9649bc83dd22055abe41df58bd1c02a
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '3.6'
+  ref: libressl-v3.6.3
+  commit: 242532e946dd73e728b67bfe0915634d91462442
+  files:
+    src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
+    src/lib/libssl/ssl3.h: sha256:373d9db0d19b45cadc49876f081916bfb2f0ccd9dce4beaeee77fee219c3b4f7
+    src/lib/libssl/tls1.h: sha256:764995040873305b3ca4b11492b163b9c04daaafc0fed1d45afa42acc7a8d810
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '3.7'
+  ref: libressl-v3.7.3
+  commit: ec44842c68b88bb1c93a8d517ef859e8a456a822
+  files:
+    src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
+    src/lib/libssl/ssl3.h: sha256:373d9db0d19b45cadc49876f081916bfb2f0ccd9dce4beaeee77fee219c3b4f7
+    src/lib/libssl/tls1.h: sha256:764995040873305b3ca4b11492b163b9c04daaafc0fed1d45afa42acc7a8d810
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '3.8'
+  ref: libressl-v3.8.4
+  commit: e209d82c0852ca3fc2004450c23ba2b3e5bd734c
+  files:
+    src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
+    src/lib/libssl/ssl3.h: sha256:373d9db0d19b45cadc49876f081916bfb2f0ccd9dce4beaeee77fee219c3b4f7
+    src/lib/libssl/tls1.h: sha256:764995040873305b3ca4b11492b163b9c04daaafc0fed1d45afa42acc7a8d810
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '3.9'
+  ref: libressl-v3.9.2
+  commit: 25d3c6e06e273c86e0723ef285156c596d2f27e4
+  files:
+    src/lib/libssl/ssl2.h: sha256:bc0ddab2acb054786a022f44fb08ff602239419a335ea791ebd1a970ff9550f8
+    src/lib/libssl/ssl3.h: sha256:1b874f840ab4a34ff78de5009bf432e42d088716c17c43b6e45bbfde58d6c30a
+    src/lib/libssl/tls1.h: sha256:901f42b3ac662aa00253e879723d7ffd24c207e35fcb700bdedab0ba1171f7fa
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '4.0'
+  ref: libressl-v4.0.1
+  commit: 2357352b8d9b0c6ac07e7240d0660f70c8d38da2
+  files:
+    src/lib/libssl/ssl3.h: sha256:1b874f840ab4a34ff78de5009bf432e42d088716c17c43b6e45bbfde58d6c30a
+    src/lib/libssl/tls1.h: sha256:901f42b3ac662aa00253e879723d7ffd24c207e35fcb700bdedab0ba1171f7fa
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '4.1'
+  ref: libressl-v4.1.2
+  commit: b087cd0400f51020d64ecc9afd0c0f8c8abdcf4f
+  files:
+    src/lib/libssl/ssl3.h: sha256:1b874f840ab4a34ff78de5009bf432e42d088716c17c43b6e45bbfde58d6c30a
+    src/lib/libssl/tls1.h: sha256:70a7c812a910dbe74a36a2725596413ed9da2a22e805de65b714d5346f2689bf
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '4.2'
+  ref: libressl-v4.2.3
+  commit: 161a494446cb75266e48c163475e475ff93d2d92
+  files:
+    src/lib/libssl/ssl3.h: sha256:50b366d8ddcec6f99ed09adc6823617c39415398932a16c85976f6fe88c00941
+    src/lib/libssl/tls1.h: sha256:a86e43acc07795320fcdbac63cfd0f5a01f264598c682e3210235ee5ffe2e0fd
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '4.3'
+  ref: libressl-v4.3.4
+  commit: 1818bafcf50b552072c4135a1862850df75969a9
+  files:
+    src/lib/libssl/ssl3.h: sha256:50b366d8ddcec6f99ed09adc6823617c39415398932a16c85976f6fe88c00941
+    src/lib/libssl/tls1.h: sha256:a86e43acc07795320fcdbac63cfd0f5a01f264598c682e3210235ee5ffe2e0fd
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '4.4'
+  ref: libressl-v4.4.0
+  commit: 0fc62a7ccde3eed5e6825b9e54bd2a703b995a9d
+  files:
+    src/lib/libssl/ssl3.h: sha256:7a85ff95a87b6436f57dfd49486795f7625804608be38803877096b2f89c0f4c
+    src/lib/libssl/tls1.h: sha256:b82a368c61bfee53c6bceff8878fd79c61567fda010e0bcaf0fee95c9c518af9
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+suites:
+- code_point:
+  - '0x00'
+  - '0x00'
+  - '0x00'
+  names:
+  - name: NULL-MD5
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+- code_point:
+  - '0x00'
+  - '0x01'
+  names:
+  - name: NULL-MD5
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x02'
+  names:
+  - name: NULL-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x03'
+  names:
+  - name: EXP-RC4-MD5
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x04'
+  names:
+  - name: RC4-MD5
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x05'
+  names:
+  - name: RC4-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x06'
+  names:
+  - name: EXP-RC2-CBC-MD5
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x07'
+  names:
+  - name: IDEA-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x08'
+  names:
+  - name: EXP-DES-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x09'
+  names:
+  - name: DES-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x0A'
+  names:
+  - name: DES-CBC3-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x0B'
+  names:
+  - name: EXP-DH-DSS-DES-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x0C'
+  names:
+  - name: DH-DSS-DES-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x0D'
+  names:
+  - name: DH-DSS-DES-CBC3-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x0E'
+  names:
+  - name: EXP-DH-RSA-DES-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x0F'
+  names:
+  - name: DH-RSA-DES-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x10'
+  names:
+  - name: DH-RSA-DES-CBC3-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x11'
+  names:
+  - name: EXP-EDH-DSS-DES-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x12'
+  names:
+  - name: EDH-DSS-DES-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x13'
+  names:
+  - name: EDH-DSS-DES-CBC3-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x14'
+  names:
+  - name: EXP-EDH-RSA-DES-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x15'
+  names:
+  - name: EDH-RSA-DES-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x16'
+  names:
+  - name: EDH-RSA-DES-CBC3-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x17'
+  names:
+  - name: EXP-ADH-RC4-MD5
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x18'
+  names:
+  - name: ADH-RC4-MD5
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x19'
+  names:
+  - name: EXP-ADH-DES-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x1A'
+  names:
+  - name: ADH-DES-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x1B'
+  names:
+  - name: ADH-DES-CBC3-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x1E'
+  names:
+  - name: KRB5-DES-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x1F'
+  names:
+  - name: KRB5-DES-CBC3-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x20'
+  names:
+  - name: KRB5-RC4-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x21'
+  names:
+  - name: KRB5-IDEA-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x22'
+  names:
+  - name: KRB5-DES-CBC-MD5
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x23'
+  names:
+  - name: KRB5-DES-CBC3-MD5
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x24'
+  names:
+  - name: KRB5-RC4-MD5
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x25'
+  names:
+  - name: KRB5-IDEA-CBC-MD5
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x26'
+  names:
+  - name: EXP-KRB5-DES-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x27'
+  names:
+  - name: EXP-KRB5-RC2-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x28'
+  names:
+  - name: EXP-KRB5-RC4-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x29'
+  names:
+  - name: EXP-KRB5-DES-CBC-MD5
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x2A'
+  names:
+  - name: EXP-KRB5-RC2-CBC-MD5
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x2B'
+  names:
+  - name: EXP-KRB5-RC4-MD5
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x2F'
+  names:
+  - name: AES128-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x30'
+  names:
+  - name: DH-DSS-AES128-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x31'
+  names:
+  - name: DH-RSA-AES128-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x32'
+  names:
+  - name: DHE-DSS-AES128-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x33'
+  names:
+  - name: DHE-RSA-AES128-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x34'
+  names:
+  - name: ADH-AES128-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x35'
+  names:
+  - name: AES256-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x36'
+  names:
+  - name: DH-DSS-AES256-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x37'
+  names:
+  - name: DH-RSA-AES256-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x38'
+  names:
+  - name: DHE-DSS-AES256-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x39'
+  names:
+  - name: DHE-RSA-AES256-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x3A'
+  names:
+  - name: ADH-AES256-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x3B'
+  names:
+  - name: NULL-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x3C'
+  names:
+  - name: AES128-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x3D'
+  names:
+  - name: AES256-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x3E'
+  names:
+  - name: DH-DSS-AES128-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x3F'
+  names:
+  - name: DH-RSA-AES128-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x40'
+  names:
+  - name: DHE-DSS-AES128-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x41'
+  names:
+  - name: CAMELLIA128-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x42'
+  names:
+  - name: DH-DSS-CAMELLIA128-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x43'
+  names:
+  - name: DH-RSA-CAMELLIA128-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x44'
+  names:
+  - name: DHE-DSS-CAMELLIA128-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x45'
+  names:
+  - name: DHE-RSA-CAMELLIA128-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x46'
+  names:
+  - name: ADH-CAMELLIA128-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x60'
+  names:
+  - name: EXP1024-RC4-MD5
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x61'
+  names:
+  - name: EXP1024-RC2-CBC-MD5
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x62'
+  names:
+  - name: EXP1024-DES-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x63'
+  names:
+  - name: EXP1024-DHE-DSS-DES-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x64'
+  names:
+  - name: EXP1024-RC4-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x65'
+  names:
+  - name: EXP1024-DHE-DSS-RC4-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x66'
+  names:
+  - name: DHE-DSS-RC4-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x67'
+  names:
+  - name: DHE-RSA-AES128-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x68'
+  names:
+  - name: DH-DSS-AES256-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x69'
+  names:
+  - name: DH-RSA-AES256-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x6A'
+  names:
+  - name: DHE-DSS-AES256-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x6B'
+  names:
+  - name: DHE-RSA-AES256-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x6C'
+  names:
+  - name: ADH-AES128-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x6D'
+  names:
+  - name: ADH-AES256-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x84'
+  names:
+  - name: CAMELLIA256-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x85'
+  names:
+  - name: DH-DSS-CAMELLIA256-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x86'
+  names:
+  - name: DH-RSA-CAMELLIA256-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x87'
+  names:
+  - name: DHE-DSS-CAMELLIA256-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x88'
+  names:
+  - name: DHE-RSA-CAMELLIA256-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x89'
+  names:
+  - name: ADH-CAMELLIA256-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x8A'
+  names:
+  - name: PSK-RC4-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x8B'
+  names:
+  - name: PSK-3DES-EDE-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x8C'
+  names:
+  - name: PSK-AES128-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x8D'
+  names:
+  - name: PSK-AES256-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x96'
+  names:
+  - name: SEED-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x97'
+  names:
+  - name: DH-DSS-SEED-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x98'
+  names:
+  - name: DH-RSA-SEED-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x99'
+  names:
+  - name: DHE-DSS-SEED-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x9A'
+  names:
+  - name: DHE-RSA-SEED-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x9B'
+  names:
+  - name: ADH-SEED-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x9C'
+  names:
+  - name: AES128-GCM-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x9D'
+  names:
+  - name: AES256-GCM-SHA384
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x9E'
+  names:
+  - name: DHE-RSA-AES128-GCM-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0x9F'
+  names:
+  - name: DHE-RSA-AES256-GCM-SHA384
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0xA0'
+  names:
+  - name: DH-RSA-AES128-GCM-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0xA1'
+  names:
+  - name: DH-RSA-AES256-GCM-SHA384
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0xA2'
+  names:
+  - name: DHE-DSS-AES128-GCM-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0xA3'
+  names:
+  - name: DHE-DSS-AES256-GCM-SHA384
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0xA4'
+  names:
+  - name: DH-DSS-AES128-GCM-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0xA5'
+  names:
+  - name: DH-DSS-AES256-GCM-SHA384
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0xA6'
+  names:
+  - name: ADH-AES128-GCM-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0xA7'
+  names:
+  - name: ADH-AES256-GCM-SHA384
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0xBA'
+  names:
+  - name: CAMELLIA128-SHA256
+    versions:
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0xBB'
+  names:
+  - name: DH-DSS-CAMELLIA128-SHA256
+    versions:
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0xBC'
+  names:
+  - name: DH-RSA-CAMELLIA128-SHA256
+    versions:
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0xBD'
+  names:
+  - name: DHE-DSS-CAMELLIA128-SHA256
+    versions:
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0xBE'
+  names:
+  - name: DHE-RSA-CAMELLIA128-SHA256
+    versions:
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0xBF'
+  names:
+  - name: ADH-CAMELLIA128-SHA256
+    versions:
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0xC0'
+  names:
+  - name: CAMELLIA256-SHA256
+    versions:
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0xC1'
+  names:
+  - name: DH-DSS-CAMELLIA256-SHA256
+    versions:
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0xC2'
+  names:
+  - name: DH-RSA-CAMELLIA256-SHA256
+    versions:
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0xC3'
+  names:
+  - name: DHE-DSS-CAMELLIA256-SHA256
+    versions:
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0xC4'
+  names:
+  - name: DHE-RSA-CAMELLIA256-SHA256
+    versions:
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x00'
+  - '0xC5'
+  names:
+  - name: ADH-CAMELLIA256-SHA256
+    versions:
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x01'
+  - '0x00'
+  - '0x80'
+  names:
+  - name: RC4-MD5
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+- code_point:
+  - '0x02'
+  - '0x00'
+  - '0x80'
+  names:
+  - name: EXP-RC4-MD5
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+- code_point:
+  - '0x03'
+  - '0x00'
+  - '0x80'
+  names:
+  - name: RC2-CBC-MD5
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+- code_point:
+  - '0x04'
+  - '0x00'
+  - '0x80'
+  names:
+  - name: EXP-RC2-CBC-MD5
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+- code_point:
+  - '0x05'
+  - '0x00'
+  - '0x80'
+  names:
+  - name: IDEA-CBC-MD5
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+- code_point:
+  - '0x06'
+  - '0x00'
+  - '0x40'
+  names:
+  - name: DES-CBC-MD5
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+- code_point:
+  - '0x06'
+  - '0x01'
+  - '0x40'
+  names:
+  - name: DES-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+- code_point:
+  - '0x07'
+  - '0x00'
+  - '0xC0'
+  names:
+  - name: DES-CBC3-MD5
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+- code_point:
+  - '0x07'
+  - '0x01'
+  - '0xC0'
+  names:
+  - name: DES-CBC3-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+- code_point:
+  - '0x08'
+  - '0x00'
+  - '0x80'
+  names:
+  - name: RC4-64-MD5
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+- code_point:
+  - '0x13'
+  - '0x01'
+  names:
+  - name: AEAD-AES128-GCM-SHA256
+    versions:
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x13'
+  - '0x02'
+  names:
+  - name: AEAD-AES256-GCM-SHA384
+    versions:
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x13'
+  - '0x03'
+  names:
+  - name: AEAD-CHACHA20-POLY1305-SHA256
+    versions:
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x13'
+  - '0x04'
+  names:
+  - name: AEAD-AES128-CCM-SHA256
+    versions:
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0x13'
+  - '0x05'
+  names:
+  - name: AEAD-AES128-CCM-8-SHA256
+    versions:
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x01'
+  names:
+  - name: ECDH-ECDSA-NULL-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x02'
+  names:
+  - name: ECDH-ECDSA-RC4-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x03'
+  names:
+  - name: ECDH-ECDSA-DES-CBC3-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x04'
+  names:
+  - name: ECDH-ECDSA-AES128-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x05'
+  names:
+  - name: ECDH-ECDSA-AES256-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x06'
+  names:
+  - name: ECDHE-ECDSA-NULL-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x07'
+  names:
+  - name: ECDHE-ECDSA-RC4-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x08'
+  names:
+  - name: ECDHE-ECDSA-DES-CBC3-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x09'
+  names:
+  - name: ECDHE-ECDSA-AES128-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x0A'
+  names:
+  - name: ECDHE-ECDSA-AES256-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x0B'
+  names:
+  - name: ECDH-RSA-NULL-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x0C'
+  names:
+  - name: ECDH-RSA-RC4-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x0D'
+  names:
+  - name: ECDH-RSA-DES-CBC3-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x0E'
+  names:
+  - name: ECDH-RSA-AES128-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x0F'
+  names:
+  - name: ECDH-RSA-AES256-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x10'
+  names:
+  - name: ECDHE-RSA-NULL-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x11'
+  names:
+  - name: ECDHE-RSA-RC4-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x12'
+  names:
+  - name: ECDHE-RSA-DES-CBC3-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x13'
+  names:
+  - name: ECDHE-RSA-AES128-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x14'
+  names:
+  - name: ECDHE-RSA-AES256-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x15'
+  names:
+  - name: AECDH-NULL-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x16'
+  names:
+  - name: AECDH-RC4-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x17'
+  names:
+  - name: AECDH-DES-CBC3-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x18'
+  names:
+  - name: AECDH-AES128-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x19'
+  names:
+  - name: AECDH-AES256-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x1A'
+  names:
+  - name: SRP-3DES-EDE-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x1B'
+  names:
+  - name: SRP-RSA-3DES-EDE-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x1C'
+  names:
+  - name: SRP-DSS-3DES-EDE-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x1D'
+  names:
+  - name: SRP-AES-128-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x1E'
+  names:
+  - name: SRP-RSA-AES-128-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x1F'
+  names:
+  - name: SRP-DSS-AES-128-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x20'
+  names:
+  - name: SRP-AES-256-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x21'
+  names:
+  - name: SRP-RSA-AES-256-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x22'
+  names:
+  - name: SRP-DSS-AES-256-CBC-SHA
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x23'
+  names:
+  - name: ECDHE-ECDSA-AES128-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x24'
+  names:
+  - name: ECDHE-ECDSA-AES256-SHA384
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x25'
+  names:
+  - name: ECDH-ECDSA-AES128-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x26'
+  names:
+  - name: ECDH-ECDSA-AES256-SHA384
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x27'
+  names:
+  - name: ECDHE-RSA-AES128-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x28'
+  names:
+  - name: ECDHE-RSA-AES256-SHA384
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x29'
+  names:
+  - name: ECDH-RSA-AES128-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x2A'
+  names:
+  - name: ECDH-RSA-AES256-SHA384
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x2B'
+  names:
+  - name: ECDHE-ECDSA-AES128-GCM-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x2C'
+  names:
+  - name: ECDHE-ECDSA-AES256-GCM-SHA384
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x2D'
+  names:
+  - name: ECDH-ECDSA-AES128-GCM-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x2E'
+  names:
+  - name: ECDH-ECDSA-AES256-GCM-SHA384
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x2F'
+  names:
+  - name: ECDHE-RSA-AES128-GCM-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x30'
+  names:
+  - name: ECDHE-RSA-AES256-GCM-SHA384
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x31'
+  names:
+  - name: ECDH-RSA-AES128-GCM-SHA256
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xC0'
+  - '0x32'
+  names:
+  - name: ECDH-RSA-AES256-GCM-SHA384
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xCC'
+  - '0x13'
+  names:
+  - name: ECDHE-RSA-CHACHA20-POLY1305
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+- code_point:
+  - '0xCC'
+  - '0x14'
+  names:
+  - name: ECDHE-ECDSA-CHACHA20-POLY1305
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+- code_point:
+  - '0xCC'
+  - '0x15'
+  names:
+  - name: DHE-RSA-CHACHA20-POLY1305
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+- code_point:
+  - '0xCC'
+  - '0xA8'
+  names:
+  - name: ECDHE-RSA-CHACHA20-POLY1305
+    versions:
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xCC'
+  - '0xA9'
+  names:
+  - name: ECDHE-ECDSA-CHACHA20-POLY1305
+    versions:
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xCC'
+  - '0xAA'
+  names:
+  - name: DHE-RSA-CHACHA20-POLY1305
+    versions:
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+    - '4.0'
+    - '4.1'
+    - '4.2'
+    - '4.3'
+    - '4.4'
+- code_point:
+  - '0xFF'
+  - '0x08'
+  - '0x00'
+  names:
+  - name: DES-CFB-M1
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'
+- code_point:
+  - '0xFF'
+  - '0x08'
+  - '0x10'
+  names:
+  - name: 'NULL'
+    versions:
+    - '2.0'
+    - '2.1'
+    - '2.2'
+    - '2.3'
+    - '2.4'
+    - '2.5'
+    - '2.6'
+    - '2.7'
+    - '2.8'
+    - '2.9'
+    - '3.0'
+    - '3.1'
+    - '3.2'
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+    - '3.9'

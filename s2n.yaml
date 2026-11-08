@@ -1,186 +1,635 @@
-- model: s2n
-  pk: TLS_NULL_WITH_NULL_NULL
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x00'
-- model: s2n
-  pk: AES256-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3D'
-- model: s2n
-  pk: AES256-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x35'
-- model: s2n
-  pk: AES128-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3C'
-- model: s2n
-  pk: AES128-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x2F'
-- model: s2n
-  pk: DES-CBC3-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x0A'
-- model: s2n
-  pk: RC4-MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x04'
-- model: s2n
-  pk: RC4-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x05'
-- model: s2n
-  pk: DHE-RSA-AES128-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x33'
-- model: s2n
-  pk: DHE-RSA-AES128-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x67'
-- model: s2n
-  pk: DHE-RSA-AES256-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x39'
-- model: s2n
-  pk: DHE-RSA-AES256-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x6B'
-- model: s2n
-  pk: DHE-RSA-DES-CBC3-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x16'
-- model: s2n
-  pk: ECDHE-ECDSA-AES128-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x09'
-- model: s2n
-  pk: ECDHE-ECDSA-AES128-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x23'
-- model: s2n
-  pk: ECDHE-ECDSA-AES256-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0A'
-- model: s2n
-  pk: ECDHE-ECDSA-AES256-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x24'
-- model: s2n
-  pk: ECDHE-RSA-RC4-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x11'
-- model: s2n
-  pk: ECDHE-RSA-AES128-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x13'
-- model: s2n
-  pk: ECDHE-RSA-AES128-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x27'
-- model: s2n
-  pk: ECDHE-RSA-AES256-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x14'
-- model: s2n
-  pk: ECDHE-RSA-AES256-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x28'
-- model: s2n
-  pk: ECDHE-RSA-DES-CBC3-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x12'
-- model: s2n
-  pk: AES128-GCM-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9C'
-- model: s2n
-  pk: AES256-GCM-SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9D'
-- model: s2n
-  pk: DHE-RSA-AES128-GCM-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9E'
-- model: s2n
-  pk: DHE-RSA-AES256-GCM-SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9F'
-- model: s2n
-  pk: ECDHE-ECDSA-AES128-GCM-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2B'
-- model: s2n
-  pk: ECDHE-ECDSA-AES256-GCM-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2C'
-- model: s2n
-  pk: ECDHE-RSA-AES128-GCM-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2F'
-- model: s2n
-  pk: ECDHE-RSA-AES256-GCM-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x30'
-- model: s2n
-  pk: ECDHE-RSA-CHACHA20-POLY1305
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xA8'
-- model: s2n
-  pk: ECDHE-ECDSA-CHACHA20-POLY1305
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xA9'
-- model: s2n
-  pk: DHE-RSA-CHACHA20-POLY1305
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xAA'
-- model: s2n
-  pk: TLS_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x01'
-- model: s2n
-  pk: TLS_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x02'
-- model: s2n
-  pk: TLS_CHACHA20_POLY1305_SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x03'
-
+schema_version: 2
+kind: library
+library: s2n
+source: https://github.com/aws/s2n-tls
+versions:
+- label: '1.0'
+  ref: v1.0.19
+  commit: 9a4233eae86a8f87f9f3148ffb6f298c278419fc
+  files:
+    tls/s2n_cipher_suites.c: sha256:e717856ac526660aa42d6a0d9e828ad33be2ca505b45aad8b8a5beb5a71deefd
+    tls/s2n_tls_parameters.h: sha256:016392579781514e7ebe8b9d1ed6bd90f9f7917dcda62d74286712c7fc74c845
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '1.1'
+  ref: v1.1.2
+  commit: 3b8e5aaab4c8617fea77786837dc0eab93c14aa8
+  files:
+    tls/s2n_cipher_suites.c: sha256:e717856ac526660aa42d6a0d9e828ad33be2ca505b45aad8b8a5beb5a71deefd
+    tls/s2n_tls_parameters.h: sha256:d2e90e78bf6690150de80141c259b1317bf41f7ae290eea134e9a0a12e39284d
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '1.2'
+  ref: v1.2.1
+  commit: dffd2aa495549249018ee9334a4a4c661d49eb08
+  files:
+    tls/s2n_cipher_suites.c: sha256:e717856ac526660aa42d6a0d9e828ad33be2ca505b45aad8b8a5beb5a71deefd
+    tls/s2n_tls_parameters.h: sha256:016392579781514e7ebe8b9d1ed6bd90f9f7917dcda62d74286712c7fc74c845
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '1.3'
+  ref: v1.3.56
+  commit: 95753f0c528b59025343e8799cb25d3e9df89e21
+  files:
+    tls/s2n_cipher_suites.c: sha256:d187d68ada338a23ebf53804fd398204cac9c05c2425d65ec4077600ba1f55ca
+    tls/s2n_tls_parameters.h: sha256:fa977ba27e78bdcfacb47c5ad8d931eee05cca73085712810f2e10a18f3c9227
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '1.4'
+  ref: v1.4.18
+  commit: 138e3ece9e457c2f824a85b63095737f30d624a9
+  files:
+    tls/s2n_cipher_suites.c: sha256:dcdda2cb54a211b866e9c7d9f28a58f7ce5bc8f9fdf063bfdf13593ce8816f49
+    tls/s2n_tls_parameters.h: sha256:bc99d948b6951ef52bb2bbf9e1a30c78faeffab1ffa99e64370477211a8522e7
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '1.5'
+  ref: v1.5.27
+  commit: 30f40f2345a89570ed3c4cee2274942f1ebf85fa
+  files:
+    tls/s2n_cipher_suites.c: sha256:91aa92527eee34d81175ada6e4b6237ae654787950c36af23e4bd51e45cec4ea
+    tls/s2n_tls_parameters.h: sha256:bd75a347e46aa1984d730aaed5338ace2f109e610c3516f92be2504d9838a74c
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '1.6'
+  ref: v1.6.4
+  commit: 3276a0876054e9efbeab4a42f34ef60b0bf58c91
+  files:
+    tls/s2n_cipher_suites.c: sha256:91aa92527eee34d81175ada6e4b6237ae654787950c36af23e4bd51e45cec4ea
+    tls/s2n_tls_parameters.h: sha256:bd75a347e46aa1984d730aaed5338ace2f109e610c3516f92be2504d9838a74c
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '1.7'
+  ref: v1.7.13
+  commit: e7ce83a27fa9525515a621754a7183a51c80246b
+  files:
+    tls/s2n_cipher_suites.c: sha256:b6f7f1d86f395bbe2074d4891ce4d56a904801bf480f73ba50b4293d62f87ce3
+    tls/s2n_tls_parameters.h: sha256:9741a3069ac4661c0f4b6e21264ac9c8a862bcae81160d739f55b08ac0283acd
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted:
+    reason: 'First v2 scrape; newest-line removals are upstream, verified 2026-11-08: boringssl HEAD pruned legacy suites from ssl3.h/tls1.h (151 at 5584ad8c -> 25 at 0131ae9d); mbedtls 4.2 removed RSA key-exchange suites (all 53 present in <=4.1); openssl 4.x dropped SSLv2/export/Kerberos/FORTEZZA defines (all 34 present in older lines); s2n removed Kyber 0xFF0C between v1.5.14 and v1.5.20 (present <=1.6); Windows Server 2025 lists no SSLv2 codes (present in older Windows entries).'
+    at: '2026-11-08T13:38:55.446080+00:00'
+suites:
+- code_point:
+  - '0x00'
+  - '0x00'
+  names:
+  - name: TLS_NULL_WITH_NULL_NULL
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0x00'
+  - '0x04'
+  names:
+  - name: RC4-MD5
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0x00'
+  - '0x05'
+  names:
+  - name: RC4-SHA
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0x00'
+  - '0x0A'
+  names:
+  - name: DES-CBC3-SHA
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0x00'
+  - '0x16'
+  names:
+  - name: DHE-RSA-DES-CBC3-SHA
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0x00'
+  - '0x2F'
+  names:
+  - name: AES128-SHA
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0x00'
+  - '0x33'
+  names:
+  - name: DHE-RSA-AES128-SHA
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0x00'
+  - '0x35'
+  names:
+  - name: AES256-SHA
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0x00'
+  - '0x39'
+  names:
+  - name: DHE-RSA-AES256-SHA
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0x00'
+  - '0x3C'
+  names:
+  - name: AES128-SHA256
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0x00'
+  - '0x3D'
+  names:
+  - name: AES256-SHA256
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0x00'
+  - '0x67'
+  names:
+  - name: DHE-RSA-AES128-SHA256
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0x00'
+  - '0x6B'
+  names:
+  - name: DHE-RSA-AES256-SHA256
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0x00'
+  - '0x9C'
+  names:
+  - name: AES128-GCM-SHA256
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0x00'
+  - '0x9D'
+  names:
+  - name: AES256-GCM-SHA384
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0x00'
+  - '0x9E'
+  names:
+  - name: DHE-RSA-AES128-GCM-SHA256
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0x00'
+  - '0x9F'
+  names:
+  - name: DHE-RSA-AES256-GCM-SHA384
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0x13'
+  - '0x01'
+  names:
+  - name: TLS_AES_128_GCM_SHA256
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0x13'
+  - '0x02'
+  names:
+  - name: TLS_AES_256_GCM_SHA384
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0x13'
+  - '0x03'
+  names:
+  - name: TLS_CHACHA20_POLY1305_SHA256
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0xC0'
+  - '0x09'
+  names:
+  - name: ECDHE-ECDSA-AES128-SHA
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0xC0'
+  - '0x0A'
+  names:
+  - name: ECDHE-ECDSA-AES256-SHA
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0xC0'
+  - '0x11'
+  names:
+  - name: ECDHE-RSA-RC4-SHA
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0xC0'
+  - '0x12'
+  names:
+  - name: ECDHE-RSA-DES-CBC3-SHA
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0xC0'
+  - '0x13'
+  names:
+  - name: ECDHE-RSA-AES128-SHA
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0xC0'
+  - '0x14'
+  names:
+  - name: ECDHE-RSA-AES256-SHA
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0xC0'
+  - '0x23'
+  names:
+  - name: ECDHE-ECDSA-AES128-SHA256
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0xC0'
+  - '0x24'
+  names:
+  - name: ECDHE-ECDSA-AES256-SHA384
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0xC0'
+  - '0x27'
+  names:
+  - name: ECDHE-RSA-AES128-SHA256
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0xC0'
+  - '0x28'
+  names:
+  - name: ECDHE-RSA-AES256-SHA384
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0xC0'
+  - '0x2B'
+  names:
+  - name: ECDHE-ECDSA-AES128-GCM-SHA256
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0xC0'
+  - '0x2C'
+  names:
+  - name: ECDHE-ECDSA-AES256-GCM-SHA384
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0xC0'
+  - '0x2F'
+  names:
+  - name: ECDHE-RSA-AES128-GCM-SHA256
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0xC0'
+  - '0x30'
+  names:
+  - name: ECDHE-RSA-AES256-GCM-SHA384
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0xCC'
+  - '0xA8'
+  names:
+  - name: ECDHE-RSA-CHACHA20-POLY1305
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0xCC'
+  - '0xA9'
+  names:
+  - name: ECDHE-ECDSA-CHACHA20-POLY1305
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0xCC'
+  - '0xAA'
+  names:
+  - name: DHE-RSA-CHACHA20-POLY1305
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'
+    - '1.5'
+    - '1.6'
+    - '1.7'
+- code_point:
+  - '0xFF'
+  - '0x04'
+  names:
+  - name: ECDHE-BIKE-RSA-AES256-GCM-SHA384
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+- code_point:
+  - '0xFF'
+  - '0x08'
+  names:
+  - name: ECDHE-SIKE-RSA-AES256-GCM-SHA384
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+- code_point:
+  - '0xFF'
+  - '0x0C'
+  names:
+  - name: ECDHE-KYBER-RSA-AES256-GCM-SHA384
+    versions:
+    - '1.0'
+    - '1.1'
+    - '1.2'
+    - '1.3'
+    - '1.4'

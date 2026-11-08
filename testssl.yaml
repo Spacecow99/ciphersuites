@@ -1,0 +1,2618 @@
+schema_version: 2
+kind: reference
+library: testssl
+source: https://github.com/testssl/testssl.sh
+versions:
+- label: '2026-11-08'
+  ref: HEAD
+  commit: 7dc4a6f2f49294ffa56f535fbfd0b62421130be8
+  files:
+    etc/cipher-mapping.txt: sha256:6fcd4fa8cbb669da0c7eea4af833ea3e8d52a3c465ac449efe3b43d4e5d92cb4
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+suites:
+- code_point:
+  - '0x00'
+  - '0x00'
+  names:
+  - name: TLS_NULL_WITH_NULL_NULL
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x00'
+  - '0x00'
+  names:
+  - name: SSL_CK_NULL_WITH_MD5
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x01'
+  names:
+  - name: TLS_RSA_WITH_NULL_MD5
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x02'
+  names:
+  - name: TLS_RSA_WITH_NULL_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x03'
+  names:
+  - name: TLS_RSA_EXPORT_WITH_RC4_40_MD5
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x04'
+  names:
+  - name: TLS_RSA_WITH_RC4_128_MD5
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x05'
+  names:
+  - name: TLS_RSA_WITH_RC4_128_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x06'
+  names:
+  - name: TLS_RSA_EXPORT_WITH_RC2_CBC_40_MD5
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x07'
+  names:
+  - name: TLS_RSA_WITH_IDEA_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x08'
+  names:
+  - name: TLS_RSA_EXPORT_WITH_DES40_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x09'
+  names:
+  - name: TLS_RSA_WITH_DES_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x0A'
+  names:
+  - name: TLS_RSA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x0B'
+  names:
+  - name: TLS_DH_DSS_EXPORT_WITH_DES40_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x0C'
+  names:
+  - name: TLS_DH_DSS_WITH_DES_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x0D'
+  names:
+  - name: TLS_DH_DSS_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x0E'
+  names:
+  - name: TLS_DH_RSA_EXPORT_WITH_DES40_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x0F'
+  names:
+  - name: TLS_DH_RSA_WITH_DES_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x10'
+  names:
+  - name: TLS_DH_RSA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x11'
+  names:
+  - name: TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x12'
+  names:
+  - name: TLS_DHE_DSS_WITH_DES_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x13'
+  names:
+  - name: TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x14'
+  names:
+  - name: TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x15'
+  names:
+  - name: TLS_DHE_RSA_WITH_DES_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x16'
+  names:
+  - name: TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x17'
+  names:
+  - name: TLS_DH_anon_EXPORT_WITH_RC4_40_MD5
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x18'
+  names:
+  - name: TLS_DH_anon_WITH_RC4_128_MD5
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x19'
+  names:
+  - name: TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x1A'
+  names:
+  - name: TLS_DH_anon_WITH_DES_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x1B'
+  names:
+  - name: TLS_DH_anon_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x1E'
+  names:
+  - name: TLS_KRB5_WITH_DES_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x1F'
+  names:
+  - name: TLS_KRB5_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x20'
+  names:
+  - name: TLS_KRB5_WITH_RC4_128_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x21'
+  names:
+  - name: TLS_KRB5_WITH_IDEA_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x22'
+  names:
+  - name: TLS_KRB5_WITH_DES_CBC_MD5
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x23'
+  names:
+  - name: TLS_KRB5_WITH_3DES_EDE_CBC_MD5
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x24'
+  names:
+  - name: TLS_KRB5_WITH_RC4_128_MD5
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x25'
+  names:
+  - name: TLS_KRB5_WITH_IDEA_CBC_MD5
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x26'
+  names:
+  - name: TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x27'
+  names:
+  - name: TLS_KRB5_EXPORT_WITH_RC2_CBC_40_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x28'
+  names:
+  - name: TLS_KRB5_EXPORT_WITH_RC4_40_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x29'
+  names:
+  - name: TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x2A'
+  names:
+  - name: TLS_KRB5_EXPORT_WITH_RC2_CBC_40_MD5
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x2B'
+  names:
+  - name: TLS_KRB5_EXPORT_WITH_RC4_40_MD5
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x2C'
+  names:
+  - name: TLS_PSK_WITH_NULL_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x2D'
+  names:
+  - name: TLS_DHE_PSK_WITH_NULL_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x2E'
+  names:
+  - name: TLS_RSA_PSK_WITH_NULL_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x2F'
+  names:
+  - name: TLS_RSA_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x30'
+  names:
+  - name: TLS_DH_DSS_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x31'
+  names:
+  - name: TLS_DH_RSA_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x32'
+  names:
+  - name: TLS_DHE_DSS_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x33'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x34'
+  names:
+  - name: TLS_DH_anon_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x35'
+  names:
+  - name: TLS_RSA_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x36'
+  names:
+  - name: TLS_DH_DSS_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x37'
+  names:
+  - name: TLS_DH_RSA_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x38'
+  names:
+  - name: TLS_DHE_DSS_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x39'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x3A'
+  names:
+  - name: TLS_DH_anon_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x3B'
+  names:
+  - name: TLS_RSA_WITH_NULL_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x3C'
+  names:
+  - name: TLS_RSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x3D'
+  names:
+  - name: TLS_RSA_WITH_AES_256_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x3E'
+  names:
+  - name: TLS_DH_DSS_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x3F'
+  names:
+  - name: TLS_DH_RSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x40'
+  names:
+  - name: TLS_DHE_DSS_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x41'
+  names:
+  - name: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x42'
+  names:
+  - name: TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x43'
+  names:
+  - name: TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x44'
+  names:
+  - name: TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x45'
+  names:
+  - name: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x46'
+  names:
+  - name: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x60'
+  names:
+  - name: TLS_RSA_EXPORT1024_WITH_RC4_56_MD5
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x61'
+  names:
+  - name: TLS_RSA_EXPORT1024_WITH_RC2_56_MD5
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x62'
+  names:
+  - name: TLS_RSA_EXPORT1024_WITH_DES_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x63'
+  names:
+  - name: TLS_DHE_DSS_EXPORT1024_WITH_DES_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x64'
+  names:
+  - name: TLS_RSA_EXPORT1024_WITH_RC4_56_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x65'
+  names:
+  - name: TLS_DHE_DSS_EXPORT1024_WITH_RC4_56_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x66'
+  names:
+  - name: TLS_DHE_DSS_WITH_RC4_128_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x67'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x68'
+  names:
+  - name: TLS_DH_DSS_WITH_AES_256_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x69'
+  names:
+  - name: TLS_DH_RSA_WITH_AES_256_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x6A'
+  names:
+  - name: TLS_DHE_DSS_WITH_AES_256_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x6B'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x6C'
+  names:
+  - name: TLS_DH_anon_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x6D'
+  names:
+  - name: TLS_DH_anon_WITH_AES_256_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x80'
+  names:
+  - name: TLS_GOSTR341094_WITH_28147_CNT_IMIT
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x81'
+  names:
+  - name: TLS_GOSTR341001_WITH_28147_CNT_IMIT
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x82'
+  names:
+  - name: TLS_GOSTR341094_WITH_NULL_GOSTR3411
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x83'
+  names:
+  - name: TLS_GOSTR341001_WITH_NULL_GOSTR3411
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x84'
+  names:
+  - name: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x85'
+  names:
+  - name: TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x86'
+  names:
+  - name: TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x87'
+  names:
+  - name: TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x88'
+  names:
+  - name: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x89'
+  names:
+  - name: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x8A'
+  names:
+  - name: TLS_PSK_WITH_RC4_128_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x8B'
+  names:
+  - name: TLS_PSK_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x8C'
+  names:
+  - name: TLS_PSK_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x8D'
+  names:
+  - name: TLS_PSK_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x8E'
+  names:
+  - name: TLS_DHE_PSK_WITH_RC4_128_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x8F'
+  names:
+  - name: TLS_DHE_PSK_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x90'
+  names:
+  - name: TLS_DHE_PSK_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x91'
+  names:
+  - name: TLS_DHE_PSK_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x92'
+  names:
+  - name: TLS_RSA_PSK_WITH_RC4_128_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x93'
+  names:
+  - name: TLS_RSA_PSK_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x94'
+  names:
+  - name: TLS_RSA_PSK_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x95'
+  names:
+  - name: TLS_RSA_PSK_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x96'
+  names:
+  - name: TLS_RSA_WITH_SEED_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x97'
+  names:
+  - name: TLS_DH_DSS_WITH_SEED_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x98'
+  names:
+  - name: TLS_DH_RSA_WITH_SEED_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x99'
+  names:
+  - name: TLS_DHE_DSS_WITH_SEED_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x9A'
+  names:
+  - name: TLS_DHE_RSA_WITH_SEED_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x9B'
+  names:
+  - name: TLS_DH_anon_WITH_SEED_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x9C'
+  names:
+  - name: TLS_RSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x9D'
+  names:
+  - name: TLS_RSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x9E'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x9F'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xA0'
+  names:
+  - name: TLS_DH_RSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xA1'
+  names:
+  - name: TLS_DH_RSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xA2'
+  names:
+  - name: TLS_DHE_DSS_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xA3'
+  names:
+  - name: TLS_DHE_DSS_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xA4'
+  names:
+  - name: TLS_DH_DSS_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xA5'
+  names:
+  - name: TLS_DH_DSS_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xA6'
+  names:
+  - name: TLS_DH_anon_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xA7'
+  names:
+  - name: TLS_DH_anon_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xA8'
+  names:
+  - name: TLS_PSK_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xA9'
+  names:
+  - name: TLS_PSK_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xAA'
+  names:
+  - name: TLS_DHE_PSK_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xAB'
+  names:
+  - name: TLS_DHE_PSK_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xAC'
+  names:
+  - name: TLS_RSA_PSK_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xAD'
+  names:
+  - name: TLS_RSA_PSK_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xAE'
+  names:
+  - name: TLS_PSK_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xAF'
+  names:
+  - name: TLS_PSK_WITH_AES_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xB0'
+  names:
+  - name: TLS_PSK_WITH_NULL_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xB1'
+  names:
+  - name: TLS_PSK_WITH_NULL_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xB2'
+  names:
+  - name: TLS_DHE_PSK_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xB3'
+  names:
+  - name: TLS_DHE_PSK_WITH_AES_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xB4'
+  names:
+  - name: TLS_DHE_PSK_WITH_NULL_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xB5'
+  names:
+  - name: TLS_DHE_PSK_WITH_NULL_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xB6'
+  names:
+  - name: TLS_RSA_PSK_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xB7'
+  names:
+  - name: TLS_RSA_PSK_WITH_AES_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xB8'
+  names:
+  - name: TLS_RSA_PSK_WITH_NULL_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xB9'
+  names:
+  - name: TLS_RSA_PSK_WITH_NULL_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xBA'
+  names:
+  - name: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xBB'
+  names:
+  - name: TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xBC'
+  names:
+  - name: TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xBD'
+  names:
+  - name: TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xBE'
+  names:
+  - name: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xBF'
+  names:
+  - name: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xC0'
+  names:
+  - name: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xC1'
+  names:
+  - name: TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xC2'
+  names:
+  - name: TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xC3'
+  names:
+  - name: TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xC4'
+  names:
+  - name: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xC5'
+  names:
+  - name: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xC6'
+  names:
+  - name: TLS_SM4_GCM_SM3
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0xC7'
+  names:
+  - name: TLS_SM4_CCM_SM3
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x01'
+  - '0x00'
+  - '0x80'
+  names:
+  - name: SSL_CK_RC4_128_WITH_MD5
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x02'
+  - '0x00'
+  - '0x80'
+  names:
+  - name: SSL_CK_RC4_128_EXPORT40_WITH_MD5
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x03'
+  - '0x00'
+  - '0x80'
+  names:
+  - name: SSL_CK_RC2_128_CBC_WITH_MD5
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x04'
+  - '0x00'
+  - '0x80'
+  names:
+  - name: SSL_CK_RC2_128_CBC_EXPORT40_WITH_MD5
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x05'
+  - '0x00'
+  - '0x80'
+  names:
+  - name: SSL_CK_IDEA_128_CBC_WITH_MD5
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x06'
+  - '0x00'
+  - '0x40'
+  names:
+  - name: SSL_CK_DES_64_CBC_WITH_MD5
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x06'
+  - '0x01'
+  - '0x40'
+  names:
+  - name: SSL_CK_DES_64_CBC_WITH_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x07'
+  - '0x00'
+  - '0xC0'
+  names:
+  - name: SSL_CK_DES_192_EDE3_CBC_WITH_MD5
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x07'
+  - '0x01'
+  - '0xC0'
+  names:
+  - name: SSL_CK_DES_192_EDE3_CBC_WITH_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x08'
+  - '0x00'
+  - '0x80'
+  names:
+  - name: SSL_CK_RC4_64_WITH_MD5
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x13'
+  - '0x01'
+  names:
+  - name: TLS_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x13'
+  - '0x02'
+  names:
+  - name: TLS_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x13'
+  - '0x03'
+  names:
+  - name: TLS_CHACHA20_POLY1305_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x13'
+  - '0x04'
+  names:
+  - name: TLS_AES_128_CCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x13'
+  - '0x05'
+  names:
+  - name: TLS_AES_128_CCM_8_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x16'
+  - '0xB7'
+  names:
+  - name: TLS_CECPQ1_RSA_WITH_CHACHA20_POLY1305_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x16'
+  - '0xB8'
+  names:
+  - name: TLS_CECPQ1_ECDSA_WITH_CHACHA20_POLY1305_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x16'
+  - '0xB9'
+  names:
+  - name: TLS_CECPQ1_RSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x16'
+  - '0xBA'
+  names:
+  - name: TLS_CECPQ1_ECDSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x01'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_NULL_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x02'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_RC4_128_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x03'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x04'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x05'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x06'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_NULL_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x07'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_RC4_128_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x08'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x09'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x0A'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x0B'
+  names:
+  - name: TLS_ECDH_RSA_WITH_NULL_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x0C'
+  names:
+  - name: TLS_ECDH_RSA_WITH_RC4_128_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x0D'
+  names:
+  - name: TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x0E'
+  names:
+  - name: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x0F'
+  names:
+  - name: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x10'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_NULL_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x11'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_RC4_128_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x12'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x13'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x14'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x15'
+  names:
+  - name: TLS_ECDH_anon_WITH_NULL_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x16'
+  names:
+  - name: TLS_ECDH_anon_WITH_RC4_128_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x17'
+  names:
+  - name: TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x18'
+  names:
+  - name: TLS_ECDH_anon_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x19'
+  names:
+  - name: TLS_ECDH_anon_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x1A'
+  names:
+  - name: TLS_SRP_SHA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x1B'
+  names:
+  - name: TLS_SRP_SHA_RSA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x1C'
+  names:
+  - name: TLS_SRP_SHA_DSS_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x1D'
+  names:
+  - name: TLS_SRP_SHA_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x1E'
+  names:
+  - name: TLS_SRP_SHA_RSA_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x1F'
+  names:
+  - name: TLS_SRP_SHA_DSS_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x20'
+  names:
+  - name: TLS_SRP_SHA_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x21'
+  names:
+  - name: TLS_SRP_SHA_RSA_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x22'
+  names:
+  - name: TLS_SRP_SHA_DSS_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x23'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x24'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x25'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x26'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x27'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x28'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x29'
+  names:
+  - name: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x2A'
+  names:
+  - name: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x2B'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x2C'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x2D'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x2E'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x2F'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x30'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x31'
+  names:
+  - name: TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x32'
+  names:
+  - name: TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x33'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_RC4_128_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x34'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x35'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x36'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x37'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x38'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x39'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_NULL_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x3A'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_NULL_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x3B'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_NULL_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x3C'
+  names:
+  - name: TLS_RSA_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x3D'
+  names:
+  - name: TLS_RSA_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x3E'
+  names:
+  - name: TLS_DH_DSS_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x3F'
+  names:
+  - name: TLS_DH_DSS_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x40'
+  names:
+  - name: TLS_DH_RSA_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x41'
+  names:
+  - name: TLS_DH_RSA_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x42'
+  names:
+  - name: TLS_DHE_DSS_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x43'
+  names:
+  - name: TLS_DHE_DSS_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x44'
+  names:
+  - name: TLS_DHE_RSA_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x45'
+  names:
+  - name: TLS_DHE_RSA_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x46'
+  names:
+  - name: TLS_DH_anon_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x47'
+  names:
+  - name: TLS_DH_anon_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x48'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x49'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x4A'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x4B'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x4C'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x4D'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x4E'
+  names:
+  - name: TLS_ECDH_RSA_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x4F'
+  names:
+  - name: TLS_ECDH_RSA_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x50'
+  names:
+  - name: TLS_RSA_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x51'
+  names:
+  - name: TLS_RSA_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x52'
+  names:
+  - name: TLS_DHE_RSA_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x53'
+  names:
+  - name: TLS_DHE_RSA_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x54'
+  names:
+  - name: TLS_DH_RSA_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x55'
+  names:
+  - name: TLS_DH_RSA_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x56'
+  names:
+  - name: TLS_DHE_DSS_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x57'
+  names:
+  - name: TLS_DHE_DSS_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x58'
+  names:
+  - name: TLS_DH_DSS_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x59'
+  names:
+  - name: TLS_DH_DSS_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x5A'
+  names:
+  - name: TLS_DH_anon_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x5B'
+  names:
+  - name: TLS_DH_anon_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x5C'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x5D'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x5E'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x5F'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x60'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x61'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x62'
+  names:
+  - name: TLS_ECDH_RSA_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x63'
+  names:
+  - name: TLS_ECDH_RSA_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x64'
+  names:
+  - name: TLS_PSK_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x65'
+  names:
+  - name: TLS_PSK_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x66'
+  names:
+  - name: TLS_DHE_PSK_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x67'
+  names:
+  - name: TLS_DHE_PSK_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x68'
+  names:
+  - name: TLS_RSA_PSK_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x69'
+  names:
+  - name: TLS_RSA_PSK_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x6A'
+  names:
+  - name: TLS_PSK_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x6B'
+  names:
+  - name: TLS_PSK_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x6C'
+  names:
+  - name: TLS_DHE_PSK_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x6D'
+  names:
+  - name: TLS_DHE_PSK_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x6E'
+  names:
+  - name: TLS_RSA_PSK_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x6F'
+  names:
+  - name: TLS_RSA_PSK_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x70'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x71'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x72'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x73'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x74'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x75'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_CAMELLIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x76'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x77'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x78'
+  names:
+  - name: TLS_ECDH_RSA_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x79'
+  names:
+  - name: TLS_ECDH_RSA_WITH_CAMELLIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x7A'
+  names:
+  - name: TLS_RSA_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x7B'
+  names:
+  - name: TLS_RSA_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x7C'
+  names:
+  - name: TLS_DHE_RSA_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x7D'
+  names:
+  - name: TLS_DHE_RSA_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x7E'
+  names:
+  - name: TLS_DH_RSA_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x7F'
+  names:
+  - name: TLS_DH_RSA_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x80'
+  names:
+  - name: TLS_DHE_DSS_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x81'
+  names:
+  - name: TLS_DHE_DSS_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x82'
+  names:
+  - name: TLS_DH_DSS_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x83'
+  names:
+  - name: TLS_DH_DSS_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x84'
+  names:
+  - name: TLS_DH_anon_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x85'
+  names:
+  - name: TLS_DH_anon_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x86'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x87'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x88'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x89'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x8A'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x8B'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x8C'
+  names:
+  - name: TLS_ECDH_RSA_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x8D'
+  names:
+  - name: TLS_ECDH_RSA_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x8E'
+  names:
+  - name: TLS_PSK_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x8F'
+  names:
+  - name: TLS_PSK_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x90'
+  names:
+  - name: TLS_DHE_PSK_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x91'
+  names:
+  - name: TLS_DHE_PSK_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x92'
+  names:
+  - name: TLS_RSA_PSK_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x93'
+  names:
+  - name: TLS_RSA_PSK_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x94'
+  names:
+  - name: TLS_PSK_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x95'
+  names:
+  - name: TLS_PSK_WITH_CAMELLIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x96'
+  names:
+  - name: TLS_DHE_PSK_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x97'
+  names:
+  - name: TLS_DHE_PSK_WITH_CAMELLIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x98'
+  names:
+  - name: TLS_RSA_PSK_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x99'
+  names:
+  - name: TLS_RSA_PSK_WITH_CAMELLIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x9A'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x9B'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_CAMELLIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x9C'
+  names:
+  - name: TLS_RSA_WITH_AES_128_CCM
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x9D'
+  names:
+  - name: TLS_RSA_WITH_AES_256_CCM
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x9E'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_128_CCM
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x9F'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_256_CCM
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0xA0'
+  names:
+  - name: TLS_RSA_WITH_AES_128_CCM_8
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0xA1'
+  names:
+  - name: TLS_RSA_WITH_AES_256_CCM_8
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0xA2'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_128_CCM_8
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0xA3'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_256_CCM_8
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0xA4'
+  names:
+  - name: TLS_PSK_WITH_AES_128_CCM
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0xA5'
+  names:
+  - name: TLS_PSK_WITH_AES_256_CCM
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0xA6'
+  names:
+  - name: TLS_DHE_PSK_WITH_AES_128_CCM
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0xA7'
+  names:
+  - name: TLS_DHE_PSK_WITH_AES_256_CCM
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0xA8'
+  names:
+  - name: TLS_PSK_WITH_AES_128_CCM_8
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0xA9'
+  names:
+  - name: TLS_PSK_WITH_AES_256_CCM_8
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0xAA'
+  names:
+  - name: TLS_PSK_DHE_WITH_AES_128_CCM_8
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0xAB'
+  names:
+  - name: TLS_PSK_DHE_WITH_AES_256_CCM_8
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0xAC'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_128_CCM
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0xAD'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_256_CCM
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0xAE'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0xAF'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0xB4'
+  names:
+  - name: TLS_SHA256_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0xB5'
+  names:
+  - name: TLS_SHA384_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xCC'
+  - '0x13'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256_OLD
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xCC'
+  - '0x14'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256_OLD
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xCC'
+  - '0x15'
+  names:
+  - name: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256_OLD
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xCC'
+  - '0xA8'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xCC'
+  - '0xA9'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xCC'
+  - '0xAA'
+  names:
+  - name: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xCC'
+  - '0xAB'
+  names:
+  - name: TLS_PSK_WITH_CHACHA20_POLY1305_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xCC'
+  - '0xAC'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_CHACHA20_POLY1305_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xCC'
+  - '0xAD'
+  names:
+  - name: TLS_DHE_PSK_WITH_CHACHA20_POLY1305_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xCC'
+  - '0xAE'
+  names:
+  - name: TLS_RSA_PSK_WITH_CHACHA20_POLY1305_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xFE'
+  - '0xFE'
+  names:
+  - name: SSL_RSA_FIPS_WITH_DES_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xFE'
+  - '0xFF'
+  names:
+  - name: SSL_RSA_FIPS_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xFF'
+  - '0x00'
+  names:
+  - name: TLS_GOSTR341094_RSA_WITH_28147_CNT_MD5
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xFF'
+  - '0x01'
+  names:
+  - name: TLS_RSA_WITH_28147_CNT_GOST94
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xFF'
+  - '0x80'
+  - '0x00'
+  names:
+  - name: SSL_CK_DES_64_CFB64_WITH_MD5_1
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xFF'
+  - '0x80'
+  - '0x10'
+  names:
+  - name: SSL_CK_NULL
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xFF'
+  - '0xE0'
+  names:
+  - name: SSL_RSA_FIPS_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xFF'
+  - '0xE1'
+  names:
+  - name: SSL_RSA_FIPS_WITH_DES_CBC_SHA
+    versions:
+    - '2026-11-08'

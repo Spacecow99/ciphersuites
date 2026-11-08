@@ -1,1791 +1,3595 @@
-- model: iana
-  pk: TLS_NULL_WITH_NULL_NULL
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x00'
-- model: iana
-  pk: TLS_RSA_WITH_NULL_MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x01'
-- model: iana
-  pk: TLS_RSA_WITH_NULL_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x02'
-- model: iana
-  pk: TLS_RSA_EXPORT_WITH_RC4_40_MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x03'
-- model: iana
-  pk: TLS_RSA_WITH_RC4_128_MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x04'
-- model: iana
-  pk: TLS_RSA_WITH_RC4_128_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x05'
-- model: iana
-  pk: TLS_RSA_EXPORT_WITH_RC2_CBC_40_MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x06'
-- model: iana
-  pk: TLS_RSA_WITH_IDEA_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x07'
-- model: iana
-  pk: TLS_RSA_EXPORT_WITH_DES40_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x08'
-- model: iana
-  pk: TLS_RSA_WITH_DES_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x09'
-- model: iana
-  pk: TLS_RSA_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x0A'
-- model: iana
-  pk: TLS_DH_DSS_EXPORT_WITH_DES40_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x0B'
-- model: iana
-  pk: TLS_DH_DSS_WITH_DES_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x0C'
-- model: iana
-  pk: TLS_DH_DSS_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x0D'
-- model: iana
-  pk: TLS_DH_RSA_EXPORT_WITH_DES40_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x0E'
-- model: iana
-  pk: TLS_DH_RSA_WITH_DES_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x0F'
-- model: iana
-  pk: TLS_DH_RSA_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x10'
-- model: iana
-  pk: TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x11'
-- model: iana
-  pk: TLS_DHE_DSS_WITH_DES_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x12'
-- model: iana
-  pk: TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x13'
-- model: iana
-  pk: TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x14'
-- model: iana
-  pk: TLS_DHE_RSA_WITH_DES_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x15'
-- model: iana
-  pk: TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x16'
-- model: iana
-  pk: TLS_DH_anon_EXPORT_WITH_RC4_40_MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x17'
-- model: iana
-  pk: TLS_DH_anon_WITH_RC4_128_MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x18'
-- model: iana
-  pk: TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x19'
-- model: iana
-  pk: TLS_DH_anon_WITH_DES_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x1A'
-- model: iana
-  pk: TLS_DH_anon_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x1B'
-- model: iana
-  pk: TLS_KRB5_WITH_DES_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x1E'
-- model: iana
-  pk: TLS_KRB5_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x1F'
-- model: iana
-  pk: TLS_KRB5_WITH_RC4_128_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x20'
-- model: iana
-  pk: TLS_KRB5_WITH_IDEA_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x21'
-- model: iana
-  pk: TLS_KRB5_WITH_DES_CBC_MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x22'
-- model: iana
-  pk: TLS_KRB5_WITH_3DES_EDE_CBC_MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x23'
-- model: iana
-  pk: TLS_KRB5_WITH_RC4_128_MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x24'
-- model: iana
-  pk: TLS_KRB5_WITH_IDEA_CBC_MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x25'
-- model: iana
-  pk: TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x26'
-- model: iana
-  pk: TLS_KRB5_EXPORT_WITH_RC2_CBC_40_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x27'
-- model: iana
-  pk: TLS_KRB5_EXPORT_WITH_RC4_40_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x28'
-- model: iana
-  pk: TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x29'
-- model: iana
-  pk: TLS_KRB5_EXPORT_WITH_RC2_CBC_40_MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x2A'
-- model: iana
-  pk: TLS_KRB5_EXPORT_WITH_RC4_40_MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x2B'
-- model: iana
-  pk: TLS_PSK_WITH_NULL_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x2C'
-- model: iana
-  pk: TLS_DHE_PSK_WITH_NULL_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x2D'
-- model: iana
-  pk: TLS_RSA_PSK_WITH_NULL_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x2E'
-- model: iana
-  pk: TLS_RSA_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x2F'
-- model: iana
-  pk: TLS_DH_DSS_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x30'
-- model: iana
-  pk: TLS_DH_RSA_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x31'
-- model: iana
-  pk: TLS_DHE_DSS_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x32'
-- model: iana
-  pk: TLS_DHE_RSA_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x33'
-- model: iana
-  pk: TLS_DH_anon_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x34'
-- model: iana
-  pk: TLS_RSA_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x35'
-- model: iana
-  pk: TLS_DH_DSS_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x36'
-- model: iana
-  pk: TLS_DH_RSA_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x37'
-- model: iana
-  pk: TLS_DHE_DSS_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x38'
-- model: iana
-  pk: TLS_DHE_RSA_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x39'
-- model: iana
-  pk: TLS_DH_anon_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3A'
-- model: iana
-  pk: TLS_RSA_WITH_NULL_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3B'
-- model: iana
-  pk: TLS_RSA_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3C'
-- model: iana
-  pk: TLS_RSA_WITH_AES_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3D'
-- model: iana
-  pk: TLS_DH_DSS_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3E'
-- model: iana
-  pk: TLS_DH_RSA_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3F'
-- model: iana
-  pk: TLS_DHE_DSS_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x40'
-- model: iana
-  pk: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x41'
-- model: iana
-  pk: TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x42'
-- model: iana
-  pk: TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x43'
-- model: iana
-  pk: TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x44'
-- model: iana
-  pk: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x45'
-- model: iana
-  pk: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x46'
-- model: iana
-  pk: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x67'
-- model: iana
-  pk: TLS_DH_DSS_WITH_AES_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x68'
-- model: iana
-  pk: TLS_DH_RSA_WITH_AES_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x69'
-- model: iana
-  pk: TLS_DHE_DSS_WITH_AES_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x6A'
-- model: iana
-  pk: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x6B'
-- model: iana
-  pk: TLS_DH_anon_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x6C'
-- model: iana
-  pk: TLS_DH_anon_WITH_AES_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x6D'
-- model: iana
-  pk: TLS_ASCONAEAD128_ASCONHASH256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x6E'
-- model: iana
-  pk: TLS_ASCONAEAD128_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x6F'
-- model: iana
-  pk: TLS_AES_128_GCM_ASCONHASH256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x70'
-- model: iana
-  pk: TLS_AES_128_CCM_ASCONHASH256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x71'
-- model: iana
-  pk: TLS_BELT_CHE256_BELT_HASH
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x72'
-- model: iana
-  pk: TLS_BASH_PRG_AE2561_BASH256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x73'
-- model: iana
-  pk: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x84'
-- model: iana
-  pk: TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x85'
-- model: iana
-  pk: TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x86'
-- model: iana
-  pk: TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x87'
-- model: iana
-  pk: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x88'
-- model: iana
-  pk: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x89'
-- model: iana
-  pk: TLS_PSK_WITH_RC4_128_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x8A'
-- model: iana
-  pk: TLS_PSK_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x8B'
-- model: iana
-  pk: TLS_PSK_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x8C'
-- model: iana
-  pk: TLS_PSK_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x8D'
-- model: iana
-  pk: TLS_DHE_PSK_WITH_RC4_128_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x8E'
-- model: iana
-  pk: TLS_DHE_PSK_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x8F'
-- model: iana
-  pk: TLS_DHE_PSK_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x90'
-- model: iana
-  pk: TLS_DHE_PSK_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x91'
-- model: iana
-  pk: TLS_RSA_PSK_WITH_RC4_128_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x92'
-- model: iana
-  pk: TLS_RSA_PSK_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x93'
-- model: iana
-  pk: TLS_RSA_PSK_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x94'
-- model: iana
-  pk: TLS_RSA_PSK_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x95'
-- model: iana
-  pk: TLS_RSA_WITH_SEED_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x96'
-- model: iana
-  pk: TLS_DH_DSS_WITH_SEED_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x97'
-- model: iana
-  pk: TLS_DH_RSA_WITH_SEED_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x98'
-- model: iana
-  pk: TLS_DHE_DSS_WITH_SEED_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x99'
-- model: iana
-  pk: TLS_DHE_RSA_WITH_SEED_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9A'
-- model: iana
-  pk: TLS_DH_anon_WITH_SEED_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9B'
-- model: iana
-  pk: TLS_RSA_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9C'
-- model: iana
-  pk: TLS_RSA_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9D'
-- model: iana
-  pk: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9E'
-- model: iana
-  pk: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9F'
-- model: iana
-  pk: TLS_DH_RSA_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA0'
-- model: iana
-  pk: TLS_DH_RSA_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA1'
-- model: iana
-  pk: TLS_DHE_DSS_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA2'
-- model: iana
-  pk: TLS_DHE_DSS_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA3'
-- model: iana
-  pk: TLS_DH_DSS_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA4'
-- model: iana
-  pk: TLS_DH_DSS_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA5'
-- model: iana
-  pk: TLS_DH_anon_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA6'
-- model: iana
-  pk: TLS_DH_anon_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA7'
-- model: iana
-  pk: TLS_PSK_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA8'
-- model: iana
-  pk: TLS_PSK_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA9'
-- model: iana
-  pk: TLS_DHE_PSK_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xAA'
-- model: iana
-  pk: TLS_DHE_PSK_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xAB'
-- model: iana
-  pk: TLS_RSA_PSK_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xAC'
-- model: iana
-  pk: TLS_RSA_PSK_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xAD'
-- model: iana
-  pk: TLS_PSK_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xAE'
-- model: iana
-  pk: TLS_PSK_WITH_AES_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xAF'
-- model: iana
-  pk: TLS_PSK_WITH_NULL_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xB0'
-- model: iana
-  pk: TLS_PSK_WITH_NULL_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xB1'
-- model: iana
-  pk: TLS_DHE_PSK_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xB2'
-- model: iana
-  pk: TLS_DHE_PSK_WITH_AES_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xB3'
-- model: iana
-  pk: TLS_DHE_PSK_WITH_NULL_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xB4'
-- model: iana
-  pk: TLS_DHE_PSK_WITH_NULL_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xB5'
-- model: iana
-  pk: TLS_RSA_PSK_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xB6'
-- model: iana
-  pk: TLS_RSA_PSK_WITH_AES_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xB7'
-- model: iana
-  pk: TLS_RSA_PSK_WITH_NULL_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xB8'
-- model: iana
-  pk: TLS_RSA_PSK_WITH_NULL_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xB9'
-- model: iana
-  pk: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xBA'
-- model: iana
-  pk: TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xBB'
-- model: iana
-  pk: TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xBC'
-- model: iana
-  pk: TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xBD'
-- model: iana
-  pk: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xBE'
-- model: iana
-  pk: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xBF'
-- model: iana
-  pk: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xC0'
-- model: iana
-  pk: TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xC1'
-- model: iana
-  pk: TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xC2'
-- model: iana
-  pk: TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xC3'
-- model: iana
-  pk: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xC4'
-- model: iana
-  pk: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xC5'
-- model: iana
-  pk: TLS_SM4_GCM_SM3
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xC6'
-- model: iana
-  pk: TLS_SM4_CCM_SM3
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xC7'
-- model: iana
-  pk: TLS_EMPTY_RENEGOTIATION_INFO_SCSV
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xFF'
-- model: iana
-  pk: TLS_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x01'
-- model: iana
-  pk: TLS_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x02'
-- model: iana
-  pk: TLS_CHACHA20_POLY1305_SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x03'
-- model: iana
-  pk: TLS_AES_128_CCM_SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x04'
-- model: iana
-  pk: TLS_AES_128_CCM_8_SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x05'
-- model: iana
-  pk: TLS_AEGIS_256_SHA512
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x06'
-- model: iana
-  pk: TLS_AEGIS_128L_SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x07'
-- model: iana
-  pk: TLS_FALLBACK_SCSV
-  fields:
-    hex_byte_1: '0x56'
-    hex_byte_2: '0x00'
-- model: iana
-  pk: TLS_ECDH_ECDSA_WITH_NULL_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x01'
-- model: iana
-  pk: TLS_ECDH_ECDSA_WITH_RC4_128_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x02'
-- model: iana
-  pk: TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x03'
-- model: iana
-  pk: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x04'
-- model: iana
-  pk: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x05'
-- model: iana
-  pk: TLS_ECDHE_ECDSA_WITH_NULL_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x06'
-- model: iana
-  pk: TLS_ECDHE_ECDSA_WITH_RC4_128_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x07'
-- model: iana
-  pk: TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x08'
-- model: iana
-  pk: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x09'
-- model: iana
-  pk: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0A'
-- model: iana
-  pk: TLS_ECDH_RSA_WITH_NULL_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0B'
-- model: iana
-  pk: TLS_ECDH_RSA_WITH_RC4_128_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0C'
-- model: iana
-  pk: TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0D'
-- model: iana
-  pk: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0E'
-- model: iana
-  pk: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0F'
-- model: iana
-  pk: TLS_ECDHE_RSA_WITH_NULL_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x10'
-- model: iana
-  pk: TLS_ECDHE_RSA_WITH_RC4_128_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x11'
-- model: iana
-  pk: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x12'
-- model: iana
-  pk: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x13'
-- model: iana
-  pk: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x14'
-- model: iana
-  pk: TLS_ECDH_anon_WITH_NULL_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x15'
-- model: iana
-  pk: TLS_ECDH_anon_WITH_RC4_128_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x16'
-- model: iana
-  pk: TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x17'
-- model: iana
-  pk: TLS_ECDH_anon_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x18'
-- model: iana
-  pk: TLS_ECDH_anon_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x19'
-- model: iana
-  pk: TLS_SRP_SHA_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x1A'
-- model: iana
-  pk: TLS_SRP_SHA_RSA_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x1B'
-- model: iana
-  pk: TLS_SRP_SHA_DSS_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x1C'
-- model: iana
-  pk: TLS_SRP_SHA_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x1D'
-- model: iana
-  pk: TLS_SRP_SHA_RSA_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x1E'
-- model: iana
-  pk: TLS_SRP_SHA_DSS_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x1F'
-- model: iana
-  pk: TLS_SRP_SHA_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x20'
-- model: iana
-  pk: TLS_SRP_SHA_RSA_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x21'
-- model: iana
-  pk: TLS_SRP_SHA_DSS_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x22'
-- model: iana
-  pk: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x23'
-- model: iana
-  pk: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x24'
-- model: iana
-  pk: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x25'
-- model: iana
-  pk: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x26'
-- model: iana
-  pk: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x27'
-- model: iana
-  pk: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x28'
-- model: iana
-  pk: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x29'
-- model: iana
-  pk: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2A'
-- model: iana
-  pk: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2B'
-- model: iana
-  pk: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2C'
-- model: iana
-  pk: TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2D'
-- model: iana
-  pk: TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2E'
-- model: iana
-  pk: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2F'
-- model: iana
-  pk: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x30'
-- model: iana
-  pk: TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x31'
-- model: iana
-  pk: TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x32'
-- model: iana
-  pk: TLS_ECDHE_PSK_WITH_RC4_128_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x33'
-- model: iana
-  pk: TLS_ECDHE_PSK_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x34'
-- model: iana
-  pk: TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x35'
-- model: iana
-  pk: TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x36'
-- model: iana
-  pk: TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x37'
-- model: iana
-  pk: TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x38'
-- model: iana
-  pk: TLS_ECDHE_PSK_WITH_NULL_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x39'
-- model: iana
-  pk: TLS_ECDHE_PSK_WITH_NULL_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x3A'
-- model: iana
-  pk: TLS_ECDHE_PSK_WITH_NULL_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x3B'
-- model: iana
-  pk: TLS_RSA_WITH_ARIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x3C'
-- model: iana
-  pk: TLS_RSA_WITH_ARIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x3D'
-- model: iana
-  pk: TLS_DH_DSS_WITH_ARIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x3E'
-- model: iana
-  pk: TLS_DH_DSS_WITH_ARIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x3F'
-- model: iana
-  pk: TLS_DH_RSA_WITH_ARIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x40'
-- model: iana
-  pk: TLS_DH_RSA_WITH_ARIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x41'
-- model: iana
-  pk: TLS_DHE_DSS_WITH_ARIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x42'
-- model: iana
-  pk: TLS_DHE_DSS_WITH_ARIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x43'
-- model: iana
-  pk: TLS_DHE_RSA_WITH_ARIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x44'
-- model: iana
-  pk: TLS_DHE_RSA_WITH_ARIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x45'
-- model: iana
-  pk: TLS_DH_anon_WITH_ARIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x46'
-- model: iana
-  pk: TLS_DH_anon_WITH_ARIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x47'
-- model: iana
-  pk: TLS_ECDHE_ECDSA_WITH_ARIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x48'
-- model: iana
-  pk: TLS_ECDHE_ECDSA_WITH_ARIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x49'
-- model: iana
-  pk: TLS_ECDH_ECDSA_WITH_ARIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x4A'
-- model: iana
-  pk: TLS_ECDH_ECDSA_WITH_ARIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x4B'
-- model: iana
-  pk: TLS_ECDHE_RSA_WITH_ARIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x4C'
-- model: iana
-  pk: TLS_ECDHE_RSA_WITH_ARIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x4D'
-- model: iana
-  pk: TLS_ECDH_RSA_WITH_ARIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x4E'
-- model: iana
-  pk: TLS_ECDH_RSA_WITH_ARIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x4F'
-- model: iana
-  pk: TLS_RSA_WITH_ARIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x50'
-- model: iana
-  pk: TLS_RSA_WITH_ARIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x51'
-- model: iana
-  pk: TLS_DHE_RSA_WITH_ARIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x52'
-- model: iana
-  pk: TLS_DHE_RSA_WITH_ARIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x53'
-- model: iana
-  pk: TLS_DH_RSA_WITH_ARIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x54'
-- model: iana
-  pk: TLS_DH_RSA_WITH_ARIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x55'
-- model: iana
-  pk: TLS_DHE_DSS_WITH_ARIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x56'
-- model: iana
-  pk: TLS_DHE_DSS_WITH_ARIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x57'
-- model: iana
-  pk: TLS_DH_DSS_WITH_ARIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x58'
-- model: iana
-  pk: TLS_DH_DSS_WITH_ARIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x59'
-- model: iana
-  pk: TLS_DH_anon_WITH_ARIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x5A'
-- model: iana
-  pk: TLS_DH_anon_WITH_ARIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x5B'
-- model: iana
-  pk: TLS_ECDHE_ECDSA_WITH_ARIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x5C'
-- model: iana
-  pk: TLS_ECDHE_ECDSA_WITH_ARIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x5D'
-- model: iana
-  pk: TLS_ECDH_ECDSA_WITH_ARIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x5E'
-- model: iana
-  pk: TLS_ECDH_ECDSA_WITH_ARIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x5F'
-- model: iana
-  pk: TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x60'
-- model: iana
-  pk: TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x61'
-- model: iana
-  pk: TLS_ECDH_RSA_WITH_ARIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x62'
-- model: iana
-  pk: TLS_ECDH_RSA_WITH_ARIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x63'
-- model: iana
-  pk: TLS_PSK_WITH_ARIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x64'
-- model: iana
-  pk: TLS_PSK_WITH_ARIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x65'
-- model: iana
-  pk: TLS_DHE_PSK_WITH_ARIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x66'
-- model: iana
-  pk: TLS_DHE_PSK_WITH_ARIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x67'
-- model: iana
-  pk: TLS_RSA_PSK_WITH_ARIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x68'
-- model: iana
-  pk: TLS_RSA_PSK_WITH_ARIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x69'
-- model: iana
-  pk: TLS_PSK_WITH_ARIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x6A'
-- model: iana
-  pk: TLS_PSK_WITH_ARIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x6B'
-- model: iana
-  pk: TLS_DHE_PSK_WITH_ARIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x6C'
-- model: iana
-  pk: TLS_DHE_PSK_WITH_ARIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x6D'
-- model: iana
-  pk: TLS_RSA_PSK_WITH_ARIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x6E'
-- model: iana
-  pk: TLS_RSA_PSK_WITH_ARIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x6F'
-- model: iana
-  pk: TLS_ECDHE_PSK_WITH_ARIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x70'
-- model: iana
-  pk: TLS_ECDHE_PSK_WITH_ARIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x71'
-- model: iana
-  pk: TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x72'
-- model: iana
-  pk: TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x73'
-- model: iana
-  pk: TLS_ECDH_ECDSA_WITH_CAMELLIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x74'
-- model: iana
-  pk: TLS_ECDH_ECDSA_WITH_CAMELLIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x75'
-- model: iana
-  pk: TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x76'
-- model: iana
-  pk: TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x77'
-- model: iana
-  pk: TLS_ECDH_RSA_WITH_CAMELLIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x78'
-- model: iana
-  pk: TLS_ECDH_RSA_WITH_CAMELLIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x79'
-- model: iana
-  pk: TLS_RSA_WITH_CAMELLIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x7A'
-- model: iana
-  pk: TLS_RSA_WITH_CAMELLIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x7B'
-- model: iana
-  pk: TLS_DHE_RSA_WITH_CAMELLIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x7C'
-- model: iana
-  pk: TLS_DHE_RSA_WITH_CAMELLIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x7D'
-- model: iana
-  pk: TLS_DH_RSA_WITH_CAMELLIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x7E'
-- model: iana
-  pk: TLS_DH_RSA_WITH_CAMELLIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x7F'
-- model: iana
-  pk: TLS_DHE_DSS_WITH_CAMELLIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x80'
-- model: iana
-  pk: TLS_DHE_DSS_WITH_CAMELLIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x81'
-- model: iana
-  pk: TLS_DH_DSS_WITH_CAMELLIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x82'
-- model: iana
-  pk: TLS_DH_DSS_WITH_CAMELLIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x83'
-- model: iana
-  pk: TLS_DH_anon_WITH_CAMELLIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x84'
-- model: iana
-  pk: TLS_DH_anon_WITH_CAMELLIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x85'
-- model: iana
-  pk: TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x86'
-- model: iana
-  pk: TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x87'
-- model: iana
-  pk: TLS_ECDH_ECDSA_WITH_CAMELLIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x88'
-- model: iana
-  pk: TLS_ECDH_ECDSA_WITH_CAMELLIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x89'
-- model: iana
-  pk: TLS_ECDHE_RSA_WITH_CAMELLIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x8A'
-- model: iana
-  pk: TLS_ECDHE_RSA_WITH_CAMELLIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x8B'
-- model: iana
-  pk: TLS_ECDH_RSA_WITH_CAMELLIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x8C'
-- model: iana
-  pk: TLS_ECDH_RSA_WITH_CAMELLIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x8D'
-- model: iana
-  pk: TLS_PSK_WITH_CAMELLIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x8E'
-- model: iana
-  pk: TLS_PSK_WITH_CAMELLIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x8F'
-- model: iana
-  pk: TLS_DHE_PSK_WITH_CAMELLIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x90'
-- model: iana
-  pk: TLS_DHE_PSK_WITH_CAMELLIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x91'
-- model: iana
-  pk: TLS_RSA_PSK_WITH_CAMELLIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x92'
-- model: iana
-  pk: TLS_RSA_PSK_WITH_CAMELLIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x93'
-- model: iana
-  pk: TLS_PSK_WITH_CAMELLIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x94'
-- model: iana
-  pk: TLS_PSK_WITH_CAMELLIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x95'
-- model: iana
-  pk: TLS_DHE_PSK_WITH_CAMELLIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x96'
-- model: iana
-  pk: TLS_DHE_PSK_WITH_CAMELLIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x97'
-- model: iana
-  pk: TLS_RSA_PSK_WITH_CAMELLIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x98'
-- model: iana
-  pk: TLS_RSA_PSK_WITH_CAMELLIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x99'
-- model: iana
-  pk: TLS_ECDHE_PSK_WITH_CAMELLIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x9A'
-- model: iana
-  pk: TLS_ECDHE_PSK_WITH_CAMELLIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x9B'
-- model: iana
-  pk: TLS_RSA_WITH_AES_128_CCM
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x9C'
-- model: iana
-  pk: TLS_RSA_WITH_AES_256_CCM
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x9D'
-- model: iana
-  pk: TLS_DHE_RSA_WITH_AES_128_CCM
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x9E'
-- model: iana
-  pk: TLS_DHE_RSA_WITH_AES_256_CCM
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x9F'
-- model: iana
-  pk: TLS_RSA_WITH_AES_128_CCM_8
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xA0'
-- model: iana
-  pk: TLS_RSA_WITH_AES_256_CCM_8
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xA1'
-- model: iana
-  pk: TLS_DHE_RSA_WITH_AES_128_CCM_8
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xA2'
-- model: iana
-  pk: TLS_DHE_RSA_WITH_AES_256_CCM_8
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xA3'
-- model: iana
-  pk: TLS_PSK_WITH_AES_128_CCM
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xA4'
-- model: iana
-  pk: TLS_PSK_WITH_AES_256_CCM
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xA5'
-- model: iana
-  pk: TLS_DHE_PSK_WITH_AES_128_CCM
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xA6'
-- model: iana
-  pk: TLS_DHE_PSK_WITH_AES_256_CCM
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xA7'
-- model: iana
-  pk: TLS_PSK_WITH_AES_128_CCM_8
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xA8'
-- model: iana
-  pk: TLS_PSK_WITH_AES_256_CCM_8
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xA9'
-- model: iana
-  pk: TLS_PSK_DHE_WITH_AES_128_CCM_8
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xAA'
-- model: iana
-  pk: TLS_PSK_DHE_WITH_AES_256_CCM_8
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xAB'
-- model: iana
-  pk: TLS_ECDHE_ECDSA_WITH_AES_128_CCM
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xAC'
-- model: iana
-  pk: TLS_ECDHE_ECDSA_WITH_AES_256_CCM
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xAD'
-- model: iana
-  pk: TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xAE'
-- model: iana
-  pk: TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xAF'
-- model: iana
-  pk: TLS_ECCPWD_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xB0'
-- model: iana
-  pk: TLS_ECCPWD_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xB1'
-- model: iana
-  pk: TLS_ECCPWD_WITH_AES_128_CCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xB2'
-- model: iana
-  pk: TLS_ECCPWD_WITH_AES_256_CCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xB3'
-- model: iana
-  pk: TLS_SHA256_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xB4'
-- model: iana
-  pk: TLS_SHA384_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xB5'
-- model: iana
-  pk: TLS_GOSTR341112_256_WITH_KUZNYECHIK_CTR_OMAC
-  fields:
-    hex_byte_1: '0xC1'
-    hex_byte_2: '0x00'
-- model: iana
-  pk: TLS_GOSTR341112_256_WITH_MAGMA_CTR_OMAC
-  fields:
-    hex_byte_1: '0xC1'
-    hex_byte_2: '0x01'
-- model: iana
-  pk: TLS_GOSTR341112_256_WITH_28147_CNT_IMIT
-  fields:
-    hex_byte_1: '0xC1'
-    hex_byte_2: '0x02'
-- model: iana
-  pk: TLS_GOSTR341112_256_WITH_KUZNYECHIK_MGM_L
-  fields:
-    hex_byte_1: '0xC1'
-    hex_byte_2: '0x03'
-- model: iana
-  pk: TLS_GOSTR341112_256_WITH_MAGMA_MGM_L
-  fields:
-    hex_byte_1: '0xC1'
-    hex_byte_2: '0x04'
-- model: iana
-  pk: TLS_GOSTR341112_256_WITH_KUZNYECHIK_MGM_S
-  fields:
-    hex_byte_1: '0xC1'
-    hex_byte_2: '0x05'
-- model: iana
-  pk: TLS_GOSTR341112_256_WITH_MAGMA_MGM_S
-  fields:
-    hex_byte_1: '0xC1'
-    hex_byte_2: '0x06'
-- model: iana
-  pk: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xA8'
-- model: iana
-  pk: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xA9'
-- model: iana
-  pk: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xAA'
-- model: iana
-  pk: TLS_PSK_WITH_CHACHA20_POLY1305_SHA256
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xAB'
-- model: iana
-  pk: TLS_ECDHE_PSK_WITH_CHACHA20_POLY1305_SHA256
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xAC'
-- model: iana
-  pk: TLS_DHE_PSK_WITH_CHACHA20_POLY1305_SHA256
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xAD'
-- model: iana
-  pk: TLS_RSA_PSK_WITH_CHACHA20_POLY1305_SHA256
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xAE'
-- model: iana
-  pk: TLS_ECDHE_PSK_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xD0'
-    hex_byte_2: '0x01'
-- model: iana
-  pk: TLS_ECDHE_PSK_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xD0'
-    hex_byte_2: '0x02'
-- model: iana
-  pk: TLS_ECDHE_PSK_WITH_AES_128_CCM_8_SHA256
-  fields:
-    hex_byte_1: '0xD0'
-    hex_byte_2: '0x03'
-- model: iana
-  pk: TLS_ECDHE_PSK_WITH_AES_128_CCM_SHA256
-  fields:
-    hex_byte_1: '0xD0'
-    hex_byte_2: '0x05'
-
+schema_version: 2
+kind: reference
+library: iana
+source: https://www.iana.org/assignments/tls-parameters/tls-parameters-4.csv
+versions:
+- label: '2026-11-08'
+  ref: https://www.iana.org/assignments/tls-parameters/tls-parameters-4.csv
+  commit: null
+  files:
+    tls-parameters-4.csv: sha256:949ed87e901bb77314a96ad5a7b78c0b4b38ec56d16425efa2057a2efbd1570f
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+suites:
+- code_point:
+  - '0x00'
+  - '0x00'
+  names:
+  - name: TLS_NULL_WITH_NULL_NULL
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0x00'
+  - '0x01'
+  names:
+  - name: TLS_RSA_WITH_NULL_MD5
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x02'
+  names:
+  - name: TLS_RSA_WITH_NULL_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x03'
+  names:
+  - name: TLS_RSA_EXPORT_WITH_RC4_40_MD5
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x04'
+  names:
+  - name: TLS_RSA_WITH_RC4_128_MD5
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x05'
+  names:
+  - name: TLS_RSA_WITH_RC4_128_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x06'
+  names:
+  - name: TLS_RSA_EXPORT_WITH_RC2_CBC_40_MD5
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x07'
+  names:
+  - name: TLS_RSA_WITH_IDEA_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x08'
+  names:
+  - name: TLS_RSA_EXPORT_WITH_DES40_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x09'
+  names:
+  - name: TLS_RSA_WITH_DES_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x0A'
+  names:
+  - name: TLS_RSA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x0B'
+  names:
+  - name: TLS_DH_DSS_EXPORT_WITH_DES40_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x0C'
+  names:
+  - name: TLS_DH_DSS_WITH_DES_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x0D'
+  names:
+  - name: TLS_DH_DSS_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x0E'
+  names:
+  - name: TLS_DH_RSA_EXPORT_WITH_DES40_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x0F'
+  names:
+  - name: TLS_DH_RSA_WITH_DES_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x10'
+  names:
+  - name: TLS_DH_RSA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x11'
+  names:
+  - name: TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x12'
+  names:
+  - name: TLS_DHE_DSS_WITH_DES_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x13'
+  names:
+  - name: TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x14'
+  names:
+  - name: TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x15'
+  names:
+  - name: TLS_DHE_RSA_WITH_DES_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x16'
+  names:
+  - name: TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x17'
+  names:
+  - name: TLS_DH_anon_EXPORT_WITH_RC4_40_MD5
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x18'
+  names:
+  - name: TLS_DH_anon_WITH_RC4_128_MD5
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x19'
+  names:
+  - name: TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x1A'
+  names:
+  - name: TLS_DH_anon_WITH_DES_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x1B'
+  names:
+  - name: TLS_DH_anon_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x1E'
+  names:
+  - name: TLS_KRB5_WITH_DES_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x1F'
+  names:
+  - name: TLS_KRB5_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0x00'
+  - '0x20'
+  names:
+  - name: TLS_KRB5_WITH_RC4_128_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x21'
+  names:
+  - name: TLS_KRB5_WITH_IDEA_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x22'
+  names:
+  - name: TLS_KRB5_WITH_DES_CBC_MD5
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x23'
+  names:
+  - name: TLS_KRB5_WITH_3DES_EDE_CBC_MD5
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0x00'
+  - '0x24'
+  names:
+  - name: TLS_KRB5_WITH_RC4_128_MD5
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x25'
+  names:
+  - name: TLS_KRB5_WITH_IDEA_CBC_MD5
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x26'
+  names:
+  - name: TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x27'
+  names:
+  - name: TLS_KRB5_EXPORT_WITH_RC2_CBC_40_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x28'
+  names:
+  - name: TLS_KRB5_EXPORT_WITH_RC4_40_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x29'
+  names:
+  - name: TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x2A'
+  names:
+  - name: TLS_KRB5_EXPORT_WITH_RC2_CBC_40_MD5
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x2B'
+  names:
+  - name: TLS_KRB5_EXPORT_WITH_RC4_40_MD5
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x2C'
+  names:
+  - name: TLS_PSK_WITH_NULL_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x2D'
+  names:
+  - name: TLS_DHE_PSK_WITH_NULL_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x2E'
+  names:
+  - name: TLS_RSA_PSK_WITH_NULL_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x2F'
+  names:
+  - name: TLS_RSA_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x30'
+  names:
+  - name: TLS_DH_DSS_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x31'
+  names:
+  - name: TLS_DH_RSA_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x32'
+  names:
+  - name: TLS_DHE_DSS_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x33'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x34'
+  names:
+  - name: TLS_DH_anon_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x35'
+  names:
+  - name: TLS_RSA_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x36'
+  names:
+  - name: TLS_DH_DSS_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x37'
+  names:
+  - name: TLS_DH_RSA_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x38'
+  names:
+  - name: TLS_DHE_DSS_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x39'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x3A'
+  names:
+  - name: TLS_DH_anon_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x3B'
+  names:
+  - name: TLS_RSA_WITH_NULL_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x3C'
+  names:
+  - name: TLS_RSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x3D'
+  names:
+  - name: TLS_RSA_WITH_AES_256_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x3E'
+  names:
+  - name: TLS_DH_DSS_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x3F'
+  names:
+  - name: TLS_DH_RSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x40'
+  names:
+  - name: TLS_DHE_DSS_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x41'
+  names:
+  - name: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x42'
+  names:
+  - name: TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x43'
+  names:
+  - name: TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x44'
+  names:
+  - name: TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x45'
+  names:
+  - name: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x46'
+  names:
+  - name: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x67'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x68'
+  names:
+  - name: TLS_DH_DSS_WITH_AES_256_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x69'
+  names:
+  - name: TLS_DH_RSA_WITH_AES_256_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x6A'
+  names:
+  - name: TLS_DHE_DSS_WITH_AES_256_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x6B'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x6C'
+  names:
+  - name: TLS_DH_anon_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x6D'
+  names:
+  - name: TLS_DH_anon_WITH_AES_256_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x6E'
+  names:
+  - name: TLS_ASCONAEAD128_ASCONHASH256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0x00'
+  - '0x6F'
+  names:
+  - name: TLS_ASCONAEAD128_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0x00'
+  - '0x70'
+  names:
+  - name: TLS_AES_128_GCM_ASCONHASH256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0x00'
+  - '0x71'
+  names:
+  - name: TLS_AES_128_CCM_ASCONHASH256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0x00'
+  - '0x72'
+  names:
+  - name: TLS_BELT_CHE256_BELT_HASH
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: N
+- code_point:
+  - '0x00'
+  - '0x73'
+  names:
+  - name: TLS_BASH_PRG_AE2561_BASH256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: N
+- code_point:
+  - '0x00'
+  - '0x84'
+  names:
+  - name: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x85'
+  names:
+  - name: TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x86'
+  names:
+  - name: TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x87'
+  names:
+  - name: TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x88'
+  names:
+  - name: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x89'
+  names:
+  - name: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x8A'
+  names:
+  - name: TLS_PSK_WITH_RC4_128_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x8B'
+  names:
+  - name: TLS_PSK_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0x00'
+  - '0x8C'
+  names:
+  - name: TLS_PSK_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0x00'
+  - '0x8D'
+  names:
+  - name: TLS_PSK_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0x00'
+  - '0x8E'
+  names:
+  - name: TLS_DHE_PSK_WITH_RC4_128_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x8F'
+  names:
+  - name: TLS_DHE_PSK_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x90'
+  names:
+  - name: TLS_DHE_PSK_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x91'
+  names:
+  - name: TLS_DHE_PSK_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x92'
+  names:
+  - name: TLS_RSA_PSK_WITH_RC4_128_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x93'
+  names:
+  - name: TLS_RSA_PSK_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x94'
+  names:
+  - name: TLS_RSA_PSK_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x95'
+  names:
+  - name: TLS_RSA_PSK_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x96'
+  names:
+  - name: TLS_RSA_WITH_SEED_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x97'
+  names:
+  - name: TLS_DH_DSS_WITH_SEED_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x98'
+  names:
+  - name: TLS_DH_RSA_WITH_SEED_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x99'
+  names:
+  - name: TLS_DHE_DSS_WITH_SEED_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x9A'
+  names:
+  - name: TLS_DHE_RSA_WITH_SEED_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x9B'
+  names:
+  - name: TLS_DH_anon_WITH_SEED_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x9C'
+  names:
+  - name: TLS_RSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x9D'
+  names:
+  - name: TLS_RSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x9E'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0x9F'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xA0'
+  names:
+  - name: TLS_DH_RSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xA1'
+  names:
+  - name: TLS_DH_RSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xA2'
+  names:
+  - name: TLS_DHE_DSS_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xA3'
+  names:
+  - name: TLS_DHE_DSS_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xA4'
+  names:
+  - name: TLS_DH_DSS_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xA5'
+  names:
+  - name: TLS_DH_DSS_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xA6'
+  names:
+  - name: TLS_DH_anon_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xA7'
+  names:
+  - name: TLS_DH_anon_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xA8'
+  names:
+  - name: TLS_PSK_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0x00'
+  - '0xA9'
+  names:
+  - name: TLS_PSK_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0x00'
+  - '0xAA'
+  names:
+  - name: TLS_DHE_PSK_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xAB'
+  names:
+  - name: TLS_DHE_PSK_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xAC'
+  names:
+  - name: TLS_RSA_PSK_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xAD'
+  names:
+  - name: TLS_RSA_PSK_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xAE'
+  names:
+  - name: TLS_PSK_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0x00'
+  - '0xAF'
+  names:
+  - name: TLS_PSK_WITH_AES_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0x00'
+  - '0xB0'
+  names:
+  - name: TLS_PSK_WITH_NULL_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xB1'
+  names:
+  - name: TLS_PSK_WITH_NULL_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xB2'
+  names:
+  - name: TLS_DHE_PSK_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xB3'
+  names:
+  - name: TLS_DHE_PSK_WITH_AES_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xB4'
+  names:
+  - name: TLS_DHE_PSK_WITH_NULL_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xB5'
+  names:
+  - name: TLS_DHE_PSK_WITH_NULL_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xB6'
+  names:
+  - name: TLS_RSA_PSK_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xB7'
+  names:
+  - name: TLS_RSA_PSK_WITH_AES_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xB8'
+  names:
+  - name: TLS_RSA_PSK_WITH_NULL_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xB9'
+  names:
+  - name: TLS_RSA_PSK_WITH_NULL_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xBA'
+  names:
+  - name: TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xBB'
+  names:
+  - name: TLS_DH_DSS_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xBC'
+  names:
+  - name: TLS_DH_RSA_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xBD'
+  names:
+  - name: TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xBE'
+  names:
+  - name: TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xBF'
+  names:
+  - name: TLS_DH_anon_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xC0'
+  names:
+  - name: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xC1'
+  names:
+  - name: TLS_DH_DSS_WITH_CAMELLIA_256_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xC2'
+  names:
+  - name: TLS_DH_RSA_WITH_CAMELLIA_256_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xC3'
+  names:
+  - name: TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xC4'
+  names:
+  - name: TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xC5'
+  names:
+  - name: TLS_DH_anon_WITH_CAMELLIA_256_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0x00'
+  - '0xC6'
+  names:
+  - name: TLS_SM4_GCM_SM3
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: N
+- code_point:
+  - '0x00'
+  - '0xC7'
+  names:
+  - name: TLS_SM4_CCM_SM3
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: N
+- code_point:
+  - '0x00'
+  - '0xFF'
+  names:
+  - name: TLS_EMPTY_RENEGOTIATION_INFO_SCSV
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0x13'
+  - '0x01'
+  names:
+  - name: TLS_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: Y
+- code_point:
+  - '0x13'
+  - '0x02'
+  names:
+  - name: TLS_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: Y
+- code_point:
+  - '0x13'
+  - '0x03'
+  names:
+  - name: TLS_CHACHA20_POLY1305_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: Y
+- code_point:
+  - '0x13'
+  - '0x04'
+  names:
+  - name: TLS_AES_128_CCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: Y
+- code_point:
+  - '0x13'
+  - '0x05'
+  names:
+  - name: TLS_AES_128_CCM_8_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0x13'
+  - '0x06'
+  names:
+  - name: TLS_AEGIS_256_SHA512
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0x13'
+  - '0x07'
+  names:
+  - name: TLS_AEGIS_128L_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0x56'
+  - '0x00'
+  names:
+  - name: TLS_FALLBACK_SCSV
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x01'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_NULL_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x02'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_RC4_128_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x03'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x04'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x05'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x06'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_NULL_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x07'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_RC4_128_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x08'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x09'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x0A'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x0B'
+  names:
+  - name: TLS_ECDH_RSA_WITH_NULL_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x0C'
+  names:
+  - name: TLS_ECDH_RSA_WITH_RC4_128_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x0D'
+  names:
+  - name: TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x0E'
+  names:
+  - name: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x0F'
+  names:
+  - name: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x10'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_NULL_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x11'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_RC4_128_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x12'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x13'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x14'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x15'
+  names:
+  - name: TLS_ECDH_anon_WITH_NULL_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x16'
+  names:
+  - name: TLS_ECDH_anon_WITH_RC4_128_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x17'
+  names:
+  - name: TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x18'
+  names:
+  - name: TLS_ECDH_anon_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x19'
+  names:
+  - name: TLS_ECDH_anon_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x1A'
+  names:
+  - name: TLS_SRP_SHA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x1B'
+  names:
+  - name: TLS_SRP_SHA_RSA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x1C'
+  names:
+  - name: TLS_SRP_SHA_DSS_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x1D'
+  names:
+  - name: TLS_SRP_SHA_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x1E'
+  names:
+  - name: TLS_SRP_SHA_RSA_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x1F'
+  names:
+  - name: TLS_SRP_SHA_DSS_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x20'
+  names:
+  - name: TLS_SRP_SHA_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x21'
+  names:
+  - name: TLS_SRP_SHA_RSA_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x22'
+  names:
+  - name: TLS_SRP_SHA_DSS_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x23'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x24'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x25'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x26'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x27'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x28'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x29'
+  names:
+  - name: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x2A'
+  names:
+  - name: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x2B'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: Y
+- code_point:
+  - '0xC0'
+  - '0x2C'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: Y
+- code_point:
+  - '0xC0'
+  - '0x2D'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x2E'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x2F'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: Y
+- code_point:
+  - '0xC0'
+  - '0x30'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: Y
+- code_point:
+  - '0xC0'
+  - '0x31'
+  names:
+  - name: TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x32'
+  names:
+  - name: TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x33'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_RC4_128_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x34'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x35'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x36'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x37'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x38'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x39'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_NULL_SHA
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x3A'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_NULL_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x3B'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_NULL_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x3C'
+  names:
+  - name: TLS_RSA_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x3D'
+  names:
+  - name: TLS_RSA_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x3E'
+  names:
+  - name: TLS_DH_DSS_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x3F'
+  names:
+  - name: TLS_DH_DSS_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x40'
+  names:
+  - name: TLS_DH_RSA_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x41'
+  names:
+  - name: TLS_DH_RSA_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x42'
+  names:
+  - name: TLS_DHE_DSS_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x43'
+  names:
+  - name: TLS_DHE_DSS_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x44'
+  names:
+  - name: TLS_DHE_RSA_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x45'
+  names:
+  - name: TLS_DHE_RSA_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x46'
+  names:
+  - name: TLS_DH_anon_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x47'
+  names:
+  - name: TLS_DH_anon_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x48'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x49'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x4A'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x4B'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x4C'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x4D'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x4E'
+  names:
+  - name: TLS_ECDH_RSA_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x4F'
+  names:
+  - name: TLS_ECDH_RSA_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x50'
+  names:
+  - name: TLS_RSA_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x51'
+  names:
+  - name: TLS_RSA_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x52'
+  names:
+  - name: TLS_DHE_RSA_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x53'
+  names:
+  - name: TLS_DHE_RSA_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x54'
+  names:
+  - name: TLS_DH_RSA_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x55'
+  names:
+  - name: TLS_DH_RSA_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x56'
+  names:
+  - name: TLS_DHE_DSS_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x57'
+  names:
+  - name: TLS_DHE_DSS_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x58'
+  names:
+  - name: TLS_DH_DSS_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x59'
+  names:
+  - name: TLS_DH_DSS_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x5A'
+  names:
+  - name: TLS_DH_anon_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x5B'
+  names:
+  - name: TLS_DH_anon_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x5C'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x5D'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x5E'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x5F'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x60'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x61'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x62'
+  names:
+  - name: TLS_ECDH_RSA_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x63'
+  names:
+  - name: TLS_ECDH_RSA_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x64'
+  names:
+  - name: TLS_PSK_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x65'
+  names:
+  - name: TLS_PSK_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x66'
+  names:
+  - name: TLS_DHE_PSK_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x67'
+  names:
+  - name: TLS_DHE_PSK_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x68'
+  names:
+  - name: TLS_RSA_PSK_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x69'
+  names:
+  - name: TLS_RSA_PSK_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x6A'
+  names:
+  - name: TLS_PSK_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x6B'
+  names:
+  - name: TLS_PSK_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x6C'
+  names:
+  - name: TLS_DHE_PSK_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x6D'
+  names:
+  - name: TLS_DHE_PSK_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x6E'
+  names:
+  - name: TLS_RSA_PSK_WITH_ARIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x6F'
+  names:
+  - name: TLS_RSA_PSK_WITH_ARIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x70'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_ARIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x71'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_ARIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x72'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x73'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x74'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x75'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_CAMELLIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x76'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x77'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x78'
+  names:
+  - name: TLS_ECDH_RSA_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x79'
+  names:
+  - name: TLS_ECDH_RSA_WITH_CAMELLIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x7A'
+  names:
+  - name: TLS_RSA_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x7B'
+  names:
+  - name: TLS_RSA_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x7C'
+  names:
+  - name: TLS_DHE_RSA_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x7D'
+  names:
+  - name: TLS_DHE_RSA_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x7E'
+  names:
+  - name: TLS_DH_RSA_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x7F'
+  names:
+  - name: TLS_DH_RSA_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x80'
+  names:
+  - name: TLS_DHE_DSS_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x81'
+  names:
+  - name: TLS_DHE_DSS_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x82'
+  names:
+  - name: TLS_DH_DSS_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x83'
+  names:
+  - name: TLS_DH_DSS_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x84'
+  names:
+  - name: TLS_DH_anon_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x85'
+  names:
+  - name: TLS_DH_anon_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x86'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x87'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x88'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x89'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x8A'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x8B'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x8C'
+  names:
+  - name: TLS_ECDH_RSA_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x8D'
+  names:
+  - name: TLS_ECDH_RSA_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x8E'
+  names:
+  - name: TLS_PSK_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x8F'
+  names:
+  - name: TLS_PSK_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x90'
+  names:
+  - name: TLS_DHE_PSK_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x91'
+  names:
+  - name: TLS_DHE_PSK_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x92'
+  names:
+  - name: TLS_RSA_PSK_WITH_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x93'
+  names:
+  - name: TLS_RSA_PSK_WITH_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x94'
+  names:
+  - name: TLS_PSK_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x95'
+  names:
+  - name: TLS_PSK_WITH_CAMELLIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x96'
+  names:
+  - name: TLS_DHE_PSK_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x97'
+  names:
+  - name: TLS_DHE_PSK_WITH_CAMELLIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x98'
+  names:
+  - name: TLS_RSA_PSK_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x99'
+  names:
+  - name: TLS_RSA_PSK_WITH_CAMELLIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x9A'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x9B'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_CAMELLIA_256_CBC_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0x9C'
+  names:
+  - name: TLS_RSA_WITH_AES_128_CCM
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x9D'
+  names:
+  - name: TLS_RSA_WITH_AES_256_CCM
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x9E'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_128_CCM
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0x9F'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_256_CCM
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0xA0'
+  names:
+  - name: TLS_RSA_WITH_AES_128_CCM_8
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0xA1'
+  names:
+  - name: TLS_RSA_WITH_AES_256_CCM_8
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0xA2'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_128_CCM_8
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0xA3'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_256_CCM_8
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0xA4'
+  names:
+  - name: TLS_PSK_WITH_AES_128_CCM
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0xA5'
+  names:
+  - name: TLS_PSK_WITH_AES_256_CCM
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0xA6'
+  names:
+  - name: TLS_DHE_PSK_WITH_AES_128_CCM
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0xA7'
+  names:
+  - name: TLS_DHE_PSK_WITH_AES_256_CCM
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0xA8'
+  names:
+  - name: TLS_PSK_WITH_AES_128_CCM_8
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0xA9'
+  names:
+  - name: TLS_PSK_WITH_AES_256_CCM_8
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0xAA'
+  names:
+  - name: TLS_PSK_DHE_WITH_AES_128_CCM_8
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0xAB'
+  names:
+  - name: TLS_PSK_DHE_WITH_AES_256_CCM_8
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0xAC'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_128_CCM
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0xAD'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_256_CCM
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0xAE'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_128_CCM_8
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0xAF'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_256_CCM_8
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0xB0'
+  names:
+  - name: TLS_ECCPWD_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0xB1'
+  names:
+  - name: TLS_ECCPWD_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0xB2'
+  names:
+  - name: TLS_ECCPWD_WITH_AES_128_CCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0xB3'
+  names:
+  - name: TLS_ECCPWD_WITH_AES_256_CCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xC0'
+  - '0xB4'
+  names:
+  - name: TLS_SHA256_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC0'
+  - '0xB5'
+  names:
+  - name: TLS_SHA384_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xC1'
+  - '0x00'
+  names:
+  - name: TLS_GOSTR341112_256_WITH_KUZNYECHIK_CTR_OMAC
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: N
+- code_point:
+  - '0xC1'
+  - '0x01'
+  names:
+  - name: TLS_GOSTR341112_256_WITH_MAGMA_CTR_OMAC
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: N
+- code_point:
+  - '0xC1'
+  - '0x02'
+  names:
+  - name: TLS_GOSTR341112_256_WITH_28147_CNT_IMIT
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: N
+- code_point:
+  - '0xC1'
+  - '0x03'
+  names:
+  - name: TLS_GOSTR341112_256_WITH_KUZNYECHIK_MGM_L
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: N
+- code_point:
+  - '0xC1'
+  - '0x04'
+  names:
+  - name: TLS_GOSTR341112_256_WITH_MAGMA_MGM_L
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: N
+- code_point:
+  - '0xC1'
+  - '0x05'
+  names:
+  - name: TLS_GOSTR341112_256_WITH_KUZNYECHIK_MGM_S
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: N
+- code_point:
+  - '0xC1'
+  - '0x06'
+  names:
+  - name: TLS_GOSTR341112_256_WITH_MAGMA_MGM_S
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: false
+    recommended: N
+- code_point:
+  - '0xCC'
+  - '0xA8'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: Y
+- code_point:
+  - '0xCC'
+  - '0xA9'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: Y
+- code_point:
+  - '0xCC'
+  - '0xAA'
+  names:
+  - name: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xCC'
+  - '0xAB'
+  names:
+  - name: TLS_PSK_WITH_CHACHA20_POLY1305_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xCC'
+  - '0xAC'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_CHACHA20_POLY1305_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: Y
+- code_point:
+  - '0xCC'
+  - '0xAD'
+  names:
+  - name: TLS_DHE_PSK_WITH_CHACHA20_POLY1305_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xCC'
+  - '0xAE'
+  names:
+  - name: TLS_RSA_PSK_WITH_CHACHA20_POLY1305_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: D
+- code_point:
+  - '0xD0'
+  - '0x01'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: Y
+- code_point:
+  - '0xD0'
+  - '0x02'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: Y
+- code_point:
+  - '0xD0'
+  - '0x03'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_AES_128_CCM_8_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: N
+- code_point:
+  - '0xD0'
+  - '0x05'
+  names:
+  - name: TLS_ECDHE_PSK_WITH_AES_128_CCM_SHA256
+    versions:
+    - '2026-11-08'
+  attributes:
+    dtls_ok: true
+    recommended: Y

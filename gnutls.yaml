@@ -1,941 +1,2341 @@
-- model: gnutls
-  pk: TLS_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x01'
-- model: gnutls
-  pk: TLS_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x02'
-- model: gnutls
-  pk: TLS_CHACHA20_POLY1305_SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x03'
-- model: gnutls
-  pk: TLS_AES_128_CCM_SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x04'
-- model: gnutls
-  pk: TLS_AES_128_CCM_8_SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x05'
-- model: gnutls
-  pk: TLS_RSA_NULL_MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x01'
-- model: gnutls
-  pk: TLS_RSA_NULL_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x02'
-- model: gnutls
-  pk: TLS_RSA_NULL_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3B'
-- model: gnutls
-  pk: TLS_DH_ANON_3DES_EDE_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x1B'
-- model: gnutls
-  pk: TLS_DH_ANON_ARCFOUR_128_MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x18'
-- model: gnutls
-  pk: TLS_DH_ANON_AES_128_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x34'
-- model: gnutls
-  pk: TLS_DH_ANON_AES_256_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3A'
-- model: gnutls
-  pk: TLS_DH_ANON_CAMELLIA_128_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x46'
-- model: gnutls
-  pk: TLS_DH_ANON_CAMELLIA_256_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x89'
-- model: gnutls
-  pk: TLS_RSA_CAMELLIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xBA'
-- model: gnutls
-  pk: TLS_DHE_DSS_CAMELLIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xBD'
-- model: gnutls
-  pk: TLS_DHE_RSA_CAMELLIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xBE'
-- model: gnutls
-  pk: TLS_DH_ANON_CAMELLIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xBF'
-- model: gnutls
-  pk: TLS_RSA_CAMELLIA_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xC0'
-- model: gnutls
-  pk: TLS_DHE_DSS_CAMELLIA_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xC3'
-- model: gnutls
-  pk: TLS_DHE_RSA_CAMELLIA_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xC4'
-- model: gnutls
-  pk: TLS_DH_ANON_CAMELLIA_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xC5'
-- model: gnutls
-  pk: TLS_ECDHE_ECDSA_CAMELLIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x72'
-- model: gnutls
-  pk: TLS_ECDHE_ECDSA_CAMELLIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x73'
-- model: gnutls
-  pk: TLS_ECDHE_RSA_CAMELLIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x76'
-- model: gnutls
-  pk: TLS_ECDHE_RSA_CAMELLIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x77'
-- model: gnutls
-  pk: TLS_PSK_CAMELLIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x94'
-- model: gnutls
-  pk: TLS_PSK_CAMELLIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x95'
-- model: gnutls
-  pk: TLS_DHE_PSK_CAMELLIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x96'
-- model: gnutls
-  pk: TLS_DHE_PSK_CAMELLIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x97'
-- model: gnutls
-  pk: TLS_RSA_PSK_CAMELLIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x98'
-- model: gnutls
-  pk: TLS_RSA_PSK_CAMELLIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x99'
-- model: gnutls
-  pk: TLS_ECDHE_PSK_CAMELLIA_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x9A'
-- model: gnutls
-  pk: TLS_ECDHE_PSK_CAMELLIA_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x9B'
-- model: gnutls
-  pk: TLS_RSA_CAMELLIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x7A'
-- model: gnutls
-  pk: TLS_RSA_CAMELLIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x7B'
-- model: gnutls
-  pk: TLS_DHE_RSA_CAMELLIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x7C'
-- model: gnutls
-  pk: TLS_DHE_RSA_CAMELLIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x7D'
-- model: gnutls
-  pk: TLS_DHE_DSS_CAMELLIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x80'
-- model: gnutls
-  pk: TLS_DHE_DSS_CAMELLIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x81'
-- model: gnutls
-  pk: TLS_DH_ANON_CAMELLIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x84'
-- model: gnutls
-  pk: TLS_DH_ANON_CAMELLIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x85'
-- model: gnutls
-  pk: TLS_ECDHE_ECDSA_CAMELLIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x86'
-- model: gnutls
-  pk: TLS_ECDHE_ECDSA_CAMELLIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x87'
-- model: gnutls
-  pk: TLS_ECDHE_RSA_CAMELLIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x8A'
-- model: gnutls
-  pk: TLS_ECDHE_RSA_CAMELLIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x8B'
-- model: gnutls
-  pk: TLS_PSK_CAMELLIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x8E'
-- model: gnutls
-  pk: TLS_PSK_CAMELLIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x8F'
-- model: gnutls
-  pk: TLS_DHE_PSK_CAMELLIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x90'
-- model: gnutls
-  pk: TLS_DHE_PSK_CAMELLIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x91'
-- model: gnutls
-  pk: TLS_RSA_PSK_CAMELLIA_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x92'
-- model: gnutls
-  pk: TLS_RSA_PSK_CAMELLIA_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x93'
-- model: gnutls
-  pk: TLS_DH_ANON_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x6C'
-- model: gnutls
-  pk: TLS_DH_ANON_AES_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x6D'
-- model: gnutls
-  pk: TLS_ECDHE_RSA_CHACHA20_POLY1305
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xA8'
-- model: gnutls
-  pk: TLS_ECDHE_ECDSA_CHACHA20_POLY1305
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xA9'
-- model: gnutls
-  pk: TLS_DHE_RSA_CHACHA20_POLY1305
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xAA'
-- model: gnutls
-  pk: TLS_PSK_CHACHA20_POLY1305
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xAB'
-- model: gnutls
-  pk: TLS_ECDHE_PSK_CHACHA20_POLY1305
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xAC'
-- model: gnutls
-  pk: TLS_DHE_PSK_CHACHA20_POLY1305
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xAD'
-- model: gnutls
-  pk: TLS_RSA_PSK_CHACHA20_POLY1305
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xAE'
-- model: gnutls
-  pk: TLS_PSK_ARCFOUR_128_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x8A'
-- model: gnutls
-  pk: TLS_PSK_3DES_EDE_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x8B'
-- model: gnutls
-  pk: TLS_PSK_AES_128_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x8C'
-- model: gnutls
-  pk: TLS_PSK_AES_256_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x8D'
-- model: gnutls
-  pk: TLS_DHE_PSK_ARCFOUR_128_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x8E'
-- model: gnutls
-  pk: TLS_DHE_PSK_3DES_EDE_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x8F'
-- model: gnutls
-  pk: TLS_DHE_PSK_AES_128_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x90'
-- model: gnutls
-  pk: TLS_DHE_PSK_AES_256_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x91'
-- model: gnutls
-  pk: TLS_RSA_PSK_ARCFOUR_128_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x92'
-- model: gnutls
-  pk: TLS_RSA_PSK_3DES_EDE_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x93'
-- model: gnutls
-  pk: TLS_RSA_PSK_AES_128_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x94'
-- model: gnutls
-  pk: TLS_RSA_PSK_AES_256_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x95'
-- model: gnutls
-  pk: TLS_SRP_SHA_3DES_EDE_CBC_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x1A'
-- model: gnutls
-  pk: TLS_SRP_SHA_RSA_3DES_EDE_CBC_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x1B'
-- model: gnutls
-  pk: TLS_SRP_SHA_DSS_3DES_EDE_CBC_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x1C'
-- model: gnutls
-  pk: TLS_SRP_SHA_AES_128_CBC_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x1D'
-- model: gnutls
-  pk: TLS_SRP_SHA_RSA_AES_128_CBC_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x1E'
-- model: gnutls
-  pk: TLS_SRP_SHA_DSS_AES_128_CBC_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x1F'
-- model: gnutls
-  pk: TLS_SRP_SHA_AES_256_CBC_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x20'
-- model: gnutls
-  pk: TLS_SRP_SHA_RSA_AES_256_CBC_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x21'
-- model: gnutls
-  pk: TLS_SRP_SHA_DSS_AES_256_CBC_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x22'
-- model: gnutls
-  pk: TLS_RSA_ARCFOUR_128_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x05'
-- model: gnutls
-  pk: TLS_RSA_ARCFOUR_128_MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x04'
-- model: gnutls
-  pk: TLS_RSA_3DES_EDE_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x0A'
-- model: gnutls
-  pk: TLS_RSA_AES_128_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x2F'
-- model: gnutls
-  pk: TLS_RSA_AES_256_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x35'
-- model: gnutls
-  pk: TLS_RSA_CAMELLIA_128_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x41'
-- model: gnutls
-  pk: TLS_RSA_CAMELLIA_256_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x84'
-- model: gnutls
-  pk: TLS_RSA_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3C'
-- model: gnutls
-  pk: TLS_RSA_AES_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3D'
-- model: gnutls
-  pk: TLS_DHE_DSS_3DES_EDE_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x13'
-- model: gnutls
-  pk: TLS_DHE_DSS_ARCFOUR_128_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x66'
-- model: gnutls
-  pk: TLS_DHE_DSS_AES_256_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x38'
-- model: gnutls
-  pk: TLS_DHE_DSS_AES_128_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x32'
-- model: gnutls
-  pk: TLS_DHE_DSS_CAMELLIA_128_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x44'
-- model: gnutls
-  pk: TLS_DHE_DSS_CAMELLIA_256_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x87'
-- model: gnutls
-  pk: TLS_DHE_DSS_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x40'
-- model: gnutls
-  pk: TLS_DHE_DSS_AES_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x6A'
-- model: gnutls
-  pk: TLS_DHE_RSA_3DES_EDE_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x16'
-- model: gnutls
-  pk: TLS_DHE_RSA_AES_128_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x33'
-- model: gnutls
-  pk: TLS_DHE_RSA_AES_256_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x39'
-- model: gnutls
-  pk: TLS_DHE_RSA_CAMELLIA_128_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x45'
-- model: gnutls
-  pk: TLS_DHE_RSA_CAMELLIA_256_CBC_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x88'
-- model: gnutls
-  pk: TLS_DHE_RSA_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x67'
-- model: gnutls
-  pk: TLS_DHE_RSA_AES_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x6B'
-- model: gnutls
-  pk: TLS_RSA_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9C'
-- model: gnutls
-  pk: TLS_DHE_RSA_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9E'
-- model: gnutls
-  pk: TLS_DHE_DSS_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA2'
-- model: gnutls
-  pk: TLS_DH_ANON_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA6'
-- model: gnutls
-  pk: TLS_RSA_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9D'
-- model: gnutls
-  pk: TLS_DHE_RSA_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9F'
-- model: gnutls
-  pk: TLS_DHE_DSS_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA3'
-- model: gnutls
-  pk: TLS_DH_ANON_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA7'
-- model: gnutls
-  pk: TLS_RSA_AES_128_CCM
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x9C'
-- model: gnutls
-  pk: TLS_RSA_AES_256_CCM
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x9D'
-- model: gnutls
-  pk: TLS_DHE_RSA_AES_128_CCM
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x9E'
-- model: gnutls
-  pk: TLS_DHE_RSA_AES_256_CCM
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x9F'
-- model: gnutls
-  pk: TLS_ECDHE_ECDSA_AES_128_CCM
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xAC'
-- model: gnutls
-  pk: TLS_ECDHE_ECDSA_AES_256_CCM
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xAD'
-- model: gnutls
-  pk: TLS_PSK_AES_128_CCM
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xA4'
-- model: gnutls
-  pk: TLS_PSK_AES_256_CCM
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xA5'
-- model: gnutls
-  pk: TLS_DHE_PSK_AES_128_CCM
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xA6'
-- model: gnutls
-  pk: TLS_DHE_PSK_AES_256_CCM
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xA7'
-- model: gnutls
-  pk: TLS_RSA_AES_128_CCM_8
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xA0'
-- model: gnutls
-  pk: TLS_RSA_AES_256_CCM_8
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xA1'
-- model: gnutls
-  pk: TLS_DHE_RSA_AES_128_CCM_8
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xA2'
-- model: gnutls
-  pk: TLS_DHE_RSA_AES_256_CCM_8
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xA3'
-- model: gnutls
-  pk: TLS_ECDHE_ECDSA_AES_128_CCM_8
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xAE'
-- model: gnutls
-  pk: TLS_ECDHE_ECDSA_AES_256_CCM_8
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xAF'
-- model: gnutls
-  pk: TLS_PSK_AES_128_CCM_8
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xA8'
-- model: gnutls
-  pk: TLS_PSK_AES_256_CCM_8
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xA9'
-- model: gnutls
-  pk: TLS_DHE_PSK_AES_128_CCM_8
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xAA'
-- model: gnutls
-  pk: TLS_DHE_PSK_AES_256_CCM_8
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0xAB'
-- model: gnutls
-  pk: TLS_PSK_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA8'
-- model: gnutls
-  pk: TLS_DHE_PSK_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xAA'
-- model: gnutls
-  pk: TLS_PSK_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA9'
-- model: gnutls
-  pk: TLS_DHE_PSK_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xAB'
-- model: gnutls
-  pk: TLS_PSK_AES_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xAF'
-- model: gnutls
-  pk: TLS_PSK_NULL_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xB1'
-- model: gnutls
-  pk: TLS_DHE_PSK_AES_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xB3'
-- model: gnutls
-  pk: TLS_DHE_PSK_NULL_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xB5'
-- model: gnutls
-  pk: TLS_PSK_NULL_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x2C'
-- model: gnutls
-  pk: TLS_DHE_PSK_NULL_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x2D'
-- model: gnutls
-  pk: TLS_RSA_PSK_NULL_SHA1
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x2E'
-- model: gnutls
-  pk: TLS_ECDHE_PSK_NULL_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x39'
-- model: gnutls
-  pk: TLS_RSA_PSK_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xAC'
-- model: gnutls
-  pk: TLS_RSA_PSK_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xAD'
-- model: gnutls
-  pk: TLS_RSA_PSK_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xB6'
-- model: gnutls
-  pk: TLS_RSA_PSK_AES_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xB7'
-- model: gnutls
-  pk: TLS_RSA_PSK_NULL_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xB8'
-- model: gnutls
-  pk: TLS_RSA_PSK_NULL_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xB9'
-- model: gnutls
-  pk: TLS_PSK_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xAE'
-- model: gnutls
-  pk: TLS_DHE_PSK_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xB2'
-- model: gnutls
-  pk: TLS_PSK_NULL_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xB0'
-- model: gnutls
-  pk: TLS_DHE_PSK_NULL_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xB4'
-- model: gnutls
-  pk: TLS_ECDH_ANON_NULL_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x15'
-- model: gnutls
-  pk: TLS_ECDH_ANON_3DES_EDE_CBC_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x17'
-- model: gnutls
-  pk: TLS_ECDH_ANON_AES_128_CBC_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x18'
-- model: gnutls
-  pk: TLS_ECDH_ANON_AES_256_CBC_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x19'
-- model: gnutls
-  pk: TLS_ECDH_ANON_ARCFOUR_128_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x16'
-- model: gnutls
-  pk: TLS_ECDHE_RSA_NULL_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x10'
-- model: gnutls
-  pk: TLS_ECDHE_RSA_3DES_EDE_CBC_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x12'
-- model: gnutls
-  pk: TLS_ECDHE_RSA_AES_128_CBC_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x13'
-- model: gnutls
-  pk: TLS_ECDHE_RSA_AES_256_CBC_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x14'
-- model: gnutls
-  pk: TLS_ECDHE_RSA_ARCFOUR_128_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x11'
-- model: gnutls
-  pk: TLS_ECDHE_ECDSA_NULL_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x06'
-- model: gnutls
-  pk: TLS_ECDHE_ECDSA_3DES_EDE_CBC_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x08'
-- model: gnutls
-  pk: TLS_ECDHE_ECDSA_AES_128_CBC_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x09'
-- model: gnutls
-  pk: TLS_ECDHE_ECDSA_AES_256_CBC_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0A'
-- model: gnutls
-  pk: TLS_ECDHE_ECDSA_ARCFOUR_128_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x07'
-- model: gnutls
-  pk: TLS_ECDHE_ECDSA_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x23'
-- model: gnutls
-  pk: TLS_ECDHE_RSA_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x27'
-- model: gnutls
-  pk: TLS_ECDHE_RSA_AES_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x28'
-- model: gnutls
-  pk: TLS_ECDHE_ECDSA_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2B'
-- model: gnutls
-  pk: TLS_ECDHE_RSA_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2F'
-- model: gnutls
-  pk: TLS_ECDHE_RSA_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x30'
-- model: gnutls
-  pk: TLS_ECDHE_ECDSA_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2C'
-- model: gnutls
-  pk: TLS_ECDHE_ECDSA_AES_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x24'
-- model: gnutls
-  pk: TLS_ECDHE_PSK_3DES_EDE_CBC_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x34'
-- model: gnutls
-  pk: TLS_ECDHE_PSK_AES_128_CBC_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x35'
-- model: gnutls
-  pk: TLS_ECDHE_PSK_AES_256_CBC_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x36'
-- model: gnutls
-  pk: TLS_ECDHE_PSK_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x37'
-- model: gnutls
-  pk: TLS_ECDHE_PSK_AES_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x38'
-- model: gnutls
-  pk: TLS_ECDHE_PSK_ARCFOUR_128_SHA1
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x33'
-- model: gnutls
-  pk: TLS_ECDHE_PSK_NULL_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x3A'
-- model: gnutls
-  pk: TLS_ECDHE_PSK_NULL_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x3B'
-- model: gnutls
-  pk: TLS_GOSTR341112_256_28147_CNT_IMIT
-  fields:
-    hex_byte_1: '0xc1'
-    hex_byte_2: '0x02'
-
+schema_version: 2
+kind: library
+library: gnutls
+source: https://github.com/gnutls/gnutls
+versions:
+- label: '3.3'
+  ref: gnutls_3_3_30
+  commit: cd91840c564751924837ccdc9648d9a83a0b7601
+  files:
+    lib/algorithms/ciphersuites.c: sha256:625585b4b9377556951d0e2fcc2dba736215d0889327433a1ef4702d2884c2e9
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '3.4'
+  ref: gnutls_3_4_17
+  commit: 5221a9deafc67ef908bd46e95ae716875427b4b2
+  files:
+    lib/algorithms/ciphersuites.c: sha256:a4be76cd93c69caa8bf549587891fff230eb6a2a0e03e9814fdaa37c8801b78a
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '3.5'
+  ref: gnutls_3_5_19
+  commit: deca122a1bca0a3ca2ab32a686a428cd1b038d01
+  files:
+    lib/algorithms/ciphersuites.c: sha256:676535718127bba2cd2c418439beac46f1551bbacf81056b869eaa7e32ec73c6
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '3.6'
+  ref: 3.6.16
+  commit: 95342ca6b0f96453ee4dd93f113e46e8d5cabac0
+  files:
+    lib/algorithms/ciphersuites.c: sha256:825e03c93724153773a698f63f2cd50e8055fbe48a470776c7fb63fe063bb3cd
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '3.7'
+  ref: 3.7.11
+  commit: e21700cebd9f02c89b760fbc4001761c686b490a
+  files:
+    lib/algorithms/ciphersuites.c: sha256:abcfa4a29320904ae6ceb1c3a579e26c98d04a03010692a1098e1f0e6c54bce7
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '3.8'
+  ref: 3.8.13
+  commit: b390d80208ed60f1b33ad899475951a8efb40ccd
+  files:
+    lib/algorithms/ciphersuites.c: sha256:3bb5f1bf2be148048d6590bcf50920e97c897c71331296852b30e56173e73db6
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+suites:
+- code_point:
+  - '0x00'
+  - '0x01'
+  names:
+  - name: TLS_RSA_NULL_MD5
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x02'
+  names:
+  - name: TLS_RSA_NULL_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x04'
+  names:
+  - name: TLS_RSA_ARCFOUR_128_MD5
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x05'
+  names:
+  - name: TLS_RSA_ARCFOUR_128_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x0A'
+  names:
+  - name: TLS_RSA_3DES_EDE_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x13'
+  names:
+  - name: TLS_DHE_DSS_3DES_EDE_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x16'
+  names:
+  - name: TLS_DHE_RSA_3DES_EDE_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x18'
+  names:
+  - name: TLS_DH_ANON_ARCFOUR_128_MD5
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x1B'
+  names:
+  - name: TLS_DH_ANON_3DES_EDE_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x2C'
+  names:
+  - name: TLS_PSK_NULL_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x2D'
+  names:
+  - name: TLS_DHE_PSK_NULL_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x2E'
+  names:
+  - name: TLS_RSA_PSK_NULL_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x2F'
+  names:
+  - name: TLS_RSA_AES_128_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x32'
+  names:
+  - name: TLS_DHE_DSS_AES_128_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x33'
+  names:
+  - name: TLS_DHE_RSA_AES_128_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x34'
+  names:
+  - name: TLS_DH_ANON_AES_128_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x35'
+  names:
+  - name: TLS_RSA_AES_256_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x38'
+  names:
+  - name: TLS_DHE_DSS_AES_256_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x39'
+  names:
+  - name: TLS_DHE_RSA_AES_256_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x3A'
+  names:
+  - name: TLS_DH_ANON_AES_256_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x3B'
+  names:
+  - name: TLS_RSA_NULL_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x3C'
+  names:
+  - name: TLS_RSA_AES_128_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x3D'
+  names:
+  - name: TLS_RSA_AES_256_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x40'
+  names:
+  - name: TLS_DHE_DSS_AES_128_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x41'
+  names:
+  - name: TLS_RSA_CAMELLIA_128_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x44'
+  names:
+  - name: TLS_DHE_DSS_CAMELLIA_128_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x45'
+  names:
+  - name: TLS_DHE_RSA_CAMELLIA_128_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x46'
+  names:
+  - name: TLS_DH_ANON_CAMELLIA_128_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x66'
+  names:
+  - name: TLS_DHE_DSS_ARCFOUR_128_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x67'
+  names:
+  - name: TLS_DHE_RSA_AES_128_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x6A'
+  names:
+  - name: TLS_DHE_DSS_AES_256_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x6B'
+  names:
+  - name: TLS_DHE_RSA_AES_256_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x6C'
+  names:
+  - name: TLS_DH_ANON_AES_128_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x6D'
+  names:
+  - name: TLS_DH_ANON_AES_256_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x84'
+  names:
+  - name: TLS_RSA_CAMELLIA_256_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x87'
+  names:
+  - name: TLS_DHE_DSS_CAMELLIA_256_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x88'
+  names:
+  - name: TLS_DHE_RSA_CAMELLIA_256_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x89'
+  names:
+  - name: TLS_DH_ANON_CAMELLIA_256_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x8A'
+  names:
+  - name: TLS_PSK_ARCFOUR_128_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x8B'
+  names:
+  - name: TLS_PSK_3DES_EDE_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x8C'
+  names:
+  - name: TLS_PSK_AES_128_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x8D'
+  names:
+  - name: TLS_PSK_AES_256_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x8E'
+  names:
+  - name: TLS_DHE_PSK_ARCFOUR_128_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x8F'
+  names:
+  - name: TLS_DHE_PSK_3DES_EDE_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x90'
+  names:
+  - name: TLS_DHE_PSK_AES_128_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x91'
+  names:
+  - name: TLS_DHE_PSK_AES_256_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x92'
+  names:
+  - name: TLS_RSA_PSK_ARCFOUR_128_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x93'
+  names:
+  - name: TLS_RSA_PSK_3DES_EDE_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x94'
+  names:
+  - name: TLS_RSA_PSK_AES_128_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x95'
+  names:
+  - name: TLS_RSA_PSK_AES_256_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x9C'
+  names:
+  - name: TLS_RSA_AES_128_GCM_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x9D'
+  names:
+  - name: TLS_RSA_AES_256_GCM_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x9E'
+  names:
+  - name: TLS_DHE_RSA_AES_128_GCM_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0x9F'
+  names:
+  - name: TLS_DHE_RSA_AES_256_GCM_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xA2'
+  names:
+  - name: TLS_DHE_DSS_AES_128_GCM_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xA3'
+  names:
+  - name: TLS_DHE_DSS_AES_256_GCM_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xA6'
+  names:
+  - name: TLS_DH_ANON_AES_128_GCM_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xA7'
+  names:
+  - name: TLS_DH_ANON_AES_256_GCM_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xA8'
+  names:
+  - name: TLS_PSK_AES_128_GCM_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xA9'
+  names:
+  - name: TLS_PSK_AES_256_GCM_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xAA'
+  names:
+  - name: TLS_DHE_PSK_AES_128_GCM_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xAB'
+  names:
+  - name: TLS_DHE_PSK_AES_256_GCM_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xAC'
+  names:
+  - name: TLS_RSA_PSK_AES_128_GCM_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xAD'
+  names:
+  - name: TLS_RSA_PSK_AES_256_GCM_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xAE'
+  names:
+  - name: TLS_PSK_AES_128_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xAF'
+  names:
+  - name: TLS_PSK_AES_256_CBC_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xB0'
+  names:
+  - name: TLS_PSK_NULL_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xB1'
+  names:
+  - name: TLS_PSK_NULL_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xB2'
+  names:
+  - name: TLS_DHE_PSK_AES_128_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xB3'
+  names:
+  - name: TLS_DHE_PSK_AES_256_CBC_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xB4'
+  names:
+  - name: TLS_DHE_PSK_NULL_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xB5'
+  names:
+  - name: TLS_DHE_PSK_NULL_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xB6'
+  names:
+  - name: TLS_RSA_PSK_AES_128_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xB7'
+  names:
+  - name: TLS_RSA_PSK_AES_256_CBC_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xB8'
+  names:
+  - name: TLS_RSA_PSK_NULL_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xB9'
+  names:
+  - name: TLS_RSA_PSK_NULL_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xBA'
+  names:
+  - name: TLS_RSA_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xBD'
+  names:
+  - name: TLS_DHE_DSS_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xBE'
+  names:
+  - name: TLS_DHE_RSA_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xBF'
+  names:
+  - name: TLS_DH_ANON_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xC0'
+  names:
+  - name: TLS_RSA_CAMELLIA_256_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xC3'
+  names:
+  - name: TLS_DHE_DSS_CAMELLIA_256_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xC4'
+  names:
+  - name: TLS_DHE_RSA_CAMELLIA_256_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x00'
+  - '0xC5'
+  names:
+  - name: TLS_DH_ANON_CAMELLIA_256_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x13'
+  - '0x01'
+  names:
+  - name: TLS_AES_128_GCM_SHA256
+    versions:
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x13'
+  - '0x02'
+  names:
+  - name: TLS_AES_256_GCM_SHA384
+    versions:
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x13'
+  - '0x03'
+  names:
+  - name: TLS_CHACHA20_POLY1305_SHA256
+    versions:
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x13'
+  - '0x04'
+  names:
+  - name: TLS_AES_128_CCM_SHA256
+    versions:
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0x13'
+  - '0x05'
+  names:
+  - name: TLS_AES_128_CCM_8_SHA256
+    versions:
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x06'
+  names:
+  - name: TLS_ECDHE_ECDSA_NULL_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x07'
+  names:
+  - name: TLS_ECDHE_ECDSA_ARCFOUR_128_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x08'
+  names:
+  - name: TLS_ECDHE_ECDSA_3DES_EDE_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x09'
+  names:
+  - name: TLS_ECDHE_ECDSA_AES_128_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x0A'
+  names:
+  - name: TLS_ECDHE_ECDSA_AES_256_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x10'
+  names:
+  - name: TLS_ECDHE_RSA_NULL_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x11'
+  names:
+  - name: TLS_ECDHE_RSA_ARCFOUR_128_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x12'
+  names:
+  - name: TLS_ECDHE_RSA_3DES_EDE_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x13'
+  names:
+  - name: TLS_ECDHE_RSA_AES_128_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x14'
+  names:
+  - name: TLS_ECDHE_RSA_AES_256_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x15'
+  names:
+  - name: TLS_ECDH_ANON_NULL_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x16'
+  names:
+  - name: TLS_ECDH_ANON_ARCFOUR_128_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x17'
+  names:
+  - name: TLS_ECDH_ANON_3DES_EDE_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x18'
+  names:
+  - name: TLS_ECDH_ANON_AES_128_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x19'
+  names:
+  - name: TLS_ECDH_ANON_AES_256_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x1A'
+  names:
+  - name: TLS_SRP_SHA_3DES_EDE_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x1B'
+  names:
+  - name: TLS_SRP_SHA_RSA_3DES_EDE_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x1C'
+  names:
+  - name: TLS_SRP_SHA_DSS_3DES_EDE_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x1D'
+  names:
+  - name: TLS_SRP_SHA_AES_128_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x1E'
+  names:
+  - name: TLS_SRP_SHA_RSA_AES_128_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x1F'
+  names:
+  - name: TLS_SRP_SHA_DSS_AES_128_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x20'
+  names:
+  - name: TLS_SRP_SHA_AES_256_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x21'
+  names:
+  - name: TLS_SRP_SHA_RSA_AES_256_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x22'
+  names:
+  - name: TLS_SRP_SHA_DSS_AES_256_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x23'
+  names:
+  - name: TLS_ECDHE_ECDSA_AES_128_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x24'
+  names:
+  - name: TLS_ECDHE_ECDSA_AES_256_CBC_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x27'
+  names:
+  - name: TLS_ECDHE_RSA_AES_128_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x28'
+  names:
+  - name: TLS_ECDHE_RSA_AES_256_CBC_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x2B'
+  names:
+  - name: TLS_ECDHE_ECDSA_AES_128_GCM_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x2C'
+  names:
+  - name: TLS_ECDHE_ECDSA_AES_256_GCM_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x2F'
+  names:
+  - name: TLS_ECDHE_RSA_AES_128_GCM_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x30'
+  names:
+  - name: TLS_ECDHE_RSA_AES_256_GCM_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x33'
+  names:
+  - name: TLS_ECDHE_PSK_ARCFOUR_128_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x34'
+  names:
+  - name: TLS_ECDHE_PSK_3DES_EDE_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x35'
+  names:
+  - name: TLS_ECDHE_PSK_AES_128_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x36'
+  names:
+  - name: TLS_ECDHE_PSK_AES_256_CBC_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x37'
+  names:
+  - name: TLS_ECDHE_PSK_AES_128_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x38'
+  names:
+  - name: TLS_ECDHE_PSK_AES_256_CBC_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x39'
+  names:
+  - name: TLS_ECDHE_PSK_NULL_SHA1
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x3A'
+  names:
+  - name: TLS_ECDHE_PSK_NULL_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x3B'
+  names:
+  - name: TLS_ECDHE_PSK_NULL_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x72'
+  names:
+  - name: TLS_ECDHE_ECDSA_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x73'
+  names:
+  - name: TLS_ECDHE_ECDSA_CAMELLIA_256_CBC_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x76'
+  names:
+  - name: TLS_ECDHE_RSA_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x77'
+  names:
+  - name: TLS_ECDHE_RSA_CAMELLIA_256_CBC_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x7A'
+  names:
+  - name: TLS_RSA_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x7B'
+  names:
+  - name: TLS_RSA_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x7C'
+  names:
+  - name: TLS_DHE_RSA_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x7D'
+  names:
+  - name: TLS_DHE_RSA_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x80'
+  names:
+  - name: TLS_DHE_DSS_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x81'
+  names:
+  - name: TLS_DHE_DSS_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x84'
+  names:
+  - name: TLS_DH_ANON_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x85'
+  names:
+  - name: TLS_DH_ANON_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x86'
+  names:
+  - name: TLS_ECDHE_ECDSA_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x87'
+  names:
+  - name: TLS_ECDHE_ECDSA_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x8A'
+  names:
+  - name: TLS_ECDHE_RSA_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x8B'
+  names:
+  - name: TLS_ECDHE_RSA_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x8E'
+  names:
+  - name: TLS_PSK_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x8F'
+  names:
+  - name: TLS_PSK_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x90'
+  names:
+  - name: TLS_DHE_PSK_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x91'
+  names:
+  - name: TLS_DHE_PSK_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x92'
+  names:
+  - name: TLS_RSA_PSK_CAMELLIA_128_GCM_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x93'
+  names:
+  - name: TLS_RSA_PSK_CAMELLIA_256_GCM_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x94'
+  names:
+  - name: TLS_PSK_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x95'
+  names:
+  - name: TLS_PSK_CAMELLIA_256_CBC_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x96'
+  names:
+  - name: TLS_DHE_PSK_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x97'
+  names:
+  - name: TLS_DHE_PSK_CAMELLIA_256_CBC_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x98'
+  names:
+  - name: TLS_RSA_PSK_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x99'
+  names:
+  - name: TLS_RSA_PSK_CAMELLIA_256_CBC_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x9A'
+  names:
+  - name: TLS_ECDHE_PSK_CAMELLIA_128_CBC_SHA256
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x9B'
+  names:
+  - name: TLS_ECDHE_PSK_CAMELLIA_256_CBC_SHA384
+    versions:
+    - '3.3'
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x9C'
+  names:
+  - name: TLS_RSA_AES_128_CCM
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x9D'
+  names:
+  - name: TLS_RSA_AES_256_CCM
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x9E'
+  names:
+  - name: TLS_DHE_RSA_AES_128_CCM
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0x9F'
+  names:
+  - name: TLS_DHE_RSA_AES_256_CCM
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0xA0'
+  names:
+  - name: TLS_RSA_AES_128_CCM_8
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0xA1'
+  names:
+  - name: TLS_RSA_AES_256_CCM_8
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0xA2'
+  names:
+  - name: TLS_DHE_RSA_AES_128_CCM_8
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0xA3'
+  names:
+  - name: TLS_DHE_RSA_AES_256_CCM_8
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0xA4'
+  names:
+  - name: TLS_PSK_AES_128_CCM
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0xA5'
+  names:
+  - name: TLS_PSK_AES_256_CCM
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0xA6'
+  names:
+  - name: TLS_DHE_PSK_AES_128_CCM
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0xA7'
+  names:
+  - name: TLS_DHE_PSK_AES_256_CCM
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0xA8'
+  names:
+  - name: TLS_PSK_AES_128_CCM_8
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0xA9'
+  names:
+  - name: TLS_PSK_AES_256_CCM_8
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0xAA'
+  names:
+  - name: TLS_DHE_PSK_AES_128_CCM_8
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0xAB'
+  names:
+  - name: TLS_DHE_PSK_AES_256_CCM_8
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0xAC'
+  names:
+  - name: TLS_ECDHE_ECDSA_AES_128_CCM
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0xAD'
+  names:
+  - name: TLS_ECDHE_ECDSA_AES_256_CCM
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0xAE'
+  names:
+  - name: TLS_ECDHE_ECDSA_AES_128_CCM_8
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC0'
+  - '0xAF'
+  names:
+  - name: TLS_ECDHE_ECDSA_AES_256_CCM_8
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xC1'
+  - '0x02'
+  names:
+  - name: TLS_GOSTR341112_256_28147_CNT_IMIT
+    versions:
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xCC'
+  - '0xA8'
+  names:
+  - name: TLS_ECDHE_RSA_CHACHA20_POLY1305
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xCC'
+  - '0xA9'
+  names:
+  - name: TLS_ECDHE_ECDSA_CHACHA20_POLY1305
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xCC'
+  - '0xAA'
+  names:
+  - name: TLS_DHE_RSA_CHACHA20_POLY1305
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xCC'
+  - '0xAB'
+  names:
+  - name: TLS_PSK_CHACHA20_POLY1305
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xCC'
+  - '0xAC'
+  names:
+  - name: TLS_ECDHE_PSK_CHACHA20_POLY1305
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xCC'
+  - '0xAD'
+  names:
+  - name: TLS_DHE_PSK_CHACHA20_POLY1305
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xCC'
+  - '0xAE'
+  names:
+  - name: TLS_RSA_PSK_CHACHA20_POLY1305
+    versions:
+    - '3.4'
+    - '3.5'
+    - '3.6'
+    - '3.7'
+    - '3.8'
+- code_point:
+  - '0xE4'
+  - '0x10'
+  names:
+  - name: TLS_RSA_ESTREAM_SALSA20_256_SHA1
+    versions:
+    - '3.3'
+- code_point:
+  - '0xE4'
+  - '0x11'
+  names:
+  - name: TLS_RSA_SALSA20_256_SHA1
+    versions:
+    - '3.3'
+- code_point:
+  - '0xE4'
+  - '0x12'
+  names:
+  - name: TLS_ECDHE_RSA_ESTREAM_SALSA20_256_SHA1
+    versions:
+    - '3.3'
+- code_point:
+  - '0xE4'
+  - '0x13'
+  names:
+  - name: TLS_ECDHE_RSA_SALSA20_256_SHA1
+    versions:
+    - '3.3'
+- code_point:
+  - '0xE4'
+  - '0x14'
+  names:
+  - name: TLS_ECDHE_ECDSA_ESTREAM_SALSA20_256_SHA1
+    versions:
+    - '3.3'
+- code_point:
+  - '0xE4'
+  - '0x15'
+  names:
+  - name: TLS_ECDHE_ECDSA_SALSA20_256_SHA1
+    versions:
+    - '3.3'
+- code_point:
+  - '0xE4'
+  - '0x16'
+  names:
+  - name: TLS_PSK_ESTREAM_SALSA20_256_SHA1
+    versions:
+    - '3.3'
+- code_point:
+  - '0xE4'
+  - '0x17'
+  names:
+  - name: TLS_PSK_SALSA20_256_SHA1
+    versions:
+    - '3.3'
+- code_point:
+  - '0xE4'
+  - '0x18'
+  names:
+  - name: TLS_ECDHE_PSK_ESTREAM_SALSA20_256_SHA1
+    versions:
+    - '3.3'
+- code_point:
+  - '0xE4'
+  - '0x19'
+  names:
+  - name: TLS_ECDHE_PSK_SALSA20_256_SHA1
+    versions:
+    - '3.3'

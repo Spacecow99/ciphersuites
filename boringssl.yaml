@@ -1,126 +1,193 @@
-- model: boringssl
-  pk: DES-CBC3-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x0A'
-- model: boringssl
-  pk: PSK-AES128-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x8C'
-- model: boringssl
-  pk: PSK-AES256-CBC-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x8D'
-- model: boringssl
-  pk: ECDHE-PSK-AES128-CBC-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x35'
-- model: boringssl
-  pk: ECDHE-PSK-AES256-CBC-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x36'
-- model: boringssl
-  pk: AES128-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x2F'
-- model: boringssl
-  pk: AES256-SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x35'
-- model: boringssl
-  pk: AES128-GCM-SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9C'
-- model: boringssl
-  pk: AES256-GCM-SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9D'
-- model: boringssl
-  pk: ECDHE-ECDSA-AES128-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x09'
-- model: boringssl
-  pk: ECDHE-ECDSA-AES256-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0A'
-- model: boringssl
-  pk: ECDHE-RSA-AES128-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x13'
-- model: boringssl
-  pk: ECDHE-RSA-AES256-SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x14'
-- model: boringssl
-  pk: ECDHE-ECDSA-AES128-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x23'
-- model: boringssl
-  pk: ECDHE-RSA-AES128-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x27'
-- model: boringssl
-  pk: ECDHE-ECDSA-AES128-GCM-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2B'
-- model: boringssl
-  pk: ECDHE-ECDSA-AES256-GCM-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2C'
-- model: boringssl
-  pk: ECDHE-RSA-AES128-GCM-SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2F'
-- model: boringssl
-  pk: ECDHE-RSA-AES256-GCM-SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x30'
-- model: boringssl
-  pk: ECDHE-RSA-CHACHA20-POLY1305
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xA8'
-- model: boringssl
-  pk: ECDHE-ECDSA-CHACHA20-POLY1305
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xA9'
-- model: boringssl
-  pk: ECDHE-PSK-CHACHA20-POLY1305
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xAC'
-- model: boringssl
-  pk: TLS_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x01'
-- model: boringssl
-  pk: TLS_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x02'
-- model: boringssl
-  pk: TLS_CHACHA20_POLY1305_SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x03'
-
+schema_version: 2
+kind: library
+library: boringssl
+source: https://github.com/google/boringssl
+versions:
+- label: '2026-11-08'
+  ref: HEAD
+  commit: 0131ae9d78e42fcc2c1811315e62410ad96d8230
+  files:
+    include/openssl/ssl3.h: sha256:3b369538ee125b3a26d8a3ca984f9fcecd027fa845335a30a21262376996724f
+    include/openssl/tls1.h: sha256:56615a8877a7af97a6411a55555664c9589baf907747bedaf03a1d49b8b90cc1
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted:
+    reason: 'First v2 scrape; newest-line removals are upstream, verified 2026-11-08: boringssl HEAD pruned legacy suites from ssl3.h/tls1.h (151 at 5584ad8c -> 25 at 0131ae9d); mbedtls 4.2 removed RSA key-exchange suites (all 53 present in <=4.1); openssl 4.x dropped SSLv2/export/Kerberos/FORTEZZA defines (all 34 present in older lines); s2n removed Kyber 0xFF0C between v1.5.14 and v1.5.20 (present <=1.6); Windows Server 2025 lists no SSLv2 codes (present in older Windows entries).'
+    at: '2026-11-08T13:38:55.446080+00:00'
+suites:
+- code_point:
+  - '0x00'
+  - '0x0A'
+  names:
+  - name: DES-CBC3-SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x2F'
+  names:
+  - name: AES128-SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x35'
+  names:
+  - name: AES256-SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x8C'
+  names:
+  - name: PSK-AES128-CBC-SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x8D'
+  names:
+  - name: PSK-AES256-CBC-SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x9C'
+  names:
+  - name: AES128-GCM-SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x00'
+  - '0x9D'
+  names:
+  - name: AES256-GCM-SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x13'
+  - '0x01'
+  names:
+  - name: TLS_AES_128_GCM_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x13'
+  - '0x02'
+  names:
+  - name: TLS_AES_256_GCM_SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0x13'
+  - '0x03'
+  names:
+  - name: TLS_CHACHA20_POLY1305_SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x09'
+  names:
+  - name: ECDHE-ECDSA-AES128-SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x0A'
+  names:
+  - name: ECDHE-ECDSA-AES256-SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x13'
+  names:
+  - name: ECDHE-RSA-AES128-SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x14'
+  names:
+  - name: ECDHE-RSA-AES256-SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x23'
+  names:
+  - name: ECDHE-ECDSA-AES128-SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x27'
+  names:
+  - name: ECDHE-RSA-AES128-SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x2B'
+  names:
+  - name: ECDHE-ECDSA-AES128-GCM-SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x2C'
+  names:
+  - name: ECDHE-ECDSA-AES256-GCM-SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x2F'
+  names:
+  - name: ECDHE-RSA-AES128-GCM-SHA256
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x30'
+  names:
+  - name: ECDHE-RSA-AES256-GCM-SHA384
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x35'
+  names:
+  - name: ECDHE-PSK-AES128-CBC-SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xC0'
+  - '0x36'
+  names:
+  - name: ECDHE-PSK-AES256-CBC-SHA
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xCC'
+  - '0xA8'
+  names:
+  - name: ECDHE-RSA-CHACHA20-POLY1305
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xCC'
+  - '0xA9'
+  names:
+  - name: ECDHE-ECDSA-CHACHA20-POLY1305
+    versions:
+    - '2026-11-08'
+- code_point:
+  - '0xCC'
+  - '0xAC'
+  names:
+  - name: ECDHE-PSK-CHACHA20-POLY1305
+    versions:
+    - '2026-11-08'

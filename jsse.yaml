@@ -1,513 +1,2488 @@
-- model: jsse
-  pk: TLS_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x02'
-- model: jsse
-  pk: TLS_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x01'
-- model: jsse
-  pk: TLS_CHACHA20_POLY1305_SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x03'
-- model: jsse
-  pk: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2C'
-- model: jsse
-  pk: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2B'
-- model: jsse
-  pk: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xA9'
-- model: jsse
-  pk: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x30'
-- model: jsse
-  pk: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xA8'
-- model: jsse
-  pk: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2F'
-- model: jsse
-  pk: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9F'
-- model: jsse
-  pk: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256
-  fields:
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xAA'
-- model: jsse
-  pk: TLS_DHE_DSS_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA3'
-- model: jsse
-  pk: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9E'
-- model: jsse
-  pk: TLS_DHE_DSS_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA2'
-- model: jsse
-  pk: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x24'
-- model: jsse
-  pk: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x28'
-- model: jsse
-  pk: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x23'
-- model: jsse
-  pk: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x27'
-- model: jsse
-  pk: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x6B'
-- model: jsse
-  pk: TLS_DHE_DSS_WITH_AES_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x6A'
-- model: jsse
-  pk: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x67'
-- model: jsse
-  pk: TLS_DHE_DSS_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x40'
-- model: jsse
-  pk: TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2E'
-- model: jsse
-  pk: TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x32'
-- model: jsse
-  pk: TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2D'
-- model: jsse
-  pk: TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x31'
-- model: jsse
-  pk: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x26'
-- model: jsse
-  pk: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2A'
-- model: jsse
-  pk: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x25'
-- model: jsse
-  pk: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x29'
-- model: jsse
-  pk: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0A'
-- model: jsse
-  pk: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x14'
-- model: jsse
-  pk: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x09'
-- model: jsse
-  pk: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x13'
-- model: jsse
-  pk: TLS_DHE_RSA_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x39'
-- model: jsse
-  pk: TLS_DHE_DSS_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x38'
-- model: jsse
-  pk: TLS_DHE_RSA_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x33'
-- model: jsse
-  pk: TLS_DHE_DSS_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x32'
-- model: jsse
-  pk: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x05'
-- model: jsse
-  pk: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0F'
-- model: jsse
-  pk: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x04'
-- model: jsse
-  pk: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0E'
-- model: jsse
-  pk: TLS_RSA_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9D'
-- model: jsse
-  pk: TLS_RSA_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9C'
-- model: jsse
-  pk: TLS_RSA_WITH_AES_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3D'
-- model: jsse
-  pk: TLS_RSA_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3C'
-- model: jsse
-  pk: TLS_RSA_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x35'
-- model: jsse
-  pk: TLS_RSA_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x2F'
-- model: jsse
-  pk: TLS_DH_anon_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA7'
-- model: jsse
-  pk: TLS_DH_anon_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA6'
-- model: jsse
-  pk: TLS_DH_anon_WITH_AES_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x6D'
-- model: jsse
-  pk: TLS_ECDH_anon_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x19'
-- model: jsse
-  pk: TLS_DH_anon_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3A'
-- model: jsse
-  pk: TLS_DH_anon_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x6C'
-- model: jsse
-  pk: TLS_ECDH_anon_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x18'
-- model: jsse
-  pk: TLS_DH_anon_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x34'
-- model: jsse
-  pk: TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x08'
-- model: jsse
-  pk: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x12'
-- model: jsse
-  pk: SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA
-  fields: &id001
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x16'
-- model: jsse
-  pk: TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA
-  fields: *id001
-- model: jsse
-  pk: SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA
-  fields: &id002
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x13'
-- model: jsse
-  pk: TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA
-  fields: *id002
-- model: jsse
-  pk: TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x03'
-- model: jsse
-  pk: TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0D'
-- model: jsse
-  pk: SSL_RSA_WITH_3DES_EDE_CBC_SHA
-  fields: &id003
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x0A'
-- model: jsse
-  pk: TLS_RSA_WITH_3DES_EDE_CBC_SHA
-  fields: *id003
-- model: jsse
-  pk: TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x17'
-- model: jsse
-  pk: SSL_DH_anon_WITH_3DES_EDE_CBC_SHA
-  fields: &id004
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x1B'
-- model: jsse
-  pk: TLS_DH_anon_WITH_3DES_EDE_CBC_SHA
-  fields: *id004
-- model: jsse
-  pk: TLS_ECDHE_ECDSA_WITH_RC4_128_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x07'
-- model: jsse
-  pk: TLS_ECDHE_RSA_WITH_RC4_128_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x11'
-- model: jsse
-  pk: SSL_RSA_WITH_RC4_128_SHA
-  fields: &id005
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x05'
-- model: jsse
-  pk: TLS_RSA_WITH_RC4_128_SHA
-  fields: *id005
-- model: jsse
-  pk: TLS_ECDH_ECDSA_WITH_RC4_128_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x02'
-- model: jsse
-  pk: TLS_ECDH_RSA_WITH_RC4_128_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0C'
-- model: jsse
-  pk: SSL_RSA_WITH_RC4_128_MD5
-  fields: &id006
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x04'
-- model: jsse
-  pk: TLS_RSA_WITH_RC4_128_MD5
-  fields: *id006
-- model: jsse
-  pk: TLS_ECDH_anon_WITH_RC4_128_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x16'
-- model: jsse
-  pk: SSL_DH_anon_WITH_RC4_128_MD5
-  fields: &id007
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x18'
-- model: jsse
-  pk: TLS_DH_anon_WITH_RC4_128_MD5
-  fields: *id007
-- model: jsse
-  pk: SSL_RSA_WITH_DES_CBC_SHA
-  fields: &id008
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x09'
-- model: jsse
-  pk: TLS_RSA_WITH_DES_CBC_SHA
-  fields: *id008
-- model: jsse
-  pk: SSL_DHE_RSA_WITH_DES_CBC_SHA
-  fields: &id009
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x15'
-- model: jsse
-  pk: TLS_DHE_RSA_WITH_DES_CBC_SHA
-  fields: *id009
-- model: jsse
-  pk: SSL_DHE_DSS_WITH_DES_CBC_SHA
-  fields: &id010
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x12'
-- model: jsse
-  pk: TLS_DHE_DSS_WITH_DES_CBC_SHA
-  fields: *id010
-- model: jsse
-  pk: SSL_DH_anon_WITH_DES_CBC_SHA
-  fields: &id011
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x1A'
-- model: jsse
-  pk: TLS_DH_anon_WITH_DES_CBC_SHA
-  fields: *id011
-- model: jsse
-  pk: SSL_RSA_EXPORT_WITH_DES40_CBC_SHA
-  fields: &id012
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x08'
-- model: jsse
-  pk: TLS_RSA_EXPORT_WITH_DES40_CBC_SHA
-  fields: *id012
-- model: jsse
-  pk: SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA
-  fields: &id013
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x14'
-- model: jsse
-  pk: TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA
-  fields: *id013
-- model: jsse
-  pk: SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA
-  fields: &id014
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x11'
-- model: jsse
-  pk: TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA
-  fields: *id014
-- model: jsse
-  pk: SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA
-  fields: &id015
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x19'
-- model: jsse
-  pk: TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA
-  fields: *id015
-- model: jsse
-  pk: SSL_RSA_EXPORT_WITH_RC4_40_MD5
-  fields: &id016
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x03'
-- model: jsse
-  pk: TLS_RSA_EXPORT_WITH_RC4_40_MD5
-  fields: *id016
-- model: jsse
-  pk: SSL_DH_anon_EXPORT_WITH_RC4_40_MD5
-  fields: &id017
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x17'
-- model: jsse
-  pk: TLS_DH_anon_EXPORT_WITH_RC4_40_MD5
-  fields: *id017
-- model: jsse
-  pk: TLS_RSA_WITH_NULL_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3B'
-- model: jsse
-  pk: TLS_ECDHE_ECDSA_WITH_NULL_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x06'
-- model: jsse
-  pk: TLS_ECDHE_RSA_WITH_NULL_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x10'
-- model: jsse
-  pk: SSL_RSA_WITH_NULL_SHA
-  fields: &id018
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x02'
-- model: jsse
-  pk: TLS_RSA_WITH_NULL_SHA
-  fields: *id018
-- model: jsse
-  pk: TLS_ECDH_ECDSA_WITH_NULL_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x01'
-- model: jsse
-  pk: TLS_ECDH_RSA_WITH_NULL_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0B'
-- model: jsse
-  pk: TLS_ECDH_anon_WITH_NULL_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x15'
-- model: jsse
-  pk: SSL_RSA_WITH_NULL_MD5
-  fields: &id019
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x01'
-- model: jsse
-  pk: TLS_RSA_WITH_NULL_MD5
-  fields: *id019
-
+schema_version: 2
+kind: library
+library: jsse
+source: https://github.com/openjdk/jdk
+versions:
+- label: '8'
+  ref: jdk8u512-ga
+  commit: b661ee6ff840d6922aa7424a4d8f24760b21cf26
+  files:
+    jdk/src/share/classes/sun/security/ssl/CipherSuite.java: sha256:84813f43407304f303bec9dec13ec1022c1f1d262aa60770cd61053a35785cc2
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '11'
+  ref: jdk-11-ga
+  commit: da75f3c4ad5bdf25167a3ed80e51f567ab3dbd01
+  files:
+    src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:5eab759d21da69b2396791d554c63a4f6c033ed9dc4a7841b827293a497f9bde
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '12'
+  ref: jdk-12-ga
+  commit: 9dae227e4f0e44bd75a30e55bc54ea68f6cbc841
+  files:
+    src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:300f86068e4b1dbab29dada8387593e031d87d55f462e985879337d9f27854dd
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '13'
+  ref: jdk-13-ga
+  commit: d5914f18390f71c9bdc333f66cbee6164eb7f857
+  files:
+    src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:6a9c294564020baf25bbc7365bd87457e3302fb2df3357dd79199881c4fb2241
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '14'
+  ref: jdk-14-ga
+  commit: ae39310243b0486f5a6f1049c6ec5f29db31170c
+  files:
+    src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:af71da4097b05e64d0f834fa6c3195b6bcca03a7d1292c9792d39a5dc337a0be
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '15'
+  ref: jdk-15-ga
+  commit: 4a588d89f01a650d90432cc14697a5a2ae2c97d3
+  files:
+    src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:af71da4097b05e64d0f834fa6c3195b6bcca03a7d1292c9792d39a5dc337a0be
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '16'
+  ref: jdk-16-ga
+  commit: 4de3a6be9e60b9676f2199cd18eadb54a9d6e3fe
+  files:
+    src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:af71da4097b05e64d0f834fa6c3195b6bcca03a7d1292c9792d39a5dc337a0be
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '17'
+  ref: jdk-17-ga
+  commit: dfacda488bfbe2e11e8d607a6d08527710286982
+  files:
+    src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:9841bcb74d71fe5e91f76c2a9757697eae8296f2cdfdf1a1648ee474cb947642
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '18'
+  ref: jdk-18-ga
+  commit: 0f2113cee79b9645105b4753c7d7eacb83b872c2
+  files:
+    src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:66b010e69edd932e48034e1beb3b88cb0061fc415abdc098acb04c5cf31c4680
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '19'
+  ref: jdk-19-ga
+  commit: 967a28c3d85fdde6d5eb48aa0edd8f7597772469
+  files:
+    src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:bd589d301989dbd3d54b8c0dbbd8d4ebe6e0ca818b299a22669a457a147f6291
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '20'
+  ref: jdk-20-ga
+  commit: 82749901b1497f524e53e47c45708c8e4a63c8b9
+  files:
+    src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:573749f34fae682174008c2f54f19e3020808b08c9dc939649fee117ede1a91d
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '21'
+  ref: jdk-21-ga
+  commit: 890adb6410dab4606a4f26a942aed02fb2f55387
+  files:
+    src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:573749f34fae682174008c2f54f19e3020808b08c9dc939649fee117ede1a91d
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '22'
+  ref: jdk-22-ga
+  commit: fe9f05023e5a916b21e2db72fa5b1e8368a2c07d
+  files:
+    src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:573749f34fae682174008c2f54f19e3020808b08c9dc939649fee117ede1a91d
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '23'
+  ref: jdk-23-ga
+  commit: 9ad2e63f176364b96a827af80055e7db4b61fc9a
+  files:
+    src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:573749f34fae682174008c2f54f19e3020808b08c9dc939649fee117ede1a91d
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '24'
+  ref: jdk-24-ga
+  commit: 6705a9255d28f351950e7fbca9d05e73942a4e27
+  files:
+    src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:573749f34fae682174008c2f54f19e3020808b08c9dc939649fee117ede1a91d
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '25'
+  ref: jdk-25-ga
+  commit: 6c48f4ed707bf0b15f9b6098de30db8aae6fa40f
+  files:
+    src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:a2e8d33d7a303ca09cec3f38f5b9a3bcd2a61e7d17fbdff087ec838d2022cc9c
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '26'
+  ref: jdk-26-ga
+  commit: 4408cd2a07a14243a58cd9d30813302bfbe81133
+  files:
+    src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:a2e8d33d7a303ca09cec3f38f5b9a3bcd2a61e7d17fbdff087ec838d2022cc9c
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '27'
+  ref: jdk-27-ga
+  commit: 815ff4dc327fe17f2433c7d115a5a503af10f3c4
+  files:
+    src/java.base/share/classes/sun/security/ssl/CipherSuite.java: sha256:a2e8d33d7a303ca09cec3f38f5b9a3bcd2a61e7d17fbdff087ec838d2022cc9c
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+suites:
+- code_point:
+  - '0x00'
+  - '0x01'
+  names:
+  - name: SSL_RSA_WITH_NULL_MD5
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x02'
+  names:
+  - name: SSL_RSA_WITH_NULL_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x03'
+  names:
+  - name: SSL_RSA_EXPORT_WITH_RC4_40_MD5
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x04'
+  names:
+  - name: SSL_RSA_WITH_RC4_128_MD5
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x05'
+  names:
+  - name: SSL_RSA_WITH_RC4_128_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x08'
+  names:
+  - name: SSL_RSA_EXPORT_WITH_DES40_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x09'
+  names:
+  - name: SSL_RSA_WITH_DES_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x0A'
+  names:
+  - name: SSL_RSA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x11'
+  names:
+  - name: SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x12'
+  names:
+  - name: SSL_DHE_DSS_WITH_DES_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x13'
+  names:
+  - name: SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x14'
+  names:
+  - name: SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x15'
+  names:
+  - name: SSL_DHE_RSA_WITH_DES_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x16'
+  names:
+  - name: SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x17'
+  names:
+  - name: SSL_DH_anon_EXPORT_WITH_RC4_40_MD5
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x18'
+  names:
+  - name: SSL_DH_anon_WITH_RC4_128_MD5
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x19'
+  names:
+  - name: SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x1A'
+  names:
+  - name: SSL_DH_anon_WITH_DES_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x1B'
+  names:
+  - name: SSL_DH_anon_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x1E'
+  names:
+  - name: TLS_KRB5_WITH_DES_CBC_SHA
+    versions:
+    - '8'
+- code_point:
+  - '0x00'
+  - '0x1F'
+  names:
+  - name: TLS_KRB5_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '8'
+- code_point:
+  - '0x00'
+  - '0x20'
+  names:
+  - name: TLS_KRB5_WITH_RC4_128_SHA
+    versions:
+    - '8'
+- code_point:
+  - '0x00'
+  - '0x22'
+  names:
+  - name: TLS_KRB5_WITH_DES_CBC_MD5
+    versions:
+    - '8'
+- code_point:
+  - '0x00'
+  - '0x23'
+  names:
+  - name: TLS_KRB5_WITH_3DES_EDE_CBC_MD5
+    versions:
+    - '8'
+- code_point:
+  - '0x00'
+  - '0x24'
+  names:
+  - name: TLS_KRB5_WITH_RC4_128_MD5
+    versions:
+    - '8'
+- code_point:
+  - '0x00'
+  - '0x26'
+  names:
+  - name: TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA
+    versions:
+    - '8'
+- code_point:
+  - '0x00'
+  - '0x28'
+  names:
+  - name: TLS_KRB5_EXPORT_WITH_RC4_40_SHA
+    versions:
+    - '8'
+- code_point:
+  - '0x00'
+  - '0x29'
+  names:
+  - name: TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5
+    versions:
+    - '8'
+- code_point:
+  - '0x00'
+  - '0x2B'
+  names:
+  - name: TLS_KRB5_EXPORT_WITH_RC4_40_MD5
+    versions:
+    - '8'
+- code_point:
+  - '0x00'
+  - '0x2F'
+  names:
+  - name: TLS_RSA_WITH_AES_128_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x32'
+  names:
+  - name: TLS_DHE_DSS_WITH_AES_128_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x33'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_128_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x34'
+  names:
+  - name: TLS_DH_anon_WITH_AES_128_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x35'
+  names:
+  - name: TLS_RSA_WITH_AES_256_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x38'
+  names:
+  - name: TLS_DHE_DSS_WITH_AES_256_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x39'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_256_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x3A'
+  names:
+  - name: TLS_DH_anon_WITH_AES_256_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x3B'
+  names:
+  - name: TLS_RSA_WITH_NULL_SHA256
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x3C'
+  names:
+  - name: TLS_RSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x3D'
+  names:
+  - name: TLS_RSA_WITH_AES_256_CBC_SHA256
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x40'
+  names:
+  - name: TLS_DHE_DSS_WITH_AES_128_CBC_SHA256
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x67'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x6A'
+  names:
+  - name: TLS_DHE_DSS_WITH_AES_256_CBC_SHA256
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x6B'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_256_CBC_SHA256
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x6C'
+  names:
+  - name: TLS_DH_anon_WITH_AES_128_CBC_SHA256
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x6D'
+  names:
+  - name: TLS_DH_anon_WITH_AES_256_CBC_SHA256
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x9C'
+  names:
+  - name: TLS_RSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x9D'
+  names:
+  - name: TLS_RSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x9E'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0x9F'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0xA2'
+  names:
+  - name: TLS_DHE_DSS_WITH_AES_128_GCM_SHA256
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0xA3'
+  names:
+  - name: TLS_DHE_DSS_WITH_AES_256_GCM_SHA384
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0xA6'
+  names:
+  - name: TLS_DH_anon_WITH_AES_128_GCM_SHA256
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0xA7'
+  names:
+  - name: TLS_DH_anon_WITH_AES_256_GCM_SHA384
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x00'
+  - '0xFF'
+  names:
+  - name: TLS_EMPTY_RENEGOTIATION_INFO_SCSV
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x13'
+  - '0x01'
+  names:
+  - name: TLS_AES_128_GCM_SHA256
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x13'
+  - '0x02'
+  names:
+  - name: TLS_AES_256_GCM_SHA384
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x13'
+  - '0x03'
+  names:
+  - name: TLS_CHACHA20_POLY1305_SHA256
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x13'
+  - '0x04'
+  names:
+  - name: TLS_AES_128_CCM_SHA256
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0x13'
+  - '0x05'
+  names:
+  - name: TLS_AES_128_CCM_8_SHA256
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x01'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_NULL_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x02'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_RC4_128_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x03'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x04'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x05'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x06'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_NULL_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x07'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_RC4_128_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x08'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x09'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x0A'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x0B'
+  names:
+  - name: TLS_ECDH_RSA_WITH_NULL_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x0C'
+  names:
+  - name: TLS_ECDH_RSA_WITH_RC4_128_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x0D'
+  names:
+  - name: TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x0E'
+  names:
+  - name: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x0F'
+  names:
+  - name: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x10'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_NULL_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x11'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_RC4_128_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x12'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x13'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x14'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x15'
+  names:
+  - name: TLS_ECDH_anon_WITH_NULL_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x16'
+  names:
+  - name: TLS_ECDH_anon_WITH_RC4_128_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x17'
+  names:
+  - name: TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x18'
+  names:
+  - name: TLS_ECDH_anon_WITH_AES_128_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x19'
+  names:
+  - name: TLS_ECDH_anon_WITH_AES_256_CBC_SHA
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x23'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x24'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x25'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x26'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x27'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x28'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x29'
+  names:
+  - name: TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x2A'
+  names:
+  - name: TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x2B'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x2C'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x2D'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x2E'
+  names:
+  - name: TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x2F'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x30'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x31'
+  names:
+  - name: TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xC0'
+  - '0x32'
+  names:
+  - name: TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - '8'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xCC'
+  - '0xA8'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+    versions:
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xCC'
+  - '0xA9'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
+    versions:
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'
+- code_point:
+  - '0xCC'
+  - '0xAA'
+  names:
+  - name: TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+    versions:
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    - '26'
+    - '27'

@@ -1,410 +1,1269 @@
-- model: schannel
-  pk: SSL_CK_DES_192_EDE3_CBC_WITH_MD5
-  fields:
-    hex_byte_1: '0x07'
-    hex_byte_2: '0x00'
-    hex_byte_3: '0xC0'
-- model: schannel
-  pk: SSL_CK_DES_64_CBC_WITH_MD5
-  fields:
-    hex_byte_1: '0x06'
-    hex_byte_2: '0x00'
-    hex_byte_3: '0x40'
-- model: schannel
-  pk: SSL_CK_RC4_128_EXPORT40_MD5
-  fields:
-    hex_byte_1: '0x02'
-    hex_byte_2: '0x00'
-    hex_byte_3: '0x80'
-- model: schannel
-  pk: SSL_CK_RC4_128_EXPORT40_WITH_MD5
-  fields:
-    hex_byte_1: '0x02'
-    hex_byte_2: '0x00'
-    hex_byte_3: '0x80'
-- model: schannel
-  pk: SSL_CK_RC4_128_WITH_MD5
-  fields:
-    hex_byte_1: '0x01'
-    hex_byte_2: '0x00'
-    hex_byte_3: '0x80'
-- model: schannel
-  pk: TLS_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x01'
-- model: schannel
-  pk: TLS_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x02'
-- model: schannel
-  pk: TLS_CHACHA20_POLY1305_SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x03'
-- model: schannel
-  pk: TLS_DHE_DSS_EXPORT1024_WITH_DES_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x63'
-- model: schannel
-  pk: TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x13'
-- model: schannel
-  pk: TLS_DHE_DSS_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x32'
-- model: schannel
-  pk: TLS_DHE_DSS_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x40'
-- model: schannel
-  pk: TLS_DHE_DSS_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x38'
-- model: schannel
-  pk: TLS_DHE_DSS_WITH_AES_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x6A'
-- model: schannel
-  pk: TLS_DHE_DSS_WITH_DES_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x12'
-- model: schannel
-  pk: TLS_DHE_RSA_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x33'
-- model: schannel
-  pk: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9E'
-- model: schannel
-  pk: TLS_DHE_RSA_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x39'
-- model: schannel
-  pk: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9F'
-- model: schannel
-  pk: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x09'
-- model: schannel
-  pk: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x23'
-- model: schannel
-  pk: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256_P256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x23'
-- model: schannel
-  pk: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256_P384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x23'
-- model: schannel
-  pk: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256_P521
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x23'
-- model: schannel
-  pk: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA_P256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x09'
-- model: schannel
-  pk: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA_P384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x09'
-- model: schannel
-  pk: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA_P521
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x09'
-- model: schannel
-  pk: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2B'
-- model: schannel
-  pk: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256_P256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2B'
-- model: schannel
-  pk: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256_P384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2B'
-- model: schannel
-  pk: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256_P521
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2B'
-- model: schannel
-  pk: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0A'
-- model: schannel
-  pk: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x24'
-- model: schannel
-  pk: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384_P384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x24'
-- model: schannel
-  pk: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384_P521
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x24'
-- model: schannel
-  pk: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA_P256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0A'
-- model: schannel
-  pk: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA_P384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0A'
-- model: schannel
-  pk: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA_P521
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0A'
-- model: schannel
-  pk: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2C'
-- model: schannel
-  pk: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384_P384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2C'
-- model: schannel
-  pk: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384_P521
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2C'
-- model: schannel
-  pk: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x13'
-- model: schannel
-  pk: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x27'
-- model: schannel
-  pk: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x27'
-- model: schannel
-  pk: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x27'
-- model: schannel
-  pk: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P521
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x27'
-- model: schannel
-  pk: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA_P256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x13'
-- model: schannel
-  pk: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA_P384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x13'
-- model: schannel
-  pk: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA_P521
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x13'
-- model: schannel
-  pk: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2F'
-- model: schannel
-  pk: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x14'
-- model: schannel
-  pk: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x28'
-- model: schannel
-  pk: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x28'
-- model: schannel
-  pk: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x28'
-- model: schannel
-  pk: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P521
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x28'
-- model: schannel
-  pk: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA_P256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x14'
-- model: schannel
-  pk: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA_P384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x14'
-- model: schannel
-  pk: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA_P521
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x14'
-- model: schannel
-  pk: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x30'
-- model: schannel
-  pk: TLS_PSK_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xAE'
-- model: schannel
-  pk: TLS_PSK_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA8'
-- model: schannel
-  pk: TLS_PSK_WITH_AES_256_CBC_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xAF'
-- model: schannel
-  pk: TLS_PSK_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xA9'
-- model: schannel
-  pk: TLS_PSK_WITH_NULL_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xB0'
-- model: schannel
-  pk: TLS_PSK_WITH_NULL_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0xB1'
-- model: schannel
-  pk: TLS_RSA_EXPORT1024_WITH_DES_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x62'
-- model: schannel
-  pk: TLS_RSA_EXPORT1024_WITH_RC4_56_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x64'
-- model: schannel
-  pk: TLS_RSA_EXPORT_WITH_RC4_40_MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x03'
-- model: schannel
-  pk: TLS_RSA_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x0A'
-- model: schannel
-  pk: TLS_RSA_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x2F'
-- model: schannel
-  pk: TLS_RSA_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3C'
-- model: schannel
-  pk: TLS_RSA_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9C'
-- model: schannel
-  pk: TLS_RSA_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x35'
-- model: schannel
-  pk: TLS_RSA_WITH_AES_256_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3D'
-- model: schannel
-  pk: TLS_RSA_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9D'
-- model: schannel
-  pk: TLS_RSA_WITH_DES_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x09'
-- model: schannel
-  pk: TLS_RSA_WITH_NULL_MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x01'
-- model: schannel
-  pk: TLS_RSA_WITH_NULL_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x02'
-- model: schannel
-  pk: TLS_RSA_WITH_NULL_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3B'
-- model: schannel
-  pk: TLS_RSA_WITH_RC4_128_MD5
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x04'
-- model: schannel
-  pk: TLS_RSA_WITH_RC4_128_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x05'
+schema_version: 2
+kind: library
+library: schannel
+source: https://learn.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-server-2025
+versions:
+- label: Windows Vista
+  ref: https://learn.microsoft.com/en-us/windows/win32/secauthn/schannel-cipher-suites-in-windows-vista
+  commit: null
+  files:
+    schannel_curated.yaml: sha256:79290065744c2451b5e983391a5745bd0dd5569b46b37cd88446dcf5c426c009
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: Windows 7
+  ref: https://learn.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-7
+  commit: null
+  files:
+    schannel_curated.yaml: sha256:32b322bdc3ff2e31aa820edbdbaac7fc7b123865cd44d8fe455aca8971a1da97
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: Windows 8
+  ref: https://learn.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-8
+  commit: null
+  files:
+    schannel_curated.yaml: sha256:682438bfc220f1ea96afc2ec816dcfccfc34f8b82090e4d3e21320967df1189d
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: Windows 8.1
+  ref: https://learn.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-8-1
+  commit: null
+  files:
+    schannel_curated.yaml: sha256:267108e2cf56be41512358d78966a10ca91f0f4cbcb62b977f1c65521ecfd250
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: Windows 10 1507
+  ref: https://learn.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-10--version-1507
+  commit: null
+  files:
+    schannel_curated.yaml: sha256:0e62ec4bdd51752310dcd3221ac0d3e148225644ceebfc61b17b77eaa06af97f
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: Windows 10 1511
+  ref: https://learn.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-10-v1511
+  commit: null
+  files:
+    schannel_curated.yaml: sha256:2d52f29abc0f8385b08ddca1ad7706ea214340046f34b710444dd9261ae6afe5
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: Windows 10 1607
+  ref: https://learn.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-10-v1607
+  commit: null
+  files:
+    schannel_curated.yaml: sha256:6c489028dc1aefd3670a8c577c5598dc2842fae84c353a5903f2f65ba0f3b9a7
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: Windows 10 1703
+  ref: https://learn.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-10-v1703
+  commit: null
+  files:
+    schannel_curated.yaml: sha256:082dd37a6af819386038c32365a6ea220a590d67231fc1a50418be33863ea874
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: Windows 10 1709
+  ref: https://learn.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-10-v1709
+  commit: null
+  files:
+    schannel_curated.yaml: sha256:08d7aa24c3b90f51112023eb7d804a3b72ab5236d24ab7c25fe1023f3687c4ec
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: Windows 10 1803
+  ref: https://learn.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-10-v1803
+  commit: null
+  files:
+    schannel_curated.yaml: sha256:385fe815ebabfd82e0a1a11aaf132442177a6f17ec63b057df1ec622fe8dcda1
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: Windows 10 1809
+  ref: https://learn.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-10-v1809
+  commit: null
+  files:
+    schannel_curated.yaml: sha256:481ffb476442418aec3d6a8dbe80b947897bf903f86a4650984bd515ae3c2f28
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: Windows 10 1903
+  ref: https://learn.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-10-v1903
+  commit: null
+  files:
+    schannel_curated.yaml: sha256:a94d17e438304dc91cbc582a144d4a57a03fd70a2318e0813d70d5205f1f27c0
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: Windows 10 20H2
+  ref: https://learn.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-10-v20h2
+  commit: null
+  files:
+    schannel_curated.yaml: sha256:be93782ef4d70002fe86cee982ad16d4928d0edb6de74d8a8a27f313435bf516
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: Windows Server 2022
+  ref: https://learn.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-server-2022
+  commit: null
+  files:
+    schannel_curated.yaml: sha256:8b9e8d63bdd438740ab1df2e6060accf5aa4a456bd5d6da2d38a07e54538739e
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: Windows 11
+  ref: https://learn.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-11
+  commit: null
+  files:
+    schannel_curated.yaml: sha256:58d5ab525d43742e18cc1414df01a92ea9cdafa6f98e29c7f629b742ba786a09
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: Windows 11 22H2
+  ref: https://learn.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-11-v22h2
+  commit: null
+  files:
+    schannel_curated.yaml: sha256:bcd62ec3724b42d547eacba9804ed40d3da808d11c7000a187d324f56ea462d1
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: Windows 10 22H2
+  ref: https://learn.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-10-v22h2
+  commit: null
+  files:
+    schannel_curated.yaml: sha256:486691436408a23d279f516ccdd4c64db76d301d3a035731384037311c95ddbf
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: Windows Server 2025
+  ref: https://learn.microsoft.com/en-us/windows/win32/secauthn/tls-cipher-suites-in-windows-server-2025
+  commit: null
+  files:
+    schannel_curated.yaml: sha256:4075abfaa640e77ac0e6b619b04265daa6139831946e62c12a860e921f65e702
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted:
+    reason: 'First v2 scrape; newest-line removals are upstream, verified 2026-11-08: boringssl HEAD pruned legacy suites from ssl3.h/tls1.h (151 at 5584ad8c -> 25 at 0131ae9d); mbedtls 4.2 removed RSA key-exchange suites (all 53 present in <=4.1); openssl 4.x dropped SSLv2/export/Kerberos/FORTEZZA defines (all 34 present in older lines); s2n removed Kyber 0xFF0C between v1.5.14 and v1.5.20 (present <=1.6); Windows Server 2025 lists no SSLv2 codes (present in older Windows entries).'
+    at: '2026-11-08T13:38:55.446080+00:00'
+suites:
+- code_point:
+  - '0x00'
+  - '0x01'
+  names:
+  - name: TLS_RSA_WITH_NULL_MD5
+    versions:
+    - Windows Vista
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x02'
+  names:
+  - name: TLS_RSA_WITH_NULL_SHA
+    versions:
+    - Windows Vista
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x03'
+  names:
+  - name: TLS_RSA_EXPORT_WITH_RC4_40_MD5
+    versions:
+    - Windows Vista
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x04'
+  names:
+  - name: TLS_RSA_WITH_RC4_128_MD5
+    versions:
+    - Windows Vista
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x05'
+  names:
+  - name: TLS_RSA_WITH_RC4_128_SHA
+    versions:
+    - Windows Vista
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x09'
+  names:
+  - name: TLS_RSA_WITH_DES_CBC_SHA
+    versions:
+    - Windows Vista
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x0A'
+  names:
+  - name: TLS_RSA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - Windows Vista
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x12'
+  names:
+  - name: TLS_DHE_DSS_WITH_DES_CBC_SHA
+    versions:
+    - Windows Vista
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x13'
+  names:
+  - name: TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - Windows Vista
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x2F'
+  names:
+  - name: TLS_RSA_WITH_AES_128_CBC_SHA
+    versions:
+    - Windows Vista
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x32'
+  names:
+  - name: TLS_DHE_DSS_WITH_AES_128_CBC_SHA
+    versions:
+    - Windows Vista
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x33'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_128_CBC_SHA
+    versions:
+    - Windows 7
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x35'
+  names:
+  - name: TLS_RSA_WITH_AES_256_CBC_SHA
+    versions:
+    - Windows Vista
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x38'
+  names:
+  - name: TLS_DHE_DSS_WITH_AES_256_CBC_SHA
+    versions:
+    - Windows Vista
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x39'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_256_CBC_SHA
+    versions:
+    - Windows 7
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x3B'
+  names:
+  - name: TLS_RSA_WITH_NULL_SHA256
+    versions:
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x3C'
+  names:
+  - name: TLS_RSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x3D'
+  names:
+  - name: TLS_RSA_WITH_AES_256_CBC_SHA256
+    versions:
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x40'
+  names:
+  - name: TLS_DHE_DSS_WITH_AES_128_CBC_SHA256
+    versions:
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x62'
+  names:
+  - name: TLS_RSA_EXPORT1024_WITH_DES_CBC_SHA
+    versions:
+    - Windows Vista
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x63'
+  names:
+  - name: TLS_DHE_DSS_EXPORT1024_WITH_DES_CBC_SHA
+    versions:
+    - Windows Vista
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x64'
+  names:
+  - name: TLS_RSA_EXPORT1024_WITH_RC4_56_SHA
+    versions:
+    - Windows Vista
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x6A'
+  names:
+  - name: TLS_DHE_DSS_WITH_AES_256_CBC_SHA256
+    versions:
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x9C'
+  names:
+  - name: TLS_RSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x9D'
+  names:
+  - name: TLS_RSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x9E'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0x9F'
+  names:
+  - name: TLS_DHE_RSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0xA8'
+  names:
+  - name: TLS_PSK_WITH_AES_128_GCM_SHA256
+    versions:
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0xA9'
+  names:
+  - name: TLS_PSK_WITH_AES_256_GCM_SHA384
+    versions:
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0xAE'
+  names:
+  - name: TLS_PSK_WITH_AES_128_CBC_SHA256
+    versions:
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0xAF'
+  names:
+  - name: TLS_PSK_WITH_AES_256_CBC_SHA384
+    versions:
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0xB0'
+  names:
+  - name: TLS_PSK_WITH_NULL_SHA256
+    versions:
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x00'
+  - '0xB1'
+  names:
+  - name: TLS_PSK_WITH_NULL_SHA384
+    versions:
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x01'
+  - '0x00'
+  - '0x80'
+  names:
+  - name: SSL_CK_RC4_128_WITH_MD5
+    versions:
+    - Windows Vista
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+- code_point:
+  - '0x02'
+  - '0x00'
+  - '0x80'
+  names:
+  - name: SSL_CK_RC4_128_EXPORT40_WITH_MD5
+    versions:
+    - Windows Vista
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+- code_point:
+  - '0x06'
+  - '0x00'
+  - '0x40'
+  names:
+  - name: SSL_CK_DES_64_CBC_WITH_MD5
+    versions:
+    - Windows Vista
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+- code_point:
+  - '0x07'
+  - '0x00'
+  - '0xC0'
+  names:
+  - name: SSL_CK_DES_192_EDE3_CBC_WITH_MD5
+    versions:
+    - Windows Vista
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+- code_point:
+  - '0x13'
+  - '0x01'
+  names:
+  - name: TLS_AES_128_GCM_SHA256
+    versions:
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x13'
+  - '0x02'
+  names:
+  - name: TLS_AES_256_GCM_SHA384
+    versions:
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows Server 2025
+- code_point:
+  - '0x13'
+  - '0x03'
+  names:
+  - name: TLS_CHACHA20_POLY1305_SHA256
+    versions:
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows Server 2025
+- code_point:
+  - '0xC0'
+  - '0x09'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+    versions:
+    - Windows Vista
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0xC0'
+  - '0x0A'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+    versions:
+    - Windows Vista
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0xC0'
+  - '0x13'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+    versions:
+    - Windows Vista
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0xC0'
+  - '0x14'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+    versions:
+    - Windows Vista
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0xC0'
+  - '0x23'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0xC0'
+  - '0x24'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384
+    versions:
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0xC0'
+  - '0x27'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0xC0'
+  - '0x28'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+    versions:
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0xC0'
+  - '0x2B'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0xC0'
+  - '0x2C'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - Windows 7
+    - Windows 8
+    - Windows 8.1
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0xC0'
+  - '0x2F'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025
+- code_point:
+  - '0xC0'
+  - '0x30'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - Windows 10 1507
+    - Windows 10 1511
+    - Windows 10 1607
+    - Windows 10 1703
+    - Windows 10 1709
+    - Windows 10 1803
+    - Windows 10 1809
+    - Windows 10 1903
+    - Windows 10 20H2
+    - Windows Server 2022
+    - Windows 11
+    - Windows 11 22H2
+    - Windows 10 22H2
+    - Windows Server 2025

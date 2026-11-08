@@ -1,137 +1,754 @@
-- model: go
-  pk: TLS_RSA_WITH_RC4_128_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x05'
-- model: go
-  pk: TLS_RSA_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x0A'
-- model: go
-  pk: TLS_RSA_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x2F'
-- model: go
-  pk: TLS_RSA_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x35'
-- model: go
-  pk: TLS_RSA_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x3C'
-- model: go
-  pk: TLS_RSA_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9C'
-- model: go
-  pk: TLS_RSA_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x00'
-    hex_byte_2: '0x9D'
-- model: go
-  pk: TLS_ECDHE_ECDSA_WITH_RC4_128_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x07'
-- model: go
-  pk: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x09'
-- model: go
-  pk: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x0A'
-- model: go
-  pk: TLS_ECDHE_RSA_WITH_RC4_128_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x11'
-- model: go
-  pk: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x12'
-- model: go
-  pk: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x13'
-- model: go
-  pk: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x14'
-- model: go
-  pk: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x23'
-- model: go
-  pk: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x27'
-- model: go
-  pk: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2F'
-- model: go
-  pk: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2B'
-- model: go
-  pk: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x30'
-- model: go
-  pk: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0xC0'
-    hex_byte_2: '0x2C'
-- model: go
-  pk: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
-  fields: &id001
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xA8'
-- model: go
-  pk: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
-  fields: &id002
-    hex_byte_1: '0xCC'
-    hex_byte_2: '0xA9'
-- model: go
-  pk: TLS_AES_128_GCM_SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x01'
-- model: go
-  pk: TLS_AES_256_GCM_SHA384
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x02'
-- model: go
-  pk: TLS_CHACHA20_POLY1305_SHA256
-  fields:
-    hex_byte_1: '0x13'
-    hex_byte_2: '0x03'
-- model: go
-  pk: TLS_FALLBACK_SCSV
-  fields:
-    hex_byte_1: '0x56'
-    hex_byte_2: '0x00'
-- model: go
-  pk: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305
-  fields: *id001
-- model: go
-  pk: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305
-  fields: *id002
-
+schema_version: 2
+kind: library
+library: go
+source: https://github.com/golang/go
+versions:
+- label: '1.12'
+  ref: go1.12.17
+  commit: 46cb016190389b7e37b21f04e5343a628ca1f662
+  files:
+    src/crypto/tls/cipher_suites.go: sha256:9a8f65b558b3023091d25c8f35f634368384f928e3e3601d80f94aff7221fbce
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '1.13'
+  ref: go1.13.15
+  commit: e71b61180aa19a60c23b3b7e3f6586726ebe4fd1
+  files:
+    src/crypto/tls/cipher_suites.go: sha256:07255b03f89861384430b13f0abceef4014ace98a79de1c7aa4f1a5ca07a470a
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '1.14'
+  ref: go1.14.15
+  commit: 5cf057ddedfbb149b71c85ec86050431dd6b2d9d
+  files:
+    src/crypto/tls/cipher_suites.go: sha256:b4c749266310a558f446edd888b21563b2bf3bd5b217bcfabdebdf011a56b909
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '1.15'
+  ref: go1.15.15
+  commit: acbe242f8a2cae8ef4749806291a37d23089b572
+  files:
+    src/crypto/tls/cipher_suites.go: sha256:b4c749266310a558f446edd888b21563b2bf3bd5b217bcfabdebdf011a56b909
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '1.16'
+  ref: go1.16.15
+  commit: 7de0c90a1771146bcba5663fb257c52acffe6161
+  files:
+    src/crypto/tls/cipher_suites.go: sha256:d60df8d9db2cd707b7dea77d512a3c31e6bc82e6e700f29f9a50489106e66889
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '1.17'
+  ref: go1.17.13
+  commit: 15da892a4950a4caac987ee72c632436329f62d5
+  files:
+    src/crypto/tls/cipher_suites.go: sha256:d0f42022283848506b2745aea4519120f34ec56cc9c2827411137fb2b6106173
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '1.18'
+  ref: go1.18.10
+  commit: 581603cb7d02019bbf4ff508014038f3120a3dcb
+  files:
+    src/crypto/tls/cipher_suites.go: sha256:4d9241eec3a945181b4e5f51ac9f6ba8f4ad8b812a3e70ecc3aef1f3be7e782b
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '1.19'
+  ref: go1.19.13
+  commit: 619b8fd7d2c94af12933f409e962b99aa9263555
+  files:
+    src/crypto/tls/cipher_suites.go: sha256:326b767c3c9b90853a2cada8849d8daace89f18c40aea6ff9a6228fdf108eb52
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '1.20'
+  ref: go1.20.14
+  commit: 90a870f1dc49bfcc6ffe95f80fbaf21875198e7a
+  files:
+    src/crypto/tls/cipher_suites.go: sha256:80401fb2abaff636817da1d6a208f274bd6e515a94c4285dea8da92b9ce5661e
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '1.21'
+  ref: go1.21.13
+  commit: 8bba868de983dd7bf55fcd121495ba8d6e2734e7
+  files:
+    src/crypto/tls/cipher_suites.go: sha256:84834dc4b951cff9f75a9fa7e123ea1cdc0d5cedfe23ffd37e2a1fc8be0b9c22
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '1.22'
+  ref: go1.22.12
+  commit: 5817e650946aaa0ac28956de96b3f9aa1de4b299
+  files:
+    src/crypto/tls/cipher_suites.go: sha256:f9f418aee6fba25a09aca2f91930d77869e97878b1fb30d40cf39712cd43e7d5
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '1.23'
+  ref: go1.23.12
+  commit: dd8b7ad9268c2fbde675132a41b4e4da02eef94d
+  files:
+    src/crypto/tls/cipher_suites.go: sha256:51b8d01a7f2794bcb1f9158415ef93974a7700bb6d8641733ae798c2c5784625
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '1.24'
+  ref: go1.24.13
+  commit: 96e4e2b1616c3c59577d48abcf2823bf1fdcd2e2
+  files:
+    src/crypto/tls/cipher_suites.go: sha256:7230b9c338b2ebe71961e1c3756abc9edae2b6457d8a00288006b4ded0b14bed
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '1.25'
+  ref: go1.25.14
+  commit: 08118a942518cc18db507ec182acffe7364a92a3
+  files:
+    src/crypto/tls/cipher_suites.go: sha256:d407df31106c5989e29f84fb37403ca52f4bc6a583d821f4235915bdff4c07c1
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '1.26'
+  ref: go1.26.10
+  commit: 4e8c85f5319d999bfd7617fdc191631e5634e3c5
+  files:
+    src/crypto/tls/cipher_suites.go: sha256:6061822eaac77541fe38d46acdd4766eb70d2884f8bf84f3ce7f0471217ac73b
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '1.27'
+  ref: go1.27.3
+  commit: 2aae1000ea1d4b28923b96db28acf4e3b99d6aff
+  files:
+    src/crypto/tls/cipher_suites.go: sha256:c4287a0bc707876b78f792f086944ce43b9622750b57a79f68ac1de6e468b2b1
+  scraped_at: '2026-11-08T13:38:55.446080+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+suites:
+- code_point:
+  - '0x00'
+  - '0x05'
+  names:
+  - name: TLS_RSA_WITH_RC4_128_SHA
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+- code_point:
+  - '0x00'
+  - '0x0A'
+  names:
+  - name: TLS_RSA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+- code_point:
+  - '0x00'
+  - '0x2F'
+  names:
+  - name: TLS_RSA_WITH_AES_128_CBC_SHA
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+- code_point:
+  - '0x00'
+  - '0x35'
+  names:
+  - name: TLS_RSA_WITH_AES_256_CBC_SHA
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+- code_point:
+  - '0x00'
+  - '0x3C'
+  names:
+  - name: TLS_RSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+- code_point:
+  - '0x00'
+  - '0x9C'
+  names:
+  - name: TLS_RSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+- code_point:
+  - '0x00'
+  - '0x9D'
+  names:
+  - name: TLS_RSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+- code_point:
+  - '0x13'
+  - '0x01'
+  names:
+  - name: TLS_AES_128_GCM_SHA256
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+- code_point:
+  - '0x13'
+  - '0x02'
+  names:
+  - name: TLS_AES_256_GCM_SHA384
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+- code_point:
+  - '0x13'
+  - '0x03'
+  names:
+  - name: TLS_CHACHA20_POLY1305_SHA256
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+- code_point:
+  - '0x56'
+  - '0x00'
+  names:
+  - name: TLS_FALLBACK_SCSV
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+- code_point:
+  - '0xC0'
+  - '0x07'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_RC4_128_SHA
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+- code_point:
+  - '0xC0'
+  - '0x09'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+- code_point:
+  - '0xC0'
+  - '0x0A'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+- code_point:
+  - '0xC0'
+  - '0x11'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_RC4_128_SHA
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+- code_point:
+  - '0xC0'
+  - '0x12'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+- code_point:
+  - '0xC0'
+  - '0x13'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+- code_point:
+  - '0xC0'
+  - '0x14'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+- code_point:
+  - '0xC0'
+  - '0x23'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+- code_point:
+  - '0xC0'
+  - '0x27'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+- code_point:
+  - '0xC0'
+  - '0x2B'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+- code_point:
+  - '0xC0'
+  - '0x2C'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+- code_point:
+  - '0xC0'
+  - '0x2F'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+- code_point:
+  - '0xC0'
+  - '0x30'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+- code_point:
+  - '0xCC'
+  - '0xA8'
+  names:
+  - name: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+  - name: TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+    versions:
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+- code_point:
+  - '0xCC'
+  - '0xA9'
+  names:
+  - name: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305
+    versions:
+    - '1.12'
+    - '1.13'
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
+  - name: TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
+    versions:
+    - '1.14'
+    - '1.15'
+    - '1.16'
+    - '1.17'
+    - '1.18'
+    - '1.19'
+    - '1.20'
+    - '1.21'
+    - '1.22'
+    - '1.23'
+    - '1.24'
+    - '1.25'
+    - '1.26'
+    - '1.27'
