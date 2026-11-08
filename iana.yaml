@@ -399,6 +399,16 @@
     hex_byte_1: '0x00'
     hex_byte_2: '0x71'
 - model: iana
+  pk: TLS_BELT_CHE256_BELT_HASH
+  fields:
+    hex_byte_1: '0x00'
+    hex_byte_2: '0x72'
+- model: iana
+  pk: TLS_BASH_PRG_AE2561_BASH256
+  fields:
+    hex_byte_1: '0x00'
+    hex_byte_2: '0x73'
+- model: iana
   pk: TLS_RSA_WITH_CAMELLIA_256_CBC_SHA
   fields:
     hex_byte_1: '0x00'
