@@ -67,7 +67,7 @@ jobs:
 
       # Install the scraper from an immutable release reference, never a branch.
       - name: Install python-ciphersuites
-        run: python -m pip install "python-ciphersuites @ git+https://github.com/Spacecow99/python-ciphersuites@v0.1.0"
+        run: python -m pip install "python-ciphersuites @ git+https://github.com/Spacecow99/python-ciphersuites@v0.1.0@05ae7183cda1c3896040d26e75a61b8e8322f317"
 
       - name: Scrape and validate
         id: scrape
