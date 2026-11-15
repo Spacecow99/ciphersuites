@@ -30,7 +30,7 @@ technologies:
   - category: key_exchange
     value: 'ECC'
     long_name: 'Elliptic Curve Cryptography key exchange (TLCP)'
-    vulnerabilities: []
+    vulnerabilities: ['Non-ephemeral Key Exchange']
   - category: key_exchange
     value: 'ECCPWD'
     long_name: 'TLS-PWD'
@@ -78,7 +78,7 @@ technologies:
   - category: key_exchange
     value: 'IBC'
     long_name: 'Identity-Based Cryptography key exchange (TLCP)'
-    vulnerabilities: []
+    vulnerabilities: ['Non-ephemeral Key Exchange']
   - category: key_exchange
     value: 'IBSDH'
     long_name: 'Identity-Based Signature Diffie-Hellman key exchange (TLCP)'
