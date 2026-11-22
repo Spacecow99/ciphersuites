@@ -9,7 +9,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:7b05415e913dda6de714ef6626404837b93b13f33f0bdad2d5b1121b0066dbfd
     library/ssl_ciphersuites.c: sha256:dbee5c800ee34542ce77291d6eb653c9b1077940e3750eaf81a604e4ef5b1cd9
-  scraped_at: '2026-11-15T04:38:39.730265+00:00'
+  scraped_at: '2026-11-22T04:53:13.782242+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -19,7 +19,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:70a21ed0f89ae8b0a0be01af2b591eb9309bc0902e5f460aa4cb1ee1bcc6efde
     library/ssl_ciphersuites.c: sha256:dc240aa65c8aeaf31255fbbc80e1c2dff4beac65d1b1cbadbb1896b4facece3d
-  scraped_at: '2026-11-15T04:38:39.730265+00:00'
+  scraped_at: '2026-11-22T04:53:13.782242+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -29,7 +29,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:70a21ed0f89ae8b0a0be01af2b591eb9309bc0902e5f460aa4cb1ee1bcc6efde
     library/ssl_ciphersuites.c: sha256:dc240aa65c8aeaf31255fbbc80e1c2dff4beac65d1b1cbadbb1896b4facece3d
-  scraped_at: '2026-11-15T04:38:39.730265+00:00'
+  scraped_at: '2026-11-22T04:53:13.782242+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -39,7 +39,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:e0e23c85b33cb2a623fe40d9e89c47e63ae9b469bee387a4549df3f91180ad94
     library/ssl_ciphersuites.c: sha256:dc240aa65c8aeaf31255fbbc80e1c2dff4beac65d1b1cbadbb1896b4facece3d
-  scraped_at: '2026-11-15T04:38:39.730265+00:00'
+  scraped_at: '2026-11-22T04:53:13.782242+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -49,7 +49,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:e0e23c85b33cb2a623fe40d9e89c47e63ae9b469bee387a4549df3f91180ad94
     library/ssl_ciphersuites.c: sha256:dc240aa65c8aeaf31255fbbc80e1c2dff4beac65d1b1cbadbb1896b4facece3d
-  scraped_at: '2026-11-15T04:38:39.730265+00:00'
+  scraped_at: '2026-11-22T04:53:13.782242+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -59,7 +59,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:e0e23c85b33cb2a623fe40d9e89c47e63ae9b469bee387a4549df3f91180ad94
     library/ssl_ciphersuites.c: sha256:dc240aa65c8aeaf31255fbbc80e1c2dff4beac65d1b1cbadbb1896b4facece3d
-  scraped_at: '2026-11-15T04:38:39.730265+00:00'
+  scraped_at: '2026-11-22T04:53:13.782242+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -69,7 +69,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:147ff9bfe6ce6bde0426d1a05acad8a77de50af37c93bf4e49123151ae593261
     library/ssl_ciphersuites.c: sha256:03d7443de6b530d94eafecae08f57c57a82e70ed539a851085781372b9fc0d2e
-  scraped_at: '2026-11-15T04:38:39.730265+00:00'
+  scraped_at: '2026-11-22T04:53:13.782242+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -79,7 +79,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:147ff9bfe6ce6bde0426d1a05acad8a77de50af37c93bf4e49123151ae593261
     library/ssl_ciphersuites.c: sha256:03d7443de6b530d94eafecae08f57c57a82e70ed539a851085781372b9fc0d2e
-  scraped_at: '2026-11-15T04:38:39.730265+00:00'
+  scraped_at: '2026-11-22T04:53:13.782242+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -89,7 +89,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:4dc1cbfbb744acd1166a11964f1544cae1470d8983f6504422d98ade974afd0d
     library/ssl_ciphersuites.c: sha256:b837c1267a6c5c8fbe5c57b789836e782d80cf576f57c880934fb83b0201fe64
-  scraped_at: '2026-11-15T04:38:39.730265+00:00'
+  scraped_at: '2026-11-22T04:53:13.782242+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -99,7 +99,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:4dc1cbfbb744acd1166a11964f1544cae1470d8983f6504422d98ade974afd0d
     library/ssl_ciphersuites.c: sha256:b837c1267a6c5c8fbe5c57b789836e782d80cf576f57c880934fb83b0201fe64
-  scraped_at: '2026-11-15T04:38:39.730265+00:00'
+  scraped_at: '2026-11-22T04:53:13.782242+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -109,7 +109,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:4dc1cbfbb744acd1166a11964f1544cae1470d8983f6504422d98ade974afd0d
     library/ssl_ciphersuites.c: sha256:b837c1267a6c5c8fbe5c57b789836e782d80cf576f57c880934fb83b0201fe64
-  scraped_at: '2026-11-15T04:38:39.730265+00:00'
+  scraped_at: '2026-11-22T04:53:13.782242+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -119,7 +119,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:4dc1cbfbb744acd1166a11964f1544cae1470d8983f6504422d98ade974afd0d
     library/ssl_ciphersuites.c: sha256:7bea044401a45d2b5681de536e0d0b335ee45c442ebdf393d826146aa74b7f0c
-  scraped_at: '2026-11-15T04:38:39.730265+00:00'
+  scraped_at: '2026-11-22T04:53:13.782242+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -129,7 +129,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:3dc73651ad65d07500a7689479ab9a0337600f905b31c4ab54a1a2f2a84908a9
     library/ssl_ciphersuites.c: sha256:89b7cd5658da58afc4df5efd04647c81f3869e5574c35c5e5b32e64b332e9cd6
-  scraped_at: '2026-11-15T04:38:39.730265+00:00'
+  scraped_at: '2026-11-22T04:53:13.782242+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -139,7 +139,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:8423ed3a1ee75bc7e3367928cf065b95c4fbfff39be442bb12af6458fb6ef00a
     library/ssl_ciphersuites.c: sha256:b7c5df4fc9d1dade4b2af719436aba3e76dc369f705e4cf3ca26efafbf4d4e69
-  scraped_at: '2026-11-15T04:38:39.730265+00:00'
+  scraped_at: '2026-11-22T04:53:13.782242+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -149,7 +149,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:c50838b117c25ef1c28ceb82fe7abaca7e710c3fbfa850d934a53db601b82c49
     library/ssl_ciphersuites.c: sha256:6d9a97b7285815a884976ae5b1c905ea1ab5287bafe7c5c3d703738a42bb354c
-  scraped_at: '2026-11-15T04:38:39.730265+00:00'
+  scraped_at: '2026-11-22T04:53:13.782242+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -159,7 +159,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:f58dc35ed250df8068bf8cf5a61505725c586d5eaa165dc1089ca8e15e4921bb
     library/ssl_ciphersuites.c: sha256:a427ebfe3f16fdbbd9f22eacce470f4ac687bce66c676bb5fe38e0224d21c5ed
-  scraped_at: '2026-11-15T04:38:39.730265+00:00'
+  scraped_at: '2026-11-22T04:53:13.782242+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -169,7 +169,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:b37d5f43a041457bfb738d418d961477fcf5505725ca845b13540a7b16f234cd
     library/ssl_ciphersuites.c: sha256:fc89d475f4bc0d2beb3414d579288ea0c42e8b4dd8d25956da1b846aa8285e8b
-  scraped_at: '2026-11-15T04:38:39.730265+00:00'
+  scraped_at: '2026-11-22T04:53:13.782242+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -179,7 +179,7 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:f1f4877a57a3c3b479d60db61b328feee33d30379d331d1e51fe02bb667c2912
     library/ssl_ciphersuites.c: sha256:85a3615c60acfcb5fac4787c66d70758058e9d82a051ee9db427e1b9ab800c73
-  scraped_at: '2026-11-15T04:38:39.730265+00:00'
+  scraped_at: '2026-11-22T04:53:13.782242+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -189,17 +189,17 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:19ac0e3c8bfd1a2971a0ca16345331014b1905905859171340071dc5fe8cf0a5
     library/ssl_ciphersuites.c: sha256:d0a55e6a10eb6322131f5adbbe7aeb0052ecabd1b11f6528dc34c5b040d00fd0
-  scraped_at: '2026-11-15T04:38:39.730265+00:00'
+  scraped_at: '2026-11-22T04:53:13.782242+00:00'
   status: ok
   last_error: null
   accepted: null
 - label: '3.6'
-  ref: v3.6.7
-  commit: 068ff080b369adfac81509f9b57b2afabaf82dc5
+  ref: v3.6.8
+  commit: 82e69999f91126589a28b70dd75b69fbcabe2711
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:f7c3136ebd9ab933aa94544880a20c1fb97ff71d320dc47f97ae70023df8270c
     library/ssl_ciphersuites.c: sha256:c1ea9c74805e037bc1f67eca7aecfcc4e9151bd5dfc944ecbc688c2b0c624ca7
-  scraped_at: '2026-11-15T04:38:39.730265+00:00'
+  scraped_at: '2026-11-22T04:53:13.782242+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -209,17 +209,17 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:e0f348da7588e10cc4043f418fa8e383deb7dd2a39df9883ae1ea392206c1763
     library/ssl_ciphersuites.c: sha256:e3880bb9c9818164a22bea625e8560b5709f3ef66afb4c82dae8267d95bb75fe
-  scraped_at: '2026-11-15T04:38:39.730265+00:00'
+  scraped_at: '2026-11-22T04:53:13.782242+00:00'
   status: ok
   last_error: null
   accepted: null
 - label: '4.1'
-  ref: v4.1.1
-  commit: 0a8fda272a5a0abef3b47c91bed37185d5a726b1
+  ref: v4.1.2
+  commit: 8808d31cdffb1a2c82645a531a96a0f26dd3e8c3
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:693a6310f14df0393cf7dd44c46bc15a5b8010f387d02debec2e84c28b0290bb
     library/ssl_ciphersuites.c: sha256:b013b5f67cc4f3d1cbc1b937200243dc7de5590ebf3a0cfe353b0349e91a5f0d
-  scraped_at: '2026-11-15T04:38:39.730265+00:00'
+  scraped_at: '2026-11-22T04:53:13.782242+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -229,7 +229,17 @@ versions:
   files:
     include/mbedtls/ssl_ciphersuites.h: sha256:693a6310f14df0393cf7dd44c46bc15a5b8010f387d02debec2e84c28b0290bb
     library/ssl_ciphersuites.c: sha256:b013b5f67cc4f3d1cbc1b937200243dc7de5590ebf3a0cfe353b0349e91a5f0d
-  scraped_at: '2026-11-15T04:38:39.730265+00:00'
+  scraped_at: '2026-11-22T04:53:13.782242+00:00'
+  status: ok
+  last_error: null
+  accepted: null
+- label: '4.3'
+  ref: v4.3.0
+  commit: eafb4a72592addfd5ba1326caad2f3e9adef49ad
+  files:
+    include/mbedtls/ssl_ciphersuites.h: sha256:693a6310f14df0393cf7dd44c46bc15a5b8010f387d02debec2e84c28b0290bb
+    library/ssl_ciphersuites.c: sha256:b013b5f67cc4f3d1cbc1b937200243dc7de5590ebf3a0cfe353b0349e91a5f0d
+  scraped_at: '2026-11-22T04:53:13.782242+00:00'
   status: ok
   last_error: null
   accepted: null
@@ -429,6 +439,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0x00'
   - '0x2D'
@@ -886,6 +897,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0x00'
   - '0x8D'
@@ -915,6 +927,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0x00'
   - '0x8E'
@@ -1228,6 +1241,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0x00'
   - '0xA9'
@@ -1257,6 +1271,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0x00'
   - '0xAA'
@@ -1390,6 +1405,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0x00'
   - '0xAF'
@@ -1419,6 +1435,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0x00'
   - '0xB0'
@@ -1448,6 +1465,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0x00'
   - '0xB1'
@@ -1477,6 +1495,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0x00'
   - '0xB2'
@@ -1804,6 +1823,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0x13'
   - '0x02'
@@ -1819,6 +1839,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0x13'
   - '0x03'
@@ -1834,6 +1855,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0x13'
   - '0x04'
@@ -1849,6 +1871,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0x13'
   - '0x05'
@@ -1864,6 +1887,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x01'
@@ -2009,6 +2033,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x07'
@@ -2076,6 +2101,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x0A'
@@ -2105,6 +2131,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x0B'
@@ -2250,6 +2277,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x11'
@@ -2317,6 +2345,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x14'
@@ -2346,6 +2375,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x23'
@@ -2375,6 +2405,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x24'
@@ -2404,6 +2435,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x25'
@@ -2485,6 +2517,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x28'
@@ -2514,6 +2547,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x29'
@@ -2595,6 +2629,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x2C'
@@ -2624,6 +2659,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x2D'
@@ -2705,6 +2741,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x30'
@@ -2734,6 +2771,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x31'
@@ -2853,6 +2891,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x36'
@@ -2882,6 +2921,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x37'
@@ -2911,6 +2951,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x38'
@@ -2940,6 +2981,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x39'
@@ -2969,6 +3011,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x3A'
@@ -2998,6 +3041,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x3B'
@@ -3027,6 +3071,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x3C'
@@ -3160,6 +3205,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x49'
@@ -3189,6 +3235,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x4A'
@@ -3270,6 +3317,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x4D'
@@ -3299,6 +3347,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x4E'
@@ -3484,6 +3533,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x5D'
@@ -3513,6 +3563,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x5E'
@@ -3594,6 +3645,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x61'
@@ -3623,6 +3675,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x62'
@@ -3704,6 +3757,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x65'
@@ -3733,6 +3787,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x66'
@@ -3866,6 +3921,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x6B'
@@ -3895,6 +3951,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x6C'
@@ -4028,6 +4085,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x71'
@@ -4057,6 +4115,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x72'
@@ -4086,6 +4145,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x73'
@@ -4115,6 +4175,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x74'
@@ -4196,6 +4257,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x77'
@@ -4225,6 +4287,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x78'
@@ -4410,6 +4473,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x87'
@@ -4439,6 +4503,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x88'
@@ -4520,6 +4585,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x8B'
@@ -4549,6 +4615,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x8C'
@@ -4630,6 +4697,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x8F'
@@ -4659,6 +4727,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x90'
@@ -4792,6 +4861,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x95'
@@ -4821,6 +4891,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x96'
@@ -4954,6 +5025,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x9B'
@@ -4983,6 +5055,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0x9C'
@@ -5220,6 +5293,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0xA5'
@@ -5249,6 +5323,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0xA6'
@@ -5330,6 +5405,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0xA9'
@@ -5359,6 +5435,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0xAA'
@@ -5440,6 +5517,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0xAD'
@@ -5469,6 +5547,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0xAE'
@@ -5498,6 +5577,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0xAF'
@@ -5527,6 +5607,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xC0'
   - '0xFF'
@@ -5556,6 +5637,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xCC'
   - '0xA8'
@@ -5585,6 +5667,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xCC'
   - '0xA9'
@@ -5614,6 +5697,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xCC'
   - '0xAA'
@@ -5669,6 +5753,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xCC'
   - '0xAC'
@@ -5698,6 +5783,7 @@ suites:
     - '4.0'
     - '4.1'
     - '4.2'
+    - '4.3'
 - code_point:
   - '0xCC'
   - '0xAD'
